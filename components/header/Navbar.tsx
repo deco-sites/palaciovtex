@@ -60,14 +60,17 @@ function Navbar({ items, searchbar, logo, buttons, logoPosition = "left" }: {
       </div>
 
       {/* Desktop Version */}
-      <div class="hidden lg:grid lg:grid-cols-3 items-center border-b border-base-200 w-full px-6">
-        <div
+      <div class="hidden lg:grid lg:grid-cols-3 items-center w-full px-6 bg-black">
+          <div class="flex w-full">
+            <Searchbar searchbar={searchbar} />
+          </div>
+        {/* <div
           class={`flex gap-6 col-span-1 ${
             logoPosition === "left" ? "justify-center" : "justify-start"
           }`}
         >
           {items.map((item) => <NavItem item={item} />)}
-        </div>
+        </div> */}
         <div
           class={`flex ${
             logoPosition === "left"
@@ -91,13 +94,13 @@ function Navbar({ items, searchbar, logo, buttons, logoPosition = "left" }: {
           )}
         </div>
         <div class="flex-none flex items-center justify-end gap-6 col-span-1">
-          {!buttons?.hideSearchButton && (
-            <div class="flex items-center text-xs font-thin gap-1">
-              <SearchButton />SEARCH
-            </div>
-          )}
+          {/* {!buttons?.hideSearchButton && (
+            // <div class="flex items-center text-xs font-thin gap-1">
+            //   <SearchButton />SEARCH
+            // </div>
+          )} */}
 
-          <Searchbar searchbar={searchbar} />
+
           {!buttons?.hideAccountButton && (
             <a
               class="flex items-center text-xs font-thin"
@@ -133,6 +136,9 @@ function Navbar({ items, searchbar, logo, buttons, logoPosition = "left" }: {
             </div>
           )}
         </div>
+      </div>
+      <div class="items-center w-full bg-black flex justify-center">
+        {items.map((item) => <NavItem item={item} />)}
       </div>
     </>
   );

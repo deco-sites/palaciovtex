@@ -75,22 +75,11 @@ function Searchbar({
 
   return (
     <div
-      class="w-full grid gap-8 px-4 py-6 overflow-y-hidden"
+      class="w-full grid overflow-y-hidden"
       style={{ gridTemplateRows: "min-content auto" }}
     >
       <form id={id} action={action} class="join">
-        <Button
-          type="submit"
-          class="join-item btn-square"
-          aria-label="Search"
-          for={id}
-          tabIndex={-1}
-        >
-          {loading.value
-            ? <span class="loading loading-spinner loading-xs" />
-            : <Icon id="MagnifyingGlass" size={24} strokeWidth={0.01} />}
-        </Button>
-        <input
+      <input
           ref={searchInputRef}
           id="search-input"
           class="input input-bordered join-item flex-grow"
@@ -113,12 +102,24 @@ function Searchbar({
           autocomplete="off"
         />
         <Button
+          type="submit"
+          class="join-item btn-square"
+          aria-label="Search"
+          for={id}
+          tabIndex={-1}
+        >
+          {loading.value
+            ? <span class="loading loading-spinner loading-xs" />
+            : <Icon id="MagnifyingGlass" size={24} strokeWidth={0.01} />}
+        </Button>
+        
+        {/* <Button
           type="button"
           class="join-item btn-ghost btn-square hidden sm:inline-flex"
           onClick={() => displaySearchPopup.value = false}
         >
           <Icon id="XMark" size={24} strokeWidth={2} />
-        </Button>
+        </Button> */}
       </form>
 
       <div

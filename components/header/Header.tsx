@@ -20,8 +20,15 @@ export interface Buttons {
   hideCartButton?: boolean;
 }
 
+export interface Link {
+  text: string;
+  link: string;
+}
+
 export interface Props {
   alerts?: string[];
+
+  links?: Link[];
 
   /** @title Search Bar */
   searchbar?: Omit<SearchbarProps, "platform">;
@@ -42,6 +49,7 @@ export interface Props {
 
 function Header({
   alerts,
+  links,
   searchbar,
   navItems = [
     {
@@ -86,8 +94,24 @@ function Header({
           searchbar={searchbar}
           platform={platform}
         >
-          <div class="bg-base-100 fixed w-full z-50">
-            {alerts && alerts.length > 0 && <Alert alerts={alerts} />}
+          <div class="fixed w-full z-50">
+            {alerts && alerts.length > 0 && 
+              <div class="bg-[#F0D02C] px-0 py-2.5 border-b-[#777] border-b border-solid">
+                <div class="flex justify-between items-center container">
+                <Alert alerts={alerts} />
+                
+                <ul class="flex">
+                  {links?.map((link, index) => {
+                    return (
+                      <li id={"index-"+index}>
+                        <a class={"inline-flex items-center px-[14px] py-0 text-black text-xs leading-[14px]" + (index == 1 ? " font-bold" : "")} href={link.link}>{link.text}</a>
+                      </li>
+                    )
+                  })}
+                </ul>
+              </div>
+              </div>
+            }
             <Navbar
               items={items}
               searchbar={searchbar && { ...searchbar, platform }}

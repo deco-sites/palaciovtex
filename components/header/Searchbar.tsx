@@ -17,18 +17,9 @@ function SearchbarModal({ searchbar }: Props) {
   }
 
   return (
-    <Modal
-      loading="lazy"
-      open={displaySearchPopup.value}
-      onClose={() => displaySearchPopup.value = false}
-    >
-      <div
-        class="absolute top-0 bg-base-100 container"
-        style={{ marginTop: headerHeight }}
-      >
+      <div class="bg-black w-full" >
         <Searchbar {...searchbar} />
       </div>
-    </Modal>
   );
 }
 

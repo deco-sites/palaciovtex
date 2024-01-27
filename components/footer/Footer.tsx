@@ -34,7 +34,7 @@ export interface SocialItem {
 }
 
 export interface PaymentItem {
-  label: "Diners" | "Elo" | "Mastercard" | "Pix" | "Visa";
+  label: "Eletrica" | "PixNovo" | "arrobaNovo" | "Diners" | "Elo" | "Mastercard" | "Pix" | "Visa";
 }
 
 export interface MobileApps {

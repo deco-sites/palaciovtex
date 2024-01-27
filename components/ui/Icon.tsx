@@ -11,6 +11,9 @@ export type AvailableIcons =
   | "CreditCard"
   | "Deco"
   | "Diners"
+  | "Eletrica"
+  | "PixNovo"
+  | "arrobaNovo"
   | "Discord"
   | "Discount"
   | "Elo"
@@ -46,7 +49,15 @@ export type AvailableIcons =
   | "AlertSuccess"
   | "AlertWarning"
   | "AlertError"
-  | "share";
+  | "share"
+  | "visaNovo"
+  | "mastercardNovo"
+  | "hipercardNovo"
+  | "youtubeNovo"
+  | "facebookNovo"
+  | "instagramNovo"
+  | "linkedinNovo"
+  | "boletoNovo";
 
 interface Props extends JSX.SVGAttributes<SVGSVGElement> {
   /**

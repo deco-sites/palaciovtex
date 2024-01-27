@@ -8,25 +8,18 @@ export interface Props {
    * @title Autoplay interval
    * @description time (in seconds) to start the carousel autoplay
    */
-  interval?: number;
 }
 
-function Alert({ alerts = [], interval = 5 }: Props) {
+function Alert({ alerts = [] }: Props) {
   const id = useId();
 
   return (
-    <div id={id}>
-      <Slider class="carousel carousel-center w-screen bg-secondary gap-6">
+    <div class="flex flex-row gap-2" id={id}>
         {alerts.map((alert, index) => (
-          <Slider.Item index={index} class="carousel-item">
-            <span class="text-sm text-secondary-content flex justify-center items-center w-screen h-[38px]">
+            <span key={index} class="text-black flex justify-center items-center text-xs leading-[14px]">
               {alert}
             </span>
-          </Slider.Item>
         ))}
-      </Slider>
-
-      <SliderJS rootId={id} interval={interval && interval * 1e3} />
     </div>
   );
 }

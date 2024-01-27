@@ -7,6 +7,9 @@ export default {
   theme: {
     container: { center: true },
     extend: {
+      fontFamily: {
+        rubik: ['"Rubik"']
+      },
       animation: {
         sliding: "sliding 30s linear infinite",
       },
