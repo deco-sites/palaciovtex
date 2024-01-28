@@ -118,8 +118,15 @@ export interface Props {
 }
 
 export default function Rodape(
-  { 
-    payments, socials, duvidas, orcamentos, politicas, institucional, colors, newsletter,
+  {
+    payments,
+    socials,
+    duvidas,
+    orcamentos,
+    politicas,
+    institucional,
+    colors,
+    newsletter,
     layout = {
       backgroundColor: "Primary",
       variation: "Variation 1",
@@ -140,17 +147,23 @@ export default function Rodape(
   return (
     <footer>
       <div className="footer-in">
-        <div style={{ backgroundColor: colors?.corNewsletter ? colors?.corNewsletter : "" }} class="bg-black py-[30px]">
-        <div class="container">
-            {newsletter && 
-            <Newsletter
-              content={newsletter}
-              layout={{
-                tiled: layout?.variation == "Variation 4" ||
-                layout?.variation == "Variation 5",
-              }}
-              />
-            }
+        <div
+          style={{
+            backgroundColor: colors?.corNewsletter ? colors?.corNewsletter : "",
+          }}
+          class="bg-black py-[30px]"
+        >
+          <div class="container">
+            {newsletter &&
+              (
+                <Newsletter
+                  content={newsletter}
+                  layout={{
+                    tiled: layout?.variation == "Variation 4" ||
+                      layout?.variation == "Variation 5",
+                  }}
+                />
+              )}
           </div>
         </div>
         <div

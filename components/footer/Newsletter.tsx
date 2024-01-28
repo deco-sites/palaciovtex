@@ -34,8 +34,10 @@ function Newsletter(
     try {
       loading.value = true;
 
-      const email = ( e.currentTarget.elements.namedItem("email") as RadioNodeList)?.value;
-      const name = ( e.currentTarget.elements.namedItem("nome") as RadioNodeList)?.value;
+      const email =
+        (e.currentTarget.elements.namedItem("email") as RadioNodeList)?.value;
+      const name = (e.currentTarget.elements.namedItem("nome") as RadioNodeList)
+        ?.value;
 
       await invoke.vtex.actions.newsletter.subscribe({ email, name });
     } finally {
@@ -53,7 +55,10 @@ function Newsletter(
     >
       <div class="flex flex-col gap-4 justify-center items-center">
         {content?.title && (
-          <h3 class={"text-[30px] leading-[normal] relative text-center m-0 max-w-[60%]"} dangerouslySetInnerHTML={{__html: content?.title}}> 
+          <h3
+            class={"text-[30px] leading-[normal] relative text-center m-0 max-w-[60%]"}
+            dangerouslySetInnerHTML={{ __html: content?.title }}
+          >
           </h3>
         )}
         {content?.description && <div>{content?.description}</div>}
@@ -74,7 +79,7 @@ function Newsletter(
               class=" w-[350px] h-10 text-[#595956] text-base px-[15px] py-2.5 rounded-[5px] border-[none]"
               placeholder={content?.form?.placeholder || "E-mail"}
             />
-            
+
             <button
               type="submit"
               class="disabled:loading flex justify-center items-center h-10 shadow-none border cursor-pointer font-medium text-center uppercase transition-all duration-[0.3s] ease-[ease-out] text-xs bg-black text-white w-[230px] rounded-[5px] border-solid border-transparent"

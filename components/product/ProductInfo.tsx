@@ -75,11 +75,13 @@ function ProductInfo({ page, layout }: Props) {
       {/* Code and name */}
       <div class="mt-4 sm:mt-8">
         <div>
-          {gtin && <span class="text-sm text-base-300">Cod. {gtin}</span>}
+          {gtin && <span class="text-sm text-black">Cod. {gtin}</span>}
         </div>
         <h1>
           <span class="font-medium text-xl capitalize">
-            {layout?.name === "concat" ? `${isVariantOf?.name} ${name}` : layout?.name === "productGroup"
+            {layout?.name === "concat"
+              ? `${isVariantOf?.name} ${name}`
+              : layout?.name === "productGroup"
               ? isVariantOf?.name
               : isVariantOf?.name}
           </span>
@@ -89,7 +91,7 @@ function ProductInfo({ page, layout }: Props) {
       <div class="mt-4">
         <div class="flex flex-row gap-2 items-center">
           {(listPrice ?? 0) > price && (
-            <span class="line-through text-base-300 text-xs">
+            <span class="line-through text-black text-xs">
               {formatPrice(listPrice, offers?.priceCurrency)}
             </span>
           )}
@@ -97,7 +99,7 @@ function ProductInfo({ page, layout }: Props) {
             {formatPrice(price, offers?.priceCurrency)}
           </span>
         </div>
-        <span class="text-sm text-base-300">{installments}</span>
+        <span class="text-sm text-black">{installments}</span>
       </div>
       {/* Sku Selector */}
       <div class="mt-4 sm:mt-6">
