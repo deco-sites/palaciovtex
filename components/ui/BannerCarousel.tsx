@@ -118,7 +118,7 @@ function BannerItem(
       aria-label={action?.label}
       class="relative overflow-y-hidden w-full"
     >
-      {action && (
+      {/* {action && (
         <div class="absolute top-0 md:bottom-0 bottom-1/2 left-0 right-0 sm:right-auto max-w-[407px] flex flex-col justify-end gap-4 px-8 py-12">
           <span class="text-2xl font-light text-base-100">
             {action.title}
@@ -133,29 +133,29 @@ function BannerItem(
             {action.label}
           </Button>
         </div>
-      )}
+      )} */}
       <Picture preload={lcp}>
         <Source
           media="(max-width: 767px)"
           fetchPriority={lcp ? "high" : "auto"}
           src={mobile}
-          width={430}
-          height={590}
+          width={375}
+          height={400}
         />
         <Source
           media="(min-width: 768px)"
           fetchPriority={lcp ? "high" : "auto"}
           src={desktop}
-          width={1440}
-          height={600}
+          width={1920}
+          height={500}
         />
         <Image
           class="object-cover w-full h-full"
           loading={lcp ? "eager" : "lazy"}
           src={desktop}
           alt={alt}
-          width={1440}
-          height={600}
+          width={1920}
+          height={500}
         />
       </Picture>
     </a>
@@ -182,7 +182,7 @@ function Dots({ images, interval = 0 }: Props) {
             <Slider.Dot index={index}>
               <div class="py-5">
                 <div
-                  class="w-16 sm:w-20 h-0.5 rounded group-disabled:animate-progress bg-gradient-to-r from-base-100 from-[length:var(--dot-progress)] to-[rgba(255,255,255,0.4)] to-[length:var(--dot-progress)]"
+                  class="w-[12px] h-[12px] rounded-full group-disabled:bg-black bg-white"
                   style={{ animationDuration: `${interval}s` }}
                 />
               </div>
@@ -198,9 +198,9 @@ function Buttons() {
   return (
     <>
       <div class="flex items-center justify-center z-10 col-start-1 row-start-2">
-        <Slider.PrevButton class="btn btn-circle glass">
+        <Slider.PrevButton class="bg-transparent border-0">
           <Icon
-            class="text-base-100"
+            class="text-black"
             size={24}
             id="ChevronLeft"
             strokeWidth={3}
@@ -208,9 +208,9 @@ function Buttons() {
         </Slider.PrevButton>
       </div>
       <div class="flex items-center justify-center z-10 col-start-3 row-start-2">
-        <Slider.NextButton class="btn btn-circle glass">
+        <Slider.NextButton class="bg-transparent border-0">
           <Icon
-            class="text-base-100"
+            class="text-black"
             size={24}
             id="ChevronRight"
             strokeWidth={3}

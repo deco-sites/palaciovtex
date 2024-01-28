@@ -8,7 +8,7 @@ export default {
     container: { center: true },
     extend: {
       fontFamily: {
-        rubik: ['"Rubik"']
+        rubik: ['"Rubik"'],
       },
       animation: {
         sliding: "sliding 30s linear infinite",

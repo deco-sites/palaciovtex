@@ -79,7 +79,7 @@ function Searchbar({
       style={{ gridTemplateRows: "min-content auto" }}
     >
       <form id={id} action={action} class="join">
-      <input
+        <input
           ref={searchInputRef}
           id="search-input"
           class="input input-bordered join-item flex-grow"
@@ -112,14 +112,16 @@ function Searchbar({
             ? <span class="loading loading-spinner loading-xs" />
             : <Icon id="MagnifyingGlass" size={24} strokeWidth={0.01} />}
         </Button>
-        
-        {/* <Button
+
+        {
+          /* <Button
           type="button"
           class="join-item btn-ghost btn-square hidden sm:inline-flex"
           onClick={() => displaySearchPopup.value = false}
         >
           <Icon id="XMark" size={24} strokeWidth={2} />
-        </Button> */}
+        </Button> */
+        }
       </form>
 
       <div

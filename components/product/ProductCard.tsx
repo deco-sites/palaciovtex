@@ -56,8 +56,8 @@ interface Props {
   platform?: Platform;
 }
 
-const WIDTH = 200;
-const HEIGHT = 279;
+const WIDTH = 300;
+const HEIGHT = 300;
 
 function ProductCard({
   product,
@@ -274,7 +274,7 @@ function ProductCard({
                 : (
                   <h2
                     class="truncate text-base lg:text-lg text-base-content uppercase font-normal"
-                    dangerouslySetInnerHTML={{ __html: name ?? "" }}
+                    dangerouslySetInnerHTML={{ __html: isVariantOf?.name ?? "" }}
                   />
                 )}
               {l?.hide?.productDescription

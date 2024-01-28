@@ -1,7 +1,15 @@
 import Icon from "$store/components/ui/Icon.tsx";
 
 export interface PaymentItem {
-  label: "Eletrica" | "PixNovo" | "arrobaNovo" | "Diners" | "Elo" | "Mastercard" | "Pix" | "Visa";
+  label:
+    | "Eletrica"
+    | "PixNovo"
+    | "arrobaNovo"
+    | "Diners"
+    | "Elo"
+    | "Mastercard"
+    | "Pix"
+    | "Visa";
 }
 
 export default function PaymentMethods(

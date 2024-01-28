@@ -6,6 +6,8 @@ import type { ImageWidget } from "apps/admin/widgets.ts";
 export interface Image {
   image: ImageWidget;
   altText: string;
+  width?: number;
+  height?: number;
 }
 
 export interface Props {
@@ -20,6 +22,8 @@ export interface Props {
 const IMAGES = [
   {
     altText: "deco",
+    width: 120,
+    height: 80,
     image:
       "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/fe7cd8ba-c954-45d6-9282-ee7d8ca8e3c7",
   },
@@ -57,8 +61,8 @@ function Logos(props: Props) {
           <div class="w-36 lg:w-40 h-17 lg:h-20 px-4 lg:px-6 py-6 lg:py-4 inline-block align-middle">
             <div class="flex w-full h-full items-center justify-center">
               <Image
-                width={300}
-                height={300}
+                width={element?.width ? element?.width : 100}
+                height={element?.height}
                 src={element.image}
                 alt={element.altText || ""}
                 class="max-w-full max-h-full"

@@ -17,9 +17,9 @@ function SearchbarModal({ searchbar }: Props) {
   }
 
   return (
-      <div class="bg-black w-full" >
-        <Searchbar {...searchbar} />
-      </div>
+    <div class="bg-black w-full">
+      <Searchbar {...searchbar} />
+    </div>
   );
 }
 
