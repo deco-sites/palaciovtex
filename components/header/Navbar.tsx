@@ -11,12 +11,12 @@ import Searchbar from "$store/islands/Header/Searchbar.tsx";
 import { usePlatform } from "$store/sdk/usePlatform.tsx";
 import type { SiteNavigationElement } from "apps/commerce/types.ts";
 import Image from "apps/website/components/Image.tsx";
-import NavItem from "./NavItem.tsx";
+// import NavItem from "./NavItem.tsx";
 import { navbarHeight } from "./constants.ts";
 import { Buttons, Logo } from "$store/components/header/Header.tsx";
 
-function Navbar({ items, searchbar, logo, buttons, logoPosition = "left" }: {
-  items: SiteNavigationElement[];
+function Navbar({ searchbar, logo, buttons, logoPosition = "left" }: {
+  // items: SiteNavigationElement[];
   searchbar?: SearchbarProps;
   logo?: Logo;
   buttons?: Buttons;
@@ -140,9 +140,9 @@ function Navbar({ items, searchbar, logo, buttons, logoPosition = "left" }: {
           )}
         </div>
       </div>
-      <div class="items-center w-full bg-black flex justify-center">
+      {/* <div class="items-center w-full bg-black flex justify-center">
         {items.map((item) => <NavItem item={item} />)}
-      </div>
+      </div> */}
     </>
   );
 }
