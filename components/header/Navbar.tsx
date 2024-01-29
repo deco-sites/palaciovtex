@@ -140,9 +140,11 @@ function Navbar({ searchbar, logo, buttons, logoPosition = "left" }: {
           )}
         </div>
       </div>
-      {/* <div class="items-center w-full bg-black flex justify-center">
+      {
+        /* <div class="items-center w-full bg-black flex justify-center">
         {items.map((item) => <NavItem item={item} />)}
-      </div> */}
+      </div> */
+      }
     </>
   );
 }

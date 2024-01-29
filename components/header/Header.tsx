@@ -127,7 +127,6 @@ function Header({
               logoPosition={logoPosition}
               buttons={buttons}
             />
-            <Categories />
           </div>
         </Drawers>
       </header>
