@@ -46,8 +46,7 @@ export default function Categories({ allCategories, items }: Props) {
                                       </a>
                                       {node?.image && node?.image.length != 0 &&
                                         (
-                                          <div
-                                            class="group-hover/submenu:flex dropdown-desktop hasBanner bg-white absolute 
+                                          <div class="group-hover/submenu:flex dropdown-desktop hasBanner bg-white absolute 
                                             top-0 left-[98%] hidden z-50 w-[850px] max-w-[900px] space-between p-[13px] rounded-sm">
                                             <ul class="mr-[10px] flex flex-col max-h-[350px] overflow-hidden flex-wrap gap-x-[30px] w-full">
                                               {node.children?.map((leaf) => {
@@ -63,31 +62,28 @@ export default function Categories({ allCategories, items }: Props) {
                                                 );
                                               })}
                                             </ul>
-                                            {node?.image && node?.image.length != 0 && 
+                                            {node?.image &&
+                                              node?.image.length != 0 &&
                                               (
                                                 <div class="banners-submenu">
-                                              <div>
-                                                <div class="box-banner">
-                                                  <a>
-                                                    <img
-                                                      class="inline-block align-top h-auto max-w-full"
-                                                      width={"auto"}
-                                                      height={"auto"}
-                                                      alt={"banner"}
-                                                      src={node?.image &&
-                                                        node?.image[0]?.contentUrl}
-                                                    />
-                                                  </a>
+                                                  <div>
+                                                    <div class="box-banner">
+                                                      <a>
+                                                        <img
+                                                          class="inline-block align-top h-auto max-w-full"
+                                                          width={"auto"}
+                                                          height={"auto"}
+                                                          alt={"banner"}
+                                                          src={node?.image &&
+                                                            node?.image[0]?.url}
+                                                        />
+                                                      </a>
+                                                    </div>
+                                                  </div>
                                                 </div>
-                                              </div>
-                                            </div>
-                                              )
-                                            }
-                                            
-
+                                              )}
                                           </div>
-                                        )
-                                      }
+                                        )}
                                     </li>
                                   );
                                 })}
@@ -106,37 +102,38 @@ export default function Categories({ allCategories, items }: Props) {
                   <li class="group inline-block float-left p-0 relative text-center has-submenu">
                     <a
                       class="group-hover:underline p-[7´x] m-auto text-center h-full flex flex-col justify-center transition-all"
-                      href={url}>
+                      href={url}
+                    >
                       <span class="text-[10px] block mt-[10px] text-white text-center uppercase">
                         {name}
                       </span>
                     </a>
                     {children && children.length > 0 &&
                       (
-                        <div class={`group-hover:flex hidden rounded-[0_0_10px_10px] shadow-md absolute bg-white py-[24px] px-[30px] text-left min-w-[600px] ${index >= 5 ? "first-of-type:right-0" : ""} `}>
+                        <div
+                          class={`group-hover:flex hidden rounded-[0_0_10px_10px] shadow-md absolute bg-white py-[24px] px-[30px] text-left min-w-[600px] ${
+                            index >= 5 ? "first-of-type:right-0" : ""
+                          } `}
+                        >
                           <ul class="flex-1 flex flex-col max-h-[400px] flex-wrap">
                             {children.map((node) => {
                               return (
                                 <li class="block pb-[10px]">
                                   <a
                                     class="flex items-center justify-between text-[14px] text-[#595956] leading-[35px]"
-                                    href={node.url} >
+                                    href={node.url}
+                                  >
                                     {node.name}
                                   </a>
                                 </li>
-                              )
+                              );
                             })}
-
                           </ul>
                         </div>
-                      )
-                    }
-
+                      )}
                   </li>
-
-                )
+                );
               })}
-
             </ul>
           </div>
         </div>
