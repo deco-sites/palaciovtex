@@ -26,8 +26,27 @@ export interface Link {
   link: string;
 }
 
+export interface ThemeColors {
+  /**
+   * @format color
+   * @title Cor do Fundo
+   */
+  /** @format color */
+  corFundo?: string;
+  /**
+   * @format color
+   * @title Cor de fundo do menu
+   * @description Aqui se altera a cor de fundo do menu
+   */
+  corFundoNavegador?: string;
+  /** @format color */
+  corTextoNavegador?: string;
+}
+
 export interface Props {
   alerts?: string[];
+
+  colors: ThemeColors;
 
   links?: Link[];
 
@@ -50,6 +69,7 @@ export interface Props {
 
 function Header({
   alerts,
+  colors,
   links,
   searchbar,
   navItems = [
@@ -121,7 +141,8 @@ function Header({
                 </div>
               )}
             <Navbar
-              // items={items}
+              colors={colors}
+              items={items}
               searchbar={searchbar && { ...searchbar, platform }}
               logo={logo}
               logoPosition={logoPosition}

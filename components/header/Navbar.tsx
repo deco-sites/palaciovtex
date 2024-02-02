@@ -15,12 +15,16 @@ import Image from "apps/website/components/Image.tsx";
 import { navbarHeight } from "./constants.ts";
 import { Buttons, Logo } from "$store/components/header/Header.tsx";
 
-function Navbar({ searchbar, logo, buttons, logoPosition = "left" }: {
-  // items: SiteNavigationElement[];
+import NavItem from "deco-sites/palaciovtex/components/header/NavItem.tsx";
+import { ThemeColors } from "deco-sites/palaciovtex/components/header/Header.tsx";
+
+function Navbar({ colors,items, searchbar, logo, buttons, logoPosition = "left" }: {
+  items: SiteNavigationElement[];
   searchbar?: SearchbarProps;
   logo?: Logo;
   buttons?: Buttons;
   logoPosition?: "left" | "center";
+  colors: ThemeColors;
 }) {
   const platform = usePlatform();
 
@@ -60,7 +64,10 @@ function Navbar({ searchbar, logo, buttons, logoPosition = "left" }: {
       </div>
 
       {/* Desktop Version */}
-      <div class="hidden lg:grid lg:grid-cols-3 items-center w-full px-6 bg-black">
+      <div style={{
+            backgroundColor: colors?.corFundo ? colors?.corFundo : "",
+          }} 
+          class="hidden lg:grid lg:grid-cols-3 items-center w-full px-6 bg-white">
         <div class="flex w-full">
           <Searchbar searchbar={searchbar} />
         </div>
@@ -141,9 +148,18 @@ function Navbar({ searchbar, logo, buttons, logoPosition = "left" }: {
         </div>
       </div>
       {
-        /* <div class="items-center w-full bg-black flex justify-center">
-        {items.map((item) => <NavItem item={item} />)}
-      </div> */
+        <div style={{
+          backgroundColor: colors?.corFundoNavegador ? colors?.corFundoNavegador : "",
+        }} 
+        class="p-0 bg-white">
+          <div class="m-auto container">
+            <div class="header__bottom-in" id="menu">
+              <ul class="m-0 flex justify-between">
+                {items.map((item, index) => <NavItem colors={colors} index={index} item={item} />)}
+              </ul>
+            </div>
+          </div>
+        </div>
       }
     </>
   );
