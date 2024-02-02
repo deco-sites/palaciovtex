@@ -1,3 +1,4 @@
+// deno-lint-ignore-file
 import type { Props as SearchbarProps } from "$store/components/search/Searchbar.tsx";
 import Drawers from "$store/islands/Header/Drawers.tsx";
 import { usePlatform } from "$store/sdk/usePlatform.tsx";
@@ -40,7 +41,7 @@ export interface ThemeColors {
    */
   corFundoNavegador?: string;
   /** @format color */
-  corTextoNavegador?: string;
+  // corTextoNavegador?: string;
 }
 
 export interface Props {
@@ -109,7 +110,10 @@ function Header({
 
   return (
     <>
-      <header style={{ height: headerHeight }}>
+      <header
+        class="bg-white"
+        style={{ height: window.innerWidth > 768 ? headerHeight : "" }}
+      >
         <Drawers
           menu={{ items }}
           searchbar={searchbar}

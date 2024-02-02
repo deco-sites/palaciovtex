@@ -3,8 +3,8 @@ import Image from "apps/website/components/Image.tsx";
 import { headerHeight } from "./constants.ts";
 import { ThemeColors } from "deco-sites/palaciovtex/components/header/Header.tsx";
 
-function NavItem({ item, colors, index }: { 
-  item: SiteNavigationElement,
+function NavItem({ item, colors, index }: {
+  item: SiteNavigationElement;
   colors: ThemeColors;
   index: number;
 }) {
@@ -12,19 +12,24 @@ function NavItem({ item, colors, index }: {
   const image = item?.image?.[0];
 
   return (
-    <li data-index={index} class="group inline-block float-left p-0 relative text-center has-submenu">
+    <li
+      data-index={index}
+      class="group inline-block float-left p-0 relative text-center has-submenu"
+    >
       <a
         class="group-hover:underline p-[7px] m-auto text-center h-full flex flex-col justify-center transition-all"
         href={url}
       >
-        <span style={{color: colors.corTextoNavegador ? colors.corTextoNavegador : ""}} class="text-[12px] block my-[10px] text-black text-center uppercase">
+        <span class="text-[12px] block my-[10px] text-black text-center uppercase">
           {name}
         </span>
       </a>
       {children && children.length > 0 &&
         (
           <div
-            class={`group-hover:flex hidden rounded-[0_0_10px_10px] shadow-md absolute bg-white py-[24px] px-[30px] text-left min-w-[600px] ${index >= 5 ? "first-of-type:right-0" : ""}`}
+            class={`group-hover:flex hidden rounded-[0_0_10px_10px] shadow-md absolute bg-white py-[24px] px-[30px] text-left min-w-[600px] ${
+              index >= 5 ? "first-of-type:right-0" : ""
+            }`}
           >
             <ul class="flex-1 flex flex-col max-h-[400px] flex-wrap">
               {children.map((node) => {

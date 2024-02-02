@@ -56,27 +56,26 @@ export default function ProductCardCustom({ layout, products }: Props) {
   console.log(products);
 
   const align = !layout?.basics?.contentAlignment ||
-    layout?.basics?.contentAlignment == "Left"
+      layout?.basics?.contentAlignment == "Left"
     ? "left"
     : "center";
   return (
     <div id={id} class="container grid grid-cols-[48px_1fr_48px] px-0 md:px-5`">
       <Slider class="carousel carousel-center sm:carousel-end sm:gap-1 row-start-2 row-end-5">
         {products && products.map((product, index) => {
-          console.log("Quantidade de produtos: " + products.length)
           const { listPrice, price, installments, pixPrice } = useOffer(
             product.offers,
           );
           return (
-
             <Slider.Item
               index={index}
               class={`carousel-item md:w-1/4 w-full`}
             >
               <div>
                 <div
-                  class={`group/content relative ${align == "left" ? "text-left" : "text-center"
-                    }  p-[10px] rounded-md transition-all`}
+                  class={`group/content relative ${
+                    align == "left" ? "text-left" : "text-center"
+                  }  p-[10px] rounded-md transition-all`}
                 >
                   <a
                     class="block outline-0"
@@ -88,10 +87,13 @@ export default function ProductCardCustom({ layout, products }: Props) {
                           <figure class="p-[15px] m-0">
                             <img
                               class="block max-w-full h-auto mx-auto my-0 outline-none"
-                              src={`https://${product.image[0].url?.split("/")[2]
-                                }/${product.image[0].url?.split("/")[3]}/${product.image[0].url?.split("/")[4]
-                                }/${product.image[0].url?.split("/")[5]}-300-300/${product.image[0].url?.split("/")[6]
-                                }`}
+                              src={`https://${
+                                product.image[0].url?.split("/")[2]
+                              }/${product.image[0].url?.split("/")[3]}/${
+                                product.image[0].url?.split("/")[4]
+                              }/${
+                                product.image[0].url?.split("/")[5]
+                              }-300-300/${product.image[0].url?.split("/")[6]}`}
                               alt=""
                               id=""
                             />
@@ -101,17 +103,20 @@ export default function ProductCardCustom({ layout, products }: Props) {
                               <figure class="group-hover/content:opacity-100 p-[15px] m-0 opacity-0 w-full transition-all absolute left-0 top-0">
                                 <img
                                   class="block max-w-full h-auto mx-auto my-0 outline-none"
-                                  src={`https://${product.image[1].url?.split("/")[2]
-                                    }/${product.image[1].url?.split("/")[3]}/${product.image[1].url?.split("/")[4]
-                                    }/${product.image[1].url?.split("/")[5]}-300-300/${product.image[1].url?.split("/")[6]
-                                    }`}
+                                  src={`https://${
+                                    product.image[1].url?.split("/")[2]
+                                  }/${product.image[1].url?.split("/")[3]}/${
+                                    product.image[1].url?.split("/")[4]
+                                  }/${
+                                    product.image[1].url?.split("/")[5]
+                                  }-300-300/${
+                                    product.image[1].url?.split("/")[6]
+                                  }`}
                                   alt={""}
                                   id=""
                                 />
                               </figure>
-                            )
-                          }
-
+                            )}
                         </>
                       )}
 
@@ -133,50 +138,53 @@ export default function ProductCardCustom({ layout, products }: Props) {
                         {listPrice != price && (
                           <span class={`opacity-100 inline`}>
                             <span
-                              class={`flex flex-col justify-around relative w-10 h-10 text-white text-[15px] ${align == "left" ? "text-left" : "text-center"
-                                } uppercase rounded-[5px] bg-black`}
+                              class={`flex flex-col justify-around relative w-10 h-10 text-white text-[15px] ${
+                                align == "left" ? "text-left" : "text-center"
+                              } uppercase rounded-[5px] bg-black`}
                             >
                               <strong class="text-[#F0D02C] font-bold">
-                                {listPrice && price && calculate(listPrice, price)}
+                                {listPrice && price &&
+                                  calculate(listPrice, price)}
                               </strong>{" "}
                               off
                             </span>
                           </span>
                         )}
-                        
                       </div>
                     </div>
 
                     <span
-                      class={`block h-10 text-black text-[17px] leading-5 ${align == "left" ? "text-left" : "text-center"
-                        } no-underline overflow-hidden mt-0 mb-2.5 mx-0"`}
+                      class={`block h-10 text-black text-[17px] leading-5 ${
+                        align == "left" ? "text-left" : "text-center"
+                      } no-underline overflow-hidden mt-0 mb-2.5 mx-0"`}
                     >
                       {product.isVariantOf?.name}
                     </span>
                     {product.brand && (
                       <span class="block mb-[10px] overflow-hidden">
-                        
-                        {product.brand.logo && ( 
-                            <img
-                              class="w-[80px] h-[35px] m-auto"
-                              src={product.brand.logo}
-                              alt={product.brand.name}
-                              id={product.brand["@id"]}
-                            />
-                          )
-                        }
-                        
+                        {product.brand.logo && (
+                          <img
+                            class="w-[80px] h-[35px] m-auto"
+                            src={product.brand.logo}
+                            alt={product.brand.name}
+                            id={product.brand["@id"]}
+                          />
+                        )}
                       </span>
                     )}
 
                     <div
-                      class={`h-[50px] ${align == "left" ? "text-left" : "text-center"
-                        }`}
+                      class={`h-[50px] ${
+                        align == "left" ? "text-left" : "text-center"
+                      }`}
                     >
                       {listPrice && (
                         <div class="inline-block text-[#A6A5A1] text-base leading-[19px] line-through">
                           <span class="mr-[10px]">
-                            {formatPrice(listPrice, product.offers?.priceCurrency)}
+                            {formatPrice(
+                              listPrice,
+                              product.offers?.priceCurrency,
+                            )}
                           </span>
                         </div>
                       )}
@@ -184,7 +192,10 @@ export default function ProductCardCustom({ layout, products }: Props) {
                         <div class="inline-block text-black text-base leading-[19px]">
                           <span>
                             <strong>
-                              {formatPrice(price, product.offers?.priceCurrency)}
+                              {formatPrice(
+                                price,
+                                product.offers?.priceCurrency,
+                              )}
                             </strong>
                           </span>
                         </div>

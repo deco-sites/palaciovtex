@@ -15,12 +15,12 @@ export default function Tipbar({ items }: Props) {
     <div class="my-[50px]">
       <div class="container">
         <div class="tipbar-in">
-          <ul class="flex m-0">
+          <ul class="flex m-0 md:flex-row flex-col">
             {items?.length > 0 && items.map((item, index) => {
               return (
                 <li
                   class={`${
-                    index == 3 ? "mr-0" : "mr-[12px]"
+                    index == 3 ? "md:mr-0 mx-[12px]" : "md:mr-[12px] mx-[12px]"
                   }   flex-1 inline-flex justify-center items-center border px-2.5 py-9 rounded-[5px] border-solid border-[#A6A5A1]`}
                 >
                   <div class="w-full flex items-center justify-center">
