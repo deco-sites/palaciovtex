@@ -112,7 +112,7 @@ function Header({
     <>
       <header
         class="bg-white"
-        style={{ height: window.innerWidth > 768 ? headerHeight : "" }}
+        style={{ height: headerHeight }}
       >
         <Drawers
           menu={{ items }}

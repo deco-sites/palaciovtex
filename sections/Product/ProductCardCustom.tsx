@@ -53,14 +53,14 @@ const calculate = (item: number, item2: number) => {
 
 export default function ProductCardCustom({ layout, products }: Props) {
   const id = useId();
-  console.log(products);
+  // console.log(products);
 
   const align = !layout?.basics?.contentAlignment ||
       layout?.basics?.contentAlignment == "Left"
     ? "left"
     : "center";
   return (
-    <div id={id} class="container grid grid-cols-[48px_1fr_48px] px-0 md:px-5`">
+    <div id={id} class="container grid grid-cols-[48px_1fr_48px] px-0 md:px-5 relative mb-[40px]">
       <Slider class="carousel carousel-center sm:carousel-end sm:gap-1 row-start-2 row-end-5">
         {products && products.map((product, index) => {
           const { listPrice, price, installments, pixPrice } = useOffer(
@@ -93,7 +93,7 @@ export default function ProductCardCustom({ layout, products }: Props) {
                                 product.image[0].url?.split("/")[4]
                               }/${
                                 product.image[0].url?.split("/")[5]
-                              }-300-300/${product.image[0].url?.split("/")[6]}`}
+                              }-800-800/${product.image[0].url?.split("/")[6]}`}
                               alt=""
                               id=""
                             />
@@ -109,7 +109,7 @@ export default function ProductCardCustom({ layout, products }: Props) {
                                     product.image[1].url?.split("/")[4]
                                   }/${
                                     product.image[1].url?.split("/")[5]
-                                  }-300-300/${
+                                  }-800-800/${
                                     product.image[1].url?.split("/")[6]
                                   }`}
                                   alt={""}
@@ -230,15 +230,31 @@ export default function ProductCardCustom({ layout, products }: Props) {
       <>
         <div class="relative block z-10 col-start-1 row-start-3">
           <Slider.PrevButton class="absolute w-12 h-12 flex justify-center items-center">
-            <Icon size={24} id="ChevronLeft" strokeWidth={3} class="w-5" />
+            <Icon size={48} id="ChevronLeftCustom" strokeWidth={3} class="w-5 rotate-180" />
           </Slider.PrevButton>
         </div>
         <div class="relative block z-10 col-start-3 row-start-3">
           <Slider.NextButton class="absolute w-12 h-12 flex justify-center items-center">
-            <Icon size={24} id="ChevronRight" strokeWidth={3} />
+            <Icon size={48} id="ChevronRightCustom" strokeWidth={3} />
           </Slider.NextButton>
         </div>
       </>
+      {/* <>
+      <ul class="absolute bottom-0 left-0">
+        {products?.map((_, index) => (
+          <li class="carousel-item">
+            <Slider.Dot index={index}>
+              <div class="py-5">
+                <div
+                  class="w-[12px] h-[12px] rounded-full group-disabled:bg-black bg-white"
+                  // style={{ animationDuration: `${interval}s` }}
+                />
+              </div>
+            </Slider.Dot>
+          </li>
+        ))}
+      </ul>
+      </> */}
       <SliderJS rootId={id} />
     </div>
   );
