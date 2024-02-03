@@ -70,7 +70,7 @@ function Navbar(
         style={{
           backgroundColor: colors?.corFundo ? colors?.corFundo : "",
         }}
-        class="hidden lg:grid lg:grid-cols-3 items-center w-full px-6 bg-white"
+        class="hidden lg:grid container lg:grid-cols-3 items-center w-full px-6 bg-white"
       >
         <div class="flex w-full">
           <Searchbar searchbar={searchbar} />

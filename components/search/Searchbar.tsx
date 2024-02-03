@@ -78,11 +78,11 @@ function Searchbar({
       class="w-full grid overflow-y-hidden"
       style={{ gridTemplateRows: "min-content auto" }}
     >
-      <form id={id} action={action} class="join">
+      <form id={id} action={action} class="join border border-solid border-black rounded-full">
         <input
           ref={searchInputRef}
           id="search-input"
-          class="input input-bordered join-item flex-grow"
+          class="input border-0 input-bordered join-item flex-grow"
           name={name}
           onInput={(e) => {
             const value = e.currentTarget.value;

@@ -119,7 +119,7 @@ function Header({
           searchbar={searchbar}
           platform={platform}
         >
-          <div class="fixed w-full z-50">
+          <div class="bg-white fixed w-full z-50">
             {alerts && alerts.length > 0 &&
               (
                 <div class="bg-[#F0D02C] px-0 py-2.5 border-b-[#777] border-b border-solid hidden md:block">

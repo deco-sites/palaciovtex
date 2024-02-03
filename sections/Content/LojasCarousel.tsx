@@ -5,17 +5,15 @@ import Icon from "$store/components/ui/Icon.tsx";
 import Slider from "$store/components/ui/Slider.tsx";
 import SliderJS from "$store/islands/SliderJS.tsx";
 
-export interface Brand {
+export interface Loja {
   image: ImageWidget;
-  link: string;
-  text: string;
 }
 
 export interface Props {
   title: string;
-  brands?: Brand[];
+  lojas?: Loja[];
 }
-export default function BrandCarousel({ brands, title }: Props) {
+export default function LojasCarousel({ lojas, title }: Props) {
   const id = useId();
   return (
     <div class="container py-10 border-y-[#cccbc6] border-t border-solid border-b">
@@ -29,25 +27,20 @@ export default function BrandCarousel({ brands, title }: Props) {
         class="grid grid-cols-[48px_1fr_48px] px-0 md:px-5 mb-[40px] "
       >
         <Slider class="carousel carousel-center sm:carousel-end row-start-2 row-end-5">
-          {brands && brands.map((brand, index) => {
-            const { link, image, text } = brand;
+          {lojas && lojas.map((loja, index) => {
+            const { image } = loja;
             return (
               <Slider.Item
                 index={index}
-                class={`carousel-item md:w-1/5 w-full`}
+                class={`carousel-item md:w-1/3 w-full`}
               >
-                <a
-                  class="mx-[6px] w-full group transition-all flex flex-col justify-between items-center text-transparent px-0 py-6"
-                  href={link}
-                >
                   <img
                     class="block min-w-[70px]"
                     src={image}
-                    alt={text}
-                    width={156}
-                    height={120}
+                    alt={"Nossa Loja de Tal Lugar"}
+                    width={342}
+                    height={288}
                   />
-                </a>
               </Slider.Item>
             );
           })}
