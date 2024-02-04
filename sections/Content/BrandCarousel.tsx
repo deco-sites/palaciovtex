@@ -4,6 +4,7 @@ import Icon from "$store/components/ui/Icon.tsx";
 
 import Slider from "$store/components/ui/Slider.tsx";
 import SliderJS from "$store/islands/SliderJS.tsx";
+import Image from "apps/website/components/Image.tsx";
 
 export interface Brand {
   image: ImageWidget;
@@ -38,14 +39,15 @@ export default function BrandCarousel({ brands, title }: Props) {
               >
                 <a
                   class="mx-[6px] w-full group transition-all flex flex-col justify-between items-center text-transparent px-0 py-6"
-                  href={link}
-                >
-                  <img
+                  href={link} >
+                  <Image
                     class="block min-w-[70px]"
                     src={image}
                     alt={text}
                     width={156}
                     height={120}
+                    loading={"lazy"}
+                    decoding="async"
                   />
                 </a>
               </Slider.Item>

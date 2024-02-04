@@ -78,7 +78,11 @@ function Searchbar({
       class="w-full grid overflow-y-hidden"
       style={{ gridTemplateRows: "min-content auto" }}
     >
-      <form id={id} action={action} class="join border border-solid border-black rounded-full">
+      <form
+        id={id}
+        action={action}
+        class="join border border-solid border-black rounded-full"
+      >
         <input
           ref={searchInputRef}
           id="search-input"

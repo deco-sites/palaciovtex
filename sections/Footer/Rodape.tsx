@@ -549,7 +549,7 @@ export default function Rodape(
                 </p>
               </div>
               <div class="w-full float-left">
-                <ul class="flex flex-wrap m-0 justify-center">
+                <ul class="flex flex-wrap items-center m-0 justify-center">
                   <li class="px-[15px] py-0">
                     <div class="flex items-center">
                       <span
@@ -560,12 +560,12 @@ export default function Rodape(
                       >
                         Created by
                       </span>
-                      <a href="https://agenciaecan.com.br">
+                      <a href="https://instagram.com/caio.nogueira.509">
                         <img
                           class="inline-block align-top max-w-full h-auto"
-                          src="https://palaciodasferramentas.vteximg.com.br/arquivos/logo-ecan.pNG"
-                          width="70"
-                          height="20"
+                          src="/image/logo-sword.png"
+                          width="140"
+                          height="140"
                           alt="img"
                         />
                       </a>
@@ -587,6 +587,15 @@ export default function Rodape(
                           src="https://palaciodasferramentas.vteximg.com.br/arquivos/logo-vtex.svg"
                           width="60"
                           height="22"
+                          alt="img"
+                        />
+                      </a>
+                      <a class="ml-3" href="https://deco.cx">
+                        <img
+                          class="inline-block max-w-[70px] align-top h-auto"
+                          src="/image/logo-deco.png"
+                          width="180"
+                          height="40"
                           alt="img"
                         />
                       </a>

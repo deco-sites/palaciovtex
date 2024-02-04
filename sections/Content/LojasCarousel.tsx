@@ -4,6 +4,7 @@ import Icon from "$store/components/ui/Icon.tsx";
 
 import Slider from "$store/components/ui/Slider.tsx";
 import SliderJS from "$store/islands/SliderJS.tsx";
+import Image from "apps/website/components/Image.tsx";
 
 export interface Loja {
   image: ImageWidget;
@@ -34,13 +35,15 @@ export default function LojasCarousel({ lojas, title }: Props) {
                 index={index}
                 class={`carousel-item md:w-1/3 w-full`}
               >
-                  <img
-                    class="block min-w-[70px]"
-                    src={image}
-                    alt={"Nossa Loja de Tal Lugar"}
-                    width={342}
-                    height={288}
-                  />
+                <Image 
+                  class="block min-w-[70px]"
+                  src={image}
+                  alt={"Nossa Loja de Tal Lugar"}
+                  width={342}
+                  height={288}
+                  loading={"lazy"}
+                  decoding="async"
+                />
               </Slider.Item>
             );
           })}

@@ -52,13 +52,13 @@ function NavItem({ item, colors, index }: {
                   <div>
                     <div class="box-banner">
                       <a>
-                        <img
+                        <img 
                           class="inline-block align-top h-auto max-w-full"
-                          width={"auto"}
-                          height={"auto"}
+                          width={100}
+                          height={300}
                           alt={"banner"}
-                          src={item?.image &&
-                            item?.image[0]?.url}
+                          src={item?.image && item?.image[0]?.url}
+                          loading={"lazy"}
                         />
                       </a>
                     </div>

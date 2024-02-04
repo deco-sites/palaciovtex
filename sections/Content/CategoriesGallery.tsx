@@ -4,6 +4,7 @@ import Icon from "$store/components/ui/Icon.tsx";
 
 import Slider from "$store/components/ui/Slider.tsx";
 import SliderJS from "$store/islands/SliderJS.tsx";
+import Image from "apps/website/components/Image.tsx";
 
 export interface Category {
   image: ImageWidget;
@@ -34,13 +35,23 @@ export default function CategoriesGallery({ categories }: Props) {
                   class="mx-[6px] w-full group hover:bg-black transition-all flex flex-col justify-between items-center h-[177px] text-transparent border px-0 py-6 rounded-[5px] border-solid border-[#CCCBC6]"
                   href={category.link}
                 >
-                  <img
-                    class="block group-hover:hidden min-w-[70px]"
+                  <Image
+                    class="block min-w-[70px] group-hover:hidden"
                     src={category.image}
+                    alt={category.text}
+                    width={80}
+                    height={80}
+                    loading={"lazy"}
+                    decoding="async"
                   />
-                  <img
+                  <Image 
                     class="hidden group-hover:block min-w-[70px]"
                     src={category.hoverImage}
+                    alt={category.text}
+                    width={80}
+                    height={80}
+                    loading={"lazy"}
+                    decoding="async"
                   />
                   <span
                     class="group-hover:text-[#F0D02C] text-base leading-[19px] text-black uppercase text-center"
