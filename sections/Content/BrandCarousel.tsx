@@ -39,7 +39,8 @@ export default function BrandCarousel({ brands, title }: Props) {
               >
                 <a
                   class="mx-[6px] w-full group transition-all flex flex-col justify-between items-center text-transparent px-0 py-6"
-                  href={link} >
+                  href={link}
+                >
                   <Image
                     class="block min-w-[70px]"
                     src={image}

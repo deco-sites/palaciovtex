@@ -52,7 +52,7 @@ function NavItem({ item, colors, index }: {
                   <div>
                     <div class="box-banner">
                       <a>
-                        <img 
+                        <img
                           class="inline-block align-top h-auto max-w-full"
                           width={100}
                           height={300}

@@ -44,7 +44,7 @@ export default function CategoriesGallery({ categories }: Props) {
                     loading={"lazy"}
                     decoding="async"
                   />
-                  <Image 
+                  <Image
                     class="hidden group-hover:block min-w-[70px]"
                     src={category.hoverImage}
                     alt={category.text}

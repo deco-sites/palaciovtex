@@ -95,7 +95,7 @@ export default function ProductCardCustom({ title, layout, products }: Props) {
                         {product.image && (
                           <>
                             <figure class="p-[15px] m-0">
-                              <Image 
+                              <Image
                                 class="block max-w-full h-auto mx-auto my-0 outline-none"
                                 src={`https://${
                                   product.image[0].url?.split("/")[2]
@@ -116,7 +116,7 @@ export default function ProductCardCustom({ title, layout, products }: Props) {
                             {product.image[1] &&
                               (
                                 <figure class="group-hover/content:opacity-100 p-[15px] m-0 opacity-0 w-full transition-all absolute left-0 top-0">
-                                  <Image 
+                                  <Image
                                     class="block max-w-full h-auto mx-auto my-0 outline-none"
                                     src={`https://${
                                       product.image[1].url?.split("/")[2]
@@ -139,7 +139,8 @@ export default function ProductCardCustom({ title, layout, products }: Props) {
                         )}
 
                         <div class="absolute top-0 left-0">
-                          {/* {product.additionalProperty &&
+                          {
+                            /* {product.additionalProperty &&
                             product.additionalProperty.map((property) => {
                               return (
                                 <>
@@ -152,7 +153,8 @@ export default function ProductCardCustom({ title, layout, products }: Props) {
                                   )}
                                 </>
                               );
-                            })} */}
+                            })} */
+                          }
                           {listPrice != price && (
                             <span class={`opacity-100 inline`}>
                               <span
@@ -181,7 +183,7 @@ export default function ProductCardCustom({ title, layout, products }: Props) {
                       {product.brand && (
                         <span class="block mb-[10px] overflow-hidden">
                           {product.brand.logo && (
-                            <Image 
+                            <Image
                               class="w-[80px] h-[35px] m-auto"
                               src={product.brand.logo}
                               alt={product.brand.name}

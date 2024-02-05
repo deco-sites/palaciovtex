@@ -28,8 +28,8 @@ function MenuItem({ item }: { item: SiteNavigationElement }) {
 
 function Menu({ items }: Props) {
   return (
-    <div class="flex flex-col h-full">
-      <ul class="px-4 flex-grow flex flex-col divide-y divide-base-200">
+    <div class="flex flex-col h-full overflow-auto">
+      <ul class="overflow-y-auto px-4 flex-grow flex flex-col divide-y divide-base-200">
         {items.map((item) => (
           <li>
             <MenuItem item={item} />

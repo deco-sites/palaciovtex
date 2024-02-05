@@ -35,7 +35,7 @@ export default function LojasCarousel({ lojas, title }: Props) {
                 index={index}
                 class={`carousel-item md:w-1/3 w-full`}
               >
-                <Image 
+                <Image
                   class="block min-w-[70px]"
                   src={image}
                   alt={"Nossa Loja de Tal Lugar"}
