@@ -168,7 +168,7 @@ export default function Rodape(
         </div>
         <div
           style={{ backgroundColor: colors?.corFundo ? colors?.corFundo : "" }}
-          class="bg-black md:pt-[46px] pt-[35px] pb-0 px-0 font-rubik"
+          class="bg-black md:pt-[46px] pt-[35px] pb-0 px-0"
         >
           <div class="container">
             <div class="row">

@@ -236,7 +236,7 @@ export default function ProductCardCustom({ title, layout, products }: Props) {
                       <div class="shelf__default--buy-wrapper">
                         <a
                           href={product.url}
-                          class="rounded-[5px] flex justify-center items-center h-[40px] font-normal text-center uppercase outline-none transition-all hover:bg-black hover:text-white hover:border-black bg-[#F0D02C] border text-black border-solid border-[#F0D02C]"
+                          class="rounded-[5px] font-medium text-xs flex justify-center items-center h-[40px] text-center uppercase outline-none transition-all hover:bg-black hover:text-white hover:border-black bg-[#F0D02C] border text-black border-solid border-[#F0D02C]"
                         >
                           {layout?.basics?.ctaText
                             ? layout.basics.ctaText

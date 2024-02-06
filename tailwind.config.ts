@@ -5,11 +5,17 @@ export default {
   daisyui: { themes: [], logs: false },
   content: ["./**/*.tsx"],
   theme: {
-    container: { center: true },
+    container: { 
+      center: true,
+      screens: {
+        sm: '600px',
+        md: '750px',
+        lg: '970px',
+        xl: '1170px',
+        '2xl': '1440px'
+      }
+    },
     extend: {
-      fontFamily: {
-        rubik: ['"Rubik"'],
-      },
       animation: {
         sliding: "sliding 30s linear infinite",
       },

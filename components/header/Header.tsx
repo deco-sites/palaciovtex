@@ -10,7 +10,7 @@ import Categories from "$store/sections/Header/Categories.tsx";
 import { headerHeight } from "./constants.ts";
 import VerifyMobile from "deco-sites/palaciovtex/islands/VerifyMobile.tsx";
 
-import { isMobile } from 'https://deno.land/x/is_mobile@v1.0.0/mod.ts'
+import { isMobile } from "https://deno.land/x/is_mobile@v1.0.0/mod.ts";
 
 export interface Logo {
   src: ImageWidget;
@@ -114,7 +114,7 @@ function Header({
   return (
     <>
       <header
-        class="bg-white !h-[85px] md:h-auto"
+        class="bg-white md:h-auto"
         style={{ height: headerHeight }}
       >
         <Drawers

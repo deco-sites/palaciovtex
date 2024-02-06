@@ -27,6 +27,8 @@ function ShippingContent({ simulation }: {
     [] as Sla[],
   ) ?? [];
 
+  console.log(methods)
+
   const locale = cart.value?.clientPreferencesData.locale || "pt-BR";
   const currencyCode = cart.value?.storePreferencesData.currencyCode || "BRL";
 
@@ -43,28 +45,40 @@ function ShippingContent({ simulation }: {
   }
 
   return (
-    <ul class="flex flex-col gap-4 p-4 bg-base-200 rounded-[4px]">
-      {methods.map((method) => (
-        <li class="flex justify-between items-center border-base-200 not-first-child:border-t">
-          <span class="text-button text-center">
-            Entrega {method.name}
-          </span>
-          <span class="text-button">
-            até {formatShippingEstimate(method.shippingEstimate)}
-          </span>
-          <span class="text-base font-semibold text-right">
+    // <ul class="flex flex-col gap-4 p-4 bg-base-200 rounded-[4px]">
+    //   {methods.map((method) => (
+    //     <li class="flex justify-between items-center border-base-200 not-first-child:border-t">
+    //       <span class="text-button">
+    //         até {formatShippingEstimate(method.shippingEstimate)}
+    //       </span>
+    //     </li>
+    //   ))}
+    //   <span class="text-base-300">
+    //     Os prazos de entrega começam a contar a partir da confirmação do
+    //     pagamento e podem variar de acordo com a quantidade de produtos na
+    //     sacola.
+    //   </span>
+    // </ul>
+    <table class="mt-3 rounded-md border-[#cccbc6] border">
+      <thead>
+        <tr class="border-b-[#CCCBC6] border">
+          <th class="w-1/2 py-3 px-4 text-black font-medium uppercase">Valor do frete</th>
+          <th class="w-1/2 py-3 px-4 text-black font-medium uppercase">disponibilidade</th>
+        </tr>
+      </thead>
+      <tbody>
+        {methods.map((method) => (
+          <tr class="border-b-[#CCCBC6] border">
+            <td class="py-3 px-4 whitespace-nowrap font-medium text-black ">
             {method.price === 0 ? "Grátis" : (
               formatPrice(method.price / 100, currencyCode, locale)
             )}
-          </span>
-        </li>
-      ))}
-      <span class="text-base-300">
-        Os prazos de entrega começam a contar a partir da confirmação do
-        pagamento e podem variar de acordo com a quantidade de produtos na
-        sacola.
-      </span>
-    </ul>
+            </td>
+            <td class="py-3 px-4 text-[#595956] ">{method.name}, entrega em {formatShippingEstimate(method.shippingEstimate)}</td>
+        </tr>
+        ))}
+      </tbody>
+    </table>
   );
 }
 

@@ -48,6 +48,7 @@ function ProductInfo({ page, layout }: Props) {
     additionalProperty = [],
   } = product;
   const description = product.description || isVariantOf?.description;
+  const specifications = product.isVariantOf?.additionalProperty;
   const {
     price = 0,
     listPrice,
