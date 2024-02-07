@@ -48,11 +48,10 @@ export default function GallerySlider(props: Props) {
               <Image
                 class="w-full"
                 sizes="(max-width: 640px) 100vw, 40vw"
-                style={{ aspectRatio }}
                 src={img.url!}
                 alt={img.alternateName}
-                width={width}
-                height={height}
+                width={1000}
+                height={1000}
                 // Preload LCP image for better web vitals
                 preload={index === 0}
                 loading={index === 0 ? "eager" : "lazy"}

@@ -114,7 +114,7 @@ function Header({
   return (
     <>
       <header
-        class={`bg-white h-[140px] md:h-[${headerHeight}]`}
+        class={`bg-white h-[140px] md:h-[205px]`}
         // style={{ height: headerHeight }}
       >
         <Drawers
@@ -125,7 +125,7 @@ function Header({
           <div class="bg-white fixed w-full z-50 md:pb-0 pb-2">
             {alerts && alerts.length > 0 &&
               (
-                <div class="bg-[#F0D02C] px-0 py-2.5 border-b-[#777] border-b border-solid hidden md:block">
+                <div class="bg-[#F0D02C] px-0 py-1.5 border-b-[#777] border-b border-solid hidden md:block">
                   <div class="flex justify-between items-center container">
                     <Alert alerts={alerts} />
 

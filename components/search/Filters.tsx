@@ -71,10 +71,23 @@ function Filters({ filters }: Props) {
       {filters
         .filter(isToggle)
         .map((filter) => (
-          <li class="flex flex-col gap-4">
-            <span>{filter.label}</span>
-            <FilterValues {...filter} />
-          </li>
+          <>
+            {filter.label != "Departments" && filter.label != "PriceRanges" && (
+              <li class="flex flex-col gap-4">
+                {filter.label == "Categories" && (
+                  <span>Categorias</span>
+                )}
+                {filter.label == "Brands" && (
+                  <span>Marcas</span>
+                )}
+                {filter.label != "Brands" && filter.label != "Categories" && (
+                  <span>{filter.label}</span>
+                )}
+                
+                <FilterValues {...filter} />
+              </li>
+              ) }  
+          </>
         ))}
     </ul>
   );
