@@ -17,7 +17,7 @@ export interface Props {
 export default function LojasCarousel({ lojas, title }: Props) {
   const id = useId();
   return (
-    <div class="container py-10 border-y-[#cccbc6] border-t border-solid border-b">
+    <div class="container py-10 border-y-[#cccbc6] border-t border-solid border-b px-3 md:px-0">
       <h2
         class="text-[30px] leading-[36px] font-bold text-center pb-[30px]"
         dangerouslySetInnerHTML={{ __html: title }}

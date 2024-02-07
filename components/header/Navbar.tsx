@@ -33,37 +33,42 @@ function Navbar(
   return (
     <>
       {/* Mobile Version */}
-      <div
-        style={{ height: navbarHeight }}
-        class="bg-white lg:hidden grid grid-cols-3 justify-between items-center border-b border-base-200 w-full px-6 pb-6 gap-2"
-      >
-        <MenuButton />
-        {logo && (
-          <a
-            href="/"
-            class="flex-grow inline-flex items-center justify-center"
-            style={{ minHeight: navbarHeight }}
-            aria-label="Store logo"
-          >
-            <Image
-              src={logo.src}
-              alt={logo.alt}
-              width={logo.width || 100}
-              height={logo.height || 13}
-            />
-          </a>
-        )}
+      <>
+        <div
+          style={{ height: navbarHeight }}
+          class="bg-white lg:hidden grid grid-cols-3 justify-between items-center border-b border-base-200 w-full px-6 pb-6 gap-2"
+        >
+          <MenuButton />
+          {logo && (
+            <a
+              href="/"
+              class="flex-grow inline-flex items-center justify-center"
+              style={{ minHeight: navbarHeight }}
+              aria-label="Store logo"
+            >
+              <Image
+                src={logo.src}
+                alt={logo.alt}
+                width={logo.width || 100}
+                height={logo.height || 13}
+              />
+            </a>
+          )}
 
-        <div class="flex justify-end gap-1">
-          <SearchButton />
-          {platform === "vtex" && <CartButtonVTEX />}
-          {platform === "vnda" && <CartButtonVDNA />}
-          {platform === "wake" && <CartButtonWake />}
-          {platform === "linx" && <CartButtonLinx />}
-          {platform === "shopify" && <CartButtonShopify />}
-          {platform === "nuvemshop" && <CartButtonNuvemshop />}
+          <div class="flex justify-end gap-1">
+            {/* <SearchButton /> */}
+            {platform === "vtex" && <CartButtonVTEX />}
+            {platform === "vnda" && <CartButtonVDNA />}
+            {platform === "wake" && <CartButtonWake />}
+            {platform === "linx" && <CartButtonLinx />}
+            {platform === "shopify" && <CartButtonShopify />}
+            {platform === "nuvemshop" && <CartButtonNuvemshop />}
+          </div>
         </div>
-      </div>
+        <div class="px-2 lg:hidden flex w-full">
+          <Searchbar  searchbar={searchbar} />
+        </div>
+      </>
 
       {/* Desktop Version */}
       <div

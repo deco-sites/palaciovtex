@@ -114,15 +114,15 @@ function Header({
   return (
     <>
       <header
-        class="bg-white md:h-auto"
-        style={{ height: headerHeight }}
+        class={`bg-white h-[140px] md:h-[${headerHeight}]`}
+        // style={{ height: headerHeight }}
       >
         <Drawers
           menu={{ items }}
           searchbar={searchbar}
           platform={platform}
         >
-          <div class="bg-white fixed w-full z-50">
+          <div class="bg-white fixed w-full z-50 md:pb-0 pb-2">
             {alerts && alerts.length > 0 &&
               (
                 <div class="bg-[#F0D02C] px-0 py-2.5 border-b-[#777] border-b border-solid hidden md:block">

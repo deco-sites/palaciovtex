@@ -67,12 +67,12 @@ export default function CategoriesGallery({ categories }: Props) {
         <>
           <div class="relative block z-10 col-start-1 row-start-3">
             <Slider.PrevButton class="absolute w-12 h-12 flex justify-center items-center">
-              <Icon size={24} id="ChevronLeft" strokeWidth={3} class="w-5" />
+              <Icon size={24} id="ChevronLeftCustom" strokeWidth={3} class="w-5 rotate-180" />
             </Slider.PrevButton>
           </div>
           <div class="relative block z-10 col-start-3 row-start-3">
             <Slider.NextButton class="absolute w-12 h-12 flex justify-center items-center">
-              <Icon size={24} id="ChevronRight" strokeWidth={3} />
+              <Icon size={24} id="ChevronRightCustom" strokeWidth={3} />
             </Slider.NextButton>
           </div>
         </>
