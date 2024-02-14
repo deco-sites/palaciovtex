@@ -5,6 +5,10 @@ import SliderJS from "$store/islands/SliderJS.tsx";
 import { useId } from "$store/sdk/useId.ts";
 import { ProductDetailsPage } from "apps/commerce/types.ts";
 import Image from "apps/website/components/Image.tsx";
+import Modal from "$store/components/ui/Modal.tsx";
+import Button from "$store/components/ui/Button.tsx";
+import { useSignal } from "@preact/signals";
+import ProductYoutube from "$store/islands/ProductYoutube.tsx";
 
 export interface Props {
   /** @title Integration */
@@ -30,32 +34,49 @@ export default function GallerySlider(props: Props) {
   }
 
   const {
-    page: { product: { image: images = [] } },
+    page: {
+      product: {
+        image: images = [],
+        isVariantOf
+      }
+    },
     layout: { width, height },
   } = props;
   const aspectRatio = `${width} / ${height}`;
+
+  const specifications = isVariantOf?.additionalProperty.find((specification) => {
+    return specification.name == "Vídeo"
+  });
 
   return (
     <div id={id} class="grid grid-flow-row sm:grid-flow-col">
       {/* Image Slider */}
       <div class="relative order-1 sm:order-2">
+        <div class="absolute top-2 left-2 bg-base-100 rounded-full">
+          {specifications && specifications.value && (
+            <ProductYoutube video={specifications.value.replace('560', '100%').replace('315', '550')} />    
+          )}
+        </div>
         <Slider class="carousel carousel-center gap-6 w-screen sm:w-[40vw]">
           {images.map((img, index) => (
             <Slider.Item
               index={index}
               class="carousel-item w-full"
             >
-              <Image
-                class="w-full"
-                sizes="(max-width: 640px) 100vw, 40vw"
-                src={img.url!}
-                alt={img.alternateName}
-                width={1000}
-                height={1000}
-                // Preload LCP image for better web vitals
-                preload={index === 0}
-                loading={index === 0 ? "eager" : "lazy"}
-              />
+              {/* <figure  style={{backgroundImage: `url(https://${img.url?.split("/")[2]}/${img.url?.split("/")[3]}/${img.url?.split("/")[4]}/${img.url?.split("/")[5]}-1000-1000/${img.url?.split("/")[6]})` }}> */}
+                <Image
+                  class="w-full"
+                  sizes="(max-width: 640px) 100vw, 40vw"
+                  src={`https://${img.url?.split("/")[2]}/${img.url?.split("/")[3]}/${img.url?.split("/")[4]}/${img.url?.split("/")[5]}-1000-1000/${img.url?.split("/")[6]}`}
+                  alt={img.alternateName}
+                  width={1000}
+                  height={1000}
+                  // Preload LCP image for better web vitals
+                  preload={index === 0}
+                  loading={index === 0 ? "eager" : "lazy"}
+                />
+              {/* </figure> */}
+              
             </Slider.Item>
           ))}
         </Slider>

@@ -17,6 +17,7 @@ import { usePlatform } from "$store/sdk/usePlatform.tsx";
 import { ProductDetailsPage } from "apps/commerce/types.ts";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
 import ProductSelector from "./ProductVariantSelector.tsx";
+import Image from "apps/website/components/Image.tsx";
 
 interface Props {
   page: ProductDetailsPage | null;
@@ -48,7 +49,7 @@ function ProductInfo({ page, layout }: Props) {
     additionalProperty = [],
   } = product;
   const description = product.description || isVariantOf?.description;
-  const specifications = product.isVariantOf?.additionalProperty;
+  const RefId = product.additionalProperty?.find(refId => refId.name == "RefId");
   const {
     price = 0,
     listPrice,
@@ -69,15 +70,14 @@ function ProductInfo({ page, layout }: Props) {
     price,
     listPrice,
   });
+  console.log(product.brand)
 
   return (
     <div class="flex flex-col" id={id}>
       <Breadcrumb itemListElement={breadcrumb.itemListElement} />
       {/* Code and name */}
       <div class="mt-4 sm:mt-8">
-        <div>
-          {gtin && <span class="text-sm text-black">Cod. {gtin}</span>}
-        </div>
+        
         <h1>
           <span class="font-medium text-xl capitalize">
             {layout?.name === "concat"
@@ -87,6 +87,26 @@ function ProductInfo({ page, layout }: Props) {
               : isVariantOf?.name}
           </span>
         </h1>
+        <div>
+          {RefId && <span class="text-sm text-black">Cod. {RefId.value}</span>}
+        </div>
+        {product.brand && (
+            <span class="block mb-[10px] overflow-hidden">
+              {product.brand.logo && (
+                <a href={`/${product.brand.name}`} alt={product.brand.name} >
+                  <Image
+                    src={product.brand.logo}
+                    alt={product.brand.name}
+                    id={product.brand["@id"]}
+                    loading={"lazy"}
+                    width={80}
+                    height={35}
+                    decoding="async"
+                  />
+                </a>
+              )}
+            </span>
+          )}
       </div>
       {/* Prices */}
       <div class="mt-4">
@@ -184,7 +204,7 @@ function ProductInfo({ page, layout }: Props) {
         )}
       </div>
       {/* Description card */}
-      <div class="mt-4 sm:mt-6">
+      {/* <div class="mt-4 sm:mt-6">
         <span class="text-sm">
           {description && (
             <details>
@@ -196,7 +216,7 @@ function ProductInfo({ page, layout }: Props) {
             </details>
           )}
         </span>
-      </div>
+      </div> */}
       {/* Analytics Event */}
       <SendEventOnView
         id={id}

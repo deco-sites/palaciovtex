@@ -17,7 +17,9 @@ export default function ProductDescription({ page }: Props) {
   const { product } = page;
 
   const specifications = product.isVariantOf?.additionalProperty;
+  // const compreJunto = specifications.find(specification => specification.name == "Compre Junto - produtos")?.value.split("\r\n")
 
+  // console.log(compreJunto)
   return (
     <>
       {specifications && (
@@ -26,22 +28,26 @@ export default function ProductDescription({ page }: Props) {
             <tbody>
               {specifications.map((specification, index) => {
                 return (
-                  <tr class={`${index % 2 == 0 ? "bg-[#F2F1EB]" : ""}`}>
-                    <th class="py-2 px-5 align-top w-[30%] text-[16px] leading-6 text-black name-field Caracteristicas-Tecnicas">
-                      {specification.name}
-                    </th>
-                    <td class="py-2 px-5 text-[14px] w-[70%] value-field Caracteristicas-Tecnicas">
-                      {specification.value &&
-                        specification.value.split("\r\n").map((item) => {
-                          return (
-                            <>
-                              {item}
-                              <br />
-                            </>
-                          );
-                        })}
-                    </td>
-                  </tr>
+                  <>
+                    {specification.name != "Vídeo" && specification.name != "Compre Junto - produtos" && (
+                      <tr class={`${index % 2 == 0 ? "bg-[#F2F1EB]" : ""}`}>
+                      <th class="py-2 px-5 align-top w-[30%] text-[16px] leading-6 text-black name-field Caracteristicas-Tecnicas">
+                        {specification.name }
+                      </th>
+                      <td class="py-2 px-5 text-[14px] w-[70%] value-field Caracteristicas-Tecnicas">
+                        {specification.value &&
+                          specification.value.split("\r\n").map((item) => {
+                            return (
+                              <>
+                                {item}
+                                <br />
+                              </>
+                            );
+                          })}
+                      </td>
+                    </tr>
+                    )}
+                  </>
                 );
               })}
             </tbody>

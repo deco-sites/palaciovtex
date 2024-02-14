@@ -41,7 +41,9 @@ function Sort({ sortOptions }: Props) {
 
   return (
     <div>
-      <span class="inline-block uppercase pt-[15px] pr-[10px] pb-[15px] pl-0 text-[12px]">Ordernar Por:</span>
+      <span class="inline-block uppercase pt-[15px] pr-[10px] pb-[15px] pl-0 text-[12px]">
+        Ordernar Por:
+      </span>
       <select
         id="sort"
         name="sort"
