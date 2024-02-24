@@ -11,16 +11,16 @@ export interface Props {
 
 // deno-lint-ignore no-explicit-any
 const handleZipCode = (event: any) => {
-  const input = event.target
-  input.value = zipCodeMask(input.value)
-}
+  const input = event.target;
+  input.value = zipCodeMask(input.value);
+};
 
 const zipCodeMask = (value: string) => {
-  if (!value) return ""
-  value = value.replace(/\D/g,'')
-  value = value.replace(/(\d{5})(\d)/,'$1-$2')
-  return value
-}
+  if (!value) return "";
+  value = value.replace(/\D/g, "");
+  value = value.replace(/(\d{5})(\d)/, "$1-$2");
+  return value;
+};
 
 const formatShippingEstimate = (estimate: string) => {
   const [, time, type] = estimate.split(/(\d+)/);
@@ -147,12 +147,12 @@ function ShippingSimulation({ items }: Props) {
           class="input input-bordered join-item"
           placeholder="Seu cep aqui"
           value={postalCode.value}
-          maxLength={9} 
+          maxLength={9}
           size={9}
-          onKeyUp={event => handleZipCode(event)}
-          onChange={
-            (e: { currentTarget: { value: string } }) => {postalCode.value = e.currentTarget.value;}
-          }
+          onKeyUp={(event) => handleZipCode(event)}
+          onChange={(e: { currentTarget: { value: string } }) => {
+            postalCode.value = e.currentTarget.value;
+          }}
         />
         <Button type="submit" loading={loading.value} class="join-item">
           Calcular

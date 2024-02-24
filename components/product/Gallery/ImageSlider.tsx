@@ -37,16 +37,18 @@ export default function GallerySlider(props: Props) {
     page: {
       product: {
         image: images = [],
-        isVariantOf
-      }
+        isVariantOf,
+      },
     },
     layout: { width, height },
   } = props;
   const aspectRatio = `${width} / ${height}`;
 
-  const specifications = isVariantOf?.additionalProperty.find((specification) => {
-    return specification.name == "Vídeo"
-  });
+  const specifications = isVariantOf?.additionalProperty.find(
+    (specification) => {
+      return specification.name == "Vídeo";
+    },
+  );
 
   return (
     <div id={id} class="grid grid-flow-row sm:grid-flow-col">
@@ -54,7 +56,12 @@ export default function GallerySlider(props: Props) {
       <div class="relative order-1 sm:order-2">
         <div class="absolute top-2 left-2 bg-base-100 rounded-full">
           {specifications && specifications.value && (
-            <ProductYoutube video={specifications.value.replace('560', '100%').replace('315', '550')} />    
+            <ProductYoutube
+              video={specifications.value.replace("560", "100%").replace(
+                "315",
+                "550",
+              )}
+            />
           )}
         </div>
         <Slider class="carousel carousel-center gap-6 w-screen sm:w-[40vw]">
@@ -64,19 +71,22 @@ export default function GallerySlider(props: Props) {
               class="carousel-item w-full"
             >
               {/* <figure  style={{backgroundImage: `url(https://${img.url?.split("/")[2]}/${img.url?.split("/")[3]}/${img.url?.split("/")[4]}/${img.url?.split("/")[5]}-1000-1000/${img.url?.split("/")[6]})` }}> */}
-                <Image
-                  class="w-full"
-                  sizes="(max-width: 640px) 100vw, 40vw"
-                  src={`https://${img.url?.split("/")[2]}/${img.url?.split("/")[3]}/${img.url?.split("/")[4]}/${img.url?.split("/")[5]}-1000-1000/${img.url?.split("/")[6]}`}
-                  alt={img.alternateName}
-                  width={1000}
-                  height={1000}
-                  // Preload LCP image for better web vitals
-                  preload={index === 0}
-                  loading={index === 0 ? "eager" : "lazy"}
-                />
+              <Image
+                class="w-full"
+                sizes="(max-width: 640px) 100vw, 40vw"
+                src={`https://${img.url?.split("/")[2]}/${
+                  img.url?.split("/")[3]
+                }/${img.url?.split("/")[4]}/${
+                  img.url?.split("/")[5]
+                }-1000-1000/${img.url?.split("/")[6]}`}
+                alt={img.alternateName}
+                width={1000}
+                height={1000}
+                // Preload LCP image for better web vitals
+                preload={index === 0}
+                loading={index === 0 ? "eager" : "lazy"}
+              />
               {/* </figure> */}
-              
             </Slider.Item>
           ))}
         </Slider>
@@ -110,10 +120,9 @@ export default function GallerySlider(props: Props) {
           <li class="carousel-item min-w-[63px] sm:min-w-[100px]">
             <Slider.Dot index={index}>
               <Image
-                style={{ aspectRatio }}
                 class="group-disabled:border-base-300 border rounded "
-                width={63}
-                height={87.5}
+                width={90}
+                height={90}
                 src={img.url!}
                 alt={img.alternateName}
               />

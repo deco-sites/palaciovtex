@@ -51,16 +51,14 @@ function NavItem({ item, colors, index }: {
                 <div class="banners-submenu">
                   <div>
                     <div class="box-banner">
-                      <a>
-                        <img
-                          class="inline-block align-top h-auto max-w-full"
-                          width={100}
-                          height={300}
-                          alt={"banner"}
-                          src={item?.image && item?.image[0]?.url}
-                          loading={"lazy"}
-                        />
-                      </a>
+                      <Image
+                        class="inline-block align-top h-auto max-w-full"
+                        width={100}
+                        height={300}
+                        alt={"banner"}
+                        src={item?.image[0]?.url ?? ""}
+                        loading={"lazy"}
+                      />
                     </div>
                   </div>
                 </div>

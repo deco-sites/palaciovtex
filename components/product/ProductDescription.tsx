@@ -1,12 +1,17 @@
 import { ProductDetailsPage } from "apps/commerce/types.ts";
 import { useId } from "$store/sdk/useId.ts";
 import { usePlatform } from "$store/sdk/usePlatform.tsx";
+import { Section } from "deco/blocks/section.ts";
+import Image from "apps/website/components/Image.tsx";
 
-interface Props {
+export interface Props {
   page: ProductDetailsPage | null;
+  extraSection: Section;
 }
 
-export default function ProductDescription({ page }: Props) {
+export default function ProductDescription(
+  { page, extraSection: { Component, props } }: Props,
+) {
   const platform = usePlatform();
   const id = useId();
 
@@ -17,35 +22,74 @@ export default function ProductDescription({ page }: Props) {
   const { product } = page;
 
   const specifications = product.isVariantOf?.additionalProperty;
-  // const compreJunto = specifications.find(specification => specification.name == "Compre Junto - produtos")?.value.split("\r\n")
+  const description = product.description;
 
-  // console.log(compreJunto)
+  // console.log(product)
+
   return (
     <>
+      {description && (
+        <div class="container">
+          <div class="mb-5">
+            <h4 class="mb-5 text-3xl leading-9 text-black font-bold uppercase">
+              DESCRIÇÃO
+            </h4>
+          </div>
+          <div
+            class="w-full max-w-full"
+            dangerouslySetInnerHTML={{ __html: description }}
+          >
+          </div>
+        </div>
+      )}
+
+      <Component principal={product} {...props} />
+
       {specifications && (
         <div class="container">
+          <div class="mb-5">
+            <h4 class="mb-5 text-3xl leading-9 text-black font-bold uppercase">
+              ESPECIFICAÇÕES TÉCNICAS
+            </h4>
+          </div>
           <table class="w-full">
             <tbody>
               {specifications.map((specification, index) => {
                 return (
                   <>
-                    {specification.name != "Vídeo" && specification.name != "Compre Junto - produtos" && (
+                    {specification.name != "Vídeo" &&
+                      specification.name != "Compre Junto - produtos" && (
                       <tr class={`${index % 2 == 0 ? "bg-[#F2F1EB]" : ""}`}>
-                      <th class="py-2 px-5 align-top w-[30%] text-[16px] leading-6 text-black name-field Caracteristicas-Tecnicas">
-                        {specification.name }
-                      </th>
-                      <td class="py-2 px-5 text-[14px] w-[70%] value-field Caracteristicas-Tecnicas">
-                        {specification.value &&
-                          specification.value.split("\r\n").map((item) => {
-                            return (
-                              <>
-                                {item}
-                                <br />
-                              </>
-                            );
-                          })}
-                      </td>
-                    </tr>
+                        <th class="py-2 px-5 align-top w-[30%] text-[16px] leading-6 text-black name-field Caracteristicas-Tecnicas">
+                          {specification.name}
+                        </th>
+                        <td class="py-2 px-5 text-[14px] w-[70%] value-field Caracteristicas-Tecnicas">
+                          {specification.value &&
+                            specification.value.split("\r\n").map((item) => {
+                              return (
+                                <>
+                                  {specification.name == "Manual" && (
+                                    <a
+                                      class="flex items-center justify-between w-36 h-10 rounded bg-black text-white text-xs font-medium px-[15px] py-0"
+                                      target="_blank"
+                                      href={item}
+                                    >
+                                      <Image
+                                        width={17}
+                                        height={17}
+                                        src="https://palaciodasferramentas.vteximg.com.br/arquivos/download.png"
+                                        loading={"lazy"}
+                                      />
+                                      Baixar Manual
+                                    </a>
+                                  )}
+                                  {specification.name != "Manual" && item}
+                                  <br />
+                                </>
+                              );
+                            })}
+                        </td>
+                      </tr>
                     )}
                   </>
                 );

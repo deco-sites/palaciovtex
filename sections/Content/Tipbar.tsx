@@ -34,7 +34,6 @@ export default function Tipbar({ items }: Props) {
                             width={60}
                             height={41}
                             loading={"lazy"}
-                            style=""
                           />
                         )}
                     </div>

@@ -90,6 +90,7 @@ const Testimonal = ({ image, text, user }: Testimonial) => (
         alt={image?.alt}
         width={100}
         height={100}
+        loading={"lazy"}
       />
     )}
     <h3 class="text-xl lg:text-2xl">
@@ -103,6 +104,7 @@ const Testimonal = ({ image, text, user }: Testimonial) => (
           width={60}
           height={60}
           class="rounded-full"
+          loading={"lazy"}
         />
       )}
       <div class="flex flex-col">

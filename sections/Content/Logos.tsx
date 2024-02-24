@@ -66,6 +66,7 @@ function Logos(props: Props) {
                 src={element.image}
                 alt={element.altText || ""}
                 class="max-w-full max-h-full"
+                loading={"lazy"}
               />
             </div>
           </div>

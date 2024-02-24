@@ -1,5 +1,7 @@
 import Icon from "$store/components/ui/Icon.tsx";
 import Newsletter from "$store/components/footer/Newsletter.tsx";
+import Image from "apps/website/components/Image.tsx";
+import { asset } from "$fresh/runtime.ts";
 
 export interface NewsletterForm {
   placeholder?: string;
@@ -407,22 +409,24 @@ export default function Rodape(
                     <ul class="flex md:flex-wrap items-center justify-center">
                       <li class="my-0 mx-[10px]">
                         <a href="https://secure.vtex.com/?an=palaciodasferramentas">
-                          <img
+                          <Image
                             class="inline-block align-top max-w-full h-auto"
                             src="https://palaciodasferramentas.vteximg.com.br/arquivos/vtex-pci.png"
-                            width="92"
-                            height="58"
+                            width={92}
+                            height={58}
+                            loading={"lazy"}
                             alt="Logo VTEX PCI"
                           />
                         </a>
                       </li>
                       <li class="my-0 mx-[10px]">
                         <a href="https://encurtador.com.br/aswPU">
-                          <img
+                          <Image
                             class="inline-block align-top max-w-full h-auto"
                             src="https://palaciodasferramentas.vteximg.com.br/arquivos/googleavalia.png"
-                            width="108"
-                            height="71"
+                            width={108}
+                            height={71}
+                            loading={"lazy"}
                             alt="Google Avaliação"
                           />
                         </a>
@@ -435,17 +439,22 @@ export default function Rodape(
                           title="Avaliado pelos consumidores"
                           style="display: block; overflow: hidden; position: relative;"
                         >
-                          <img
+                          <Image
                             class="inline-block align-top max-w-full h-auto"
                             src="https://newimgebit-a.akamaihd.net/ebitBR/selo/img_112991.png"
+                            width={70}
+                            height={95}
+                            loading={"lazy"}
                           />
                         </a>
-                        <script
+                        {
+                          /* <script
                           type="text/javascript"
                           id="getSelo"
                           src="https://imgs.ebit.com.br/ebitBR/selo-ebit/js/getSelo.js?112991"
                         >
-                        </script>
+                        </script> */
+                        }
                       </li>
 
                       <li class="my-0 mx-[10px]">
@@ -454,17 +463,22 @@ export default function Rodape(
                           href="https://confi.com.vc/lojas-confiaveis/detalhes?id=2000957"
                           target="_blank"
                         >
-                          <img
+                          <Image
                             class="inline-block align-top max-w-full h-auto"
                             src="https://cdn.confi.com.vc/reputation/2000957.png"
+                            width={95}
+                            height={95}
+                            loading={"lazy"}
                           />
                         </a>
-                        <script
+                        {
+                          /* <script
                           type="text/javascript"
                           id="getData"
                           src="https://cdn.confi.com.vc/scripts/getData.js?sellerId=2000957"
                         >
-                        </script>
+                        </script> */
+                        }
                       </li>
                     </ul>
                   </div>
@@ -564,9 +578,9 @@ export default function Rodape(
                         <img
                           class="inline-block align-top max-w-full h-auto"
                           src="/image/logo-sword.png"
-                          width="140"
-                          height="140"
-                          alt="img"
+                          width={140}
+                          height={140}
+                          loading={"lazy"}
                         />
                       </a>
                     </div>
@@ -585,18 +599,18 @@ export default function Rodape(
                         <img
                           class="inline-block align-top max-w-full h-auto"
                           src="https://palaciodasferramentas.vteximg.com.br/arquivos/logo-vtex.svg"
-                          width="60"
-                          height="22"
-                          alt="img"
+                          width={60}
+                          height={22}
+                          loading={"lazy"}
                         />
                       </a>
                       <a class="ml-3" href="https://deco.cx">
                         <img
                           class="inline-block max-w-[70px] align-top h-auto"
-                          src="/image/logo-deco.png"
-                          width="180"
-                          height="40"
-                          alt="img"
+                          src={"/image/logo-deco.png"}
+                          width={180}
+                          height={40}
+                          loading={"lazy"}
                         />
                       </a>
                     </div>

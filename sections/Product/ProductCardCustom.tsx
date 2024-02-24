@@ -15,6 +15,7 @@ import { useId } from "$store/sdk/useId.ts";
 
 import Slider from "$store/components/ui/Slider.tsx";
 import SliderJS from "$store/islands/SliderJS.tsx";
+import AddToCartButtonVTEX from "$store/islands/AddToCartButton/vtex.tsx";
 
 export interface Layout {
   basics?: {
@@ -39,6 +40,7 @@ interface Props {
   // /** @description index of the product card in the list */
   // index?: number;
 
+  addWithoutPLP?: boolean;
   layout?: Layout;
   // platform?: Platform;
 }
@@ -52,7 +54,9 @@ const calculate = (item: number, item2: number) => {
   }
 };
 
-export default function ProductCardCustom({ title, layout, products }: Props) {
+export default function ProductCardCustom(
+  { title, layout, products, addWithoutPLP }: Props,
+) {
   const id = useId();
   // console.log(products);
 
@@ -76,6 +80,13 @@ export default function ProductCardCustom({ title, layout, products }: Props) {
             const { listPrice, price, installments, pixPrice } = useOffer(
               product.offers,
             );
+
+            const eventItem = mapProductToAnalyticsItem({
+              product,
+              price,
+              listPrice,
+            });
+
             return (
               <Slider.Item
                 index={index}
@@ -234,14 +245,23 @@ export default function ProductCardCustom({ title, layout, products }: Props) {
 
                     <div class="group-hover/content:visible group-hover/content:opacity-100 inline-block invisible opacity-0 w-full pb-[5px] transition-all mt-[15px]">
                       <div class="shelf__default--buy-wrapper">
-                        <a
-                          href={product.url}
-                          class="rounded-[5px] font-medium text-xs flex justify-center items-center h-[40px] text-center uppercase outline-none transition-all hover:bg-black hover:text-white hover:border-black bg-[#F0D02C] border text-black border-solid border-[#F0D02C]"
-                        >
-                          {layout?.basics?.ctaText
-                            ? layout.basics.ctaText
-                            : "adicionar ao carrinho"}
-                        </a>
+                        {addWithoutPLP == true && (
+                          <AddToCartButtonVTEX
+                            eventParams={{ items: [eventItem] }}
+                            productID={product.productID}
+                            seller={"1"}
+                          />
+                        )}
+                        {addWithoutPLP == false && (
+                          <a
+                            href={product.url}
+                            class="rounded-[5px] font-medium text-xs flex justify-center items-center h-[40px] text-center uppercase outline-none transition-all hover:bg-black hover:text-white hover:border-black bg-[#F0D02C] border text-black border-solid border-[#F0D02C]"
+                          >
+                            {layout?.basics?.ctaText
+                              ? layout.basics.ctaText
+                              : "adicionar ao carrinho"}
+                          </a>
+                        )}
                       </div>
                     </div>
                   </div>

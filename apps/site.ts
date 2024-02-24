@@ -1,12 +1,12 @@
 import commerce, { Props as CommerceProps } from "apps/commerce/mod.ts";
 import { color as shopify } from "apps/shopify/mod.ts";
 import { color as vnda } from "apps/vnda/mod.ts";
-import { color as vtex } from "apps/vtex/mod.ts";
+import vtexApp, { color as vtex } from "apps/vtex/mod.ts";
 import { color as wake } from "apps/wake/mod.ts";
 import { color as linx } from "apps/linx/mod.ts";
 import { color as nuvemshop } from "apps/nuvemshop/mod.ts";
 import { Section } from "deco/blocks/section.ts";
-import { App } from "deco/mod.ts";
+import { App, AppContext as AC } from "deco/mod.ts";
 import { rgb24 } from "std/fmt/colors.ts";
 import manifest, { Manifest } from "../manifest.gen.ts";
 
@@ -82,3 +82,5 @@ export default function Site(
 }
 
 export { onBeforeResolveProps } from "apps/website/mod.ts";
+
+export type AppContext = AC<App & Pick<ReturnType<typeof vtexApp>, "manifest">>;
