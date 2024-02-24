@@ -227,7 +227,7 @@ function BuyTogether({
         <h2 class="text-xl lg:text-[28px] text-black font-bold mb-8">
           Compre junto
         </h2>
-        <div class="flex flex-row items-center">
+        <div class="flex flex-col md:flex-row items-center">
           {skuList?.map((sku: SkuListType, index) => (
             <>
               <div

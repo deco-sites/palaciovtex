@@ -41,7 +41,7 @@ export default function AddToCartButton(props: Props) {
   const btnProps = useAddToCart(props);
 
   return (
-    <Button {...btnProps} class="btn-primary">
+    <Button {...btnProps} class="btn no-animation rounded-[5px] font-medium text-xs flex justify-center items-center text-center uppercase outline-none transition-all hover:bg-black hover:text-white hover:border-black bg-[#F0D02C] border text-black border-solid border-[#F0D02C] h-[55px]">
       Adicionar à Sacola
     </Button>
   );
