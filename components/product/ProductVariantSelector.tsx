@@ -12,6 +12,8 @@ function VariantSelector({ product }: Props) {
   const hasVariant = isVariantOf?.hasVariant ?? [];
   const possibilities = useVariantPossibilities(hasVariant, product);
 
+  console.log(product)
+
   return (
     <ul class="flex flex-col gap-4">
       {Object.keys(possibilities).map((name) => (

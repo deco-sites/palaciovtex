@@ -27,16 +27,16 @@ interface Props {
 }
 
 const variants = {
-  active: "text-base-content ring-1 ring-black rounded-full",
-  disabled: "line-through text-neutral-content",
-  default: "text-base-content bg-base-100",
+  active: "bg-[#F0D02C] border text-black border-solid !border-[#F0D02C] !rounded-[5px]",
+  disabled: "text-[#cccbc6] border-[#cccbc6] bg-white !rounded-[5px]",
+  default: "border text-black border-solid !border-black !rounded-[5px]",
 };
 
 function Avatar({ content, variant = "default" }: Props) {
   return (
-    <div class="avatar placeholder text-sm font-light h-6">
+    <div class="avatar-custom">
       <div
-        class={`${colors[content] ?? colors[variant]} ${variants[variant]}`}
+        class={`py-3 px-9 btn hover:bg-black hover:text-white uppercase otline-none transition-all text-black h-[40px] ${colors[content] ?? colors[variant]} ${variants[variant]} `}
       >
         <span class="uppercase ">
           {colors[content] ? "" : content}

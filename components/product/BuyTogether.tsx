@@ -231,7 +231,7 @@ function BuyTogether({
           {skuList?.map((sku: SkuListType, index) => (
             <>
               <div
-                class="h-[152px] md:h-full w-96 bg-white py-7 px-6 rounded-lg border-2 border-[#E4E4E4]"
+                class="min-h-[152px] md:h-full w-96 bg-white py-7 px-6 rounded-lg border-2 border-[#E4E4E4]"
                 key={sku.id}
               >
                 <div class="flex flex-col">

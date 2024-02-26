@@ -138,11 +138,11 @@ function ProductInfo({ page, layout }: Props) {
                     productID={productID}
                     seller={seller}
                   />
-                  <WishlistButtonVtex
+                  {/* <WishlistButtonVtex
                     variant="full"
                     productID={productID}
                     productGroupID={productGroupID}
-                  />
+                  /> */}
                 </>
               )}
               {platform === "wake" && (

@@ -26,6 +26,7 @@ export interface Props {
  * On mobile, there's one single column with 3 rows. Note that the orders are different from desktop to mobile, that's why
  * we rearrange each cell with col-start- directives
  */
+
 export default function GallerySlider(props: Props) {
   const id = useId();
 
@@ -74,11 +75,9 @@ export default function GallerySlider(props: Props) {
               <Image
                 class="w-full"
                 sizes="(max-width: 640px) 100vw, 40vw"
-                src={`https://${img.url?.split("/")[2]}/${
-                  img.url?.split("/")[3]
-                }/${img.url?.split("/")[4]}/${
-                  img.url?.split("/")[5]
-                }-1000-1000/${img.url?.split("/")[6]}`}
+                src={`https://${img.url?.split("/")[2]}/${img.url?.split("/")[3]
+                  }/${img.url?.split("/")[4]}/${img.url?.split("/")[5]
+                  }-1000-1000/${img.url?.split("/")[6]}`}
                 alt={img.alternateName}
                 width={1000}
                 height={1000}
@@ -115,21 +114,23 @@ export default function GallerySlider(props: Props) {
       </div>
 
       {/* Dots */}
-      <ul class="carousel carousel-center gap-1 px-4 sm:px-0 sm:flex-col order-2 sm:order-1">
-        {images.map((img, index) => (
-          <li class="carousel-item min-w-[63px] sm:min-w-[100px]">
-            <Slider.Dot index={index}>
+      <Slider.Dots class="carousel max-h-[600px] overflow-hidden max-w-full carousel-center gap-1 px-4 sm:px-0 sm:flex-col order-2 sm:order-1">
+        {images &&
+          images.map((img, index) => (
+            <Slider.Dot
+              class="w-full h-1/5 carousel-item justify-center"
+              index={index}
+            >
               <Image
-                class="group-disabled:border-base-300 border rounded "
-                width={90}
-                height={90}
+                class="group-disabled:border-[#164195] border-2 border-solid border-[#E9E9E9] rounded-[22px] "
+                width={125}
+                height={108}
                 src={img.url!}
                 alt={img.alternateName}
               />
             </Slider.Dot>
-          </li>
-        ))}
-      </ul>
+          ))}
+      </Slider.Dots>
 
       <SliderJS rootId={id} />
     </div>
