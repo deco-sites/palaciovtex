@@ -157,8 +157,8 @@ import AddToCartBuyTogether from "deco-sites/palaciovtex/islands/AddToCartBuyTog
 import Image from "apps/website/components/Image.tsx";
 
 export interface Props {
-  products: Product[] | null;
-  principal: Product | null;
+  products?: Product[] | null;
+  principal?: Product | null;
 }
 
 export type SkuListType = {

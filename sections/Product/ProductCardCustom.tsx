@@ -1,15 +1,13 @@
-import type { Platform } from "$store/apps/site.ts";
-import { SendEventOnClick } from "$store/components/Analytics.tsx";
-import Avatar from "$store/components/ui/Avatar.tsx";
+// import { SendEventOnClick } from "$store/components/Analytics.tsx";
+// import Avatar from "$store/components/ui/Avatar.tsx";
 import WishlistButtonVtex from "../../islands/WishlistButton/vtex.tsx";
-import WishlistButtonWake from "../../islands/WishlistButton/vtex.tsx";
+// import WishlistButtonWake from "../../islands/WishlistButton/vtex.tsx";
 import { formatPrice } from "$store/sdk/format.ts";
 import { useOffer } from "$store/sdk/useOffer.ts";
-import { useVariantPossibilities } from "$store/sdk/useVariantPossiblities.ts";
+// import { useVariantPossibilities } from "$store/sdk/useVariantPossiblities.ts";
 import type { Product } from "apps/commerce/types.ts";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
 import Image from "apps/website/components/Image.tsx";
-import { relative } from "$store/sdk/url.ts";
 import Icon from "$store/components/ui/Icon.tsx";
 import { useId } from "$store/sdk/useId.ts";
 
@@ -42,7 +40,6 @@ interface Props {
 
   addWithoutPLP?: boolean;
   layout?: Layout;
-  // platform?: Platform;
 }
 
 const calculate = (item: number, item2: number) => {

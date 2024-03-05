@@ -75,9 +75,11 @@ export default function GallerySlider(props: Props) {
               <Image
                 class="w-full"
                 sizes="(max-width: 640px) 100vw, 40vw"
-                src={`https://${img.url?.split("/")[2]}/${img.url?.split("/")[3]
-                  }/${img.url?.split("/")[4]}/${img.url?.split("/")[5]
-                  }-1000-1000/${img.url?.split("/")[6]}`}
+                src={`https://${img.url?.split("/")[2]}/${
+                  img.url?.split("/")[3]
+                }/${img.url?.split("/")[4]}/${
+                  img.url?.split("/")[5]
+                }-1000-1000/${img.url?.split("/")[6]}`}
                 alt={img.alternateName}
                 width={1000}
                 height={1000}

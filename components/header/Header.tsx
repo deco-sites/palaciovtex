@@ -6,11 +6,6 @@ import type { ImageWidget } from "apps/admin/widgets.ts";
 import type { SiteNavigationElement } from "apps/commerce/types.ts";
 import Alert from "./Alert.tsx";
 import Navbar from "./Navbar.tsx";
-import Categories from "$store/sections/Header/Categories.tsx";
-import { headerHeight } from "./constants.ts";
-import VerifyMobile from "deco-sites/palaciovtex/islands/VerifyMobile.tsx";
-
-import { isMobile } from "https://deno.land/x/is_mobile@v1.0.0/mod.ts";
 
 export interface Logo {
   src: ImageWidget;
