@@ -5,16 +5,14 @@ interface Props {
 }
 
 function InstitucionalContent({ sections }: Props) {
-    return (
-      <section class="container">
-        <div>
-          {sections &&
-            sections.map((section) => (
-              <section.Component {...section.props} />
-          ))}
-        </div>
-      </section>
-    );
-  }
-  
+  return (
+    <section class="container">
+      <div>
+        {sections &&
+          sections.map((section) => <section.Component {...section.props} />)}
+      </div>
+    </section>
+  );
+}
+
 export default InstitucionalContent;

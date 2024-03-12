@@ -16,6 +16,7 @@ export type AvailableIcons =
   | "Eletrica"
   | "PixNovo"
   | "arrobaNovo"
+  | "arrowUpNovo"
   | "Discord"
   | "Discount"
   | "Elo"

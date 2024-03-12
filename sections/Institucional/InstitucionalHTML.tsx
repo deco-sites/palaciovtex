@@ -5,11 +5,11 @@ interface Props {
 }
 
 function InstitucionalHTML({ content }: Props) {
-    return (
-      <section class="container">
-        <div class="mb-5" dangerouslySetInnerHTML={{__html: content}}></div>
-      </section>
-    );
-  }
-  
+  return (
+    <section class="container">
+      <div class="mb-5" dangerouslySetInnerHTML={{ __html: content }}></div>
+    </section>
+  );
+}
+
 export default InstitucionalHTML;
