@@ -182,7 +182,7 @@ export default function ProductCardCustom(
                       </div>
 
                       <span
-                        class={`block h-10 text-black text-[17px] leading-5 ${
+                        class={`block h-10 text-black text-[15px] md:text-[17px] leading-5 ${
                           align == "left" ? "text-left" : "text-center"
                         } no-underline overflow-hidden mt-0 mb-2.5 mx-0"`}
                       >

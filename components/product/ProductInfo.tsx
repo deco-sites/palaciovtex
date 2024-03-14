@@ -74,7 +74,7 @@ function ProductInfo({ page, layout }: Props) {
   });
 
   return (
-    <div class="flex flex-col" id={id}>
+    <div class="flex flex-col max-w-[95%] m-auto md:max-w-full" id={id}>
       <Breadcrumb itemListElement={breadcrumb.itemListElement} />
       {/* Code and name */}
       <div class="mt-4 sm:mt-8">

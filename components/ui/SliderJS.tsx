@@ -86,10 +86,11 @@ const setup = ({ rootId, scroll, interval, infinite }: Props) => {
     const top = (item.offsetTop - dotContainer.offsetTop) -
       item.getBoundingClientRect().width;
 
+
     clearTimeout(dotsDebounceTimer);
     dotsDebounceTimer = setTimeout(() => {
       dotContainer.scrollTo({
-        top,
+        top: top,
         left: 0,
         behavior: scroll,
       });

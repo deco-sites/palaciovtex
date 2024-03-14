@@ -372,7 +372,7 @@ function ProductCard({
       <div
         class={`group/content relative ${
           align == "left" ? "text-left" : "text-center"
-        }  p-[10px] rounded-md transition-all`}
+        }  p-0 md:p-[10px] rounded-md transition-all`}
       >
         <a
           class="block outline-0"
@@ -453,7 +453,7 @@ function ProductCard({
           </div>
 
           <span
-            class={`block h-10 text-black text-[17px] leading-5 ${
+            class={`block h-14 md:h-10 text-black text-[15px] md:text-[17px] leading-[14px] md:leading-5 ${
               align == "left" ? "text-left" : "text-center"
             } no-underline overflow-hidden mt-0 mb-2.5 mx-0"`}
           >
@@ -480,7 +480,7 @@ function ProductCard({
             class={`h-[50px] ${align == "left" ? "text-left" : "text-center"}`}
           >
             {listPrice && (
-              <div class="inline-block text-[#A6A5A1] text-base leading-[19px] line-through">
+              <div class="inline-block text-[#A6A5A1] text-xs md:text-base leading-[19px] line-through">
                 <span class="mr-[10px]">
                   {formatPrice(
                     listPrice,
@@ -490,7 +490,7 @@ function ProductCard({
               </div>
             )}
             {price && (
-              <div class="inline-block text-black text-base leading-[19px]">
+              <div class="inline-block text-black text-sm md:text-base leading-[19px]">
                 <span>
                   <strong>
                     {formatPrice(
@@ -502,7 +502,7 @@ function ProductCard({
               </div>
             )}
             {installments && (
-              <div class="block text-[#595956] text-base leading-[19px] mt-2.5">
+              <div class="block text-[#595956] text-xs md:text-base leading-[19px] mt-2.5">
                 ou {installments}
               </div>
             )}

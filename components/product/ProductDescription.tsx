@@ -27,7 +27,7 @@ export default function ProductDescription(
   // console.log(product)
 
   return (
-    <>
+    <section class="max-w-[95%] m-auto md:max-w-full">
       {description && (
         <div class="container">
           <div class="mb-5">
@@ -53,17 +53,17 @@ export default function ProductDescription(
             </h4>
           </div>
           <table class="w-full">
-            <tbody>
+            <tbody class="block">
               {specifications.map((specification, index) => {
                 return (
                   <>
                     {specification.name != "Vídeo" &&
                       specification.name != "Compre Junto - produtos" && (
-                      <tr class={`${index % 2 == 0 ? "bg-[#F2F1EB]" : ""}`}>
-                        <th class="py-2 px-5 align-top w-[30%] text-[16px] leading-6 text-black name-field Caracteristicas-Tecnicas">
+                      <tr class={`flex flex-col md:flex-row ${index % 2 == 0 ? "bg-[#F2F1EB]" : ""}`}>
+                        <th class="py-2 px-5 align-top w-full md:w-[30%] text-[16px] leading-6 text-black name-field Caracteristicas-Tecnicas">
                           {specification.name}
                         </th>
-                        <td class="py-2 px-5 text-[14px] w-[70%] value-field Caracteristicas-Tecnicas">
+                        <td class="py-2 px-5 text-[14px] w-full md:w-[70%] value-field Caracteristicas-Tecnicas">
                           {specification.value &&
                             specification.value.split("\r\n").map((item) => {
                               return (
@@ -98,6 +98,6 @@ export default function ProductDescription(
           </table>
         </div>
       )}
-    </>
+    </section>
   );
 }

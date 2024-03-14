@@ -116,11 +116,11 @@ export default function GallerySlider(props: Props) {
       </div>
 
       {/* Dots */}
-      <Slider.Dots class="carousel max-h-[600px] overflow-hidden max-w-full carousel-center gap-1 px-4 sm:px-0 sm:flex-col order-2 sm:order-1">
+      <Slider.Dots class="hidden md:flex carousel max-h-[600px] overflow-hidden max-w-full carousel-center gap-1 px-4 sm:px-0 sm:flex-col order-2 sm:order-1">
         {images &&
           images.map((img, index) => (
             <Slider.Dot
-              class="w-full h-1/5 carousel-item justify-center"
+              class="h-full w-1/3 md:w-full md:h-1/5 carousel-item justify-center"
               index={index}
             >
               <Image
@@ -133,6 +133,7 @@ export default function GallerySlider(props: Props) {
             </Slider.Dot>
           ))}
       </Slider.Dots>
+
 
       <SliderJS rootId={id} />
     </div>

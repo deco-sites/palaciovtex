@@ -43,7 +43,7 @@ function Result({
   layout,
   cardLayout,
   startingPage = 0,
-}: Omit<Props, "page"> & { page: ProductListingPage }) {
+}: Omit<Props, "page"> & { page: ProductListingPage }, req: Request) {
   const { products, filters, breadcrumb, pageInfo, sortOptions } = page;
   const perPage = pageInfo.recordPerPage || products.length;
 
@@ -51,6 +51,8 @@ function Result({
 
   const zeroIndexedOffsetPage = pageInfo.currentPage - startingPage;
   const offset = zeroIndexedOffsetPage * perPage;
+
+  const categoryName = breadcrumb.itemListElement.slice(-1);
 
   return (
     <>
@@ -61,6 +63,9 @@ function Result({
           breadcrumb={breadcrumb}
           displayFilter={layout?.variant === "drawer"}
         />
+        {categoryName && categoryName[0] && categoryName[0].name && (
+          <div class="text-xl md:text-4xl font-bold text-center uppercase mb-10">{categoryName[0].name}</div>
+        )}
 
         <div class="flex flex-row">
           {layout?.variant === "aside" && filters.length > 0 && (
