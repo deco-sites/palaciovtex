@@ -134,7 +134,6 @@ export default function GallerySlider(props: Props) {
           ))}
       </Slider.Dots>
 
-
       <SliderJS rootId={id} />
     </div>
   );

@@ -57,7 +57,7 @@ function Searchbar({
   action = "/s",
   name = "q",
   loader,
-  platform,
+  platform
 }: Props) {
   const id = useId();
   const { displaySearchPopup } = useUI();
@@ -157,7 +157,7 @@ function Searchbar({
               ))}
             </ul>
           </div>
-          <div class="flex flex-col pt-6 md:pt-0 gap-6 overflow-x-hidden">
+          {/* <div class="flex flex-col pt-6 md:pt-0 gap-6 overflow-x-hidden">
             <span
               class="font-medium text-xl"
               role="heading"
@@ -175,12 +175,12 @@ function Searchbar({
                     product={product}
                     platform={platform}
                     index={index}
-                    itemListName="Suggeestions"
+                    itemListName="Suggestions"
                   />
                 </Slider.Item>
               ))}
             </Slider>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

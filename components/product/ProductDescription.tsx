@@ -59,7 +59,11 @@ export default function ProductDescription(
                   <>
                     {specification.name != "Vídeo" &&
                       specification.name != "Compre Junto - produtos" && (
-                      <tr class={`flex flex-col md:flex-row ${index % 2 == 0 ? "bg-[#F2F1EB]" : ""}`}>
+                      <tr
+                        class={`flex flex-col md:flex-row ${
+                          index % 2 == 0 ? "bg-[#F2F1EB]" : ""
+                        }`}
+                      >
                         <th class="py-2 px-5 align-top w-full md:w-[30%] text-[16px] leading-6 text-black name-field Caracteristicas-Tecnicas">
                           {specification.name}
                         </th>

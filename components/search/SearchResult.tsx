@@ -64,7 +64,9 @@ function Result({
           displayFilter={layout?.variant === "drawer"}
         />
         {categoryName && categoryName[0] && categoryName[0].name && (
-          <div class="text-xl md:text-4xl font-bold text-center uppercase mb-10">{categoryName[0].name}</div>
+          <div class="text-xl md:text-4xl font-bold text-center uppercase mb-10">
+            {categoryName[0].name}
+          </div>
         )}
 
         <div class="flex flex-row">
