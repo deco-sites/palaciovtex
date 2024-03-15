@@ -90,7 +90,6 @@ function Searchbar({
           name={name}
           onInput={(e) => {
             const value = e.currentTarget.value;
-
             if (value) {
               sendEvent({
                 name: "search",
@@ -127,11 +126,11 @@ function Searchbar({
         </Button> */
         }
       </form>
-
+      
       <div
-        class={`overflow-y-scroll ${!hasProducts && !hasTerms ? "hidden" : ""}`}
+        class={`modal-suggestions overflow-y-scroll ${!hasProducts && !hasTerms ? "hidden" : ""}`}
       >
-        <div class="gap-4 grid grid-cols-1 sm:grid-rows-1 sm:grid-cols-[150px_1fr]">
+        <div class="gap-4 grid grid-cols-1 sm:grid-rows-1 sm:grid-cols-1">
           <div class="flex flex-col gap-6">
             <span
               class="font-medium text-xl"
@@ -157,7 +156,7 @@ function Searchbar({
               ))}
             </ul>
           </div>
-          {/* <div class="flex flex-col pt-6 md:pt-0 gap-6 overflow-x-hidden">
+          <div class="flex flex-col pt-6 md:pt-0 gap-6 overflow-x-hidden">
             <span
               class="font-medium text-xl"
               role="heading"
@@ -165,7 +164,20 @@ function Searchbar({
             >
               Produtos sugeridos
             </span>
-            <Slider class="carousel">
+            <ul>
+              {products.map((product, index) => (
+                <li class="relative text-left px-3 py-1">
+                  <a class="flex items-center justify-center text-black text-sm" href={product.url}>
+                    {product.image && (
+                      <img class="w-full max-h-20 max-w-20 h-auto bg-white" src={product.image[0].url?.replace("25-25", "200-200")} width="200" height="200"/>
+                    )}
+                    {product.isVariantOf?.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+            
+            {/*<Slider class="carousel">
               {products.map((product, index) => (
                 <Slider.Item
                   index={index}
@@ -179,8 +191,8 @@ function Searchbar({
                   />
                 </Slider.Item>
               ))}
-            </Slider>
-          </div> */}
+            </Slider>*/}
+          </div>
         </div>
       </div>
     </div>
