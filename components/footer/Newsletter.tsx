@@ -36,10 +36,13 @@ function Newsletter(
 
       const email =
         (e.currentTarget.elements.namedItem("email") as RadioNodeList)?.value;
-      const name = (e.currentTarget.elements.namedItem("nome") as RadioNodeList)
+      const firstName = (e.currentTarget.elements.namedItem("nome") as RadioNodeList)
         ?.value;
-
-      await invoke.vtex.actions.newsletter.subscribe({ email, name });
+      await invoke.vtex.actions.masterdata.createDocument({
+        data: {email, firstName}, 
+        acronym: "NS"
+      });
+      // await invoke.vtex.actions.newsletter.subscribe({ email, name });
     } finally {
       loading.value = false;
     }
@@ -82,7 +85,7 @@ function Newsletter(
 
             <button
               type="submit"
-              class="disabled:loading flex justify-center items-center h-10 shadow-none border cursor-pointer font-medium text-center uppercase transition-all duration-[0.3s] ease-[ease-out] text-xs bg-black text-white w-[230px] rounded-[5px] border-solid border-transparent"
+              class="enviado-sucesso disabled:loading flex justify-center items-center h-10 shadow-none border cursor-pointer font-medium text-center uppercase transition-all duration-[0.3s] ease-[ease-out] text-xs bg-black text-white w-[230px] rounded-[5px] border-solid border-transparent"
               disabled={loading}
             >
               {content?.form?.buttonText || "Inscrever"}

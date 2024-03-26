@@ -27,7 +27,7 @@ export default function ProductDescription(
   // console.log(product)
 
   return (
-    <section class="max-w-[95%] m-auto md:max-w-full">
+    <section class="max-w-[95%] pt-15 m-auto md:max-w-full">
       {description && (
         <div class="container">
           <div class="mb-5">

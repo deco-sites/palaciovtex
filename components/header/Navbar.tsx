@@ -65,9 +65,6 @@ function Navbar(
             {platform === "nuvemshop" && <CartButtonNuvemshop />}
           </div>
         </div>
-        <div class="px-2 lg:hidden flex w-full">
-          <Searchbar searchbar={searchbar} />
-        </div>
       </>
 
       {/* Desktop Version */}
@@ -77,7 +74,7 @@ function Navbar(
         }}
         class="hidden lg:grid container lg:grid-cols-3 items-center w-full px-6 bg-white"
       >
-        <div class="flex w-full">
+        <div class="flex w-full relative">
           <Searchbar searchbar={searchbar} />
         </div>
         {
@@ -156,6 +153,9 @@ function Navbar(
           )}
         </div>
       </div>
+        <div class="px-2 lg:hidden flex w-full">
+          <Searchbar searchbar={searchbar} />
+        </div>
       {
         <div
           style={{

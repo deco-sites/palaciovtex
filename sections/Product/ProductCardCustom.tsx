@@ -232,6 +232,9 @@ export default function ProductCardCustom(
                             </span>
                           </div>
                         )}
+                        <div class="block text-[#000000] text-base leading-[19px] mt-2.5">
+                            5% de desconto no PIX
+                        </div>
                         {installments && (
                           <div class="block text-[#595956] text-base leading-[19px] mt-2.5">
                             ou {installments}

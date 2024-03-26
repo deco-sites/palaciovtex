@@ -127,10 +127,8 @@ function Searchbar({
         }
       </form>
       
-      <div
-        class={`modal-suggestions overflow-y-scroll ${!hasProducts && !hasTerms ? "hidden" : ""}`}
-      >
-        <div class="gap-4 grid grid-cols-1 sm:grid-rows-1 sm:grid-cols-1">
+      <div class={`md:absolute w-full top-full bg-white z-10 overflow-y-scroll ${!hasProducts && !hasTerms ? "hidden" : ""}`} >
+        <div class="gap-4 grid grid-cols-1 sm:grid-rows-1 rounded-2xl p-4 shadow-md">
           <div class="flex flex-col gap-6">
             <span
               class="font-medium text-xl"
@@ -139,17 +137,10 @@ function Searchbar({
             >
               Sugestões
             </span>
-            <ul id="search-suggestion" class="flex flex-col gap-6">
-              {searches.map(({ term }) => (
+            <ul id="search-suggestion" class="flex flex-col gap-1">
+              {searches.slice(0,4).map(({ term }) => (
                 <li>
-                  <a href={`/s?q=${term}`} class="flex gap-4 items-center">
-                    <span>
-                      <Icon
-                        id="MagnifyingGlass"
-                        size={24}
-                        strokeWidth={0.01}
-                      />
-                    </span>
+                  <a href={`/s?busca=${term}`} class="flex gap-4 items-center">
                     <span dangerouslySetInnerHTML={{ __html: term }} />
                   </a>
                 </li>
@@ -164,34 +155,18 @@ function Searchbar({
             >
               Produtos sugeridos
             </span>
-            <ul>
-              {products.map((product, index) => (
-                <li class="relative text-left px-3 py-1">
-                  <a class="flex items-center justify-center text-black text-sm" href={product.url}>
-                    {product.image && (
-                      <img class="w-full max-h-20 max-w-20 h-auto bg-white" src={product.image[0].url?.replace("25-25", "200-200")} width="200" height="200"/>
-                    )}
-                    {product.isVariantOf?.name}
-                  </a>
-                </li>
+            <ul class="flex flex-col">
+              {products.slice(0,4).map((product, index) => (
+              <li class="relative text-left px-3 py-1">
+                <a class="flex items-center justify-center text-black text-sm" href={product.url}>
+                  {product.image && (
+                    <img class="w-full max-h-20 max-w-20 h-auto bg-white" src={product.image[0].url?.replace("-25-25", "-200-200")} width="100" height="100"/>
+                  )}
+                  {product.isVariantOf?.name}
+                </a>
+              </li>
               ))}
             </ul>
-            
-            {/*<Slider class="carousel">
-              {products.map((product, index) => (
-                <Slider.Item
-                  index={index}
-                  class="carousel-item first:ml-4 last:mr-4 min-w-[200px] max-w-[200px]"
-                >
-                  <ProductCard
-                    product={product}
-                    platform={platform}
-                    index={index}
-                    itemListName="Suggestions"
-                  />
-                </Slider.Item>
-              ))}
-            </Slider>*/}
           </div>
         </div>
       </div>

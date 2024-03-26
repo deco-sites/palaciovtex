@@ -218,6 +218,16 @@ function BuyTogether({
     seller: principal?.offers?.offers?.[0]?.seller,
   });
 
+  function toggleProducts(data: SkuListType, location: number) {
+    products?.map((product, index) => {
+      if(Number(data.id) == Number(product.productID) && location == (index + 1)) {
+        skuList.splice(location)
+      }
+    })
+
+    console.log(skuList)
+  }
+
   return (
     <div class="w-full container py-8 flex flex-col gap-6 lg:py-10">
       <div
@@ -234,6 +244,9 @@ function BuyTogether({
                 class="min-h-[152px] md:h-full w-full md:w-96 bg-white py-7 px-6 rounded-lg border-2 border-[#E4E4E4]"
                 key={sku.id}
               >
+                {/* {index != 0 && (
+                  <input type="checkbox" value={sku.id} checked onChange={() => toggleProducts(sku, index)} />
+                )} */}
                 <div class="flex flex-col">
                   <Image
                     src={sku.image ?? ""}

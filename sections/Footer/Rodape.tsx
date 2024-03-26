@@ -1,5 +1,5 @@
 import Icon from "$store/components/ui/Icon.tsx";
-import Newsletter from "$store/components/footer/Newsletter.tsx";
+import Newsletter from "$store/islands/Newsletter.tsx";
 import Image from "apps/website/components/Image.tsx";
 import { asset } from "$fresh/runtime.ts";
 

@@ -116,7 +116,7 @@ function ProductInfo({ page, layout }: Props) {
               {formatPrice(listPrice, offers?.priceCurrency)}
             </span>
           )}
-          <span class="font-medium text-xl text-secondary">
+          <span class="text-xl text-black font-bold ">
             {formatPrice(price, offers?.priceCurrency)}
           </span>
         </div>
