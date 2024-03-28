@@ -2,7 +2,7 @@ import Icon from "deco-sites/palaciovtex/components/ui/Icon.tsx";
 
 function BackToTop() {
   return (
-    <div class="fixed z-[200] block right-5 bottom-[90px]">
+    <div class="fixed z-10 block right-5 bottom-[90px]">
       <a
         href="#"
         onClick={() => {
