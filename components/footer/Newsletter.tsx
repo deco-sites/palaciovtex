@@ -36,11 +36,12 @@ function Newsletter(
 
       const email =
         (e.currentTarget.elements.namedItem("email") as RadioNodeList)?.value;
-      const firstName = (e.currentTarget.elements.namedItem("nome") as RadioNodeList)
-        ?.value;
+      const firstName =
+        (e.currentTarget.elements.namedItem("nome") as RadioNodeList)
+          ?.value;
       await invoke.vtex.actions.masterdata.createDocument({
-        data: {email, firstName}, 
-        acronym: "NS"
+        data: { email, firstName },
+        acronym: "NS",
       });
       // await invoke.vtex.actions.newsletter.subscribe({ email, name });
     } finally {

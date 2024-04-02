@@ -38,7 +38,14 @@ interface Props {
   // /** @description index of the product card in the list */
   // index?: number;
 
+  /** @format color */
+  pixPercentageBGColor: string;
+  /** @format color */
+  pixPercentageTextColor: string;
+
   addWithoutPLP?: boolean;
+
+  showAddButton?: boolean;
   layout?: Layout;
 }
 
@@ -52,10 +59,15 @@ const calculate = (item: number, item2: number) => {
 };
 
 export default function ProductCardCustom(
-  { title, layout, products, addWithoutPLP }: Props,
+  { title, 
+    layout, 
+    products,
+    addWithoutPLP, 
+    showAddButton,
+  pixPercentageBGColor,
+  pixPercentageTextColor }: Props,
 ) {
   const id = useId();
-  // console.log(products);
 
   const align = !layout?.basics?.contentAlignment ||
       layout?.basics?.contentAlignment == "Left"
@@ -91,7 +103,7 @@ export default function ProductCardCustom(
               >
                 <div>
                   <div
-                    class={`group/content relative ${
+                    class={`h-full flex flex-col justify-between group/content relative ${
                       align == "left" ? "text-left" : "text-center"
                     }  p-[10px] rounded-md transition-all`}
                   >
@@ -147,22 +159,6 @@ export default function ProductCardCustom(
                         )}
 
                         <div class="absolute top-0 left-0">
-                          {
-                            /* {product.additionalProperty &&
-                            product.additionalProperty.map((property) => {
-                              return (
-                                <>
-                                  {property.description == "highlight" && (
-                                    <span class={`w-full text-center`}>
-                                      <p class="relative flex items-center h-[23px] bg-[#F0D02C] text-white text-[13px] font-bold leading-[15px] uppercase px-[5px] py-1 rounded-[3px]">
-                                        {property.value}
-                                      </p>
-                                    </span>
-                                  )}
-                                </>
-                              );
-                            })} */
-                          }
                           {listPrice != price && (
                             <span class={`opacity-100 inline`}>
                               <span
@@ -206,9 +202,7 @@ export default function ProductCardCustom(
                       )}
 
                       <div
-                        class={`h-[50px] ${
-                          align == "left" ? "text-left" : "text-center"
-                        }`}
+                        class={`${align == "left" ? "text-left" : "text-center"}`}
                       >
                         {listPrice && (
                           <div class="inline-block text-[#A6A5A1] text-base leading-[19px] line-through">
@@ -232,8 +226,11 @@ export default function ProductCardCustom(
                             </span>
                           </div>
                         )}
-                        <div class="block text-[#000000] text-base leading-[19px] mt-2.5">
-                            5% de desconto no PIX
+                        <div style={{
+                          backgroundColor: `${pixPercentageBGColor}`
+                          ,color: `${pixPercentageTextColor}`
+                          }} class={`text-white bg-black block text-center relative  text-sm uppercase rounded-md ` }>
+                          5% de desconto no PIX
                         </div>
                         {installments && (
                           <div class="block text-[#595956] text-base leading-[19px] mt-2.5">
@@ -243,7 +240,7 @@ export default function ProductCardCustom(
                       </div>
                     </a>
 
-                    <div class="group-hover/content:visible group-hover/content:opacity-100 inline-block invisible opacity-0 w-full pb-[5px] transition-all mt-[15px]">
+                    <div class={`${showAddButton ? "visible opacity-100" : "group-hover/content:visible group-hover/content:opacity-100 invisible opacity-0"}  inline-block  w-full pb-[5px] transition-all mt-[15px]`}>
                       <div class="shelf__default--buy-wrapper">
                         {addWithoutPLP == true && (
                           <AddToCartButtonVTEX
@@ -264,6 +261,10 @@ export default function ProductCardCustom(
                         )}
                       </div>
                     </div>
+                    {/* <WishlistButtonVtex
+                      productGroupID={product?.isVariantOf?.productGroupID}
+                      productID={product.productID}
+                    /> */}
                   </div>
                 </div>
               </Slider.Item>

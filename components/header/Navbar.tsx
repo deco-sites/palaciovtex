@@ -153,9 +153,9 @@ function Navbar(
           )}
         </div>
       </div>
-        <div class="px-2 lg:hidden flex w-full">
-          <Searchbar searchbar={searchbar} />
-        </div>
+      <div class="px-2 lg:hidden flex w-full">
+        <Searchbar searchbar={searchbar} />
+      </div>
       {
         <div
           style={{

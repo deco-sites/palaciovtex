@@ -61,7 +61,7 @@ export default function Benefits(
         <div class="flex-none">
           <Icon
             id={benefit.icon}
-            class={reverse ? "text-base-100" : "text-primary"}
+            class={reverse ? "text-base-100" : "text-black"}
             width={36}
             height={36}
             strokeWidth={0.01}

@@ -220,12 +220,14 @@ function BuyTogether({
 
   function toggleProducts(data: SkuListType, location: number) {
     products?.map((product, index) => {
-      if(Number(data.id) == Number(product.productID) && location == (index + 1)) {
-        skuList.splice(location)
+      if (
+        Number(data.id) == Number(product.productID) && location == (index + 1)
+      ) {
+        skuList.splice(location);
       }
-    })
+    });
 
-    console.log(skuList)
+    console.log(skuList);
   }
 
   return (
@@ -244,9 +246,11 @@ function BuyTogether({
                 class="min-h-[152px] md:h-full w-full md:w-96 bg-white py-7 px-6 rounded-lg border-2 border-[#E4E4E4]"
                 key={sku.id}
               >
-                {/* {index != 0 && (
+                {
+                  /* {index != 0 && (
                   <input type="checkbox" value={sku.id} checked onChange={() => toggleProducts(sku, index)} />
-                )} */}
+                )} */
+                }
                 <div class="flex flex-col">
                   <Image
                     src={sku.image ?? ""}

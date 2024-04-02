@@ -57,7 +57,7 @@ function Searchbar({
   action = "/s",
   name = "q",
   loader,
-  platform
+  platform,
 }: Props) {
   const id = useId();
   const { displaySearchPopup } = useUI();
@@ -126,8 +126,12 @@ function Searchbar({
         </Button> */
         }
       </form>
-      
-      <div class={`md:absolute w-full top-full bg-white z-10 overflow-y-scroll ${!hasProducts && !hasTerms ? "hidden" : ""}`} >
+
+      <div
+        class={`md:absolute w-full top-full bg-white z-10 overflow-y-scroll ${
+          !hasProducts && !hasTerms ? "hidden" : ""
+        }`}
+      >
         <div class="gap-4 grid grid-cols-1 sm:grid-rows-1 rounded-2xl p-4 shadow-md">
           <div class="flex flex-col gap-6">
             <span
@@ -138,7 +142,7 @@ function Searchbar({
               Sugestões
             </span>
             <ul id="search-suggestion" class="flex flex-col gap-1">
-              {searches.slice(0,4).map(({ term }) => (
+              {searches.slice(0, 4).map(({ term }) => (
                 <li>
                   <a href={`/s?busca=${term}`} class="flex gap-4 items-center">
                     <span dangerouslySetInnerHTML={{ __html: term }} />
@@ -156,15 +160,26 @@ function Searchbar({
               Produtos sugeridos
             </span>
             <ul class="flex flex-col">
-              {products.slice(0,4).map((product, index) => (
-              <li class="relative text-left px-3 py-1">
-                <a class="flex items-center justify-center text-black text-sm" href={product.url}>
-                  {product.image && (
-                    <img class="w-full max-h-20 max-w-20 h-auto bg-white" src={product.image[0].url?.replace("-25-25", "-200-200")} width="100" height="100"/>
-                  )}
-                  {product.isVariantOf?.name}
-                </a>
-              </li>
+              {products.slice(0, 4).map((product, index) => (
+                <li class="relative text-left px-3 py-1">
+                  <a
+                    class="flex items-center justify-center text-black text-sm"
+                    href={product.url}
+                  >
+                    {product.image && (
+                      <img
+                        class="w-full max-h-20 max-w-20 h-auto bg-white"
+                        src={product.image[0].url?.replace(
+                          "-25-25",
+                          "-200-200",
+                        )}
+                        width="100"
+                        height="100"
+                      />
+                    )}
+                    {product.isVariantOf?.name}
+                  </a>
+                </li>
               ))}
             </ul>
           </div>

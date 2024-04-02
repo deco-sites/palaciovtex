@@ -99,7 +99,7 @@ function CartItem(
           <span class="line-through text-sm">
             {formatPrice(list, currency, locale)}
           </span>
-          <span class="text-sm text-secondary">
+          <span class="text-sm text-black bold">
             {isGift ? "Grátis" : formatPrice(sale, currency, locale)}
           </span>
         </div>

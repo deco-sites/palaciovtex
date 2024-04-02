@@ -19,7 +19,7 @@ export interface Props {
 export default function BrandCarousel({ brands, title }: Props) {
   const id = useId();
   return (
-    <div class="container py-10 border-y-[#cccbc6] border-t border-solid border-b">
+    <div class="container py-5 border-y-[#cccbc6] border-t border-solid border-b mb-[40px]">
       <h2
         class="text-[30px] leading-[36px] font-bold text-center pb-[30px]"
         dangerouslySetInnerHTML={{ __html: title }}

@@ -83,7 +83,7 @@ function Filters({ filters }: Props) {
                 )}
               </div>
             )}
-            
+
             <div class="collapse-content">
               <FilterValues {...filter} />
             </div>

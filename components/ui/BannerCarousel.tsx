@@ -33,12 +33,22 @@ export interface Banner {
   };
 }
 
+export interface Columns {
+  mobile?: 1 | 2;
+  desktop?: 1 | 2 | 3 | 4 | 5;
+}
+
 export interface Props {
   images?: Banner[];
   /**
    * @description Check this option when this banner is the biggest image on the screen for image optimizations
    */
   preload?: boolean;
+  /**
+   * @title IN Container?
+   * @description Colocar num container menor?
+   */
+  container?: boolean;
   /**
    * @title Show arrows
    * @description show arrows to navigate through the images
@@ -54,7 +64,23 @@ export interface Props {
    * @description time (in seconds) to start the carousel autoplay
    */
   interval?: number;
+  layout?: {
+    columns?: Columns;
+  };
 }
+
+const MOBILE_COLUMNS = {
+  1: "w-full",
+  2: "w-1/2",
+};
+
+const DESKTOP_COLUMNS = {
+  1: "md:w-full",
+  2: "md:w-1/2",
+  3: "md:w-1/3",
+  4: "md:w-1/4",
+  5: "md:w-1/5",
+};
 
 const DEFAULT_PROPS = {
   images: [
@@ -227,16 +253,19 @@ function BannerCarousel(props: Props) {
   const id = useId();
   const { images, preload, interval } = { ...DEFAULT_PROPS, ...props };
 
+  const mobile = MOBILE_COLUMNS[props.layout?.columns?.mobile ?? 1];
+  const desktop = DESKTOP_COLUMNS[props.layout?.columns?.desktop ?? 1];
+
   return (
     <div
       id={id}
-      class="grid grid-cols-[48px_1fr_48px] sm:grid-cols-[120px_1fr_120px] grid-rows-[1fr_48px_1fr_64px] sm:min-h-min"
+      class={`${props.container ? "container" : ""} grid grid-cols-[48px_1fr_48px] sm:grid-cols-[120px_1fr_120px] grid-rows-[1fr_48px_1fr_64px] sm:min-h-min`}
     >
       <Slider class="carousel carousel-center w-full col-span-full row-span-full gap-6">
         {images?.map((image, index) => {
           const params = { promotion_name: image.alt };
           return (
-            <Slider.Item index={index} class="carousel-item w-full">
+            <Slider.Item index={index} class={`carousel-item ${mobile} ${desktop}`}>
               <BannerItem
                 image={image}
                 lcp={index === 0 && preload}

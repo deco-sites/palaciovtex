@@ -41,9 +41,16 @@ export interface ThemeColors {
   /** @format color */
   // corTextoNavegador?: string;
 }
-
+interface AlertBanner {
+  image: ImageWidget;
+  link: string;
+  title?: string;
+}
 export interface Props {
   alerts?: string[];
+  gridImages?: AlertBanner[];
+
+  alternateGridImages: boolean;
 
   colors: ThemeColors;
 
@@ -68,6 +75,8 @@ export interface Props {
 
 function Header({
   alerts,
+  gridImages,
+  alternateGridImages,
   colors,
   links,
   searchbar,
@@ -118,7 +127,7 @@ function Header({
           platform={platform}
         >
           <div class="bg-white fixed w-full z-50 md:pb-0 pb-2">
-            {alerts && alerts.length > 0 &&
+            {alternateGridImages == false && alerts && alerts.length > 0 &&
               (
                 <div class="bg-[#F0D02C] px-0 py-1.5 border-b-[#777] border-b border-solid hidden md:block">
                   <div class="flex justify-between items-center container">
@@ -140,6 +149,22 @@ function Header({
                       })}
                     </ul>
                   </div>
+                </div>
+              )}
+            {alternateGridImages == true && gridImages && gridImages.length > 0 &&
+              (
+                <div class="bg-[#F0D02C] px-0 py-1.5 border-b-[#777] border-b border-solid hidden md:block">
+                    <ul class="flex justify-between items-center container">
+                      {gridImages?.map((gridImage, index) => {
+                        return (
+                          <li id={"index-" + index}>
+                            <a target="_top" href={gridImage.link}> 
+                              <img class={`hover:scale-95 transition-all`} src={gridImage.image} title={gridImage.title} /> 
+                            </a> 
+                          </li>
+                        );
+                      })}
+                    </ul>
                 </div>
               )}
             <Navbar

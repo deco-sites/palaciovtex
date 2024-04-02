@@ -131,7 +131,7 @@ function Cart({
                 <a class="inline-block w-full" href={checkoutHref}>
                   <Button
                     data-deco="buy-button"
-                    class="btn-primary btn-block"
+                    class="w-full btn no-animation rounded-[5px] font-medium text-xs flex justify-center items-center text-center uppercase outline-none transition-all hover:bg-black hover:text-white hover:border-black bg-[#F0D02C] border text-black border-solid border-[#F0D02C] h-[55px]"
                     disabled={loading || isEmtpy}
                     onClick={() => {
                       sendEvent({
