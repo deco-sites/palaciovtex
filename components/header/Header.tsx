@@ -151,20 +151,25 @@ function Header({
                   </div>
                 </div>
               )}
-            {alternateGridImages == true && gridImages && gridImages.length > 0 &&
+            {alternateGridImages == true && gridImages &&
+              gridImages.length > 0 &&
               (
                 <div class="bg-[#F0D02C] px-0 py-1.5 border-b-[#777] border-b border-solid hidden md:block">
-                    <ul class="flex justify-between items-center container">
-                      {gridImages?.map((gridImage, index) => {
-                        return (
-                          <li id={"index-" + index}>
-                            <a target="_top" href={gridImage.link}> 
-                              <img class={`hover:scale-95 transition-all`} src={gridImage.image} title={gridImage.title} /> 
-                            </a> 
-                          </li>
-                        );
-                      })}
-                    </ul>
+                  <ul class="flex justify-between items-center container">
+                    {gridImages?.map((gridImage, index) => {
+                      return (
+                        <li id={"index-" + index}>
+                          <a target="_top" href={gridImage.link}>
+                            <img
+                              class={`hover:scale-95 transition-all`}
+                              src={gridImage.image}
+                              title={gridImage.title}
+                            />
+                          </a>
+                        </li>
+                      );
+                    })}
+                  </ul>
                 </div>
               )}
             <Navbar

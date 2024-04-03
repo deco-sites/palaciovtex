@@ -59,13 +59,15 @@ const calculate = (item: number, item2: number) => {
 };
 
 export default function ProductCardCustom(
-  { title, 
-    layout, 
+  {
+    title,
+    layout,
     products,
-    addWithoutPLP, 
+    addWithoutPLP,
     showAddButton,
-  pixPercentageBGColor,
-  pixPercentageTextColor }: Props,
+    pixPercentageBGColor,
+    pixPercentageTextColor,
+  }: Props,
 ) {
   const id = useId();
 
@@ -202,7 +204,9 @@ export default function ProductCardCustom(
                       )}
 
                       <div
-                        class={`${align == "left" ? "text-left" : "text-center"}`}
+                        class={`${
+                          align == "left" ? "text-left" : "text-center"
+                        }`}
                       >
                         {listPrice && (
                           <div class="inline-block text-[#A6A5A1] text-base leading-[19px] line-through">
@@ -226,10 +230,13 @@ export default function ProductCardCustom(
                             </span>
                           </div>
                         )}
-                        <div style={{
-                          backgroundColor: `${pixPercentageBGColor}`
-                          ,color: `${pixPercentageTextColor}`
-                          }} class={`text-white bg-black block text-center relative  text-sm uppercase rounded-md ` }>
+                        <div
+                          style={{
+                            backgroundColor: `${pixPercentageBGColor}`,
+                            color: `${pixPercentageTextColor}`,
+                          }}
+                          class={`text-white bg-black block text-center relative  text-sm uppercase rounded-md `}
+                        >
                           5% de desconto no PIX
                         </div>
                         {installments && (
@@ -240,7 +247,13 @@ export default function ProductCardCustom(
                       </div>
                     </a>
 
-                    <div class={`${showAddButton ? "visible opacity-100" : "group-hover/content:visible group-hover/content:opacity-100 invisible opacity-0"}  inline-block  w-full pb-[5px] transition-all mt-[15px]`}>
+                    <div
+                      class={`${
+                        showAddButton
+                          ? "visible opacity-100"
+                          : "group-hover/content:visible group-hover/content:opacity-100 invisible opacity-0"
+                      }  inline-block  w-full pb-[5px] transition-all mt-[15px]`}
+                    >
                       <div class="shelf__default--buy-wrapper">
                         {addWithoutPLP == true && (
                           <AddToCartButtonVTEX
@@ -261,10 +274,12 @@ export default function ProductCardCustom(
                         )}
                       </div>
                     </div>
-                    {/* <WishlistButtonVtex
+                    {
+                      /* <WishlistButtonVtex
                       productGroupID={product?.isVariantOf?.productGroupID}
                       productID={product.productID}
-                    /> */}
+                    /> */
+                    }
                   </div>
                 </div>
               </Slider.Item>
