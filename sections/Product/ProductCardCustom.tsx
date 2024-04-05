@@ -72,7 +72,7 @@ export default function ProductCardCustom(
   const id = useId();
 
   const align = !layout?.basics?.contentAlignment ||
-    layout?.basics?.contentAlignment == "Left"
+      layout?.basics?.contentAlignment == "Left"
     ? "left"
     : "center";
   return (
@@ -92,7 +92,15 @@ export default function ProductCardCustom(
               product.offers,
             );
 
-            const { url, productID, name, image: images, offers, isVariantOf, brand } = product;
+            const {
+              url,
+              productID,
+              name,
+              image: images,
+              offers,
+              isVariantOf,
+              brand,
+            } = product;
 
             const [front, back] = images ?? [];
 
@@ -109,15 +117,18 @@ export default function ProductCardCustom(
               >
                 <div>
                   <div
-                    class={`h-full group flex flex-col justify-between group/content relative ${align == "left" ? "text-left" : "text-center"
-                      }  p-[10px] rounded-md transition-all`}
+                    class={`h-full group flex flex-col justify-between group/content relative ${
+                      align == "left" ? "text-left" : "text-center"
+                    }  p-[10px] rounded-md transition-all`}
                   >
                     <a
                       class="block outline-0"
                       href={url}
                     >
-                      <figure class="relative overflow-hidden" style={{ aspectRatio: `${300} / ${300}` }}>
-
+                      <figure
+                        class="relative overflow-hidden"
+                        style={{ aspectRatio: `${300} / ${300}` }}
+                      >
                         <a
                           href={url}
                           aria-label="view product"
@@ -128,25 +139,28 @@ export default function ProductCardCustom(
                             alt={front.alternateName}
                             width={300}
                             height={300}
-                            class={`max-w-72 max-h-72 overflow-hidden bg-base-100 col-span-full row-span-full transition-opacity lg:group-hover:opacity-0 rounded w-full`}
+                            class={`overflow-hidden bg-base-100 col-span-full row-span-full transition-opacity lg:group-hover:opacity-0 rounded w-full`}
                             sizes="(max-width: 640px) 50vw, 20vw"
                             preload={false}
                             loading={"lazy"}
                             decoding="async"
+                            fit="contain"
                           />
                           <Image
-                                src={back?.url ?? front.url!}
-                                alt={back?.alternateName ?? front.alternateName}
-                                width={300}
-                                height={300}
-                                preload={false}
-                                class="max-w-72 max-h-72 overflow-hidden bg-base-100 col-span-full row-span-full transition-opacity rounded w-full opacity-0 lg:group-hover:opacity-100"
-                                sizes="(max-width: 640px) 50vw, 20vw"
-                                loading="lazy"
-                                decoding="async"
-                              />
+                            src={back?.url ?? front.url!}
+                            alt={back?.alternateName ?? front.alternateName}
+                            width={300}
+                            height={300}
+                            preload={false}
+                            class="overflow-hidden bg-base-100 col-span-full row-span-full transition-opacity rounded w-full opacity-0 lg:group-hover:opacity-100"
+                            sizes="(max-width: 640px) 50vw, 20vw"
+                            loading="lazy"
+                            decoding="async"
+                            fit="contain"
+                          />
                         </a>
-                        {/* <>
+                        {
+                          /* <>
                             <figure class="p-[15px] m-0"
                             style={{ aspectRatio: "500 / 500" }}>
                               {front && (
@@ -163,7 +177,7 @@ export default function ProductCardCustom(
                               )}
                             </figure>
 
-                            <figure 
+                            <figure
                             style={{ aspectRatio: "500 / 500" }}
                             class="group-hover/content:opacity-100 p-[15px] m-0 opacity-0 w-full transition-all absolute left-0 top-0"
                             >
@@ -178,14 +192,16 @@ export default function ProductCardCustom(
                                     decoding="async"
                                   />
                             </figure>
-                          </> */}
+                          </> */
+                        }
 
                         <div class="absolute top-0 left-0">
                           {listPrice != price && (
                             <span class={`opacity-100 inline`}>
                               <span
-                                class={`flex flex-col justify-around relative w-10 h-10 text-white text-[15px] ${align == "left" ? "text-left" : "text-center"
-                                  } uppercase rounded-[5px] bg-black`}
+                                class={`flex flex-col justify-around relative w-10 h-10 text-white text-[15px] ${
+                                  align == "left" ? "text-left" : "text-center"
+                                } uppercase rounded-[5px] bg-black`}
                               >
                                 <strong class="text-[#F0D02C] font-bold">
                                   {listPrice && price &&
@@ -199,8 +215,9 @@ export default function ProductCardCustom(
                       </figure>
 
                       <span
-                        class={`block h-10 text-black text-[15px] md:text-[17px] leading-5 ${align == "left" ? "text-left" : "text-center"
-                          } no-underline overflow-hidden mt-0 mb-2.5 mx-0"`}
+                        class={`block h-10 text-black text-[15px] md:text-[17px] leading-5 ${
+                          align == "left" ? "text-left" : "text-center"
+                        } no-underline overflow-hidden mt-0 mb-2.5 mx-0"`}
                       >
                         {isVariantOf?.name}
                       </span>
@@ -222,8 +239,9 @@ export default function ProductCardCustom(
                       )}
 
                       <div
-                        class={`${align == "left" ? "text-left" : "text-center"
-                          }`}
+                        class={`${
+                          align == "left" ? "text-left" : "text-center"
+                        }`}
                       >
                         {listPrice && (
                           <div class="inline-block text-[#A6A5A1] text-base leading-[19px] line-through">
@@ -265,10 +283,11 @@ export default function ProductCardCustom(
                     </a>
 
                     <div
-                      class={`${showAddButton
+                      class={`${
+                        showAddButton
                           ? "visible opacity-100"
                           : "group-hover/content:visible group-hover/content:opacity-100 invisible opacity-0"
-                        }  inline-block  w-full pb-[5px] transition-all mt-[15px]`}
+                      }  inline-block  w-full pb-[5px] transition-all mt-[15px]`}
                     >
                       <div class="shelf__default--buy-wrapper">
                         {addWithoutPLP == true && (

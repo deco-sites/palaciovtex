@@ -102,7 +102,6 @@ function Navbar(
           )}
         </div>
         <div class="flex-none flex items-center justify-end gap-6 col-span-1">
-
           {!buttons?.hideAccountButton && (
             <a
               class="flex items-center text-xs font-thin"
