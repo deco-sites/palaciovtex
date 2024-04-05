@@ -72,7 +72,7 @@ export default function ProductCardCustom(
   const id = useId();
 
   const align = !layout?.basics?.contentAlignment ||
-      layout?.basics?.contentAlignment == "Left"
+    layout?.basics?.contentAlignment == "Left"
     ? "left"
     : "center";
   return (
@@ -92,6 +92,10 @@ export default function ProductCardCustom(
               product.offers,
             );
 
+            const { url, productID, name, image: images, offers, isVariantOf, brand } = product;
+
+            const [front, back] = images ?? [];
+
             const eventItem = mapProductToAnalyticsItem({
               product,
               price,
@@ -105,68 +109,83 @@ export default function ProductCardCustom(
               >
                 <div>
                   <div
-                    class={`h-full flex flex-col justify-between group/content relative ${
-                      align == "left" ? "text-left" : "text-center"
-                    }  p-[10px] rounded-md transition-all`}
+                    class={`h-full group flex flex-col justify-between group/content relative ${align == "left" ? "text-left" : "text-center"
+                      }  p-[10px] rounded-md transition-all`}
                   >
                     <a
                       class="block outline-0"
-                      href={product.url}
+                      href={url}
                     >
-                      <div class="relative">
-                        {product.image && (
-                          <>
-                            <figure class="p-[15px] m-0">
-                              <Image
-                                class="block max-w-full h-auto mx-auto my-0 outline-none"
-                                src={`https://${
-                                  product.image[0].url?.split("/")[2]
-                                }/${product.image[0].url?.split("/")[3]}/${
-                                  product.image[0].url?.split("/")[4]
-                                }/${
-                                  product.image[0].url?.split("/")[5]
-                                }-800-800/${
-                                  product.image[0].url?.split("/")[6]
-                                }`}
-                                alt={product.name}
+                      <figure class="relative overflow-hidden" style={{ aspectRatio: `${300} / ${300}` }}>
+
+                        <a
+                          href={url}
+                          aria-label="view product"
+                          class="grid grid-cols-1 grid-rows-1 w-full min-h-72"
+                        >
+                          <Image
+                            src={front.url!}
+                            alt={front.alternateName}
+                            width={300}
+                            height={300}
+                            class={`max-w-72 max-h-72 overflow-hidden bg-base-100 col-span-full row-span-full transition-opacity lg:group-hover:opacity-0 rounded w-full`}
+                            sizes="(max-width: 640px) 50vw, 20vw"
+                            preload={false}
+                            loading={"lazy"}
+                            decoding="async"
+                          />
+                          <Image
+                                src={back?.url ?? front.url!}
+                                alt={back?.alternateName ?? front.alternateName}
                                 width={300}
                                 height={300}
-                                loading={"lazy"}
+                                preload={false}
+                                class="max-w-72 max-h-72 overflow-hidden bg-base-100 col-span-full row-span-full transition-opacity rounded w-full opacity-0 lg:group-hover:opacity-100"
+                                sizes="(max-width: 640px) 50vw, 20vw"
+                                loading="lazy"
                                 decoding="async"
                               />
+                        </a>
+                        {/* <>
+                            <figure class="p-[15px] m-0"
+                            style={{ aspectRatio: "500 / 500" }}>
+                              {front && (
+                                <Image
+                                class="block max-w-full h-auto mx-auto my-0 outline-none"
+                                src={front.url!}
+                                alt={front.alternateName || front.name }
+                                sizes="(max-width: 640px) 50vw, 20vw"
+                                width={500}
+                                height={500}
+                                loading={"lazy"}
+                                decoding="async"
+                                />
+                              )}
                             </figure>
-                            {product.image[1] &&
-                              (
-                                <figure class="group-hover/content:opacity-100 p-[15px] m-0 opacity-0 w-full transition-all absolute left-0 top-0">
+
+                            <figure 
+                            style={{ aspectRatio: "500 / 500" }}
+                            class="group-hover/content:opacity-100 p-[15px] m-0 opacity-0 w-full transition-all absolute left-0 top-0"
+                            >
                                   <Image
                                     class="block max-w-full h-auto mx-auto my-0 outline-none"
-                                    src={`https://${
-                                      product.image[1].url?.split("/")[2]
-                                    }/${product.image[1].url?.split("/")[3]}/${
-                                      product.image[1].url?.split("/")[4]
-                                    }/${
-                                      product.image[1].url?.split("/")[5]
-                                    }-800-800/${
-                                      product.image[1].url?.split("/")[6]
-                                    }`}
-                                    alt={product.name}
-                                    width={300}
-                                    height={300}
+                                    src={back?.url ?? front.url!}
+                                    alt={back?.alternateName ?? front.alternateName}
+                                    width={500}
+                                    sizes="(max-width: 640px) 50vw, 20vw"
+                                    height={500}
                                     loading={"lazy"}
                                     decoding="async"
                                   />
-                                </figure>
-                              )}
-                          </>
-                        )}
+                            </figure>
+                          </> */}
 
                         <div class="absolute top-0 left-0">
                           {listPrice != price && (
                             <span class={`opacity-100 inline`}>
                               <span
-                                class={`flex flex-col justify-around relative w-10 h-10 text-white text-[15px] ${
-                                  align == "left" ? "text-left" : "text-center"
-                                } uppercase rounded-[5px] bg-black`}
+                                class={`flex flex-col justify-around relative w-10 h-10 text-white text-[15px] ${align == "left" ? "text-left" : "text-center"
+                                  } uppercase rounded-[5px] bg-black`}
                               >
                                 <strong class="text-[#F0D02C] font-bold">
                                   {listPrice && price &&
@@ -177,23 +196,22 @@ export default function ProductCardCustom(
                             </span>
                           )}
                         </div>
-                      </div>
+                      </figure>
 
                       <span
-                        class={`block h-10 text-black text-[15px] md:text-[17px] leading-5 ${
-                          align == "left" ? "text-left" : "text-center"
-                        } no-underline overflow-hidden mt-0 mb-2.5 mx-0"`}
+                        class={`block h-10 text-black text-[15px] md:text-[17px] leading-5 ${align == "left" ? "text-left" : "text-center"
+                          } no-underline overflow-hidden mt-0 mb-2.5 mx-0"`}
                       >
-                        {product.isVariantOf?.name}
+                        {isVariantOf?.name}
                       </span>
-                      {product.brand && (
+                      {brand && (
                         <span class="block mb-[10px] overflow-hidden">
-                          {product.brand.logo && (
+                          {brand.logo && (
                             <Image
                               class="w-[80px] h-[35px] m-auto"
-                              src={product.brand.logo}
-                              alt={product.brand.name}
-                              id={product.brand["@id"]}
+                              src={brand.logo}
+                              alt={brand.name}
+                              id={brand["@id"]}
                               loading={"lazy"}
                               width={80}
                               height={35}
@@ -204,16 +222,15 @@ export default function ProductCardCustom(
                       )}
 
                       <div
-                        class={`${
-                          align == "left" ? "text-left" : "text-center"
-                        }`}
+                        class={`${align == "left" ? "text-left" : "text-center"
+                          }`}
                       >
                         {listPrice && (
                           <div class="inline-block text-[#A6A5A1] text-base leading-[19px] line-through">
                             <span class="mr-[10px]">
                               {formatPrice(
                                 listPrice,
-                                product.offers?.priceCurrency,
+                                offers?.priceCurrency,
                               )}
                             </span>
                           </div>
@@ -224,7 +241,7 @@ export default function ProductCardCustom(
                               <strong>
                                 {formatPrice(
                                   price,
-                                  product.offers?.priceCurrency,
+                                  offers?.priceCurrency,
                                 )}
                               </strong>
                             </span>
@@ -248,23 +265,22 @@ export default function ProductCardCustom(
                     </a>
 
                     <div
-                      class={`${
-                        showAddButton
+                      class={`${showAddButton
                           ? "visible opacity-100"
                           : "group-hover/content:visible group-hover/content:opacity-100 invisible opacity-0"
-                      }  inline-block  w-full pb-[5px] transition-all mt-[15px]`}
+                        }  inline-block  w-full pb-[5px] transition-all mt-[15px]`}
                     >
                       <div class="shelf__default--buy-wrapper">
                         {addWithoutPLP == true && (
                           <AddToCartButtonVTEX
                             eventParams={{ items: [eventItem] }}
-                            productID={product.productID}
+                            productID={productID}
                             seller={"1"}
                           />
                         )}
                         {addWithoutPLP == false && (
                           <a
-                            href={product.url}
+                            href={url}
                             class="rounded-[5px] font-medium text-xs flex justify-center items-center h-[40px] text-center uppercase outline-none transition-all hover:bg-black hover:text-white hover:border-black bg-[#F0D02C] border text-black border-solid border-[#F0D02C]"
                           >
                             {layout?.basics?.ctaText
@@ -304,24 +320,6 @@ export default function ProductCardCustom(
             </Slider.NextButton>
           </div>
         </>
-        {
-          /* <>
-        <ul class="absolute bottom-0 left-0">
-          {products?.map((_, index) => (
-            <li class="carousel-item">
-              <Slider.Dot index={index}>
-                <div class="py-5">
-                  <div
-                    class="w-[12px] h-[12px] rounded-full group-disabled:bg-black bg-white"
-                    // style={{ animationDuration: `${interval}s` }}
-                  />
-                </div>
-              </Slider.Dot>
-            </li>
-          ))}
-        </ul>
-        </> */
-        }
         <SliderJS rootId={id} />
       </div>
     </div>

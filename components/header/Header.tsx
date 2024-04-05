@@ -118,8 +118,7 @@ function Header({
   return (
     <>
       <header
-        class={`bg-white h-[140px] md:h-[205px]`}
-        // style={{ height: headerHeight }}
+        class={`bg-white h-[140px] md:h-[245px]`}
       >
         <Drawers
           menu={{ items }}

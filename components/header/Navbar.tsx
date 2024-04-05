@@ -1,12 +1,12 @@
 import type { Props as SearchbarProps } from "$store/components/search/Searchbar.tsx";
 import Icon from "$store/components/ui/Icon.tsx";
-import { MenuButton, SearchButton } from "$store/islands/Header/Buttons.tsx";
-import CartButtonLinx from "$store/islands/Header/Cart/linx.tsx";
-import CartButtonShopify from "$store/islands/Header/Cart/shopify.tsx";
-import CartButtonVDNA from "$store/islands/Header/Cart/vnda.tsx";
+import { MenuButton } from "$store/islands/Header/Buttons.tsx";
+// import CartButtonLinx from "$store/islands/Header/Cart/linx.tsx";
+// import CartButtonShopify from "$store/islands/Header/Cart/shopify.tsx";
+// import CartButtonVDNA from "$store/islands/Header/Cart/vnda.tsx";
 import CartButtonVTEX from "$store/islands/Header/Cart/vtex.tsx";
-import CartButtonWake from "$store/islands/Header/Cart/wake.tsx";
-import CartButtonNuvemshop from "$store/islands/Header/Cart/nuvemshop.tsx";
+// import CartButtonWake from "$store/islands/Header/Cart/wake.tsx";
+// import CartButtonNuvemshop from "$store/islands/Header/Cart/nuvemshop.tsx";
 import Searchbar from "$store/islands/Header/Searchbar.tsx";
 import { usePlatform } from "$store/sdk/usePlatform.tsx";
 import type { SiteNavigationElement } from "apps/commerce/types.ts";
@@ -51,6 +51,7 @@ function Navbar(
                 alt={logo.alt}
                 width={logo.width || 100}
                 height={logo.height || 13}
+                loading="lazy"
               />
             </a>
           )}
@@ -58,11 +59,11 @@ function Navbar(
           <div class="flex justify-end gap-1">
             {/* <SearchButton /> */}
             {platform === "vtex" && <CartButtonVTEX />}
-            {platform === "vnda" && <CartButtonVDNA />}
-            {platform === "wake" && <CartButtonWake />}
-            {platform === "linx" && <CartButtonLinx />}
-            {platform === "shopify" && <CartButtonShopify />}
-            {platform === "nuvemshop" && <CartButtonNuvemshop />}
+            {/* {platform === "vnda" && <CartButtonVDNA />} */}
+            {/* {platform === "wake" && <CartButtonWake />} */}
+            {/* {platform === "linx" && <CartButtonLinx />} */}
+            {/* {platform === "shopify" && <CartButtonShopify />} */}
+            {/* {platform === "nuvemshop" && <CartButtonNuvemshop />} */}
           </div>
         </div>
       </>
@@ -77,15 +78,6 @@ function Navbar(
         <div class="flex w-full relative">
           <Searchbar searchbar={searchbar} />
         </div>
-        {
-          /* <div
-          class={`flex gap-6 col-span-1 ${
-            logoPosition === "left" ? "justify-center" : "justify-start"
-          }`}
-        >
-          {items.map((item) => <NavItem item={item} />)}
-        </div> */
-        }
         <div
           class={`flex ${
             logoPosition === "left"
@@ -104,18 +96,12 @@ function Navbar(
                 alt={logo.alt}
                 width={logo.width || 100}
                 height={logo.height || 13}
+                loading="lazy"
               />
             </a>
           )}
         </div>
         <div class="flex-none flex items-center justify-end gap-6 col-span-1">
-          {
-            /* {!buttons?.hideSearchButton && (
-            // <div class="flex items-center text-xs font-thin gap-1">
-            //   <SearchButton />SEARCH
-            // </div>
-          )} */
-          }
 
           {!buttons?.hideAccountButton && (
             <a
@@ -144,11 +130,11 @@ function Navbar(
           {!buttons?.hideCartButton && (
             <div class="flex items-center text-xs font-thin">
               {platform === "vtex" && <CartButtonVTEX />}
-              {platform === "vnda" && <CartButtonVDNA />}
-              {platform === "wake" && <CartButtonWake />}
-              {platform === "linx" && <CartButtonLinx />}
-              {platform === "shopify" && <CartButtonShopify />}
-              {platform === "nuvemshop" && <CartButtonNuvemshop />}
+              {/* {platform === "vnda" && <CartButtonVDNA />} */}
+              {/* {platform === "wake" && <CartButtonWake />} */}
+              {/* {platform === "linx" && <CartButtonLinx />} */}
+              {/* {platform === "shopify" && <CartButtonShopify />} */}
+              {/* {platform === "nuvemshop" && <CartButtonNuvemshop />} */}
             </div>
           )}
         </div>
