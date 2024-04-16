@@ -270,7 +270,7 @@ export default function ProductCardCustom(
                             backgroundColor: `${pixPercentageBGColor}`,
                             color: `${pixPercentageTextColor}`,
                           }}
-                          class={`text-white bg-black block text-center relative  text-sm uppercase rounded-md `}
+                          class={`text-white bg-black block text-center relative text-xs md:text-sm uppercase rounded-md `}
                         >
                           5% de desconto no PIX
                         </div>

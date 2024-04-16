@@ -22,7 +22,7 @@ function AddToCartButton({ seller, productID, eventParams }: Props) {
 
   return (
     <div class="flex items-center gap-3">
-      <div class="flex items-center justify-between w-[110px] h-[55px] border bg-white text-[#1e1e1e] text-xl rounded-[5px] border-solid border-[#cccbc6]">
+      <div class="hidden md:flex items-center justify-between w-[110px] h-[55px] border bg-white text-[#1e1e1e] text-xl rounded-[5px] border-solid border-[#cccbc6]">
         <button
           class="counter-minus px-2.5 py-[15px] border-[none]"
           onClick={() => (count.value = 1 ? 1 : count.value -= 1)}
