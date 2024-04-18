@@ -33,7 +33,7 @@ export interface Props {
 function NotFound() {
   return (
     <div class="w-full flex justify-center items-center py-10">
-      <span>Not Found!</span>
+      <span class="text-3xl font-bold">Nenhum Produto Encontrado</span>
     </div>
   );
 }
@@ -132,7 +132,8 @@ function Result({
 }
 
 function SearchResult({ page, ...props }: Props) {
-  if (!page) {
+  console.log("Dados da Page: ",page)
+  if (page?.pageInfo.records == 0) {
     return <NotFound />;
   }
 
