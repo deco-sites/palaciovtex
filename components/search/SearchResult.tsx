@@ -132,7 +132,7 @@ function Result({
 }
 
 function SearchResult({ page, ...props }: Props) {
-  console.log("Dados da Page: ",page)
+  console.log("Dados da Page: ", page);
   if (page?.pageInfo.records == 0) {
     return <NotFound />;
   }
