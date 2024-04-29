@@ -31,7 +31,7 @@ export default function ProductDescription(
       {description && (
         <div class="container">
           <div class="mb-5">
-            <h4 class="mb-5 text-3xl leading-9 text-black font-bold uppercase">
+            <h4 class="mb-5 mt-10 text-3xl leading-9 text-black font-bold uppercase">
               DESCRIÇÃO
             </h4>
           </div>
@@ -48,7 +48,7 @@ export default function ProductDescription(
       {specifications && (
         <div class="container">
           <div class="mb-5">
-            <h4 class="mb-5 text-3xl leading-9 text-black font-bold uppercase">
+            <h4 class="mb-5 mt-10 text-3xl leading-9 text-black font-bold uppercase">
               ESPECIFICAÇÕES TÉCNICAS
             </h4>
           </div>
