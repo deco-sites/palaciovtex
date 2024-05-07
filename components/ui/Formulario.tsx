@@ -50,7 +50,8 @@ function Formulario() {
                     assunto,
                     mensagem
                 },
-                acronym: "FC"
+                acronym: "FC",
+                isPrivateEntity: true
             })
         } finally {
             loading.value = false;
