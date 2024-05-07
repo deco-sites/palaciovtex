@@ -59,7 +59,7 @@ function Formulario() {
           mensagem,
         },
         acronym: "FC",
-        isPrivateEntity: false,
+        isPrivateEntity: true,
       });
     } finally {
       loading.value = false;
