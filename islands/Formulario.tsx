@@ -1,1 +1,1 @@
-export { default } from "$store/components/ui/Formulario.tsx"
+export { default } from "$store/components/ui/Formulario.tsx";
