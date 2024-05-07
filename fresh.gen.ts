@@ -11,6 +11,7 @@ import * as $AddToCartButton_vtex from "./islands/AddToCartButton/vtex.tsx";
 import * as $AddToCartButton_wake from "./islands/AddToCartButton/wake.tsx";
 import * as $AddToCartBuyTogether from "./islands/AddToCartBuyTogether.tsx";
 import * as $BuyTogether from "./islands/BuyTogether.tsx";
+import * as $Formulario from "./islands/Formulario.tsx";
 import * as $Header_Buttons from "./islands/Header/Buttons.tsx";
 import * as $Header_Cart_linx from "./islands/Header/Cart/linx.tsx";
 import * as $Header_Cart_nuvemshop from "./islands/Header/Cart/nuvemshop.tsx";
@@ -46,6 +47,7 @@ const manifest = {
     "./islands/AddToCartButton/wake.tsx": $AddToCartButton_wake,
     "./islands/AddToCartBuyTogether.tsx": $AddToCartBuyTogether,
     "./islands/BuyTogether.tsx": $BuyTogether,
+    "./islands/Formulario.tsx": $Formulario,
     "./islands/Header/Buttons.tsx": $Header_Buttons,
     "./islands/Header/Cart/linx.tsx": $Header_Cart_linx,
     "./islands/Header/Cart/nuvemshop.tsx": $Header_Cart_nuvemshop,
