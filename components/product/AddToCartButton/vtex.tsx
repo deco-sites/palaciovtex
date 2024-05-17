@@ -5,9 +5,11 @@ import { useSignal } from "@preact/signals";
 export interface Props extends Omit<BtnProps, "onAddItem"> {
   seller: string;
   productID: string;
+  /** @format color */
+  buttonColor?: string;
 }
 
-function AddToCartButton({ seller, productID, eventParams }: Props) {
+function AddToCartButton({ seller, productID, eventParams, buttonColor }: Props) {
   const { addItems } = useCart();
   const count = useSignal(1);
 
@@ -44,7 +46,7 @@ function AddToCartButton({ seller, productID, eventParams }: Props) {
         </button>
       </div>
 
-      <Button onAddItem={onAddItem} eventParams={eventParams} />
+      <Button buttonColor={buttonColor} onAddItem={onAddItem} eventParams={eventParams} />
     </div>
   );
 }

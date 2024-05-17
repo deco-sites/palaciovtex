@@ -42,6 +42,8 @@ interface Props {
   pixPercentageBGColor: string;
   /** @format color */
   pixPercentageTextColor: string;
+  /** @format color */
+  buttonColor?: string;
 
   addWithoutPLP?: boolean;
 
@@ -67,6 +69,7 @@ export default function ProductCardCustom(
     showAddButton,
     pixPercentageBGColor,
     pixPercentageTextColor,
+    buttonColor
   }: Props,
 ) {
   const id = useId();
@@ -257,6 +260,7 @@ export default function ProductCardCustom(
                       <div class="shelf__default--buy-wrapper">
                         {addWithoutPLP == true && (
                           <AddToCartButtonVTEX
+                            buttonColor={buttonColor}
                             eventParams={{ items: [eventItem] }}
                             productID={productID}
                             seller={"1"}
