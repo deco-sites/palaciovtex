@@ -12,7 +12,7 @@ export interface Props {
 
 export default function Tipbar({ items }: Props) {
   return (
-    <div class="my-[50px]">
+    <div class="mb-10">
       <div class="container">
         <div class="tipbar-in">
           <ul class="flex m-0 flex-row overflow-auto md:overflow-hidden pb-3 md:pb-0">
