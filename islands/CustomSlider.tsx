@@ -11,7 +11,9 @@ export interface Image {
 interface Props {
     images: Image[],
     layout: {
-        slidesPerView?: number,
+        slidesPerViewDesktop?: number,
+        slidesPerViewTablet?: number,
+        slidesPerViewMobile?: number,
         spaceBetween?: number,
         autoplay?: boolean,
         showArrows?: boolean,
@@ -24,7 +26,6 @@ function CustomSlider({ images, layout }: Props) {
     const swiper = new Swiper('.swiper', {
         direction: 'horizontal',
         loop: true,
-        slidesPerView: layout.slidesPerView || 5.5,
         spaceBetween: layout.spaceBetween || 20,
         autoplay: layout.autoplay,
 
@@ -34,6 +35,18 @@ function CustomSlider({ images, layout }: Props) {
             nextEl: '.button-next',
             prevEl: '.button-prev',
         },
+        breakpoints: {
+            // when window width is >= 0
+            0: {
+              slidesPerView: layout.slidesPerViewMobile || 2,
+            },
+            768: {
+              slidesPerView: layout.slidesPerViewTablet || 3,
+            },
+            1024: {
+              slidesPerView: layout.slidesPerViewDesktop || 5,
+            }
+          }
     });
 
     swiper;
