@@ -1,9 +1,9 @@
 // import { Product, ProductDetailsPage } from "apps/commerce/types.ts";
 // import { AppContext } from "apps/website/mod.ts";
 // import { invoke } from "$store/runtime.ts";
-// import { useOffer } from "deco-sites/palaciovtex/sdk/useOffer.ts";
-// import { formatPrice } from "deco-sites/palaciovtex/sdk/format.ts";
-// import AddToCartBuyTogether from "deco-sites/palaciovtex/islands/AddToCartBuyTogether.tsx";
+// import { useOffer } from "site/sdk/useOffer.ts";
+// import { formatPrice } from "site/sdk/format.ts";
+// import AddToCartBuyTogether from "site/islands/AddToCartBuyTogether.tsx";
 
 // export type SkuListType = {
 //   id: string;
@@ -153,7 +153,7 @@ import { usePlatform } from "$store/sdk/usePlatform.tsx";
 import type { Product } from "apps/commerce/types.ts";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
 import { formatPrice } from "$store/sdk/format.ts";
-import AddToCartBuyTogether from "deco-sites/palaciovtex/islands/AddToCartBuyTogether.tsx";
+import AddToCartBuyTogether from "site/islands/AddToCartBuyTogether.tsx";
 import Image from "apps/website/components/Image.tsx";
 
 export interface Props {

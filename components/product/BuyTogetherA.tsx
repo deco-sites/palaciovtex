@@ -12,7 +12,7 @@
 // import type { Product } from "apps/commerce/types.ts";
 // // import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
 // import { formatPrice } from "$store/sdk/format.ts";
-// import AddToCartBuyTogether from "deco-sites/palaciovtex/islands/AddToCartBuyTogether.tsx";
+// import AddToCartBuyTogether from "site/islands/AddToCartBuyTogether.tsx";
 
 // export interface Props {
 //   products: Product[] | null;
