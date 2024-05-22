@@ -1,6 +1,6 @@
 import { useCart } from "apps/vtex/hooks/useCart.ts";
-import Button from "deco-sites/palaciovtex/components/ui/Button.tsx";
-import { SkuListType } from "deco-sites/palaciovtex/components/product/BuyTogether.tsx";
+import Button from "site/components/ui/Button.tsx";
+import { SkuListType } from "site/components/product/BuyTogether.tsx";
 import { useUI } from "$store/sdk/useUI.ts";
 
 export interface Props {

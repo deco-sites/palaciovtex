@@ -1,4 +1,4 @@
-import Icon from "deco-sites/palaciovtex/components/ui/Icon.tsx";
+import Icon from "site/components/ui/Icon.tsx";
 
 function BackToTop() {
   return (

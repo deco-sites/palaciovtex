@@ -15,8 +15,8 @@ import Image from "apps/website/components/Image.tsx";
 import { navbarHeight } from "./constants.ts";
 import { Buttons, Logo } from "$store/components/header/Header.tsx";
 
-import NavItem from "deco-sites/palaciovtex/components/header/NavItem.tsx";
-import { ThemeColors } from "deco-sites/palaciovtex/components/header/Header.tsx";
+import NavItem from "site/components/header/NavItem.tsx";
+import { ThemeColors } from "site/components/header/Header.tsx";
 
 function Navbar(
   { colors, items, searchbar, logo, buttons, logoPosition = "left" }: {
