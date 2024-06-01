@@ -1,0 +1,114 @@
+{
+  "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
+  "images": [
+    {
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/89571973-caa6-4b34-946e-3f083d664db6",
+      "alt": "Ofertas Até 100 Reais",
+      "action": {
+        "href": "/",
+        "title": "title",
+        "subTitle": "Subtitle",
+        "label": "Label"
+      }
+    },
+    {
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/89571973-caa6-4b34-946e-3f083d664db6",
+      "alt": "Ofertas Até 100 Reais",
+      "action": {
+        "href": "/",
+        "title": "title",
+        "subTitle": "Subtitle",
+        "label": "Label"
+      }
+    },
+    {
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/89571973-caa6-4b34-946e-3f083d664db6",
+      "alt": "Ofertas Até 100 Reais",
+      "action": {
+        "href": "/",
+        "title": "title",
+        "subTitle": "Subtitle",
+        "label": "Label"
+      }
+    },
+    {
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/89571973-caa6-4b34-946e-3f083d664db6",
+      "alt": "Ofertas Até 100 Reais",
+      "action": {
+        "href": "/",
+        "title": "title",
+        "subTitle": "Subtitle",
+        "label": "Label"
+      }
+    },
+    {
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/89571973-caa6-4b34-946e-3f083d664db6",
+      "alt": "Ofertas Até 100 Reais",
+      "action": {
+        "href": "/",
+        "title": "title",
+        "subTitle": "Subtitle",
+        "label": "Label"
+      }
+    },
+    {
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/89571973-caa6-4b34-946e-3f083d664db6",
+      "alt": "Ofertas Até 100 Reais",
+      "action": {
+        "href": "/",
+        "title": "title",
+        "subTitle": "Subtitle",
+        "label": "Label"
+      }
+    },
+    {
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/89571973-caa6-4b34-946e-3f083d664db6",
+      "alt": "Ofertas Até 100 Reais",
+      "action": {
+        "href": "/",
+        "title": "title",
+        "subTitle": "Subtitle",
+        "label": "Label"
+      }
+    },
+    {
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/89571973-caa6-4b34-946e-3f083d664db6",
+      "alt": "Ofertas Até 100 Reais",
+      "action": {
+        "href": "/",
+        "title": "title",
+        "subTitle": "Subtitle",
+        "label": "Label"
+      }
+    },
+    {
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/89571973-caa6-4b34-946e-3f083d664db6",
+      "alt": "Ofertas Até 100 Reais",
+      "action": {
+        "href": "/",
+        "title": "title",
+        "subTitle": "Subtitle",
+        "label": "Label"
+      }
+    },
+    {
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/89571973-caa6-4b34-946e-3f083d664db6",
+      "alt": "Ofertas Até 100 Reais",
+      "action": {
+        "href": "/",
+        "title": "title",
+        "subTitle": "Subtitle",
+        "label": "Label"
+      }
+    }
+  ],
+  "layout": {
+    "columns": {
+      "mobile": 1,
+      "desktop": 5
+    }
+  },
+  "preload": false,
+  "container": true,
+  "arrows": true
+}
