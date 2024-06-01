@@ -78,7 +78,7 @@ function ProductInfo({ page, layout }: Props) {
       <Breadcrumb itemListElement={breadcrumb.itemListElement} />
       {/* Code and name */}
       <div class="mt-4 sm:mt-8">
-        <h1>
+        <h1 class="productName">
           <span class="font-medium text-xl capitalize">
             {layout?.name === "concat"
               ? `${isVariantOf?.name} ${name}`

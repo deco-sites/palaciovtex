@@ -21,8 +21,7 @@ interface Props {
 }
 
 function CustomSlider({ images, layout }: Props) {
-  const swiper = () =>
-    new Swiper(".swiper", {
+  const swiper = new Swiper(".swiper", {
       direction: "horizontal",
       loop: true,
       spaceBetween: layout.spaceBetween || 20,
@@ -46,9 +45,9 @@ function CustomSlider({ images, layout }: Props) {
           slidesPerView: layout.slidesPerViewDesktop || 5,
         },
       },
-    });
+  });
 
-  swiper();
+  swiper;
 
   return (
     <>
@@ -58,6 +57,7 @@ function CustomSlider({ images, layout }: Props) {
             {images.length > 0 &&
               images.map((image) => (
                 <div class="swiper-slide">
+                  TESTE DE LOCALHOST
                   <a href={image.link}>
                     <img src={image.image} alt={image.alt} />
                   </a>
