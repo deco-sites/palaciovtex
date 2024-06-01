@@ -7,7 +7,7 @@ import * as $$$$$$$$$$$1 from "./apps/site.ts";
 import * as $$$0 from "./loaders/Layouts/ProductCard.tsx";
 import * as $$$1 from "./loaders/List/Sections.tsx";
 import * as $$$$$$0 from "./sections/Animation/Animation.tsx";
-import * as $$$$$$1 from "./sections/Carrossel/CustomSlider.tsx";
+import * as $$$$$$1 from "./sections/Carrossel/SliderCustom.tsx";
 import * as $$$$$$2 from "./sections/Category/CategoryBanner.tsx";
 import * as $$$$$$3 from "./sections/Category/CategoryGrid.tsx";
 import * as $$$$$$4 from "./sections/Category/CategoryList.tsx";
@@ -80,7 +80,7 @@ const manifest = {
   },
   "sections": {
     "site/sections/Animation/Animation.tsx": $$$$$$0,
-    "site/sections/Carrossel/CustomSlider.tsx": $$$$$$1,
+    "site/sections/Carrossel/SliderCustom.tsx": $$$$$$1,
     "site/sections/Category/CategoryBanner.tsx": $$$$$$2,
     "site/sections/Category/CategoryGrid.tsx": $$$$$$3,
     "site/sections/Category/CategoryList.tsx": $$$$$$4,

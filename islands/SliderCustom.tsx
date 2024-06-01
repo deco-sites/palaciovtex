@@ -202,7 +202,7 @@ function Buttons() {
   );
 }
 
-function CustomSlider(props: Props) {
+function SliderCustom(props: Props) {
   const id = useId();
   const { images, preload, interval } = { ...DEFAULT_PROPS, ...props };
 
@@ -251,4 +251,4 @@ function CustomSlider(props: Props) {
   );
 }
 
-export default CustomSlider;
+export default SliderCustom;
