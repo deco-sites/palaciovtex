@@ -1,1 +1,65 @@
-{"categories":[{"link":"/ferramentas-eletricas","text":"Ferramentas <br /> Elétricas","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/4c2c90d4-efb5-4b04-9e17-a1c7b232c0be","hoverImage":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/e70a3bbf-6b82-41d0-978f-184cb486d7fa"},{"link":"/ferramentas-manuais","text":"Ferramentas <br /> Manuais","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/edee88e7-164d-4c47-b3cc-687f2b55c4d7","hoverImage":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/702c6028-a16a-42d5-a215-6999d13c9778"},{"link":"/eletrica","text":"Elétrica","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/c28692f6-9813-4bf4-bbe6-2cd9cd0f302b","hoverImage":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/f2e8356d-4326-42e2-aca5-a1f777b81145"},{"link":"/lampadas-e-iluminacao","text":"Lâmpadas e<br/> Iluminação","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/00374d71-5f86-44ae-92ab-047bcc307cac","hoverImage":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/a0de7c85-31c7-4e39-b8ea-455aaef7465a"},{"link":"/ferramentas-e-epi","text":"Ferramentas e<br /> EPI","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/8374e6ab-278b-4955-99b0-fed34847dbad","hoverImage":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/6ab0fbce-5434-4969-acaf-86c579a763e1"},{"link":"/hidraulica-e-metais","text":"Hidráulica e <br /> Metais","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/7dd0119e-e1cf-44df-84eb-e1cc1d703aa5","hoverImage":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/39357b89-ddc1-40e3-adf2-6304e45b9771"},{"link":"/ferragens","text":"Ferragens","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/873a93f9-bf99-4a01-91be-7cf789b41886","hoverImage":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9b535777-0bce-4c5a-b7ae-68ce75666a94"},{"link":"/tintas-e-impermeabilizantes","text":"Tintas e <br />Impermeabilizantes","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/d16c2e2b-5987-4873-ba34-792992c343de","hoverImage":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/7b35073c-bb47-4719-af6b-47f01e108c1a"},{"link":"/casa---jardim","text":"Casa e <br/> Jardim","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9feb6aaf-b267-4377-a095-fba52cdb858d","hoverImage":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/045be7a1-5ffb-4039-8e01-b66f09ebe2c1"},{"link":"/decoracao-e-organizacao","text":"Decoração e<br/> organização","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/bd69adb7-2457-438b-b379-1539f5e3644a","hoverImage":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/c2a00286-2cb5-4e2d-b889-14527bd723fa"}],"__resolveType":"site/sections/Content/CategoriesGallery.tsx"}
+{
+  "categories": [
+    {
+      "link": "/ferramentas-eletricas",
+      "text": "Ferramentas <br /> Elétricas",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/4c2c90d4-efb5-4b04-9e17-a1c7b232c0be",
+      "hoverImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/e70a3bbf-6b82-41d0-978f-184cb486d7fa"
+    },
+    {
+      "link": "/ferramentas-manuais",
+      "text": "Ferramentas <br /> Manuais",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/edee88e7-164d-4c47-b3cc-687f2b55c4d7",
+      "hoverImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/702c6028-a16a-42d5-a215-6999d13c9778"
+    },
+    {
+      "link": "/eletrica",
+      "text": "Elétrica",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/c28692f6-9813-4bf4-bbe6-2cd9cd0f302b",
+      "hoverImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/f2e8356d-4326-42e2-aca5-a1f777b81145"
+    },
+    {
+      "link": "/lampadas-e-iluminacao",
+      "text": "Lâmpadas e<br/> Iluminação",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/00374d71-5f86-44ae-92ab-047bcc307cac",
+      "hoverImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/a0de7c85-31c7-4e39-b8ea-455aaef7465a"
+    },
+    {
+      "link": "/ferramentas-e-epi",
+      "text": "Ferramentas e<br /> EPI",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/8374e6ab-278b-4955-99b0-fed34847dbad",
+      "hoverImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/6ab0fbce-5434-4969-acaf-86c579a763e1"
+    },
+    {
+      "link": "/hidraulica-e-metais",
+      "text": "Hidráulica e <br /> Metais",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/7dd0119e-e1cf-44df-84eb-e1cc1d703aa5",
+      "hoverImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/39357b89-ddc1-40e3-adf2-6304e45b9771"
+    },
+    {
+      "link": "/ferragens",
+      "text": "Ferragens",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/873a93f9-bf99-4a01-91be-7cf789b41886",
+      "hoverImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9b535777-0bce-4c5a-b7ae-68ce75666a94"
+    },
+    {
+      "link": "/tintas-e-impermeabilizantes",
+      "text": "Tintas e <br />Impermeabilizantes",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/d16c2e2b-5987-4873-ba34-792992c343de",
+      "hoverImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/7b35073c-bb47-4719-af6b-47f01e108c1a"
+    },
+    {
+      "link": "/casa---jardim",
+      "text": "Casa e <br/> Jardim",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9feb6aaf-b267-4377-a095-fba52cdb858d",
+      "hoverImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/045be7a1-5ffb-4039-8e01-b66f09ebe2c1"
+    },
+    {
+      "link": "/decoracao-e-organizacao",
+      "text": "Decoração e<br/> organização",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/bd69adb7-2457-438b-b379-1539f5e3644a",
+      "hoverImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/c2a00286-2cb5-4e2d-b889-14527bd723fa"
+    }
+  ],
+  "__resolveType": "site/sections/Content/CategoriesGallery.tsx"
+}

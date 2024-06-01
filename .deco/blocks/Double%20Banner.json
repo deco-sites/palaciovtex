@@ -1,1 +1,17 @@
-{"image1":{"img":"https://palaciodasferramentas.vteximg.com.br/arquivos/ids/166812/714X500_MiniBanner_OutletTramontina_ConstruacomOPalacio.png","link":"/casa---jardim/outlet","width":714,"height":500,"altText":"Outlet Produtos TRAMONTINA"},"image2":{"img":"https://palaciodasferramentas.vteximg.com.br/arquivos/ids/166813/714X500_MiniBanner_Cooktop_OutletTramontina_ConstruacomOPalacio.png","link":"/cooktop-a-gas-tramontina-em-vidro-5gg-70/p","width":714,"height":500,"altText":"Cooktop a Gás em Vidro TRAMONTINA"},"__resolveType":"site/sections/Images/DoubleBanner.tsx"}
+{
+  "image1": {
+    "img": "https://palaciodasferramentas.vteximg.com.br/arquivos/ids/166812/714X500_MiniBanner_OutletTramontina_ConstruacomOPalacio.png",
+    "link": "/casa---jardim/outlet",
+    "width": 714,
+    "height": 500,
+    "altText": "Outlet Produtos TRAMONTINA"
+  },
+  "image2": {
+    "img": "https://palaciodasferramentas.vteximg.com.br/arquivos/ids/166813/714X500_MiniBanner_Cooktop_OutletTramontina_ConstruacomOPalacio.png",
+    "link": "/cooktop-a-gas-tramontina-em-vidro-5gg-70/p",
+    "width": 714,
+    "height": 500,
+    "altText": "Cooktop a Gás em Vidro TRAMONTINA"
+  },
+  "__resolveType": "site/sections/Images/DoubleBanner.tsx"
+}

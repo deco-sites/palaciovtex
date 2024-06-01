@@ -22,29 +22,29 @@ interface Props {
 
 function CustomSlider({ images, layout }: Props) {
   const swiper = new Swiper(".swiper", {
-      direction: "horizontal",
-      loop: true,
-      spaceBetween: layout.spaceBetween || 20,
-      autoplay: layout.autoplay,
+    direction: "horizontal",
+    loop: true,
+    spaceBetween: layout.spaceBetween || 20,
+    autoplay: layout.autoplay,
 
-      // Navigation arrows
-      navigation: {
-        enabled: true,
-        nextEl: ".button-next",
-        prevEl: ".button-prev",
+    // Navigation arrows
+    navigation: {
+      enabled: true,
+      nextEl: ".button-next",
+      prevEl: ".button-prev",
+    },
+    breakpoints: {
+      // when window width is >= 0
+      0: {
+        slidesPerView: layout.slidesPerViewMobile || 2,
       },
-      breakpoints: {
-        // when window width is >= 0
-        0: {
-          slidesPerView: layout.slidesPerViewMobile || 2,
-        },
-        768: {
-          slidesPerView: layout.slidesPerViewTablet || 3,
-        },
-        1024: {
-          slidesPerView: layout.slidesPerViewDesktop || 5,
-        },
+      768: {
+        slidesPerView: layout.slidesPerViewTablet || 3,
       },
+      1024: {
+        slidesPerView: layout.slidesPerViewDesktop || 5,
+      },
+    },
   });
 
   swiper;

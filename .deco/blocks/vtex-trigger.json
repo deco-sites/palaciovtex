@@ -1,1 +1,4 @@
-{"product":[{"__resolveType":"vtex-trigger"}],"__resolveType":"vtex/workflows/events.ts"}
+{
+  "product": [{ "__resolveType": "vtex-trigger" }],
+  "__resolveType": "vtex/workflows/events.ts"
+}

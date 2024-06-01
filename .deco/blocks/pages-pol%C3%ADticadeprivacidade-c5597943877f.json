@@ -1,1 +1,24 @@
-{"name":"Política de Privacidade","path":"/suporte/politica-de-privacidade","sections":[{"__resolveType":"Header - 01"},{"sections":[{"title":"Política de Privacidade","__resolveType":"site/sections/Institucional/InstitucionalTitle.tsx"},{"__resolveType":"InstitucionalHTML"}],"__resolveType":"site/sections/Content/InstitucionalContent.tsx"},{"__resolveType":"Rodapé FULL"},{"title":"Política de Privacidade","__resolveType":"website/sections/Seo/Seo.tsx","titleTemplate":"%s | Palácio das Ferramentas"}],"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Política de Privacidade",
+  "path": "/suporte/politica-de-privacidade",
+  "sections": [
+    { "__resolveType": "Header - 01" },
+    {
+      "sections": [
+        {
+          "title": "Política de Privacidade",
+          "__resolveType": "site/sections/Institucional/InstitucionalTitle.tsx"
+        },
+        { "__resolveType": "InstitucionalHTML" }
+      ],
+      "__resolveType": "site/sections/Content/InstitucionalContent.tsx"
+    },
+    { "__resolveType": "Rodapé FULL" },
+    {
+      "title": "Política de Privacidade",
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "titleTemplate": "%s | Palácio das Ferramentas"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

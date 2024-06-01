@@ -1,1 +1,1303 @@
-{"cart":{"freeShippingObjectiveQuantity":300},"logo":{"alt":"Palacio Logo","src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/41cdd066-6f14-4d2b-8257-75229b7c2caa","width":190,"height":90},"links":[{"link":"/institucional/nossas-lojas","text":"Nossas Lojas"},{"link":"/orders","text":"Meus Pedidos"}],"alerts":["FRETE GRÁTIS para compras acima de R$ 300,00 (RJ, SP, MG e ES) |    "," 💰 Ganhe 10% de desconto na sua 1º compra online, use o código: BEMVINDO10"],"colors":{"corFundo":"#ffffff","corFundoNavegador":"#ffffff","corTextoNavegador":"#000000"},"buttons":{"hideSearchButton":false,"hideAccountButton":false,"hideWishlistButton":true},"navItems":{"items":[{"url":"/ofertas","name":"Ofertas","image":[],"children":[]},{"url":"/ferramentas-eletricas","name":"Ferramentas Elétricas","image":[{"url":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/5964330d-bd1d-4aae-a7d4-d9285ea16920"}],"children":[{"url":"/ferramentas-eletricas/abrasivos","name":"Abrasivos","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-eletricas/acessorios-para-ferramentas-eletricas","name":"Acessórios","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-eletricas/brocas-e-pontas","name":"Brocas e Pontas","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-eletricas/chave-de-impacto","name":"Chave de Impacto","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-eletricas/compressores","name":"Compressores","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-eletricas/cortadores","name":"Cortadores","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-eletricas/esmerilhadeiras","name":"Esmerilhadeiras","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-eletricas/furadeiras","name":"Furadeiras","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-eletricas/lixadeiras","name":"Lixadeiras","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-eletricas/martelo-demolidor","name":"Martelo Demolidor","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-eletricas/micro-retifica","name":"Micro Retífica","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-eletricas/moto-esmeril","name":"Moto Esmeril","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-eletricas/multicortadora","name":"Multicortadora","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-eletricas/parafusadeiras","name":"Parafusadeiras","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-eletricas/plaina-eletrica","name":"Plaina Elétrica","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-eletricas/politriz","name":"Politriz","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-eletricas/retifica","name":"Retífica","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-eletricas/serra-circular","name":"Serra Circular","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-eletricas/serra-marmore","name":"Serra Mármore","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-eletricas/serra-tico-tico","name":"Serra Tico-tico","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-eletricas/serras-eletricas","name":"Serras Elétricas","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-eletricas/soprador-termico","name":"Soprador Térmico","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-eletricas/tupia","name":"Tupia","@type":"SiteNavigationElement","image":[],"children":[]}]},{"url":"/ferramentas-manuais","name":"Ferramentas Manuais","image":[],"children":[{"url":"/ferramentas-manuais/alicates","name":"Alicates","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-manuais/arco-de-serra","name":"Arco de Serra","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-manuais/canivetes-e-estiletes","name":"Canivetes e Estiletes","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-manuais/chaves","name":"Chaves","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-manuais/cortadores-manuais","name":"Cortadores Manuais","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-manuais/desempenadeiras","name":"Desempenadeiras","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-manuais/escala","name":"Escala","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-manuais/esquadro","name":"Esquadro","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-manuais/flangeador-de-tubos","name":"Flangeador de Tubos","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-manuais/formao","name":"Formão","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-manuais/jogo-de-ferramentas","name":"Jogo de Ferramentas","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-manuais/jogo-de-tarraxas","name":"Jogo de Tarraxas","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-manuais/lima","name":"Lima","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-manuais/martelos-e-marretas","name":"Martelos e Marretas","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-manuais/niveis","name":"Níveis","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-manuais/pistola-de-fixacao","name":"Pistola de Fixação","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-manuais/plainas","name":"Plainas","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-manuais/raspador-manual","name":"Raspador Manual","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-manuais/rebitador-manual","name":"Rebitador Manual","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-manuais/refilador-manual","name":"Refilador Manual","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-manuais/serrotes","name":"Serrotes","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-manuais/tesouras-industriais","name":"Tesouras Industriais","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-manuais/torques","name":"Torques","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-manuais/trenas","name":"Trenas","@type":"SiteNavigationElement","image":[],"children":[]}]},{"url":"/eletrica","name":"Elétrica","image":[],"children":[{"url":"/eletrica/alicate-amperimetro","name":"Alicate Amperímetro","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/eletrica/caixas-e-quadros","name":"Caixas e Quadros","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/eletrica/chave-de-teste","name":"Chave de Teste","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/eletrica/detector-de-tensao","name":"Detector de Tensão","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/eletrica/disjuntores-e-contatores","name":"Disjuntores e Contatores","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/eletrica/eletrodutos-e-conduites","name":"Eletrodutos e Conduites","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/eletrica/extensoes","name":"Extensões","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/eletrica/filtros-de-linha","name":"Filtros de Linha","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/eletrica/fitas-isolantes","name":"Fitas Isolantes","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/eletrica/maquinas-e-acessorios-de-solda","name":"Máquinas e Acessórios de Solda","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/eletrica/multimetro","name":"Multímetro","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/eletrica/pilhas-e-baterias","name":"Pilhas e Baterias","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/eletrica/soquetes","name":"Soquete","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/eletrica/termometro","name":"Termômetro","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/eletrica/tomadas-e-interruptores","name":"Tomadas e Interruptores","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/eletrica/transformadores","name":"Transformadores","@type":"SiteNavigationElement","image":[],"children":[]}]},{"url":"/lampadas-e-iluminacao","name":"Lâmpadas e Iluminação","image":[],"children":[{"url":"/lampadas-e-iluminacao/abajures","name":"Abajures","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/lampadas-e-iluminacao/arandelas","name":"Arandelas","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/lampadas-e-iluminacao/balizadores","name":"Balizadores","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/lampadas-e-iluminacao/fitas-e-mangueiras-de-led","name":"Fitas e Mangueiras de LED","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/lampadas-e-iluminacao/lampadas","name":"Lâmpadas","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/lampadas-e-iluminacao/lanternas","name":"Lanternas","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/lampadas-e-iluminacao/luminaria-de-emergencia","name":"Luminária de Emergência","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/lampadas-e-iluminacao/luminarias","name":"Luminárias","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/lampadas-e-iluminacao/lustres-e-pendentes","name":"Lustres e Pendentes","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/lampadas-e-iluminacao/plafon-e-painel","name":"Plafon e Painel","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/lampadas-e-iluminacao/poste","name":"Poste","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/lampadas-e-iluminacao/projetores-e-refletores","name":"Projetores e Refletores","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/lampadas-e-iluminacao/spots","name":"Spots","@type":"SiteNavigationElement","image":[],"children":[]}]},{"url":"/ferramentas-e-epi","name":"Ferramentas e EPI","image":[],"children":[{"url":"/ferramentas-e-epi/botas-de-seguranca","name":"Botas de Segurança","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-e-epi/construcao-e-obra","name":"Construção e Obra","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-e-epi/epi","name":"EPI","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-e-epi/faixa-refletiva","name":"Faixa Refletiva","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-e-epi/lapis-de-carpinteiro","name":"Lápis de Carpinteiro","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-e-epi/lubrificantes-e-desingripantes","name":"Lubrificantes e Desingripantes","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-e-epi/mascara-respiradora","name":"Máscara Respiradora","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-e-epi/oculos-de-seguranca","name":"Óculos de Segurança","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-e-epi/protetor-facial","name":"Protetor Facial","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferramentas-e-epi/ventosas","name":"Ventosas","@type":"SiteNavigationElement","image":[],"children":[]}]},{"url":"/hidraulica-e-metais","name":"Hidráulica e Metais","image":[],"children":[{"url":"/hidraulica-e-metais/aquecedores","name":"Aquecedores","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/hidraulica-e-metais/assento-sanitario","name":"Assento Sanitário","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/hidraulica-e-metais/barras-de-apoio","name":"Barras de Apoio","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/hidraulica-e-metais/bombas-de-agua","name":"Bombas de Água","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/hidraulica-e-metais/chuveiros-e-duchas","name":"Chuveiros e Duchas","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/hidraulica-e-metais/desentupidor-de-canos","name":"Desentupidor de Canos","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/hidraulica-e-metais/ducha-higienica","name":"Ducha Higiência","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/hidraulica-e-metais/engate","name":"Engate","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/hidraulica-e-metais/filtros-e-purificadores","name":"Filtros e Purificadores","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/hidraulica-e-metais/fitas-veda-rosca","name":"Fitas Veda Rosca","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/hidraulica-e-metais/metais-para-banheiro","name":"Metais para Banheiro","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/hidraulica-e-metais/metais-para-cozinha","name":"Metais para Cozinha","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/hidraulica-e-metais/misturadores","name":"Misturadores","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/hidraulica-e-metais/motobomba","name":"Motobomba","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/hidraulica-e-metais/prolongadores","name":"Prolongadores","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/hidraulica-e-metais/ralos-e-caixas-sanfonadas","name":"Ralos e Caixas sanfonadas","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/hidraulica-e-metais/reparos","name":"Reparos","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/hidraulica-e-metais/resistencias","name":"Resistências","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/hidraulica-e-metais/sifoes","name":"Sifões","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/hidraulica-e-metais/torneiras","name":"Torneiras","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/hidraulica-e-metais/valvula-de-escoamento","name":"Válvula de Escoamento","@type":"SiteNavigationElement","image":[],"children":[]}]},{"url":"/ferragens","name":"Ferragens","image":[],"children":[{"url":"/ferragens/cadeados","name":"Cadeados","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferragens/caixas-de-correio","name":"Caixas de Correio","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferragens/dobradicas","name":"Dobradiças","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferragens/esticadores","name":"Esticadores","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferragens/facoes-e-machados","name":"Facões e Machados","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferragens/fechaduras","name":"Fechaduras","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferragens/grampos","name":"Grampos","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferragens/maos-francesas","name":"Mãos Francesas","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferragens/molas-hidraulica","name":"Molas Hidráulicas","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferragens/olho-magico","name":"Olho Mágico","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferragens/pes-de-cabra","name":"Pés de Cabra","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferragens/puxadores","name":"Puxadores","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferragens/rodizios-roldanas-e-polias","name":"Rodízios, Roldanas e Polias","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferragens/saca-polia","name":"Saca Polia","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferragens/tampoes","name":"Tampões","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferragens/tornos","name":"Tornos","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/ferragens/torquimetro","name":"Torquímetro","@type":"SiteNavigationElement","image":[],"children":[]}]},{"url":"/tintas-e-mpermiabilizantes","name":"Tintas e Impermiabilizantes","image":[],"children":[{"url":"/tintas-e-impermeabilizantes/acessorios-para-pintura","name":"Acessórios para Pintura","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/tintas-e-impermeabilizantes/auto","name":"Auto","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/tintas-e-impermeabilizantes/baldes-e-bandejas","name":"Baldes e Bandejas","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/tintas-e-impermeabilizantes/colas-silicones-e-adesivos","name":"Colas, Silicones e Adesivos","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/tintas-e-impermeabilizantes/espuma-expansiva","name":"Expuma Expansiva","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/tintas-e-impermeabilizantes/fitas","name":"Fitas","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/tintas-e-impermeabilizantes/impermeabilizantes","name":"Impermeabilizantes","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/tintas-e-impermeabilizantes/kits-de-pintura","name":"Kits de Pintura","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/tintas-e-impermeabilizantes/lixas","name":"Lixas","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/tintas-e-impermeabilizantes/massas","name":"Massas","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/tintas-e-impermeabilizantes/pistolas-de-pintura","name":"Pistolas de Pintura","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/tintas-e-impermeabilizantes/rolos-de-pintura","name":"Rolos de Pintura","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/tintas-e-impermeabilizantes/solventes-e-removedores","name":"Solventes e Removedores","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/tintas-e-impermeabilizantes/tintas","name":"Tintas","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/tintas-e-impermeabilizantes/trinchas-pinceis-e-broxas","name":"Trinchas, Pincéis e Broxas","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/tintas-e-impermeabilizantes/vernizes","name":"Vernizes","@type":"SiteNavigationElement","image":[],"children":[]}]},{"url":"/casa-e-jardim","name":"Casa & Jardim","image":[],"children":[{"url":"/casa---jardim/banheiro","name":"Banheiro","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/casa---jardim/acessorios-para-cozinha","name":"Acessórios para Cozinha","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/casa---jardim/acessorios-para-jardim","name":"Acessórios para Jardim","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/casa---jardim/carrinhos-de-mao","name":"Carrinhos de Mão","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/casa---jardim/eletroportateis","name":"Eletroportáteis","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/casa---jardim/ferramentas-para-jardim","name":"Ferramentas para Jardim","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/casa---jardim/fogoes","name":"Fogoes","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/casa---jardim/limpeza","name":"Limpeza","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/casa---jardim/mangueiras","name":"Mangueiras","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/casa---jardim/pulverizadores","name":"Pulverizadores","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/casa---jardim/seguranca","name":"Segurança","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/casa---jardim/telefones","name":"Telefones","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/casa---jardim/tesouras","name":"Tesouras","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/casa-e-jardim/ar-e-ventilacao#1","name":"Ar e Ventilação","image":[],"children":[]}]},{"url":"/decoracao-e-organizacao","name":"Decoração e Organização","image":[],"children":[{"url":"/decoracao-e-organizacao/armarios-para-banheiro","name":"Armários para Banheiro","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/decoracao-e-organizacao/carrinhos-para-transporte","name":"Carrinhos para Transporte","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/decoracao-e-organizacao/cofres","name":"Cofres","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/decoracao-e-organizacao/escadas","name":"Escadas","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/decoracao-e-organizacao/ganchos-e-suportes","name":"Ganchos e Suportes","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/decoracao-e-organizacao/lixeiras","name":"Lixadeiras","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/decoracao-e-organizacao/bolsas-e-caixas","name":"Bolsas e Caixas","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/decoracao-e-organizacao/nichos","name":"Nichos","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/decoracao-e-organizacao/persianas","name":"Persianas","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/decoracao-e-organizacao/pistola-cola-quente","name":"Pistola de Cola Quente","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/decoracao-e-organizacao/prateleiras","name":"Prateleiras","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/decoracao-e-organizacao/tecidos-adesivos","name":"Tecidos Adesivos","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/decoracao-e-organizacao/trilhos","name":"Trilhos","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"/decoracao-e-organizacao/utilidades-domesticas","name":"Utilidades Domésticas","@type":"SiteNavigationElement","image":[],"children":[]}]}],"__resolveType":"commerce/loaders/navbar.ts"},"products":[],"searchbar":{"name":"q","action":"/s","loader":{"data":{"__resolveType":"vtex/loaders/legacy/suggestions.ts"},"__resolveType":"resolved"},"placeholder":"O que você está procurando?"},"gridImages":[{"link":"/","image":"https://www.casasbahia-imagens.com.br/criacao/01-home/home-especial/2024/liquida/master/04-abr/01/cupom.svg","title":"titulo"}],"suggestions":{"products":[],"searches":[]},"logoPosition":"left","__resolveType":"site/sections/Header/Header.tsx","alternateGridImages":false}
+{
+  "cart": { "freeShippingObjectiveQuantity": 300 },
+  "logo": {
+    "alt": "Palacio Logo",
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/41cdd066-6f14-4d2b-8257-75229b7c2caa",
+    "width": 190,
+    "height": 90
+  },
+  "links": [
+    { "link": "/institucional/nossas-lojas", "text": "Nossas Lojas" },
+    { "link": "/orders", "text": "Meus Pedidos" }
+  ],
+  "alerts": [
+    "FRETE GRÁTIS para compras acima de R$ 300,00 (RJ, SP, MG e ES) |    ",
+    " 💰 Ganhe 10% de desconto na sua 1º compra online, use o código: BEMVINDO10"
+  ],
+  "colors": {
+    "corFundo": "#ffffff",
+    "corFundoNavegador": "#ffffff",
+    "corTextoNavegador": "#000000"
+  },
+  "buttons": {
+    "hideSearchButton": false,
+    "hideAccountButton": false,
+    "hideWishlistButton": true
+  },
+  "navItems": {
+    "items": [
+      { "url": "/ofertas", "name": "Ofertas", "image": [], "children": [] },
+      {
+        "url": "/ferramentas-eletricas",
+        "name": "Ferramentas Elétricas",
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/5964330d-bd1d-4aae-a7d4-d9285ea16920"
+          }
+        ],
+        "children": [
+          {
+            "url": "/ferramentas-eletricas/abrasivos",
+            "name": "Abrasivos",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-eletricas/acessorios-para-ferramentas-eletricas",
+            "name": "Acessórios",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-eletricas/brocas-e-pontas",
+            "name": "Brocas e Pontas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-eletricas/chave-de-impacto",
+            "name": "Chave de Impacto",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-eletricas/compressores",
+            "name": "Compressores",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-eletricas/cortadores",
+            "name": "Cortadores",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-eletricas/esmerilhadeiras",
+            "name": "Esmerilhadeiras",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-eletricas/furadeiras",
+            "name": "Furadeiras",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-eletricas/lixadeiras",
+            "name": "Lixadeiras",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-eletricas/martelo-demolidor",
+            "name": "Martelo Demolidor",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-eletricas/micro-retifica",
+            "name": "Micro Retífica",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-eletricas/moto-esmeril",
+            "name": "Moto Esmeril",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-eletricas/multicortadora",
+            "name": "Multicortadora",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-eletricas/parafusadeiras",
+            "name": "Parafusadeiras",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-eletricas/plaina-eletrica",
+            "name": "Plaina Elétrica",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-eletricas/politriz",
+            "name": "Politriz",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-eletricas/retifica",
+            "name": "Retífica",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-eletricas/serra-circular",
+            "name": "Serra Circular",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-eletricas/serra-marmore",
+            "name": "Serra Mármore",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-eletricas/serra-tico-tico",
+            "name": "Serra Tico-tico",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-eletricas/serras-eletricas",
+            "name": "Serras Elétricas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-eletricas/soprador-termico",
+            "name": "Soprador Térmico",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-eletricas/tupia",
+            "name": "Tupia",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "url": "/ferramentas-manuais",
+        "name": "Ferramentas Manuais",
+        "image": [],
+        "children": [
+          {
+            "url": "/ferramentas-manuais/alicates",
+            "name": "Alicates",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/arco-de-serra",
+            "name": "Arco de Serra",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/canivetes-e-estiletes",
+            "name": "Canivetes e Estiletes",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/chaves",
+            "name": "Chaves",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/cortadores-manuais",
+            "name": "Cortadores Manuais",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/desempenadeiras",
+            "name": "Desempenadeiras",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/escala",
+            "name": "Escala",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/esquadro",
+            "name": "Esquadro",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/flangeador-de-tubos",
+            "name": "Flangeador de Tubos",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/formao",
+            "name": "Formão",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/jogo-de-ferramentas",
+            "name": "Jogo de Ferramentas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/jogo-de-tarraxas",
+            "name": "Jogo de Tarraxas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/lima",
+            "name": "Lima",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/martelos-e-marretas",
+            "name": "Martelos e Marretas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/niveis",
+            "name": "Níveis",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/pistola-de-fixacao",
+            "name": "Pistola de Fixação",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/plainas",
+            "name": "Plainas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/raspador-manual",
+            "name": "Raspador Manual",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/rebitador-manual",
+            "name": "Rebitador Manual",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/refilador-manual",
+            "name": "Refilador Manual",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/serrotes",
+            "name": "Serrotes",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/tesouras-industriais",
+            "name": "Tesouras Industriais",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/torques",
+            "name": "Torques",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/trenas",
+            "name": "Trenas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "url": "/eletrica",
+        "name": "Elétrica",
+        "image": [],
+        "children": [
+          {
+            "url": "/eletrica/alicate-amperimetro",
+            "name": "Alicate Amperímetro",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/eletrica/caixas-e-quadros",
+            "name": "Caixas e Quadros",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/eletrica/chave-de-teste",
+            "name": "Chave de Teste",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/eletrica/detector-de-tensao",
+            "name": "Detector de Tensão",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/eletrica/disjuntores-e-contatores",
+            "name": "Disjuntores e Contatores",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/eletrica/eletrodutos-e-conduites",
+            "name": "Eletrodutos e Conduites",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/eletrica/extensoes",
+            "name": "Extensões",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/eletrica/filtros-de-linha",
+            "name": "Filtros de Linha",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/eletrica/fitas-isolantes",
+            "name": "Fitas Isolantes",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/eletrica/maquinas-e-acessorios-de-solda",
+            "name": "Máquinas e Acessórios de Solda",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/eletrica/multimetro",
+            "name": "Multímetro",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/eletrica/pilhas-e-baterias",
+            "name": "Pilhas e Baterias",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/eletrica/soquetes",
+            "name": "Soquete",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/eletrica/termometro",
+            "name": "Termômetro",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/eletrica/tomadas-e-interruptores",
+            "name": "Tomadas e Interruptores",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/eletrica/transformadores",
+            "name": "Transformadores",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "url": "/lampadas-e-iluminacao",
+        "name": "Lâmpadas e Iluminação",
+        "image": [],
+        "children": [
+          {
+            "url": "/lampadas-e-iluminacao/abajures",
+            "name": "Abajures",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/lampadas-e-iluminacao/arandelas",
+            "name": "Arandelas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/lampadas-e-iluminacao/balizadores",
+            "name": "Balizadores",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/lampadas-e-iluminacao/fitas-e-mangueiras-de-led",
+            "name": "Fitas e Mangueiras de LED",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/lampadas-e-iluminacao/lampadas",
+            "name": "Lâmpadas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/lampadas-e-iluminacao/lanternas",
+            "name": "Lanternas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/lampadas-e-iluminacao/luminaria-de-emergencia",
+            "name": "Luminária de Emergência",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/lampadas-e-iluminacao/luminarias",
+            "name": "Luminárias",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/lampadas-e-iluminacao/lustres-e-pendentes",
+            "name": "Lustres e Pendentes",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/lampadas-e-iluminacao/plafon-e-painel",
+            "name": "Plafon e Painel",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/lampadas-e-iluminacao/poste",
+            "name": "Poste",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/lampadas-e-iluminacao/projetores-e-refletores",
+            "name": "Projetores e Refletores",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/lampadas-e-iluminacao/spots",
+            "name": "Spots",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "url": "/ferramentas-e-epi",
+        "name": "Ferramentas e EPI",
+        "image": [],
+        "children": [
+          {
+            "url": "/ferramentas-e-epi/botas-de-seguranca",
+            "name": "Botas de Segurança",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-e-epi/construcao-e-obra",
+            "name": "Construção e Obra",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-e-epi/epi",
+            "name": "EPI",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-e-epi/faixa-refletiva",
+            "name": "Faixa Refletiva",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-e-epi/lapis-de-carpinteiro",
+            "name": "Lápis de Carpinteiro",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-e-epi/lubrificantes-e-desingripantes",
+            "name": "Lubrificantes e Desingripantes",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-e-epi/mascara-respiradora",
+            "name": "Máscara Respiradora",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-e-epi/oculos-de-seguranca",
+            "name": "Óculos de Segurança",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-e-epi/protetor-facial",
+            "name": "Protetor Facial",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferramentas-e-epi/ventosas",
+            "name": "Ventosas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "url": "/hidraulica-e-metais",
+        "name": "Hidráulica e Metais",
+        "image": [],
+        "children": [
+          {
+            "url": "/hidraulica-e-metais/aquecedores",
+            "name": "Aquecedores",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/hidraulica-e-metais/assento-sanitario",
+            "name": "Assento Sanitário",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/hidraulica-e-metais/barras-de-apoio",
+            "name": "Barras de Apoio",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/hidraulica-e-metais/bombas-de-agua",
+            "name": "Bombas de Água",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/hidraulica-e-metais/chuveiros-e-duchas",
+            "name": "Chuveiros e Duchas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/hidraulica-e-metais/desentupidor-de-canos",
+            "name": "Desentupidor de Canos",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/hidraulica-e-metais/ducha-higienica",
+            "name": "Ducha Higiência",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/hidraulica-e-metais/engate",
+            "name": "Engate",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/hidraulica-e-metais/filtros-e-purificadores",
+            "name": "Filtros e Purificadores",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/hidraulica-e-metais/fitas-veda-rosca",
+            "name": "Fitas Veda Rosca",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/hidraulica-e-metais/metais-para-banheiro",
+            "name": "Metais para Banheiro",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/hidraulica-e-metais/metais-para-cozinha",
+            "name": "Metais para Cozinha",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/hidraulica-e-metais/misturadores",
+            "name": "Misturadores",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/hidraulica-e-metais/motobomba",
+            "name": "Motobomba",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/hidraulica-e-metais/prolongadores",
+            "name": "Prolongadores",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/hidraulica-e-metais/ralos-e-caixas-sanfonadas",
+            "name": "Ralos e Caixas sanfonadas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/hidraulica-e-metais/reparos",
+            "name": "Reparos",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/hidraulica-e-metais/resistencias",
+            "name": "Resistências",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/hidraulica-e-metais/sifoes",
+            "name": "Sifões",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/hidraulica-e-metais/torneiras",
+            "name": "Torneiras",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/hidraulica-e-metais/valvula-de-escoamento",
+            "name": "Válvula de Escoamento",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "url": "/ferragens",
+        "name": "Ferragens",
+        "image": [],
+        "children": [
+          {
+            "url": "/ferragens/cadeados",
+            "name": "Cadeados",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferragens/caixas-de-correio",
+            "name": "Caixas de Correio",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferragens/dobradicas",
+            "name": "Dobradiças",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferragens/esticadores",
+            "name": "Esticadores",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferragens/facoes-e-machados",
+            "name": "Facões e Machados",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferragens/fechaduras",
+            "name": "Fechaduras",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferragens/grampos",
+            "name": "Grampos",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferragens/maos-francesas",
+            "name": "Mãos Francesas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferragens/molas-hidraulica",
+            "name": "Molas Hidráulicas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferragens/olho-magico",
+            "name": "Olho Mágico",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferragens/pes-de-cabra",
+            "name": "Pés de Cabra",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferragens/puxadores",
+            "name": "Puxadores",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferragens/rodizios-roldanas-e-polias",
+            "name": "Rodízios, Roldanas e Polias",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferragens/saca-polia",
+            "name": "Saca Polia",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferragens/tampoes",
+            "name": "Tampões",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferragens/tornos",
+            "name": "Tornos",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/ferragens/torquimetro",
+            "name": "Torquímetro",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "url": "/tintas-e-mpermiabilizantes",
+        "name": "Tintas e Impermiabilizantes",
+        "image": [],
+        "children": [
+          {
+            "url": "/tintas-e-impermeabilizantes/acessorios-para-pintura",
+            "name": "Acessórios para Pintura",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/tintas-e-impermeabilizantes/auto",
+            "name": "Auto",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/tintas-e-impermeabilizantes/baldes-e-bandejas",
+            "name": "Baldes e Bandejas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/tintas-e-impermeabilizantes/colas-silicones-e-adesivos",
+            "name": "Colas, Silicones e Adesivos",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/tintas-e-impermeabilizantes/espuma-expansiva",
+            "name": "Expuma Expansiva",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/tintas-e-impermeabilizantes/fitas",
+            "name": "Fitas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/tintas-e-impermeabilizantes/impermeabilizantes",
+            "name": "Impermeabilizantes",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/tintas-e-impermeabilizantes/kits-de-pintura",
+            "name": "Kits de Pintura",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/tintas-e-impermeabilizantes/lixas",
+            "name": "Lixas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/tintas-e-impermeabilizantes/massas",
+            "name": "Massas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/tintas-e-impermeabilizantes/pistolas-de-pintura",
+            "name": "Pistolas de Pintura",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/tintas-e-impermeabilizantes/rolos-de-pintura",
+            "name": "Rolos de Pintura",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/tintas-e-impermeabilizantes/solventes-e-removedores",
+            "name": "Solventes e Removedores",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/tintas-e-impermeabilizantes/tintas",
+            "name": "Tintas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/tintas-e-impermeabilizantes/trinchas-pinceis-e-broxas",
+            "name": "Trinchas, Pincéis e Broxas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/tintas-e-impermeabilizantes/vernizes",
+            "name": "Vernizes",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "url": "/casa-e-jardim",
+        "name": "Casa & Jardim",
+        "image": [],
+        "children": [
+          {
+            "url": "/casa---jardim/banheiro",
+            "name": "Banheiro",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/casa---jardim/acessorios-para-cozinha",
+            "name": "Acessórios para Cozinha",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/casa---jardim/acessorios-para-jardim",
+            "name": "Acessórios para Jardim",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/casa---jardim/carrinhos-de-mao",
+            "name": "Carrinhos de Mão",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/casa---jardim/eletroportateis",
+            "name": "Eletroportáteis",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/casa---jardim/ferramentas-para-jardim",
+            "name": "Ferramentas para Jardim",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/casa---jardim/fogoes",
+            "name": "Fogoes",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/casa---jardim/limpeza",
+            "name": "Limpeza",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/casa---jardim/mangueiras",
+            "name": "Mangueiras",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/casa---jardim/pulverizadores",
+            "name": "Pulverizadores",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/casa---jardim/seguranca",
+            "name": "Segurança",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/casa---jardim/telefones",
+            "name": "Telefones",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/casa---jardim/tesouras",
+            "name": "Tesouras",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/casa-e-jardim/ar-e-ventilacao#1",
+            "name": "Ar e Ventilação",
+            "image": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "url": "/decoracao-e-organizacao",
+        "name": "Decoração e Organização",
+        "image": [],
+        "children": [
+          {
+            "url": "/decoracao-e-organizacao/armarios-para-banheiro",
+            "name": "Armários para Banheiro",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/decoracao-e-organizacao/carrinhos-para-transporte",
+            "name": "Carrinhos para Transporte",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/decoracao-e-organizacao/cofres",
+            "name": "Cofres",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/decoracao-e-organizacao/escadas",
+            "name": "Escadas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/decoracao-e-organizacao/ganchos-e-suportes",
+            "name": "Ganchos e Suportes",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/decoracao-e-organizacao/lixeiras",
+            "name": "Lixadeiras",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/decoracao-e-organizacao/bolsas-e-caixas",
+            "name": "Bolsas e Caixas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/decoracao-e-organizacao/nichos",
+            "name": "Nichos",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/decoracao-e-organizacao/persianas",
+            "name": "Persianas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/decoracao-e-organizacao/pistola-cola-quente",
+            "name": "Pistola de Cola Quente",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/decoracao-e-organizacao/prateleiras",
+            "name": "Prateleiras",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/decoracao-e-organizacao/tecidos-adesivos",
+            "name": "Tecidos Adesivos",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/decoracao-e-organizacao/trilhos",
+            "name": "Trilhos",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          },
+          {
+            "url": "/decoracao-e-organizacao/utilidades-domesticas",
+            "name": "Utilidades Domésticas",
+            "@type": "SiteNavigationElement",
+            "image": [],
+            "children": []
+          }
+        ]
+      }
+    ],
+    "__resolveType": "commerce/loaders/navbar.ts"
+  },
+  "products": [],
+  "searchbar": {
+    "name": "q",
+    "action": "/s",
+    "loader": {
+      "data": { "__resolveType": "vtex/loaders/legacy/suggestions.ts" },
+      "__resolveType": "resolved"
+    },
+    "placeholder": "O que você está procurando?"
+  },
+  "gridImages": [
+    {
+      "link": "/",
+      "image": "https://www.casasbahia-imagens.com.br/criacao/01-home/home-especial/2024/liquida/master/04-abr/01/cupom.svg",
+      "title": "titulo"
+    }
+  ],
+  "suggestions": { "products": [], "searches": [] },
+  "logoPosition": "left",
+  "__resolveType": "site/sections/Header/Header.tsx",
+  "alternateGridImages": false
+}

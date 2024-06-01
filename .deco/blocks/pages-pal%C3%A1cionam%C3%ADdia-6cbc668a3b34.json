@@ -1,1 +1,50 @@
-{"name":"Palácio na Mídia","path":"/institucional/midia","sections":[{"title":"Palácio na Mídia","__resolveType":"website/sections/Seo/Seo.tsx","titleTemplate":"%s | Palácio das Ferramentas"},{"__resolveType":"Header - 01"},{"sections":[{"title":"Palácio na Mídia","brands":[{"link":"#","text":"o dia","image":"https://palaciodasferramentas.vteximg.com.br/arquivos/ids/158515/midia-o-dia.png"},{"link":"#","text":"O GLOBO","image":"https://palaciodasferramentas.vteximg.com.br/arquivos/ids/158516/midia-o-globo.png"},{"link":"#","text":"Jornal do Braisl","image":"https://palaciodasferramentas.vteximg.com.br/arquivos/ids/158517/midia-jornal-do-brasil.png"},{"link":"#","text":"Marca Starret","image":"https://palaciodasferramentas.vteximg.com.br/arquivos/ids/158519/midia-metro.png"},{"link":"/","text":"Marca Starret","image":"https://palaciodasferramentas.vteximg.com.br/arquivos/ids/158520/midia-record.png"}],"__resolveType":"site/sections/Content/BrandCarousel.tsx"}],"__resolveType":"site/sections/Content/InstitucionalContent.tsx"},{"__resolveType":"Rodapé FULL"}],"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Palácio na Mídia",
+  "path": "/institucional/midia",
+  "sections": [
+    {
+      "title": "Palácio na Mídia",
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "titleTemplate": "%s | Palácio das Ferramentas"
+    },
+    { "__resolveType": "Header - 01" },
+    {
+      "sections": [
+        {
+          "title": "Palácio na Mídia",
+          "brands": [
+            {
+              "link": "#",
+              "text": "o dia",
+              "image": "https://palaciodasferramentas.vteximg.com.br/arquivos/ids/158515/midia-o-dia.png"
+            },
+            {
+              "link": "#",
+              "text": "O GLOBO",
+              "image": "https://palaciodasferramentas.vteximg.com.br/arquivos/ids/158516/midia-o-globo.png"
+            },
+            {
+              "link": "#",
+              "text": "Jornal do Braisl",
+              "image": "https://palaciodasferramentas.vteximg.com.br/arquivos/ids/158517/midia-jornal-do-brasil.png"
+            },
+            {
+              "link": "#",
+              "text": "Marca Starret",
+              "image": "https://palaciodasferramentas.vteximg.com.br/arquivos/ids/158519/midia-metro.png"
+            },
+            {
+              "link": "/",
+              "text": "Marca Starret",
+              "image": "https://palaciodasferramentas.vteximg.com.br/arquivos/ids/158520/midia-record.png"
+            }
+          ],
+          "__resolveType": "site/sections/Content/BrandCarousel.tsx"
+        }
+      ],
+      "__resolveType": "site/sections/Content/InstitucionalContent.tsx"
+    },
+    { "__resolveType": "Rodapé FULL" }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

@@ -1,1 +1,14 @@
-{"name":"collections/blog/posts/60aad562437a","__resolveType":"blog/loaders/Blogpost.ts","post":{"authors":[],"categories":[],"title":"Blog Teste","excerpt":"Apenas um teste para blog posts","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/64246b4c-6462-4ebd-a28f-001f74b37ea0","date":"2024-05-22","slug":"blog-teste","content":"<h1>Conteudo sobre o assunto<img src=\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9ed6ae3a-8190-4250-b7db-b05f79546351\"><img src=\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/e58754fb-74dd-4e16-b80f-01b6ae7fa4c6\"></h1>"}}
+{
+  "name": "collections/blog/posts/60aad562437a",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [],
+    "title": "Blog Teste",
+    "excerpt": "Apenas um teste para blog posts",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/64246b4c-6462-4ebd-a28f-001f74b37ea0",
+    "date": "2024-05-22",
+    "slug": "blog-teste",
+    "content": "<h1>Conteudo sobre o assunto<img src=\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9ed6ae3a-8190-4250-b7db-b05f79546351\"><img src=\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/e58754fb-74dd-4e16-b80f-01b6ae7fa4c6\"></h1>"
+  }
+}

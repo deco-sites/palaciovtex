@@ -1,1 +1,27 @@
-{"name":"Formas de Pagamento","path":"/suporte/politica-de-pagamento","sections":[{"title":"Formas de Pagamento","__resolveType":"website/sections/Seo/Seo.tsx","titleTemplate":"%s | Palácio das Ferramentas"},{"__resolveType":"Header - 01"},{"sections":[{"title":"Formas de Pagamento","__resolveType":"site/sections/Institucional/InstitucionalTitle.tsx"},{"content":"<div class=\"suporte__content\"><!-- Tipbar --><p>O pagamento pode ser efetuado através de cartão de crédito, boleto bancário ou pix.<br><br></p><h4><strong>CARTÃO DE CRÉDITO</strong></h4><p>Aceitamos os seguintes cartões de crédito: Amex, Visa, Mastercard, Diners, Elo e Discover.<br><br></p><h4><strong>PARCELAMENTO NO CARTÃO DE CRÉDITO</strong></h4><p>válido somente para Amex, Visa, Mastercard, Diners e Elo.<br><br></p><p>As compras acima de R$ 200,00 podem ser parceladas em 2x sem juros.<br><br></p><p>As compras acima de R$ 300,00 podem ser parceladas em até 3x sem juros.<br><br></p><p>A análise realizada pelo&nbsp;<strong>Palácio da Ferramenta</strong>&nbsp;do pagamento realizado através de cartão de crédito leva de 1 a 3 dias uteis em análise, mesmo que o pagamento seja autorizado pela administradora. Veja mais informações abaixo.<br><br></p><h4><strong>BOLETO BANCÁRIO - VÁLIDO PARA TODOS OS BANCOS</strong></h4><p>Você poderá optar pela opção de pagamento por boleto bancário. Caso não possa imprimir o boleto, faça o pagamento do boleto pelo Home Banking de seu banco. Para isso, utilize a representação numérica/código de barras localizada na parte superior da ficha de compensação do boleto. Você terá até 2(dois) dias úteis para efetuar o pagamento, após a emissão do boleto. Sendo que o boleto deve ser impresso no mesmo dia ou dia subsequente da realização do pedido.<br><br></p><p><em>Importante:</em>&nbsp;Caso opte pelo pagamento por boleto bancário, o envio do produto escolhido em seu pedido será feito apenas após o recebimento por parte do&nbsp;<strong>Palácio da Ferramenta</strong>&nbsp;do comprovante de Pagamento.<br><br></p><p>O prazo de identificação dos pagamentos por boleto leva em média 3 dias úteis, pois pode variar dependendo do retorno do banco com a validação/compensação do pagamento do boleto.</p><!-- END Tipbar --></div>","__resolveType":"site/sections/Institucional/InstitucionalHTML.tsx"}],"__resolveType":"site/sections/Content/InstitucionalContent.tsx"},{"__resolveType":"Rodapé FULL"}],"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Formas de Pagamento",
+  "path": "/suporte/politica-de-pagamento",
+  "sections": [
+    {
+      "title": "Formas de Pagamento",
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "titleTemplate": "%s | Palácio das Ferramentas"
+    },
+    { "__resolveType": "Header - 01" },
+    {
+      "sections": [
+        {
+          "title": "Formas de Pagamento",
+          "__resolveType": "site/sections/Institucional/InstitucionalTitle.tsx"
+        },
+        {
+          "content": "<div class=\"suporte__content\"><!-- Tipbar --><p>O pagamento pode ser efetuado através de cartão de crédito, boleto bancário ou pix.<br><br></p><h4><strong>CARTÃO DE CRÉDITO</strong></h4><p>Aceitamos os seguintes cartões de crédito: Amex, Visa, Mastercard, Diners, Elo e Discover.<br><br></p><h4><strong>PARCELAMENTO NO CARTÃO DE CRÉDITO</strong></h4><p>válido somente para Amex, Visa, Mastercard, Diners e Elo.<br><br></p><p>As compras acima de R$ 200,00 podem ser parceladas em 2x sem juros.<br><br></p><p>As compras acima de R$ 300,00 podem ser parceladas em até 3x sem juros.<br><br></p><p>A análise realizada pelo&nbsp;<strong>Palácio da Ferramenta</strong>&nbsp;do pagamento realizado através de cartão de crédito leva de 1 a 3 dias uteis em análise, mesmo que o pagamento seja autorizado pela administradora. Veja mais informações abaixo.<br><br></p><h4><strong>BOLETO BANCÁRIO - VÁLIDO PARA TODOS OS BANCOS</strong></h4><p>Você poderá optar pela opção de pagamento por boleto bancário. Caso não possa imprimir o boleto, faça o pagamento do boleto pelo Home Banking de seu banco. Para isso, utilize a representação numérica/código de barras localizada na parte superior da ficha de compensação do boleto. Você terá até 2(dois) dias úteis para efetuar o pagamento, após a emissão do boleto. Sendo que o boleto deve ser impresso no mesmo dia ou dia subsequente da realização do pedido.<br><br></p><p><em>Importante:</em>&nbsp;Caso opte pelo pagamento por boleto bancário, o envio do produto escolhido em seu pedido será feito apenas após o recebimento por parte do&nbsp;<strong>Palácio da Ferramenta</strong>&nbsp;do comprovante de Pagamento.<br><br></p><p>O prazo de identificação dos pagamentos por boleto leva em média 3 dias úteis, pois pode variar dependendo do retorno do banco com a validação/compensação do pagamento do boleto.</p><!-- END Tipbar --></div>",
+          "__resolveType": "site/sections/Institucional/InstitucionalHTML.tsx"
+        }
+      ],
+      "__resolveType": "site/sections/Content/InstitucionalContent.tsx"
+    },
+    { "__resolveType": "Rodapé FULL" }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

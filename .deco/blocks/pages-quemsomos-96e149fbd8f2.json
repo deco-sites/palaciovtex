@@ -1,1 +1,52 @@
-{"name":"Quem Somos","path":"/institucional/quem-somos","sections":[{"title":"Quem Somos","__resolveType":"website/sections/Seo/Seo.tsx","titleTemplate":"%s | Palácio das Ferramentas"},{"__resolveType":"Header - 01"},{"sections":[{"title":"Quem Somos","__resolveType":"site/sections/Institucional/InstitucionalTitle.tsx"},{"content":"<p>O&nbsp;<strong>Palácio da Ferramenta</strong>&nbsp;é a sua loja no coração do Rio. Materiais de construção, elétrica, hidráulica, acabamentos, metais, iluminação, tintas, ferramentas, máquinas, jardinagem, utilidades para o lar, decoração… Precisou de algo? No&nbsp;<strong>Palácio da Ferramenta</strong> você encontra.</p><p><br data-mce-bogus=\"1\"></p><p><img src=\"https://www.palacio.com.br/arquivos/quem-somos-01.png\" width=\"955\" height=\"480\" alt=\"Sobre o Palácio da Ferramenta\" data-mce-src=\"https://www.palacio.com.br/arquivos/quem-somos-01.png\"></p><p><br data-mce-bogus=\"1\"></p><p>São 52 anos de tradição e excelência no atendimento. Vendedores com anos e décadas de casa, constantemente treinados e atualizados, sempre prontos para ajudar e orientar, tendo como objetivo maior a sua satisfação.</p><p><br data-mce-bogus=\"1\"></p><p>O&nbsp;<strong>Palácio da Ferramenta</strong> tem recebido, todos os anos, vários prêmios como uma das melhores lojas de materiais de construção do Brasil. Aqui você vai encontrar: Os melhores preços, grande variedade de produtos e as melhores marcas do mercado. Tudo num só lugar!</p>","__resolveType":"site/sections/Institucional/InstitucionalHTML.tsx"},{"banners":[{"alt":"Sobre nós","image":"https://palaciodasferramentas.vteximg.com.br/arquivos/quem-somos-02.png","width":590,"height":480},{"alt":"Sobre Nós","image":"https://palaciodasferramentas.vteximg.com.br/arquivos/quem-somos-03.png","width":350,"height":480}],"__resolveType":"site/sections/Institucional/InstitucionalDoubleBanner.tsx"},{"title":"A história do palácio da ferramenta","__resolveType":"site/sections/Institucional/InstitucionalTitle.tsx"},{"content":"<p>O&nbsp;<strong>Palácio da Ferramenta</strong>s foi fundado em 1971. O Brasil tinha acabado de conquistar o tricampeonato mundial de futebol. Dois portugueses, seu Raimundo e seu Manuel, começaram com uma pequena loja e enormes doses de ousadia, trabalho e dedicação. E assim nasceu uma empresa que já dura há 51 anos.</p><p><br data-mce-bogus=\"1\"></p><p>Raimundo \"da Bicicleta\" aceitou trocar um “caminhão de pano” arrematado num leilão, por uma loja e um sobrado na Buenos Aires, 147, rua que já tinha vocação para o comércio de ferragens, com quatro grandes lojas já em atuação. Um desafio para a pequena loja que nascia: a Toca das Ferramentas!</p><p><br data-mce-bogus=\"1\"></p><p>Começou-se com material elétrico, e aos poucos foi-se expandindo para máquinas e ferramentas. O empenho nos negócios e o bom trato aos clientes trouxe o crescimento natural. E quando a loja em frente, no número 154, colocou o cartaz \"Vende-se\" na vitrine, pensaram juntos: \"É isso que precisamos. Vender. Vender mais.\"</p><p><br data-mce-bogus=\"1\"></p><p>Um salto gigante. Da pequenina Toca para um moderno prédio dez vezes maior, um verdadeiro Palácio!</p><p><br data-mce-bogus=\"1\"></p><p>Foi assim que a dedicação dos diversos colaboradores permitiu construir uma empresa sólida, muito bem avaliada pelos seus clientes e que gera emprego e renda para cerca de 250 outras famílias. Uma empresa familiar, que ajuda a atender cada vez melhor a sua família.</p>","__resolveType":"site/sections/Institucional/InstitucionalHTML.tsx"}],"__resolveType":"site/sections/Content/InstitucionalContent.tsx"},{"__resolveType":"Rodapé FULL"}],"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Quem Somos",
+  "path": "/institucional/quem-somos",
+  "sections": [
+    {
+      "title": "Quem Somos",
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "titleTemplate": "%s | Palácio das Ferramentas"
+    },
+    { "__resolveType": "Header - 01" },
+    {
+      "sections": [
+        {
+          "title": "Quem Somos",
+          "__resolveType": "site/sections/Institucional/InstitucionalTitle.tsx"
+        },
+        {
+          "content": "<p>O&nbsp;<strong>Palácio da Ferramenta</strong>&nbsp;é a sua loja no coração do Rio. Materiais de construção, elétrica, hidráulica, acabamentos, metais, iluminação, tintas, ferramentas, máquinas, jardinagem, utilidades para o lar, decoração… Precisou de algo? No&nbsp;<strong>Palácio da Ferramenta</strong> você encontra.</p><p><br data-mce-bogus=\"1\"></p><p><img src=\"https://www.palacio.com.br/arquivos/quem-somos-01.png\" width=\"955\" height=\"480\" alt=\"Sobre o Palácio da Ferramenta\" data-mce-src=\"https://www.palacio.com.br/arquivos/quem-somos-01.png\"></p><p><br data-mce-bogus=\"1\"></p><p>São 52 anos de tradição e excelência no atendimento. Vendedores com anos e décadas de casa, constantemente treinados e atualizados, sempre prontos para ajudar e orientar, tendo como objetivo maior a sua satisfação.</p><p><br data-mce-bogus=\"1\"></p><p>O&nbsp;<strong>Palácio da Ferramenta</strong> tem recebido, todos os anos, vários prêmios como uma das melhores lojas de materiais de construção do Brasil. Aqui você vai encontrar: Os melhores preços, grande variedade de produtos e as melhores marcas do mercado. Tudo num só lugar!</p>",
+          "__resolveType": "site/sections/Institucional/InstitucionalHTML.tsx"
+        },
+        {
+          "banners": [
+            {
+              "alt": "Sobre nós",
+              "image": "https://palaciodasferramentas.vteximg.com.br/arquivos/quem-somos-02.png",
+              "width": 590,
+              "height": 480
+            },
+            {
+              "alt": "Sobre Nós",
+              "image": "https://palaciodasferramentas.vteximg.com.br/arquivos/quem-somos-03.png",
+              "width": 350,
+              "height": 480
+            }
+          ],
+          "__resolveType": "site/sections/Institucional/InstitucionalDoubleBanner.tsx"
+        },
+        {
+          "title": "A história do palácio da ferramenta",
+          "__resolveType": "site/sections/Institucional/InstitucionalTitle.tsx"
+        },
+        {
+          "content": "<p>O&nbsp;<strong>Palácio da Ferramenta</strong>s foi fundado em 1971. O Brasil tinha acabado de conquistar o tricampeonato mundial de futebol. Dois portugueses, seu Raimundo e seu Manuel, começaram com uma pequena loja e enormes doses de ousadia, trabalho e dedicação. E assim nasceu uma empresa que já dura há 51 anos.</p><p><br data-mce-bogus=\"1\"></p><p>Raimundo \"da Bicicleta\" aceitou trocar um “caminhão de pano” arrematado num leilão, por uma loja e um sobrado na Buenos Aires, 147, rua que já tinha vocação para o comércio de ferragens, com quatro grandes lojas já em atuação. Um desafio para a pequena loja que nascia: a Toca das Ferramentas!</p><p><br data-mce-bogus=\"1\"></p><p>Começou-se com material elétrico, e aos poucos foi-se expandindo para máquinas e ferramentas. O empenho nos negócios e o bom trato aos clientes trouxe o crescimento natural. E quando a loja em frente, no número 154, colocou o cartaz \"Vende-se\" na vitrine, pensaram juntos: \"É isso que precisamos. Vender. Vender mais.\"</p><p><br data-mce-bogus=\"1\"></p><p>Um salto gigante. Da pequenina Toca para um moderno prédio dez vezes maior, um verdadeiro Palácio!</p><p><br data-mce-bogus=\"1\"></p><p>Foi assim que a dedicação dos diversos colaboradores permitiu construir uma empresa sólida, muito bem avaliada pelos seus clientes e que gera emprego e renda para cerca de 250 outras famílias. Uma empresa familiar, que ajuda a atender cada vez melhor a sua família.</p>",
+          "__resolveType": "site/sections/Institucional/InstitucionalHTML.tsx"
+        }
+      ],
+      "__resolveType": "site/sections/Content/InstitucionalContent.tsx"
+    },
+    { "__resolveType": "Rodapé FULL" }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

@@ -1,1 +1,98 @@
-{"seo":{"type":"website","title":"Palácio da Ferramenta","favicon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/e1b0a61f-82f5-4afc-9bdf-d7399c092d17","jsonLDs":[],"noIndexing":false,"description":"O Palácio da Ferramenta, Máquinas é a sua loja no coração do Rio. Materiais de construção, elétricos, metais, máquinas, ferramentas, tintas e muito mais.","titleTemplate":"%s","descriptionTemplate":"%s"},"theme":{"font":{"fonts":[{"family":"Rubik","variations":[{"weight":"300","italic":false},{"weight":"400","italic":false},{"weight":"500","italic":false},{"weight":"600","italic":false},{"weight":"700","italic":false}]}],"__resolveType":"website/loaders/fonts/googleFonts.ts"},"fonts":[{"fontFamily":"Poppins"}],"mainColors":{"neutral":"#f9f9f9","primary":"#384c53","warning":"#e08e00","base-100":"#ffffff","tertiary":"#ffeaaf","secondary":"#ffeaaf"},"buttonStyle":{"--border-btn":"1px","--rounded-btn":"0.2rem","--animation-btn":"0.25s","--btn-text-case":"normal-case","--btn-focus-scale":"0.95"},"colorScheme":"light","otherStyles":{"--tab-border":"1px","--tab-radius":"0.5rem","--rounded-box":"1rem","--rounded-badge":"1.9rem","--animation-input":"0.2s"},"__resolveType":"site/sections/Theme/Theme.tsx","complementaryColors":{"primary":{"primary-content":"#ffffff"},"base-200":"#ffffff","base-300":"#ffffff","neutral-content":"#f9f9f9"}},"global":[{"__resolveType":"Analytics"},{"__resolveType":"algolia/sections/Analytics/Algolia.tsx"},{"__resolveType":"analytics/sections/Analytics/DecoAnalytics.tsx"},{"__resolveType":"float-whatsapp"},{"__resolveType":"Back To Top"}],"routes":[{"__resolveType":"website/loaders/pages.ts"},{"__resolveType":"website/loaders/redirects.ts"},{"__resolveType":"vtex/loaders/proxy.ts","includeSiteMap":[],"extraPathsToProxy":["/login","/checkout"],"includeScriptsToHead":{"includes":[]}}],"caching":{"directives":[]},"commerce":{"appKey":{"encrypted":"5951a99abe1a73f8535ab0a3497f69def863ff1fb7b03a015561998c01cdaac3fa177d160e7783be3804234affd8485173ea4f99c32f83093c0c513fbe9588a6526017be8247f9b71997cf09c3b8d831634bad8d9397d6b806a33920ce4abcd5414c69b37806d8da4e4d09dd2ed51326b35dfe390bd05b81ad94b3d8ee5e5d15e326950e063023dc100234f90011971e","__resolveType":"website/loaders/secret.ts"},"account":"palaciodasferramentas","appToken":{"encrypted":"afb300612f6a23475a1cc61704013e21b8321d2f4d58e9563889fcf9d03ce3b71f1caf0d82c50ca1d9450e565326f43e","__resolveType":"website/loaders/secret.ts"},"platform":"vtex","authToken":{},"publicUrl":"www.palacio.com.br","salesChannel":"1","defaultSegment":{"channelPrivacy":"public"}},"platform":"vtex","abTesting":{"replaces":[],"includeScriptsToHead":{"includes":[]}},"__resolveType":"site/apps/site.ts","firstByteThresholdMS":false}
+{
+  "seo": {
+    "type": "website",
+    "title": "Palácio da Ferramenta",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/e1b0a61f-82f5-4afc-9bdf-d7399c092d17",
+    "jsonLDs": [],
+    "noIndexing": false,
+    "description": "O Palácio da Ferramenta, Máquinas é a sua loja no coração do Rio. Materiais de construção, elétricos, metais, máquinas, ferramentas, tintas e muito mais.",
+    "titleTemplate": "%s",
+    "descriptionTemplate": "%s"
+  },
+  "theme": {
+    "font": {
+      "fonts": [
+        {
+          "family": "Rubik",
+          "variations": [
+            { "weight": "300", "italic": false },
+            { "weight": "400", "italic": false },
+            { "weight": "500", "italic": false },
+            { "weight": "600", "italic": false },
+            { "weight": "700", "italic": false }
+          ]
+        }
+      ],
+      "__resolveType": "website/loaders/fonts/googleFonts.ts"
+    },
+    "fonts": [{ "fontFamily": "Poppins" }],
+    "mainColors": {
+      "neutral": "#f9f9f9",
+      "primary": "#384c53",
+      "warning": "#e08e00",
+      "base-100": "#ffffff",
+      "tertiary": "#ffeaaf",
+      "secondary": "#ffeaaf"
+    },
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.2rem",
+      "--animation-btn": "0.25s",
+      "--btn-text-case": "normal-case",
+      "--btn-focus-scale": "0.95"
+    },
+    "colorScheme": "light",
+    "otherStyles": {
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem",
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s"
+    },
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "complementaryColors": {
+      "primary": { "primary-content": "#ffffff" },
+      "base-200": "#ffffff",
+      "base-300": "#ffffff",
+      "neutral-content": "#f9f9f9"
+    }
+  },
+  "global": [
+    { "__resolveType": "Analytics" },
+    { "__resolveType": "algolia/sections/Analytics/Algolia.tsx" },
+    { "__resolveType": "analytics/sections/Analytics/DecoAnalytics.tsx" },
+    { "__resolveType": "float-whatsapp" },
+    { "__resolveType": "Back To Top" }
+  ],
+  "routes": [
+    { "__resolveType": "website/loaders/pages.ts" },
+    { "__resolveType": "website/loaders/redirects.ts" },
+    {
+      "__resolveType": "vtex/loaders/proxy.ts",
+      "includeSiteMap": [],
+      "extraPathsToProxy": ["/login", "/checkout"],
+      "includeScriptsToHead": { "includes": [] }
+    }
+  ],
+  "caching": { "directives": [] },
+  "commerce": {
+    "appKey": {
+      "encrypted": "5951a99abe1a73f8535ab0a3497f69def863ff1fb7b03a015561998c01cdaac3fa177d160e7783be3804234affd8485173ea4f99c32f83093c0c513fbe9588a6526017be8247f9b71997cf09c3b8d831634bad8d9397d6b806a33920ce4abcd5414c69b37806d8da4e4d09dd2ed51326b35dfe390bd05b81ad94b3d8ee5e5d15e326950e063023dc100234f90011971e",
+      "__resolveType": "website/loaders/secret.ts"
+    },
+    "account": "palaciodasferramentas",
+    "appToken": {
+      "encrypted": "afb300612f6a23475a1cc61704013e21b8321d2f4d58e9563889fcf9d03ce3b71f1caf0d82c50ca1d9450e565326f43e",
+      "__resolveType": "website/loaders/secret.ts"
+    },
+    "platform": "vtex",
+    "authToken": {},
+    "publicUrl": "www.palacio.com.br",
+    "salesChannel": "1",
+    "defaultSegment": { "channelPrivacy": "public" }
+  },
+  "platform": "vtex",
+  "abTesting": { "replaces": [], "includeScriptsToHead": { "includes": [] } },
+  "__resolveType": "site/apps/site.ts",
+  "firstByteThresholdMS": false
+}

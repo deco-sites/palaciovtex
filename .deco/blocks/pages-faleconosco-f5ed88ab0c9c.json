@@ -1,1 +1,24 @@
-{"name":"Fale Conosco","path":"/suporte/fale-conosco","sections":[{"title":"Fale Conosco","__resolveType":"website/sections/Seo/Seo.tsx","titleTemplate":"%s | Palácio das Ferramentas"},{"__resolveType":"Header - 01"},{"sections":[{"title":"Fale Conosco","__resolveType":"site/sections/Institucional/InstitucionalTitle.tsx"},{"__resolveType":"Formulário de Contato"}],"__resolveType":"site/sections/Content/InstitucionalContent.tsx"},{"__resolveType":"Rodapé FULL"}],"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Fale Conosco",
+  "path": "/suporte/fale-conosco",
+  "sections": [
+    {
+      "title": "Fale Conosco",
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "titleTemplate": "%s | Palácio das Ferramentas"
+    },
+    { "__resolveType": "Header - 01" },
+    {
+      "sections": [
+        {
+          "title": "Fale Conosco",
+          "__resolveType": "site/sections/Institucional/InstitucionalTitle.tsx"
+        },
+        { "__resolveType": "Formulário de Contato" }
+      ],
+      "__resolveType": "site/sections/Content/InstitucionalContent.tsx"
+    },
+    { "__resolveType": "Rodapé FULL" }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}
