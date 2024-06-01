@@ -1,7 +1,7 @@
 import { clx } from "$store/sdk/clx.ts";
-import { Section } from "deco/blocks/section.ts";
 import type { ComponentChildren } from "preact";
 import { flex } from "../../constants.tsx";
+import { Section } from "deco/blocks/section.ts";
 
 /**
  * @title Flex

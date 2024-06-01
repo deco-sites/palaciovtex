@@ -1,7 +1,7 @@
 import type { SiteNavigationElement } from "apps/commerce/types.ts";
 import Image from "apps/website/components/Image.tsx";
 import { headerHeight as _headerHeight } from "./constants.ts";
-import { ThemeColors } from "deco-sites/palaciovtex/components/header/Header.tsx";
+import { ThemeColors } from "site/components/header/Header.tsx";
 
 function NavItem({ item, index }: {
   item: SiteNavigationElement;

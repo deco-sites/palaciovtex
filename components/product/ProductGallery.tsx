@@ -4,9 +4,9 @@ import ProductCard, {
 } from "$store/components/product/ProductCard.tsx";
 import { usePlatform } from "$store/sdk/usePlatform.tsx";
 import { Product } from "apps/commerce/types.ts";
-import { useOffer } from "deco-sites/palaciovtex/sdk/useOffer.ts";
+import { useOffer } from "site/sdk/useOffer.ts";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
-import { formatPrice } from "deco-sites/palaciovtex/sdk/format.ts";
+import { formatPrice } from "site/sdk/format.ts";
 import Image from "apps/website/components/Image.tsx";
 
 import AddToCartButtonVTEX from "$store/islands/AddToCartButton/vtex.tsx";
