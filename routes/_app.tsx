@@ -42,13 +42,16 @@ export default defineApp(async (_req, ctx) => {
           href={asset(`/custom.css`)}
           rel="stylesheet"
         />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
         {/* Web Manifest */}
         <link rel="manifest" href={asset("/site.webmanifest")} />
       </Head>
 
       {/* Rest of Preact tree */}
-      <ctx.Component/>
+      <ctx.Component />
 
       {/* Include service worker */}
       <script

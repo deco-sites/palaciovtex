@@ -1,1 +1,17 @@
-{"banners":[{"alt":"Sobre nós","image":"https://palaciodasferramentas.vteximg.com.br/arquivos/quem-somos-02.png","width":590,"height":480},{"alt":"Sobre Nós","image":"https://palaciodasferramentas.vteximg.com.br/arquivos/quem-somos-03.png","width":350,"height":480}],"__resolveType":"site/sections/Institucional/InstitucionalDoubleBanner.tsx"}
+{
+  "banners": [
+    {
+      "alt": "Sobre nós",
+      "image": "https://palaciodasferramentas.vteximg.com.br/arquivos/quem-somos-02.png",
+      "width": 590,
+      "height": 480
+    },
+    {
+      "alt": "Sobre Nós",
+      "image": "https://palaciodasferramentas.vteximg.com.br/arquivos/quem-somos-03.png",
+      "width": 350,
+      "height": 480
+    }
+  ],
+  "__resolveType": "site/sections/Institucional/InstitucionalDoubleBanner.tsx"
+}

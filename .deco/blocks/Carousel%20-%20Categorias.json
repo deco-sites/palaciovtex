@@ -1,1 +1,33 @@
-{"dots":true,"arrows":true,"images":[{"alt":"Outlet Tramontina","action":{"href":"/casa---jardim/outlet","label":".","title":".","subTitle":"."},"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/319bbbcc-30c0-47a1-92f9-a3729dd8190e","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/916757f6-919d-4c02-8075-324a56edccd3"},{"alt":"Whatsapp","action":{"href":"https://wa.me/message/WB5CBHZFYHXGF1","label":".","title":".","subTitle":"."},"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/82d49b60-ea9b-42ac-bb58-0456a88d6065","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/503f4572-3def-4343-9e92-869b6ae6c854"}],"layout":{"columns":{"mobile":1,"desktop":1}},"preload":true,"interval":6,"container":false,"__resolveType":"site/sections/Images/Carousel.tsx"}
+{
+  "dots": true,
+  "arrows": true,
+  "images": [
+    {
+      "alt": "Outlet Tramontina",
+      "action": {
+        "href": "/casa---jardim/outlet",
+        "label": ".",
+        "title": ".",
+        "subTitle": "."
+      },
+      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/319bbbcc-30c0-47a1-92f9-a3729dd8190e",
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/916757f6-919d-4c02-8075-324a56edccd3"
+    },
+    {
+      "alt": "Whatsapp",
+      "action": {
+        "href": "https://wa.me/message/WB5CBHZFYHXGF1",
+        "label": ".",
+        "title": ".",
+        "subTitle": "."
+      },
+      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/82d49b60-ea9b-42ac-bb58-0456a88d6065",
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/503f4572-3def-4343-9e92-869b6ae6c854"
+    }
+  ],
+  "layout": { "columns": { "mobile": 1, "desktop": 1 } },
+  "preload": true,
+  "interval": 6,
+  "container": false,
+  "__resolveType": "site/sections/Images/Carousel.tsx"
+}

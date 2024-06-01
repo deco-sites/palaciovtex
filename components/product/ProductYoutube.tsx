@@ -1,5 +1,5 @@
 import Button from "$store/components/ui/Button.tsx";
-import Modal from "$store/components/ui/Modal.tsx";
+import _Modal from "$store/components/ui/Modal.tsx";
 import { useId } from "$store/sdk/useId.ts";
 import { useSignal } from "@preact/signals";
 import Image from "apps/website/components/Image.tsx";
@@ -26,7 +26,7 @@ function ProductYoutube({ video }: Props) {
         />
       </Button>
       <div id={id}>
-        <Modal
+        <_Modal
           loading="lazy"
           open={open.value}
           onClose={() => open.value = false}
@@ -38,7 +38,7 @@ function ProductYoutube({ video }: Props) {
             >
             </div>
           </div>
-        </Modal>
+        </_Modal>
       </div>
     </>
   );

@@ -7,7 +7,7 @@ import * as $$$$$$$$$$$1 from "./apps/site.ts";
 import * as $$$0 from "./loaders/Layouts/ProductCard.tsx";
 import * as $$$1 from "./loaders/List/Sections.tsx";
 import * as $$$$$$0 from "./sections/Animation/Animation.tsx";
-import * as $$$$$$1 from "./sections/Carrossel/CustomSlider.tsx";
+import * as $$$$$$1 from "./sections/Carrossel/SliderCustom.tsx";
 import * as $$$$$$2 from "./sections/Category/CategoryBanner.tsx";
 import * as $$$$$$3 from "./sections/Category/CategoryGrid.tsx";
 import * as $$$$$$4 from "./sections/Category/CategoryList.tsx";
@@ -80,7 +80,7 @@ const manifest = {
   },
   "sections": {
     "site/sections/Animation/Animation.tsx": $$$$$$0,
-    "site/sections/Carrossel/CustomSlider.tsx": $$$$$$1,
+    "site/sections/Carrossel/SliderCustom.tsx": $$$$$$1,
     "site/sections/Category/CategoryBanner.tsx": $$$$$$2,
     "site/sections/Category/CategoryGrid.tsx": $$$$$$3,
     "site/sections/Category/CategoryList.tsx": $$$$$$4,
@@ -93,8 +93,7 @@ const manifest = {
     "site/sections/Content/Features.tsx": $$$$$$11,
     "site/sections/Content/Hero.tsx": $$$$$$12,
     "site/sections/Content/ImageSection.tsx": $$$$$$13,
-    "site/sections/Content/InstitucionalContent.tsx":
-      $$$$$$14,
+    "site/sections/Content/InstitucionalContent.tsx": $$$$$$14,
     "site/sections/Content/Logos.tsx": $$$$$$15,
     "site/sections/Content/LojasCarousel.tsx": $$$$$$16,
     "site/sections/Content/RichText.tsx": $$$$$$17,
@@ -113,14 +112,10 @@ const manifest = {
     "site/sections/Images/ImageGallery.tsx": $$$$$$30,
     "site/sections/Images/ShoppableBanner.tsx": $$$$$$31,
     "site/sections/Institucional/Formulario.tsx": $$$$$$32,
-    "site/sections/Institucional/InstitucionalAccordion.tsx":
-      $$$$$$33,
-    "site/sections/Institucional/InstitucionalDoubleBanner.tsx":
-      $$$$$$34,
-    "site/sections/Institucional/InstitucionalHTML.tsx":
-      $$$$$$35,
-    "site/sections/Institucional/InstitucionalTitle.tsx":
-      $$$$$$36,
+    "site/sections/Institucional/InstitucionalAccordion.tsx": $$$$$$33,
+    "site/sections/Institucional/InstitucionalDoubleBanner.tsx": $$$$$$34,
+    "site/sections/Institucional/InstitucionalHTML.tsx": $$$$$$35,
+    "site/sections/Institucional/InstitucionalTitle.tsx": $$$$$$36,
     "site/sections/Institucional/NossaLojas.tsx": $$$$$$37,
     "site/sections/Layout/Container.tsx": $$$$$$38,
     "site/sections/Layout/Flex.tsx": $$$$$$39,
@@ -134,8 +129,7 @@ const manifest = {
     "site/sections/Miscellaneous/Slide.tsx": $$$$$$47,
     "site/sections/Newsletter/Newsletter.tsx": $$$$$$48,
     "site/sections/Product/BuyTogether.tsx": $$$$$$49,
-    "site/sections/Product/ImageGalleryFrontBack.tsx":
-      $$$$$$50,
+    "site/sections/Product/ImageGalleryFrontBack.tsx": $$$$$$50,
     "site/sections/Product/ImageGallerySlider.tsx": $$$$$$51,
     "site/sections/Product/NotFound.tsx": $$$$$$52,
     "site/sections/Product/NotFoundChallenge.tsx": $$$$$$53,

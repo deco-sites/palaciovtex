@@ -55,7 +55,7 @@ const relative = (url: string) => {
   const link = new URL(url);
   return `${link.pathname}${link.search}`;
 };
-
+// deno-lint-ignore no-unused-vars
 const calculate = (item: number, item2: number) => {
   if ((item - item2) > 0) {
     const percentValue = Math.round((item - item2) / item * 100);
@@ -67,6 +67,7 @@ const WIDTH = 314;
 const HEIGHT = 272;
 
 function ProductCardSuggestion(
+  // deno-lint-ignore no-unused-vars
   { product, preload, itemListName, layout, platform, index }: Props,
 ) {
   const {
@@ -79,7 +80,9 @@ function ProductCardSuggestion(
   } = product;
   const id = `product-card-${productID}`;
   const hasVariant = isVariantOf?.hasVariant ?? [];
+  // deno-lint-ignore no-unused-vars
   const [front, back] = images ?? [];
+  // deno-lint-ignore no-unused-vars
   const { listPrice, price, installments, pixPrice } = useOffer(offers);
   const possibilities = useVariantPossibilities(hasVariant, product);
   const variants = Object.entries(Object.values(possibilities)[0] ?? {});
@@ -89,6 +92,7 @@ function ProductCardSuggestion(
     !l?.basics?.contentAlignment || l?.basics?.contentAlignment == "Left"
       ? "left"
       : "center";
+  // deno-lint-ignore no-unused-vars
   const skuSelector = variants.map(([value, link]) => (
     <li>
       <a href={link}>

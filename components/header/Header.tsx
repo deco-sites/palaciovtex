@@ -38,10 +38,10 @@ export interface ThemeColors {
    * @description Aqui se altera a cor de fundo do menu
    */
   corFundoNavegador?: string;
-  /** 
-   * @format color 
+  /**
+   * @format color
    * * @title Cor de fundo do menu
-   * */
+   */
   corFundoTopbar?: string;
   // corTextoNavegador?: string;
 }
@@ -157,8 +157,14 @@ function Header({
             {alternateGridImages == true && gridImages &&
               gridImages.length > 0 &&
               (
-                <div style={{ backgroundColor: colors?.corFundoTopbar ? colors?.corFundoTopbar : "",}}
-                  class={`bg-[#F0D02C] px-0 py-1.5 border-b-[#777] border-b border-solid hidden md:block`}>
+                <div
+                  style={{
+                    backgroundColor: colors?.corFundoTopbar
+                      ? colors?.corFundoTopbar
+                      : "",
+                  }}
+                  class={`bg-[#F0D02C] px-0 py-1.5 border-b-[#777] border-b border-solid hidden md:block`}
+                >
                   <ul class="flex justify-between items-center container">
                     {gridImages?.map((gridImage, index) => {
                       return (

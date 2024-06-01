@@ -11,7 +11,6 @@ import * as $AddToCartButton_vtex from "./islands/AddToCartButton/vtex.tsx";
 import * as $AddToCartButton_wake from "./islands/AddToCartButton/wake.tsx";
 import * as $AddToCartBuyTogether from "./islands/AddToCartBuyTogether.tsx";
 import * as $BuyTogether from "./islands/BuyTogether.tsx";
-import * as $CustomSlider from "./islands/CustomSlider.tsx";
 import * as $Formulario from "./islands/Formulario.tsx";
 import * as $Header_Buttons from "./islands/Header/Buttons.tsx";
 import * as $Header_Cart_linx from "./islands/Header/Cart/linx.tsx";
@@ -29,6 +28,7 @@ import * as $ProductImageZoom from "./islands/ProductImageZoom.tsx";
 import * as $ProductYoutube from "./islands/ProductYoutube.tsx";
 import * as $SearchControls from "./islands/SearchControls.tsx";
 import * as $ShippingSimulation from "./islands/ShippingSimulation.tsx";
+import * as $SliderCustom from "./islands/SliderCustom.tsx";
 import * as $SliderJS from "./islands/SliderJS.tsx";
 import * as $VerifyMobile from "./islands/VerifyMobile.tsx";
 import * as $WishlistButton_vtex from "./islands/WishlistButton/vtex.tsx";
@@ -48,7 +48,6 @@ const manifest = {
     "./islands/AddToCartButton/wake.tsx": $AddToCartButton_wake,
     "./islands/AddToCartBuyTogether.tsx": $AddToCartBuyTogether,
     "./islands/BuyTogether.tsx": $BuyTogether,
-    "./islands/CustomSlider.tsx": $CustomSlider,
     "./islands/Formulario.tsx": $Formulario,
     "./islands/Header/Buttons.tsx": $Header_Buttons,
     "./islands/Header/Cart/linx.tsx": $Header_Cart_linx,
@@ -66,6 +65,7 @@ const manifest = {
     "./islands/ProductYoutube.tsx": $ProductYoutube,
     "./islands/SearchControls.tsx": $SearchControls,
     "./islands/ShippingSimulation.tsx": $ShippingSimulation,
+    "./islands/SliderCustom.tsx": $SliderCustom,
     "./islands/SliderJS.tsx": $SliderJS,
     "./islands/VerifyMobile.tsx": $VerifyMobile,
     "./islands/WishlistButton/vtex.tsx": $WishlistButton_vtex,

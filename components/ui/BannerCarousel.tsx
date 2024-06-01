@@ -2,6 +2,7 @@ import {
   SendEventOnClick,
   SendEventOnView,
 } from "$store/components/Analytics.tsx";
+// deno-lint-ignore no-unused-vars
 import Button from "$store/components/ui/Button.tsx";
 import Icon from "$store/components/ui/Icon.tsx";
 import Slider from "$store/components/ui/Slider.tsx";

@@ -1,6 +1,8 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
-import Icon, { AvailableIcons } from "$store/components/ui/Icon.tsx";
+import _Icon, {
+  AvailableIcons as _AvailableIcons,
+} from "$store/components/ui/Icon.tsx";
 import type { ComponentChildren } from "preact";
 
 export interface Props {
@@ -42,7 +44,7 @@ export interface Links {
 
 export interface Link {
   /** @description 20px transparent png recommended */
-  icon?: AvailableIcons;
+  icon?: _AvailableIcons;
   label: string;
   /** @format textarea */
   href: string;
@@ -162,7 +164,7 @@ function Links(props: Props) {
                 style={ColorsNeutralAndHover}
               >
                 {Boolean(link.icon) && (
-                  <Icon
+                  <_Icon
                     size={20}
                     id={link.icon!}
                     strokeWidth={2.5}
@@ -173,7 +175,7 @@ function Links(props: Props) {
                   {link.label}
                 </span>
 
-                <Icon
+                <_Icon
                   size={20}
                   id="share"
                   strokeWidth={2}
@@ -195,7 +197,7 @@ function Links(props: Props) {
                 title={link.label}
                 class="text-white block rounded"
               >
-                <Icon
+                <_Icon
                   size={20}
                   id={link.label}
                   strokeWidth={link.strokeWidth || 2}

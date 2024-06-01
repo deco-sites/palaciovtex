@@ -1,10 +1,12 @@
-import Icon, { AvailableIcons } from "$store/components/ui/Icon.tsx";
+import _Icon, {
+  AvailableIcons as _AvailableIcons,
+} from "$store/components/ui/Icon.tsx";
 
 /**
  * @titleBy title
  */
 export interface Card {
-  icon?: AvailableIcons;
+  icon?: _AvailableIcons;
   /**
    * @format html
    */
@@ -22,7 +24,7 @@ function FeatureCard({ icon, title, text }: Card) {
     <div class="feature-card group group-hover:-translate-y-3">
       {icon && (
         <div class="p-6 rounded-full bg-white text-[#1A1A1A]">
-          <Icon id={icon} size={48} />
+          <_Icon id={icon} size={48} />
         </div>
       )}
       <div class="space-y-4 text-center">

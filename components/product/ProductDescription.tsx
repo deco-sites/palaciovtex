@@ -12,7 +12,9 @@ export interface Props {
 export default function ProductDescription(
   { page, extraSection: { Component, props } }: Props,
 ) {
+  // deno-lint-ignore no-unused-vars
   const platform = usePlatform();
+  // deno-lint-ignore no-unused-vars
   const id = useId();
 
   if (page === null) {

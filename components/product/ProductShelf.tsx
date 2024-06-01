@@ -38,7 +38,7 @@ function ProductShelf({
   const id = useId();
   const platform = usePlatform();
 
-  console.log(products?.length)
+  console.log(products?.length);
 
   if (!products || products.length === 0) {
     return null;

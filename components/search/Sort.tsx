@@ -45,6 +45,7 @@ function Sort({ sortOptions }: Props) {
         value,
         label: portugueseMappings[label as keyof typeof portugueseMappings],
         backSort: label,
+        // deno-lint-ignore no-unused-vars
       })).filter(({ label, value }) => label).map((
         { value, label, backSort },
       ) => (

@@ -1,0 +1,9 @@
+{
+  "__resolveType": "site/sections/Content/BlogPosts.tsx",
+  "posts": [],
+  "layout": {
+    "numberOfSliders": { "mobile": 1, "desktop": 1 },
+    "headerAlignment": "center",
+    "headerfontSize": "Normal"
+  }
+}

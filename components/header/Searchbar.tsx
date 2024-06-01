@@ -1,8 +1,8 @@
-import { headerHeight } from "$store/components/header/constants.ts";
+import { headerHeight as _headerHeight } from "$store/components/header/constants.ts";
 import Searchbar, {
   Props as SearchbarProps,
 } from "$store/components/search/Searchbar.tsx";
-import Modal from "$store/components/ui/Modal.tsx";
+import _Modal from "$store/components/ui/Modal.tsx";
 import { useUI } from "$store/sdk/useUI.ts";
 
 export interface Props {
@@ -10,6 +10,7 @@ export interface Props {
 }
 
 function SearchbarModal({ searchbar }: Props) {
+  // deno-lint-ignore no-unused-vars
   const { displaySearchPopup } = useUI();
 
   if (!searchbar) {

@@ -1,5 +1,6 @@
 // import { SendEventOnClick } from "$store/components/Analytics.tsx";
 // import Avatar from "$store/components/ui/Avatar.tsx";
+// deno-lint-ignore no-unused-vars
 import WishlistButtonVtex from "../../islands/WishlistButton/vtex.tsx";
 // import WishlistButtonWake from "../../islands/WishlistButton/vtex.tsx";
 import { formatPrice } from "$store/sdk/format.ts";
@@ -69,7 +70,7 @@ export default function ProductCardCustom(
     showAddButton,
     pixPercentageBGColor,
     pixPercentageTextColor,
-    buttonColor
+    buttonColor,
   }: Props,
 ) {
   const id = useId();
@@ -91,6 +92,7 @@ export default function ProductCardCustom(
       >
         <Slider class="carousel carousel-center sm:carousel-end sm:gap-1 row-start-2 row-end-5">
           {products && products.map((product, index) => {
+            // deno-lint-ignore no-unused-vars
             const { listPrice, price, installments, pixPrice } = useOffer(
               product.offers,
             );
@@ -98,6 +100,7 @@ export default function ProductCardCustom(
             const {
               url,
               productID,
+              // deno-lint-ignore no-unused-vars
               name,
               image: images,
               offers,

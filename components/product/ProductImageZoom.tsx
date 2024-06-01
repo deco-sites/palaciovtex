@@ -1,6 +1,6 @@
 import Button from "$store/components/ui/Button.tsx";
 import Icon from "$store/components/ui/Icon.tsx";
-import Modal from "$store/components/ui/Modal.tsx";
+import _Modal from "$store/components/ui/Modal.tsx";
 import Slider from "$store/components/ui/Slider.tsx";
 import SliderJS from "$store/islands/SliderJS.tsx";
 import { useId } from "$store/sdk/useId.ts";
@@ -27,7 +27,7 @@ function ProductImageZoom({ images, width, height }: Props) {
         <Icon id="Zoom" size={24} />
       </Button>
       <div id={id}>
-        <Modal
+        <_Modal
           loading="lazy"
           open={open.value}
           onClose={() => open.value = false}
@@ -61,7 +61,7 @@ function ProductImageZoom({ images, width, height }: Props) {
 
             <SliderJS rootId={id} />
           </div>
-        </Modal>
+        </_Modal>
       </div>
     </>
   );

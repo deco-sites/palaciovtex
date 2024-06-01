@@ -22,7 +22,7 @@ export interface Layout {
 
 export interface Props {
   /** @title Integration */
-  page: ProductListingPage | null;
+  page: ProductListingPage;
   layout?: Layout;
   cardLayout?: CardLayout;
 
@@ -43,6 +43,7 @@ function Result({
   layout,
   cardLayout,
   startingPage = 0,
+  // deno-lint-ignore no-unused-vars
 }: Omit<Props, "page"> & { page: ProductListingPage }, req: Request) {
   const { products, filters, breadcrumb, pageInfo, sortOptions } = page;
   const perPage = pageInfo.recordPerPage || products.length;

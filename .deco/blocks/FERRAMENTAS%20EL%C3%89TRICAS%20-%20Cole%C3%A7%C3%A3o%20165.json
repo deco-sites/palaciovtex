@@ -1,1 +1,44 @@
-{"title":"FERRAMENTAS ELÉTRICAS 👨‍🔧⚡","layout":{"basics":{"ctaText":"Adicionar ao carrinho","oldPriceSize":"Small","contentAlignment":"Center"},"onMouseOver":{"card":"None","image":"Change image"},"elementsPositions":{"favoriteIcon":"Top right"}},"product":{"@type":"Product","brand":{"@type":"Brand"},"offers":{"@type":"AggregateOffer","offers":[]},"review":[],"isRelatedTo":[],"isSimilarTo":[],"isVariantOf":{"@type":"ProductGroup","hasVariant":[],"additionalProperty":[]},"aggregateRating":{"@type":"AggregateRating"},"additionalProperty":[],"isAccessoryOrSparePartFor":[]},"platform":"vtex","products":{"props":{"sort":"","count":12,"fuzzy":"automatic","similars":false,"collection":"165"},"__resolveType":"vtex/loaders/legacy/productList.ts"},"__resolveType":"site/sections/Product/ProductCardCustom.tsx","addWithoutPLP":true,"showAddButton":true,"pixPercentageBGColor":"#000000","pixPercentageTextColor":"#fafafa"}
+{
+  "title": "FERRAMENTAS ELÉTRICAS 👨‍🔧⚡",
+  "layout": {
+    "basics": {
+      "ctaText": "Adicionar ao carrinho",
+      "oldPriceSize": "Small",
+      "contentAlignment": "Center"
+    },
+    "onMouseOver": { "card": "None", "image": "Change image" },
+    "elementsPositions": { "favoriteIcon": "Top right" }
+  },
+  "product": {
+    "@type": "Product",
+    "brand": { "@type": "Brand" },
+    "offers": { "@type": "AggregateOffer", "offers": [] },
+    "review": [],
+    "isRelatedTo": [],
+    "isSimilarTo": [],
+    "isVariantOf": {
+      "@type": "ProductGroup",
+      "hasVariant": [],
+      "additionalProperty": []
+    },
+    "aggregateRating": { "@type": "AggregateRating" },
+    "additionalProperty": [],
+    "isAccessoryOrSparePartFor": []
+  },
+  "platform": "vtex",
+  "products": {
+    "props": {
+      "sort": "",
+      "count": 12,
+      "fuzzy": "automatic",
+      "similars": false,
+      "collection": "165"
+    },
+    "__resolveType": "vtex/loaders/legacy/productList.ts"
+  },
+  "__resolveType": "site/sections/Product/ProductCardCustom.tsx",
+  "addWithoutPLP": true,
+  "showAddButton": true,
+  "pixPercentageBGColor": "#000000",
+  "pixPercentageTextColor": "#fafafa"
+}

@@ -1,6 +1,7 @@
 import { useId } from "$store/sdk/useId.ts";
 import { useSignal } from "@preact/signals";
 import { ComponentChildren } from "preact";
+// deno-lint-ignore no-unused-vars
 import { useEffect, useState } from "preact/hooks";
 
 interface Props {

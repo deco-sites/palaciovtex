@@ -8,7 +8,7 @@ import AddToCartButtonWake from "$store/islands/AddToCartButton/wake.tsx";
 import AddToCartButtonNuvemshop from "$store/islands/AddToCartButton/nuvemshop.tsx";
 import OutOfStock from "$store/islands/OutOfStock.tsx";
 import ShippingSimulation from "$store/islands/ShippingSimulation.tsx";
-import WishlistButtonVtex from "../../islands/WishlistButton/vtex.tsx";
+// import WishlistButtonVtex from "../../islands/WishlistButton/vtex.tsx";
 import WishlistButtonWake from "../../islands/WishlistButton/wake.tsx";
 import { formatPrice } from "$store/sdk/format.ts";
 import { useId } from "$store/sdk/useId.ts";
@@ -44,11 +44,11 @@ function ProductInfo({ page, layout }: Props) {
     productID,
     offers,
     name = "",
-    gtin,
+    // gtin,
     isVariantOf,
     additionalProperty = [],
   } = product;
-  const description = product.description || isVariantOf?.description;
+  // const description = product.description || isVariantOf?.description;
   const RefId = product.additionalProperty?.find((refId) =>
     refId.name == "RefId"
   );
@@ -78,7 +78,7 @@ function ProductInfo({ page, layout }: Props) {
       <Breadcrumb itemListElement={breadcrumb.itemListElement} />
       {/* Code and name */}
       <div class="mt-4 sm:mt-8">
-        <h1>
+        <h1 class="productName">
           <span class="font-medium text-xl capitalize">
             {layout?.name === "concat"
               ? `${isVariantOf?.name} ${name}`
@@ -108,7 +108,9 @@ function ProductInfo({ page, layout }: Props) {
           </span>
         )}
 
-        <div class={`text-white bg-black block text-center relative text-xs md:text-sm uppercase rounded-md max-w-72`}>
+        <div
+          class={`text-white bg-black block text-center relative text-xs md:text-sm uppercase rounded-md max-w-72`}
+        >
           5% de desconto no PIX
         </div>
       </div>

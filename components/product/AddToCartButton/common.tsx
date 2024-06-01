@@ -45,7 +45,10 @@ export default function AddToCartButton(props: Props) {
   return (
     <Button
       {...btnProps}
-      style={{ backgroundColor: props.buttonColor ? props.buttonColor : "", borderColor: props.buttonColor ? props.buttonColor : ""}}
+      style={{
+        backgroundColor: props.buttonColor ? props.buttonColor : "",
+        borderColor: props.buttonColor ? props.buttonColor : "",
+      }}
       class="w-full md:w-auto btn no-animation rounded-[5px] font-medium text-xs flex justify-center items-center text-center uppercase outline-none transition-all hover:bg-black hover:text-white hover:border-black bg-[#F0D02C] border text-black border-solid border-[#F0D02C] h-[55px]"
     >
       Adicionar à Sacola

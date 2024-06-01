@@ -35,6 +35,7 @@ function FilterValues({ key, values }: FilterToggle) {
   return (
     <ul class={`flex flex-wrap gap-2 ${flexDirection}`}>
       {values.map((item) => {
+        // deno-lint-ignore no-unused-vars
         const { url, selected, value, quantity } = item;
 
         if (key === "cor" || key === "tamanho") {

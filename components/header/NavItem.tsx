@@ -1,15 +1,15 @@
 import type { SiteNavigationElement } from "apps/commerce/types.ts";
 import Image from "apps/website/components/Image.tsx";
-import { headerHeight } from "./constants.ts";
+import { headerHeight as _headerHeight } from "./constants.ts";
 import { ThemeColors } from "site/components/header/Header.tsx";
 
-function NavItem({ item, colors, index }: {
+function NavItem({ item, index }: {
   item: SiteNavigationElement;
   colors: ThemeColors;
   index: number;
 }) {
   const { url, name, children } = item;
-  const image = item?.image?.[0];
+  // const image = item?.image?.[0];
 
   return (
     <li

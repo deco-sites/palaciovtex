@@ -141,17 +141,16 @@
 
 // export default BuyTogether;
 
-import { SendEventOnView } from "$store/components/Analytics.tsx";
-import ProductCard, {
-  Layout as cardLayout,
+import { SendEventOnView as _SendEventOnView } from "$store/components/Analytics.tsx";
+import _ProductCard, {
+  Layout as _cardLayout,
 } from "$store/components/product/ProductCard.tsx";
-import Icon from "$store/components/ui/Icon.tsx";
-import Header from "$store/components/ui/SectionHeader.tsx";
-import { useId } from "$store/sdk/useId.ts";
-import { useOffer } from "$store/sdk/useOffer.ts";
-import { usePlatform } from "$store/sdk/usePlatform.tsx";
+import _Icon from "$store/components/ui/Icon.tsx";
+import _Header from "$store/components/ui/SectionHeader.tsx";
+import { useId as _useId } from "$store/sdk/useId.ts";
+import { useOffer as _useOffer } from "$store/sdk/useOffer.ts";
 import type { Product } from "apps/commerce/types.ts";
-import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
+// import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
 import { formatPrice } from "$store/sdk/format.ts";
 import AddToCartBuyTogether from "site/islands/AddToCartBuyTogether.tsx";
 import Image from "apps/website/components/Image.tsx";
@@ -218,6 +217,7 @@ function BuyTogether({
     seller: principal?.offers?.offers?.[0]?.seller,
   });
 
+  // deno-lint-ignore no-unused-vars
   function toggleProducts(data: SkuListType, location: number) {
     products?.map((product, index) => {
       if (
