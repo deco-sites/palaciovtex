@@ -5,9 +5,9 @@ import SliderJS from "$store/islands/SliderJS.tsx";
 import { useId } from "$store/sdk/useId.ts";
 import { ProductDetailsPage } from "apps/commerce/types.ts";
 import Image from "apps/website/components/Image.tsx";
-import Modal from "$store/components/ui/Modal.tsx";
-import Button from "$store/components/ui/Button.tsx";
-import { useSignal } from "@preact/signals";
+import _Modal from "$store/components/ui/Modal.tsx";
+// import Button from "$store/components/ui/Button.tsx";
+import { useSignal as _useSignal } from "@preact/signals";
 import ProductYoutube from "$store/islands/ProductYoutube.tsx";
 
 export interface Props {
@@ -43,7 +43,7 @@ export default function GallerySlider(props: Props) {
     },
     layout: { width, height },
   } = props;
-  const aspectRatio = `${width} / ${height}`;
+  const _aspectRatio = `${width} / ${height}`;
 
   const specifications = isVariantOf?.additionalProperty.find(
     (specification) => {

@@ -8,10 +8,11 @@
  * Note that this is the most performatic way to perform a search, since
  * no JavaScript is shipped to the browser!
  */
-
+// deno-lint-ignore no-unused-vars
 import ProductCard from "$store/components/product/ProductCard.tsx";
 import Button from "$store/components/ui/Button.tsx";
 import Icon from "$store/components/ui/Icon.tsx";
+// deno-lint-ignore no-unused-vars
 import Slider from "$store/components/ui/Slider.tsx";
 import { sendEvent } from "$store/sdk/analytics.tsx";
 import { useId } from "$store/sdk/useId.ts";
@@ -57,6 +58,7 @@ function Searchbar({
   action = "/s",
   name = "q",
   loader,
+  // deno-lint-ignore no-unused-vars
   platform,
 }: Props) {
   const id = useId();
@@ -160,7 +162,7 @@ function Searchbar({
               Produtos sugeridos
             </span>
             <ul class="flex flex-col">
-              {products.slice(0, 4).map((product, index) => (
+              {products.slice(0, 4).map((product, _index) => (
                 <li class="relative text-left px-3 py-1">
                   <a
                     class="flex items-center justify-center text-black text-sm"

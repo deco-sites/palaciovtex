@@ -1,3 +1,4 @@
+// deno-lint-ignore no-unused-vars
 import ProductCard, {
   Layout as CardLayout,
 } from "$store/components/product/ProductCard.tsx";
@@ -49,11 +50,15 @@ const calculate = (item: number, item2: number) => {
 
 function ProductGallery({
   products,
+  // deno-lint-ignore no-unused-vars
   addWithoutPLP,
+  // deno-lint-ignore no-unused-vars
   showAddButton,
   layout,
+  // deno-lint-ignore no-unused-vars
   offset,
 }: Props) {
+  // deno-lint-ignore no-unused-vars
   const platform = usePlatform();
   const mobile = MOBILE_COLUMNS[layout?.columns?.mobile ?? 2];
   const desktop = DESKTOP_COLUMNS[layout?.columns?.desktop ?? 4];
@@ -62,7 +67,8 @@ function ProductGallery({
     <div
       class={`grid ${mobile} xl:grid-cols-2 gap-2 items-center ${desktop} sm:gap-10`}
     >
-      {products && products.map((product, index) => {
+      {products && products.map((product, _index) => {
+        // deno-lint-ignore no-unused-vars
         const { listPrice, price, installments, pixPrice } = useOffer(
           product.offers,
         );

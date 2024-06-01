@@ -1,9 +1,11 @@
-import Icon, { AvailableIcons } from "$store/components/ui/Icon.tsx";
+import _Icon, {
+  AvailableIcons as _AvailableIcons,
+} from "$store/components/ui/Icon.tsx";
 
 export interface SlideProps {
   label?: string;
   repeat?: number;
-  icon?: AvailableIcons;
+  icon?: _AvailableIcons;
 }
 
 export interface Props {
@@ -28,7 +30,7 @@ export default function Slide({
               {label}
             </span>
             {icon && (
-              <Icon
+              <_Icon
                 id={icon}
                 name={icon}
                 width={24}

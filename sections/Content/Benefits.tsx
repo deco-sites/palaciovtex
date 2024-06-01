@@ -1,4 +1,6 @@
-import Icon, { AvailableIcons } from "$store/components/ui/Icon.tsx";
+import _Icon, {
+  AvailableIcons as _AvailableIcons,
+} from "$store/components/ui/Icon.tsx";
 import Header from "$store/components/ui/SectionHeader.tsx";
 
 export interface Props {
@@ -6,7 +8,7 @@ export interface Props {
   description?: string;
   benefits?: Array<{
     label: string;
-    icon: AvailableIcons;
+    icon: _AvailableIcons;
     description: string;
   }>;
   layout?: {
@@ -59,7 +61,7 @@ export default function Benefits(
         }`}
       >
         <div class="flex-none">
-          <Icon
+          <_Icon
             id={benefit.icon}
             class={reverse ? "text-base-100" : "text-black"}
             width={36}

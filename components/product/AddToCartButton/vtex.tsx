@@ -9,7 +9,9 @@ export interface Props extends Omit<BtnProps, "onAddItem"> {
   buttonColor?: string;
 }
 
-function AddToCartButton({ seller, productID, eventParams, buttonColor }: Props) {
+function AddToCartButton(
+  { seller, productID, eventParams, buttonColor }: Props,
+) {
   const { addItems } = useCart();
   const count = useSignal(1);
 
@@ -46,7 +48,11 @@ function AddToCartButton({ seller, productID, eventParams, buttonColor }: Props)
         </button>
       </div>
 
-      <Button buttonColor={buttonColor} onAddItem={onAddItem} eventParams={eventParams} />
+      <Button
+        buttonColor={buttonColor}
+        onAddItem={onAddItem}
+        eventParams={eventParams}
+      />
     </div>
   );
 }

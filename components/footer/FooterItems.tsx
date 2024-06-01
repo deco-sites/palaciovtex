@@ -1,4 +1,6 @@
-import Icon, { AvailableIcons } from "$store/components/ui/Icon.tsx";
+import _Icon, {
+  AvailableIcons as _AvailableIcons,
+} from "$store/components/ui/Icon.tsx";
 
 export type Item = {
   label: string;

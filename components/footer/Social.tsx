@@ -1,4 +1,6 @@
-import Icon, { AvailableIcons } from "$store/components/ui/Icon.tsx";
+import _Icon, {
+  AvailableIcons as _AvailableIcons,
+} from "$store/components/ui/Icon.tsx";
 
 export interface SocialItem {
   label:
@@ -38,7 +40,7 @@ export default function Social(
                     class="flex gap-2 items-center"
                   >
                     <span class="block p-1 border rounded-full">
-                      <Icon size={24} id={item.label} />
+                      <_Icon size={24} id={item.label} />
                     </span>
                     {vertical && (
                       <div class="text-sm hidden lg:block">{item.label}</div>

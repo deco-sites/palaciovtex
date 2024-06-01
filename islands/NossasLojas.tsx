@@ -1,6 +1,6 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Button from "$store/components/ui/Button.tsx";
-import Modal from "$store/components/ui/Modal.tsx";
+import _Modal from "$store/components/ui/Modal.tsx";
 import { useSignal } from "@preact/signals";
 
 interface Loja {
@@ -48,7 +48,7 @@ function NossasLojas({ lojas }: Props) {
         );
       })}
 
-      <Modal
+      <_Modal
         loading="lazy"
         open={isOpen}
         onClose={() => selectedLoja.value = null}
@@ -65,7 +65,7 @@ function NossasLojas({ lojas }: Props) {
             </iframe>
           </div>
         </div>
-      </Modal>
+      </_Modal>
     </section>
   );
 }
