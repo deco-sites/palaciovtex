@@ -202,7 +202,7 @@ function Buttons() {
   );
 }
 
-function SliderCustom(props: Props) {
+function NovoCarrossel(props: Props) {
   const id = useId();
   const { images, preload, interval } = { ...DEFAULT_PROPS, ...props };
 
@@ -251,4 +251,4 @@ function SliderCustom(props: Props) {
   );
 }
 
-export default SliderCustom;
+export default NovoCarrossel;

@@ -23,12 +23,12 @@ import * as $Header_Drawers from "./islands/Header/Drawers.tsx";
 import * as $Header_Searchbar from "./islands/Header/Searchbar.tsx";
 import * as $Newsletter from "./islands/Newsletter.tsx";
 import * as $NossasLojas from "./islands/NossasLojas.tsx";
+import * as $NovoCarrossel from "./islands/NovoCarrossel.tsx";
 import * as $OutOfStock from "./islands/OutOfStock.tsx";
 import * as $ProductImageZoom from "./islands/ProductImageZoom.tsx";
 import * as $ProductYoutube from "./islands/ProductYoutube.tsx";
 import * as $SearchControls from "./islands/SearchControls.tsx";
 import * as $ShippingSimulation from "./islands/ShippingSimulation.tsx";
-import * as $SliderCustom from "./islands/SliderCustom.tsx";
 import * as $SliderJS from "./islands/SliderJS.tsx";
 import * as $VerifyMobile from "./islands/VerifyMobile.tsx";
 import * as $WishlistButton_vtex from "./islands/WishlistButton/vtex.tsx";
@@ -60,12 +60,12 @@ const manifest = {
     "./islands/Header/Searchbar.tsx": $Header_Searchbar,
     "./islands/Newsletter.tsx": $Newsletter,
     "./islands/NossasLojas.tsx": $NossasLojas,
+    "./islands/NovoCarrossel.tsx": $NovoCarrossel,
     "./islands/OutOfStock.tsx": $OutOfStock,
     "./islands/ProductImageZoom.tsx": $ProductImageZoom,
     "./islands/ProductYoutube.tsx": $ProductYoutube,
     "./islands/SearchControls.tsx": $SearchControls,
     "./islands/ShippingSimulation.tsx": $ShippingSimulation,
-    "./islands/SliderCustom.tsx": $SliderCustom,
     "./islands/SliderJS.tsx": $SliderJS,
     "./islands/VerifyMobile.tsx": $VerifyMobile,
     "./islands/WishlistButton/vtex.tsx": $WishlistButton_vtex,
