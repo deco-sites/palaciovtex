@@ -134,9 +134,9 @@ function BannerItem(
       id={id}
       href={action?.href ?? "#"}
       aria-label={action?.label}
-      class="relative overflow-y-hidden w-full"
+      class="relative overflow-y-hidden w-full flex items-center justify-center"
     >
-        <img src={desktop} alt={alt} loading={lcp ? "eager" : "lazy"} />
+      <img src={desktop} alt={alt} loading={lcp ? "eager" : "lazy"} />
     </a>
   );
 }
