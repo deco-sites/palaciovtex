@@ -17,7 +17,9 @@
             "__resolveType": "website/sections/Seo/Seo.tsx"
           },
           {
-            "cart": { "freeShippingObjectiveQuantity": 300 },
+            "cart": {
+              "freeShippingObjectiveQuantity": 300
+            },
             "logo": {
               "alt": "Palacio Logo",
               "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/49c8e527-7b45-4b51-ac5f-40567453128e",
@@ -25,8 +27,14 @@
               "height": 90
             },
             "links": [
-              { "link": "/institucional/nossas-lojas", "text": "Nossas Lojas" },
-              { "link": "/orders", "text": "Meus Pedidos" }
+              {
+                "link": "/institucional/nossas-lojas",
+                "text": "Nossas Lojas"
+              },
+              {
+                "link": "/orders",
+                "text": "Meus Pedidos"
+              }
             ],
             "alerts": [
               "FRETE GRÁTIS para compras acima de R$ 300,00 (RJ, SP, MG e ES) |    ",
@@ -1315,7 +1323,10 @@
                 "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/648862de-0104-4bcd-b4b5-1b13ea3654b0"
               }
             ],
-            "suggestions": { "products": [], "searches": [] },
+            "suggestions": {
+              "products": [],
+              "searches": []
+            },
             "logoPosition": "left",
             "__resolveType": "site/sections/Header/Header.tsx",
             "alternateGridImages": true
@@ -1347,7 +1358,12 @@
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/87fc5a7d-e176-47de-a3b3-bc125c920925"
               }
             ],
-            "layout": { "columns": { "mobile": 1, "desktop": 1 } },
+            "layout": {
+              "columns": {
+                "mobile": 1,
+                "desktop": 1
+              }
+            },
             "preload": true,
             "interval": 6,
             "container": false,
@@ -1387,12 +1403,19 @@
                 "image": "Change image",
                 "showCta": false
               },
-              "elementsPositions": { "favoriteIcon": "Top right" }
+              "elementsPositions": {
+                "favoriteIcon": "Top right"
+              }
             },
             "product": {
               "@type": "Product",
-              "brand": { "@type": "Brand" },
-              "offers": { "@type": "AggregateOffer", "offers": [] },
+              "brand": {
+                "@type": "Brand"
+              },
+              "offers": {
+                "@type": "AggregateOffer",
+                "offers": []
+              },
               "review": [],
               "isRelatedTo": [],
               "isSimilarTo": [],
@@ -1401,7 +1424,9 @@
                 "hasVariant": [],
                 "additionalProperty": []
               },
-              "aggregateRating": { "@type": "AggregateRating" },
+              "aggregateRating": {
+                "@type": "AggregateRating"
+              },
               "additionalProperty": [],
               "isAccessoryOrSparePartFor": []
             },
@@ -1461,7 +1486,12 @@
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/174e7697-f6db-462c-8d75-1607e228c57e"
               }
             ],
-            "layout": { "columns": { "mobile": 1, "desktop": 2 } },
+            "layout": {
+              "columns": {
+                "mobile": 1,
+                "desktop": 2
+              }
+            },
             "preload": true,
             "interval": 6,
             "container": false,
@@ -1480,12 +1510,19 @@
                 "image": "Change image",
                 "showBrand": false
               },
-              "elementsPositions": { "favoriteIcon": "Top right" }
+              "elementsPositions": {
+                "favoriteIcon": "Top right"
+              }
             },
             "product": {
               "@type": "Product",
-              "brand": { "@type": "Brand" },
-              "offers": { "@type": "AggregateOffer", "offers": [] },
+              "brand": {
+                "@type": "Brand"
+              },
+              "offers": {
+                "@type": "AggregateOffer",
+                "offers": []
+              },
               "review": [],
               "isRelatedTo": [],
               "isSimilarTo": [],
@@ -1494,7 +1531,9 @@
                 "hasVariant": [],
                 "additionalProperty": []
               },
-              "aggregateRating": { "@type": "AggregateRating" },
+              "aggregateRating": {
+                "@type": "AggregateRating"
+              },
               "additionalProperty": [],
               "isAccessoryOrSparePartFor": []
             },
@@ -1719,7 +1758,12 @@
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/1b651088-39d2-46a2-a7de-9bba7d31026e"
               }
             ],
-            "layout": { "columns": { "mobile": 1, "desktop": 2 } },
+            "layout": {
+              "columns": {
+                "mobile": 1,
+                "desktop": 2
+              }
+            },
             "preload": true,
             "interval": 6,
             "container": false,
@@ -1733,13 +1777,23 @@
                 "oldPriceSize": "Small",
                 "contentAlignment": "Center"
               },
-              "onMouseOver": { "card": "None", "image": "Change image" },
-              "elementsPositions": { "favoriteIcon": "Top right" }
+              "onMouseOver": {
+                "card": "None",
+                "image": "Change image"
+              },
+              "elementsPositions": {
+                "favoriteIcon": "Top right"
+              }
             },
             "product": {
               "@type": "Product",
-              "brand": { "@type": "Brand" },
-              "offers": { "@type": "AggregateOffer", "offers": [] },
+              "brand": {
+                "@type": "Brand"
+              },
+              "offers": {
+                "@type": "AggregateOffer",
+                "offers": []
+              },
               "review": [],
               "isRelatedTo": [],
               "isSimilarTo": [],
@@ -1748,7 +1802,9 @@
                 "hasVariant": [],
                 "additionalProperty": []
               },
-              "aggregateRating": { "@type": "AggregateRating" },
+              "aggregateRating": {
+                "@type": "AggregateRating"
+              },
               "additionalProperty": [],
               "isAccessoryOrSparePartFor": []
             },
@@ -1881,7 +1937,10 @@
               "corNewsletter": "#eacd78"
             },
             "layout": {
-              "hide": { "logo": false, "newsletter": false },
+              "hide": {
+                "logo": false,
+                "newsletter": false
+              },
               "variation": "Variation 1",
               "backgroundColor": "Primary"
             },
@@ -1921,17 +1980,30 @@
             },
             "payments": {
               "items": [
-                { "label": "visaNovo" },
-                { "label": "Diners" },
-                { "label": "mastercardNovo" },
-                { "label": "hipercardNovo" },
-                { "label": "boletoNovo" }
+                {
+                  "label": "visaNovo"
+                },
+                {
+                  "label": "Diners"
+                },
+                {
+                  "label": "mastercardNovo"
+                },
+                {
+                  "label": "hipercardNovo"
+                },
+                {
+                  "label": "boletoNovo"
+                }
               ],
               "title": "Formas de Pagamento"
             },
             "politicas": {
               "items": [
-                { "link": "/suporte/como-comprar", "text": "Como comprar" },
+                {
+                  "link": "/suporte/como-comprar",
+                  "text": "Como comprar"
+                },
                 {
                   "link": "/suporte/duvidas-frequentes",
                   "text": "Dúvidas Frequentes"
@@ -1960,7 +2032,9 @@
               "title": "Políticas e suporte"
             },
             "newsletter": {
-              "form": { "buttonText": "Cadastrar" },
+              "form": {
+                "buttonText": "Cadastrar"
+              },
               "title": "Que tal ficar por dentro<br/> das <b>Novidades</b> do Palácio ?"
             },
             "orcamentos": {
@@ -1974,12 +2048,18 @@
             "__resolveType": "site/sections/Footer/Rodape.tsx",
             "institucional": {
               "items": [
-                { "link": "/institucional/quem-somos", "text": "Quem somos" },
+                {
+                  "link": "/institucional/quem-somos",
+                  "text": "Quem somos"
+                },
                 {
                   "link": "/institucional/mulheres-a-obra",
                   "text": "<b>MULHERES À OBRA 💪🎀</b>"
                 },
-                { "link": "/institucional/midia", "text": "Palácio na Mídia" },
+                {
+                  "link": "/institucional/midia",
+                  "text": "Palácio na Mídia"
+                },
                 {
                   "link": "/institucional/nossas-lojas",
                   "text": "Nossas Lojas"
@@ -2004,7 +2084,9 @@
             "__resolveType": "website/sections/Seo/Seo.tsx"
           },
           {
-            "cart": { "freeShippingObjectiveQuantity": 300 },
+            "cart": {
+              "freeShippingObjectiveQuantity": 300
+            },
             "logo": {
               "alt": "Palacio Logo",
               "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/49c8e527-7b45-4b51-ac5f-40567453128e",
@@ -2012,8 +2094,14 @@
               "height": 90
             },
             "links": [
-              { "link": "/institucional/nossas-lojas", "text": "Nossas Lojas" },
-              { "link": "/orders", "text": "Meus Pedidos" }
+              {
+                "link": "/institucional/nossas-lojas",
+                "text": "Nossas Lojas"
+              },
+              {
+                "link": "/orders",
+                "text": "Meus Pedidos"
+              }
             ],
             "alerts": [
               "FRETE GRÁTIS para compras acima de R$ 300,00 (RJ, SP, MG e ES) |    ",
@@ -3308,7 +3396,10 @@
                 "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/648862de-0104-4bcd-b4b5-1b13ea3654b0"
               }
             ],
-            "suggestions": { "products": [], "searches": [] },
+            "suggestions": {
+              "products": [],
+              "searches": []
+            },
             "logoPosition": "left",
             "__resolveType": "site/sections/Header/Header.tsx",
             "alternateGridImages": true
@@ -3362,7 +3453,12 @@
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/908d4cfa-5cee-4f8f-9c54-89f898fdb388"
               }
             ],
-            "layout": { "columns": { "mobile": 1, "desktop": 1 } },
+            "layout": {
+              "columns": {
+                "mobile": 1,
+                "desktop": 1
+              }
+            },
             "preload": true,
             "interval": 6,
             "container": false,
@@ -3402,12 +3498,19 @@
                 "image": "Change image",
                 "showCta": false
               },
-              "elementsPositions": { "favoriteIcon": "Top right" }
+              "elementsPositions": {
+                "favoriteIcon": "Top right"
+              }
             },
             "product": {
               "@type": "Product",
-              "brand": { "@type": "Brand" },
-              "offers": { "@type": "AggregateOffer", "offers": [] },
+              "brand": {
+                "@type": "Brand"
+              },
+              "offers": {
+                "@type": "AggregateOffer",
+                "offers": []
+              },
               "review": [],
               "isRelatedTo": [],
               "isSimilarTo": [],
@@ -3416,7 +3519,9 @@
                 "hasVariant": [],
                 "additionalProperty": []
               },
-              "aggregateRating": { "@type": "AggregateRating" },
+              "aggregateRating": {
+                "@type": "AggregateRating"
+              },
               "additionalProperty": [],
               "isAccessoryOrSparePartFor": []
             },
@@ -3476,7 +3581,12 @@
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/174e7697-f6db-462c-8d75-1607e228c57e"
               }
             ],
-            "layout": { "columns": { "mobile": 1, "desktop": 2 } },
+            "layout": {
+              "columns": {
+                "mobile": 1,
+                "desktop": 2
+              }
+            },
             "preload": true,
             "interval": 6,
             "container": false,
@@ -3495,12 +3605,19 @@
                 "image": "Change image",
                 "showBrand": false
               },
-              "elementsPositions": { "favoriteIcon": "Top right" }
+              "elementsPositions": {
+                "favoriteIcon": "Top right"
+              }
             },
             "product": {
               "@type": "Product",
-              "brand": { "@type": "Brand" },
-              "offers": { "@type": "AggregateOffer", "offers": [] },
+              "brand": {
+                "@type": "Brand"
+              },
+              "offers": {
+                "@type": "AggregateOffer",
+                "offers": []
+              },
               "review": [],
               "isRelatedTo": [],
               "isSimilarTo": [],
@@ -3509,7 +3626,9 @@
                 "hasVariant": [],
                 "additionalProperty": []
               },
-              "aggregateRating": { "@type": "AggregateRating" },
+              "aggregateRating": {
+                "@type": "AggregateRating"
+              },
               "additionalProperty": [],
               "isAccessoryOrSparePartFor": []
             },
@@ -3734,7 +3853,12 @@
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/1b651088-39d2-46a2-a7de-9bba7d31026e"
               }
             ],
-            "layout": { "columns": { "mobile": 1, "desktop": 2 } },
+            "layout": {
+              "columns": {
+                "mobile": 1,
+                "desktop": 2
+              }
+            },
             "preload": true,
             "interval": 6,
             "container": false,
@@ -3749,13 +3873,23 @@
                 "oldPriceSize": "Small",
                 "contentAlignment": "Center"
               },
-              "onMouseOver": { "card": "None", "image": "Change image" },
-              "elementsPositions": { "favoriteIcon": "Top right" }
+              "onMouseOver": {
+                "card": "None",
+                "image": "Change image"
+              },
+              "elementsPositions": {
+                "favoriteIcon": "Top right"
+              }
             },
             "product": {
               "@type": "Product",
-              "brand": { "@type": "Brand" },
-              "offers": { "@type": "AggregateOffer", "offers": [] },
+              "brand": {
+                "@type": "Brand"
+              },
+              "offers": {
+                "@type": "AggregateOffer",
+                "offers": []
+              },
               "review": [],
               "isRelatedTo": [],
               "isSimilarTo": [],
@@ -3764,7 +3898,9 @@
                 "hasVariant": [],
                 "additionalProperty": []
               },
-              "aggregateRating": { "@type": "AggregateRating" },
+              "aggregateRating": {
+                "@type": "AggregateRating"
+              },
               "additionalProperty": [],
               "isAccessoryOrSparePartFor": []
             },
@@ -3897,7 +4033,10 @@
               "corNewsletter": "#eacd78"
             },
             "layout": {
-              "hide": { "logo": false, "newsletter": false },
+              "hide": {
+                "logo": false,
+                "newsletter": false
+              },
               "variation": "Variation 1",
               "backgroundColor": "Primary"
             },
@@ -3937,17 +4076,30 @@
             },
             "payments": {
               "items": [
-                { "label": "visaNovo" },
-                { "label": "Diners" },
-                { "label": "mastercardNovo" },
-                { "label": "hipercardNovo" },
-                { "label": "boletoNovo" }
+                {
+                  "label": "visaNovo"
+                },
+                {
+                  "label": "Diners"
+                },
+                {
+                  "label": "mastercardNovo"
+                },
+                {
+                  "label": "hipercardNovo"
+                },
+                {
+                  "label": "boletoNovo"
+                }
               ],
               "title": "Formas de Pagamento"
             },
             "politicas": {
               "items": [
-                { "link": "/suporte/como-comprar", "text": "Como comprar" },
+                {
+                  "link": "/suporte/como-comprar",
+                  "text": "Como comprar"
+                },
                 {
                   "link": "/suporte/duvidas-frequentes",
                   "text": "Dúvidas Frequentes"
@@ -3976,7 +4128,9 @@
               "title": "Políticas e suporte"
             },
             "newsletter": {
-              "form": { "buttonText": "Cadastrar" },
+              "form": {
+                "buttonText": "Cadastrar"
+              },
               "title": "Que tal ficar por dentro<br/> das <b>Novidades</b> do Palácio ?"
             },
             "orcamentos": {
@@ -3989,12 +4143,18 @@
             },
             "institucional": {
               "items": [
-                { "link": "/institucional/quem-somos", "text": "Quem somos" },
+                {
+                  "link": "/institucional/quem-somos",
+                  "text": "Quem somos"
+                },
                 {
                   "link": "/institucional/mulheres-a-obra",
                   "text": "<b>MULHERES À OBRA 💪🎀</b>"
                 },
-                { "link": "/institucional/midia", "text": "Palácio na Mídia" },
+                {
+                  "link": "/institucional/midia",
+                  "text": "Palácio na Mídia"
+                },
                 {
                   "link": "/institucional/nossas-lojas",
                   "text": "Nossas Lojas"
@@ -4006,7 +4166,9 @@
         ]
       },
       {
-        "rule": { "__resolveType": "website/matchers/always.ts" },
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        },
         "value": [
           {
             "title": "Palácio da Ferramenta",
@@ -4014,17 +4176,103 @@
             "noIndexing": false,
             "__resolveType": "website/sections/Seo/Seo.tsx"
           },
-          { "__resolveType": "Header - 01" },
-          { "__resolveType": "Carousel - 01" },
-          { "__resolveType": "Tarja de Beneficios" },
-          { "__resolveType": "Mais Vendidos - Coleção 167" },
-          { "__resolveType": "Nossas Promoções - Coleção 141" },
-          { "__resolveType": "Carrossel de Marcas" },
-          { "__resolveType": "PARAFUSADEIRAS E FURADEIRAS - Coleção 164" },
-          { "__resolveType": "Slider de Categorias" },
-          { "__resolveType": "Sobre Palácio - Coração do Rio" },
-          { "__resolveType": "Nossas Lojas - Palacio" },
-          { "__resolveType": "Rodapé FULL" }
+          {
+            "__resolveType": "site/sections/Header/Header.tsx",
+            "cart": {
+              "freeShippingObjectiveQuantity": 300
+            },
+            "logo": {
+              "alt": "Palacio Logo",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/41cdd066-6f14-4d2b-8257-75229b7c2caa",
+              "width": 190,
+              "height": 90
+            },
+            "links": [
+              {
+                "link": "/institucional/nossas-lojas",
+                "text": "Nossas Lojas"
+              },
+              {
+                "link": "/orders",
+                "text": "Meus Pedidos"
+              }
+            ],
+            "alerts": [
+              "FRETE GRÁTIS para compras acima de R$ 300,00 (RJ, SP, MG e ES) |    ",
+              " 💰 Ganhe 10% de desconto na sua 1º compra online, use o código: BEMVINDO10"
+            ],
+            "colors": {
+              "corFundo": "#ffffff",
+              "corFundoNavegador": "#ffffff",
+              "corTextoNavegador": "#000000"
+            },
+            "buttons": {
+              "hideSearchButton": false,
+              "hideAccountButton": false,
+              "hideWishlistButton": true
+            },
+            "products": [],
+            "searchbar": {
+              "name": "q",
+              "action": "/s",
+              "loader": {
+                "data": {
+                  "__resolveType": "vtex/loaders/legacy/suggestions.ts"
+                },
+                "__resolveType": "resolved"
+              },
+              "placeholder": "O que você está procurando?"
+            },
+            "gridImages": [
+              {
+                "link": "/",
+                "image": "https://www.casasbahia-imagens.com.br/criacao/01-home/home-especial/2024/liquida/master/04-abr/01/cupom.svg",
+                "title": "titulo"
+              }
+            ],
+            "suggestions": {
+              "products": [],
+              "searches": []
+            },
+            "logoPosition": "left",
+            "alternateGridImages": false,
+            "navItems": {
+              "__resolveType": "vtex/loaders/navbar.ts"
+            }
+          },
+          {
+            "__resolveType": "Carousel - 01"
+          },
+          {
+            "__resolveType": "Tarja de Beneficios"
+          },
+          {
+            "__resolveType": "Preview site/sections/SliderCustom/NovoCarrossel.tsx"
+          },
+          {
+            "__resolveType": "Mais Vendidos - Coleção 167"
+          },
+          {
+            "__resolveType": "Nossas Promoções - Coleção 141"
+          },
+          {
+            "__resolveType": "Carrossel de Marcas"
+          },
+          {
+            "__resolveType": "PARAFUSADEIRAS E FURADEIRAS - Coleção 164"
+          },
+          {
+            "__resolveType": "Card de Produto"
+          },
+          {
+            "__resolveType": "Slider de Categorias"
+          },
+          {
+            "__resolveType": "Nossas Lojas - Palacio"
+          },
+          {
+            "__resolveType": "Rodapé FULL"
+          }
         ]
       }
     ],

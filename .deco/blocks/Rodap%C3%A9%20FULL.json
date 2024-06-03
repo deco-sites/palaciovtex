@@ -5,7 +5,10 @@
     "corNewsletter": "#f0d02c"
   },
   "layout": {
-    "hide": { "logo": false, "newsletter": false },
+    "hide": {
+      "logo": false,
+      "newsletter": false
+    },
     "variation": "Variation 1",
     "backgroundColor": "Primary"
   },
@@ -17,7 +20,9 @@
       {
         "text": "<a href=\"mailto:lojavirtual@palacio.com.br\"><b>lojavirtual@palacio.com.br</a>"
       },
-      { "text": "<a href=\"https://wa.me/5521999689492\">(21) 99968-9492</a>" }
+      {
+        "text": "<a href=\"https://wa.me/5521999689492\">(21) 99968-9492</a>"
+      }
     ],
     "title": "Dúvidas Site, Orçamentos e Cotações 👨&zwj;💻"
   },
@@ -43,18 +48,34 @@
   },
   "payments": {
     "items": [
-      { "label": "visaNovo" },
-      { "label": "Diners" },
-      { "label": "mastercardNovo" },
-      { "label": "hipercardNovo" },
-      { "label": "boletoNovo" }
+      {
+        "label": "visaNovo"
+      },
+      {
+        "label": "Diners"
+      },
+      {
+        "label": "mastercardNovo"
+      },
+      {
+        "label": "hipercardNovo"
+      },
+      {
+        "label": "boletoNovo"
+      }
     ],
     "title": "Formas de Pagamento"
   },
   "politicas": {
     "items": [
-      { "link": "/suporte/como-comprar", "text": "Como comprar" },
-      { "link": "/suporte/duvidas-frequentes", "text": "Dúvidas Frequentes" },
+      {
+        "link": "/suporte/como-comprar",
+        "text": "Como comprar"
+      },
+      {
+        "link": "/suporte/duvidas-frequentes",
+        "text": "Dúvidas Frequentes"
+      },
       {
         "link": "/suporte/politica-de-privacidade",
         "text": "Política de Privacidade"
@@ -63,8 +84,14 @@
         "link": "/suporte/politica-de-seguranca",
         "text": "Política de Segurança"
       },
-      { "link": "/suporte/politica-de-entrega", "text": "Política de Entrega" },
-      { "link": "/suporte/troca-e-devolucao", "text": "Troca e Devolução" },
+      {
+        "link": "/suporte/politica-de-entrega",
+        "text": "Política de Entrega"
+      },
+      {
+        "link": "/suporte/troca-e-devolucao",
+        "text": "Troca e Devolução"
+      },
       {
         "link": "/suporte/politica-de-pagamento",
         "text": "Política de Pagamento"
@@ -73,7 +100,9 @@
     "title": "Políticas e suporte"
   },
   "newsletter": {
-    "form": { "buttonText": "Cadastrar" },
+    "form": {
+      "buttonText": "Cadastrar"
+    },
     "title": "Que tal ficar por dentro<br/> das <b>Novidades</b> do Palácio ?"
   },
   "orcamentos": {
@@ -87,13 +116,22 @@
   "__resolveType": "site/sections/Footer/Rodape.tsx",
   "institucional": {
     "items": [
-      { "link": "/institucional/quem-somos", "text": "Quem somos" },
+      {
+        "link": "/institucional/quem-somos",
+        "text": "Quem somos"
+      },
       {
         "link": "/institucional/mulheres-a-obra",
         "text": "<b>MULHERES À OBRA 💪🎀</b>"
       },
-      { "link": "/institucional/midia", "text": "Palácio na Mídia" },
-      { "link": "/institucional/nossas-lojas", "text": "Nossas Lojas" }
+      {
+        "link": "/institucional/midia",
+        "text": "Palácio na Mídia"
+      },
+      {
+        "link": "/institucional/nossas-lojas",
+        "text": "Visite Nossas Lojas"
+      }
     ],
     "title": "Institucional"
   }

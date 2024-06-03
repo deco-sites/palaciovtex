@@ -37,31 +37,23 @@
         },
         "content": [
           {
-            "type": "row",
+            "type": "stack",
+            "width": 100,
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
+            "activeItemIndex": 0,
             "content": [
               {
-                "type": "stack",
-                "width": 100,
+                "id": "dashboard::Home::home::Home::%7B%7D",
+                "title": "<div class=\"contents text-base-700\" id=\"header-dashboard::Home::home::Home::%7B%7D\" />",
+                "type": "component",
+                "componentName": "component",
+                "componentState": {
+                  "id": "dashboard::Home::home::Home::%7B%7D"
+                },
                 "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "dashboard::Home::home::Home::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-dashboard::Home::home::Home::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "dashboard::Home::home::Home::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
+                "reorderEnabled": true
               }
             ]
           }
@@ -91,26 +83,6 @@
       "name": "Pages",
       "pinned": true,
       "icon": "files",
-      "layout": [],
-      "tabs": {
-        "pages::List::list::List::%7B%7D": {
-          "name": "List",
-          "icon": "list",
-          "render": "function",
-          "viewId": "List",
-          "id": "pages::List::list::List::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        }
-      },
-      "category": "Content"
-    },
-    {
-      "id": "sections",
-      "name": "Sections",
-      "pinned": true,
-      "icon": "block",
       "layout": {
         "settings": {
           "hasHeaders": true,
@@ -151,12 +123,12 @@
             "activeItemIndex": 0,
             "content": [
               {
-                "id": "sections::List::list::List::%7B%7D",
-                "title": "<div class=\"contents text-base-700\" id=\"header-sections::List::list::List::%7B%7D\" />",
+                "id": "pages::List::list::List::%7B%7D",
+                "title": "<div class=\"contents text-base-700\" id=\"header-pages::List::list::List::%7B%7D\" />",
                 "type": "component",
                 "componentName": "component",
                 "componentState": {
-                  "id": "sections::List::list::List::%7B%7D"
+                  "id": "pages::List::list::List::%7B%7D"
                 },
                 "isClosable": true,
                 "reorderEnabled": true
@@ -170,6 +142,26 @@
         "openPopouts": [],
         "maximisedItemId": null
       },
+      "tabs": {
+        "pages::List::list::List::%7B%7D": {
+          "name": "List",
+          "icon": "list",
+          "render": "function",
+          "viewId": "List",
+          "id": "pages::List::list::List::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "category": "Content"
+    },
+    {
+      "id": "sections",
+      "name": "Sections",
+      "pinned": true,
+      "icon": "block",
+      "layout": [],
       "tabs": {
         "sections::List::list::List::%7B%7D": {
           "name": "List",
@@ -1060,14 +1052,89 @@
           "popin": "pop in",
           "tabDropdown": "additional tabs"
         },
-        "content": [],
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 26.411543287327476,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 73.58845671267252,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "isClosable": true,
         "reorderEnabled": true,
         "title": "",
         "openPopouts": [],
         "maximisedItemId": null
       },
-      "tabs": {}
+      "tabs": {
+        "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null,
+            "value": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
     },
     {
       "id": "/.deco/blocks/pages-category-7493d4326022.json",
@@ -2455,8 +2522,7 @@
           "viewId": "Properties",
           "id": "%2F.deco%2Fblocks%2Fpages-page-teste-125764.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-page-teste-125764.json::Preview::world::Preview::%7B%7D": {
@@ -2545,8 +2611,7 @@
           "viewId": "Properties",
           "id": "%2F.deco%2Fblocks%2FCarrosel%2520Custom.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         }
       }
@@ -2596,8 +2661,8 @@
       "tabs": {}
     },
     {
-      "id": "/.deco/blocks/Preview%20site%2Fsections%2FSliderCustom%2FNovoCarrossel.tsx.json",
-      "name": "NovoCarrossel.tsx",
+      "id": "/.deco/blocks/Preview%20site%2Fsections%2FCarrossel%2FCustomSlider.tsx.json",
+      "name": "CustomSlider.tsx",
       "pinned": false,
       "icon": "code",
       "layout": {
@@ -2641,11 +2706,11 @@
                 "type": "component",
                 "isClosable": true,
                 "reorderEnabled": true,
-                "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FSliderCustom%252FNovoCarrossel.tsx.json::Preview::world::Preview::%7B%7D\" />",
-                "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FSliderCustom%252FNovoCarrossel.tsx.json::Preview::world::Preview::%7B%7D",
+                "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FCarrossel%252FCustomSlider.tsx.json::Code::code::Code::%7B%7D\" />",
+                "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FCarrossel%252FCustomSlider.tsx.json::Code::code::Code::%7B%7D",
                 "componentName": "component",
                 "componentState": {
-                  "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FSliderCustom%252FNovoCarrossel.tsx.json::Preview::world::Preview::%7B%7D"
+                  "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FCarrossel%252FCustomSlider.tsx.json::Code::code::Code::%7B%7D"
                 }
               }
             ],
@@ -2660,6 +2725,278 @@
         "maximisedItemId": null
       },
       "tabs": {
+        "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FCarrossel%252FCustomSlider.tsx.json::Code::code::Code::%7B%7D": {
+          "name": "Code",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FCarrossel%252FCustomSlider.tsx.json::Code::code::Code::%7B%7D",
+          "state": {
+            "__signal": "error"
+          }
+        }
+      }
+    },
+    {
+      "id": "{\"oid\":\"c11f85400db4cba2ff79d1b350e749fa20623120\",\"short\":\"c11f854\",\"commit\":{\"message\":\"feat: novo carrossel NOVAMENTE\\n\",\"parent\":[\"823c7688b9349c793c6bdffd104d009b245f65d5\"],\"tree\":\"f5dae31b0e8e66f48da559bf27a653b26d3aa28d\",\"author\":{\"name\":\"Caio Nogueira\",\"email\":\"programmercaio98@gmail.com\",\"timestamp\":1717281676,\"timezoneOffset\":180},\"committer\":{\"name\":\"Caio Nogueira\",\"email\":\"programmercaio98@gmail.com\",\"timestamp\":1717281676,\"timezoneOffset\":180}}}",
+      "name": "Release c11f854",
+      "pinned": false,
+      "icon": "rocket",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "stack",
+            "width": 100,
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "id": "%7B%22oid%22%3A%22c11f85400db4cba2ff79d1b350e749fa20623120%22%2C%22short%22%3A%22c11f854%22%2C%22commit%22%3A%7B%22message%22%3A%22feat%3A%20novo%20carrossel%20NOVAMENTE%5Cn%22%2C%22parent%22%3A%5B%22823c7688b9349c793c6bdffd104d009b245f65d5%22%5D%2C%22tree%22%3A%22f5dae31b0e8e66f48da559bf27a653b26d3aa28d%22%2C%22author%22%3A%7B%22name%22%3A%22Caio%20Nogueira%22%2C%22email%22%3A%22programmercaio98%40gmail.com%22%2C%22timestamp%22%3A1717281676%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22Caio%20Nogueira%22%2C%22email%22%3A%22programmercaio98%40gmail.com%22%2C%22timestamp%22%3A1717281676%2C%22timezoneOffset%22%3A180%7D%7D%7D::Release::rocket::Release::%7B%7D",
+                "title": "<div class=\"contents text-base-700\" id=\"header-%7B%22oid%22%3A%22c11f85400db4cba2ff79d1b350e749fa20623120%22%2C%22short%22%3A%22c11f854%22%2C%22commit%22%3A%7B%22message%22%3A%22feat%3A%20novo%20carrossel%20NOVAMENTE%5Cn%22%2C%22parent%22%3A%5B%22823c7688b9349c793c6bdffd104d009b245f65d5%22%5D%2C%22tree%22%3A%22f5dae31b0e8e66f48da559bf27a653b26d3aa28d%22%2C%22author%22%3A%7B%22name%22%3A%22Caio%20Nogueira%22%2C%22email%22%3A%22programmercaio98%40gmail.com%22%2C%22timestamp%22%3A1717281676%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22Caio%20Nogueira%22%2C%22email%22%3A%22programmercaio98%40gmail.com%22%2C%22timestamp%22%3A1717281676%2C%22timezoneOffset%22%3A180%7D%7D%7D::Release::rocket::Release::%7B%7D\" />",
+                "type": "component",
+                "componentName": "component",
+                "componentState": {
+                  "id": "%7B%22oid%22%3A%22c11f85400db4cba2ff79d1b350e749fa20623120%22%2C%22short%22%3A%22c11f854%22%2C%22commit%22%3A%7B%22message%22%3A%22feat%3A%20novo%20carrossel%20NOVAMENTE%5Cn%22%2C%22parent%22%3A%5B%22823c7688b9349c793c6bdffd104d009b245f65d5%22%5D%2C%22tree%22%3A%22f5dae31b0e8e66f48da559bf27a653b26d3aa28d%22%2C%22author%22%3A%7B%22name%22%3A%22Caio%20Nogueira%22%2C%22email%22%3A%22programmercaio98%40gmail.com%22%2C%22timestamp%22%3A1717281676%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22Caio%20Nogueira%22%2C%22email%22%3A%22programmercaio98%40gmail.com%22%2C%22timestamp%22%3A1717281676%2C%22timezoneOffset%22%3A180%7D%7D%7D::Release::rocket::Release::%7B%7D"
+                },
+                "isClosable": true,
+                "reorderEnabled": true
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%7B%22oid%22%3A%22c11f85400db4cba2ff79d1b350e749fa20623120%22%2C%22short%22%3A%22c11f854%22%2C%22commit%22%3A%7B%22message%22%3A%22feat%3A%20novo%20carrossel%20NOVAMENTE%5Cn%22%2C%22parent%22%3A%5B%22823c7688b9349c793c6bdffd104d009b245f65d5%22%5D%2C%22tree%22%3A%22f5dae31b0e8e66f48da559bf27a653b26d3aa28d%22%2C%22author%22%3A%7B%22name%22%3A%22Caio%20Nogueira%22%2C%22email%22%3A%22programmercaio98%40gmail.com%22%2C%22timestamp%22%3A1717281676%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22Caio%20Nogueira%22%2C%22email%22%3A%22programmercaio98%40gmail.com%22%2C%22timestamp%22%3A1717281676%2C%22timezoneOffset%22%3A180%7D%7D%7D::Release::rocket::Release::%7B%7D": {
+          "name": "Release",
+          "icon": "rocket",
+          "render": "function",
+          "viewId": "Release",
+          "id": "%7B%22oid%22%3A%22c11f85400db4cba2ff79d1b350e749fa20623120%22%2C%22short%22%3A%22c11f854%22%2C%22commit%22%3A%7B%22message%22%3A%22feat%3A%20novo%20carrossel%20NOVAMENTE%5Cn%22%2C%22parent%22%3A%5B%22823c7688b9349c793c6bdffd104d009b245f65d5%22%5D%2C%22tree%22%3A%22f5dae31b0e8e66f48da559bf27a653b26d3aa28d%22%2C%22author%22%3A%7B%22name%22%3A%22Caio%20Nogueira%22%2C%22email%22%3A%22programmercaio98%40gmail.com%22%2C%22timestamp%22%3A1717281676%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22Caio%20Nogueira%22%2C%22email%22%3A%22programmercaio98%40gmail.com%22%2C%22timestamp%22%3A1717281676%2C%22timezoneOffset%22%3A180%7D%7D%7D::Release::rocket::Release::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "{\"oid\":\"67641853885a6b4b0706751f65c33234818ba637\",\"short\":\"6764185\",\"commit\":{\"message\":\"pasta nova criada\\n\",\"parent\":[\"c11f85400db4cba2ff79d1b350e749fa20623120\"],\"tree\":\"6305ce3b3edfbae69b64b0a7397f800408f3e157\",\"author\":{\"name\":\"Caio Nogueira\",\"email\":\"programmercaio98@gmail.com\",\"timestamp\":1717282042,\"timezoneOffset\":180},\"committer\":{\"name\":\"Caio Nogueira\",\"email\":\"programmercaio98@gmail.com\",\"timestamp\":1717282042,\"timezoneOffset\":180}}}",
+      "name": "Release 6764185",
+      "pinned": false,
+      "icon": "rocket",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "title": "<div class=\"contents text-base-700\" id=\"header-%7B%22oid%22%3A%2267641853885a6b4b0706751f65c33234818ba637%22%2C%22short%22%3A%226764185%22%2C%22commit%22%3A%7B%22message%22%3A%22pasta%20nova%20criada%5Cn%22%2C%22parent%22%3A%5B%22c11f85400db4cba2ff79d1b350e749fa20623120%22%5D%2C%22tree%22%3A%226305ce3b3edfbae69b64b0a7397f800408f3e157%22%2C%22author%22%3A%7B%22name%22%3A%22Caio%20Nogueira%22%2C%22email%22%3A%22programmercaio98%40gmail.com%22%2C%22timestamp%22%3A1717282042%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22Caio%20Nogueira%22%2C%22email%22%3A%22programmercaio98%40gmail.com%22%2C%22timestamp%22%3A1717282042%2C%22timezoneOffset%22%3A180%7D%7D%7D::Release::rocket::Release::%7B%7D\" />",
+                "type": "component",
+                "isClosable": true,
+                "reorderEnabled": true,
+                "id": "%7B%22oid%22%3A%2267641853885a6b4b0706751f65c33234818ba637%22%2C%22short%22%3A%226764185%22%2C%22commit%22%3A%7B%22message%22%3A%22pasta%20nova%20criada%5Cn%22%2C%22parent%22%3A%5B%22c11f85400db4cba2ff79d1b350e749fa20623120%22%5D%2C%22tree%22%3A%226305ce3b3edfbae69b64b0a7397f800408f3e157%22%2C%22author%22%3A%7B%22name%22%3A%22Caio%20Nogueira%22%2C%22email%22%3A%22programmercaio98%40gmail.com%22%2C%22timestamp%22%3A1717282042%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22Caio%20Nogueira%22%2C%22email%22%3A%22programmercaio98%40gmail.com%22%2C%22timestamp%22%3A1717282042%2C%22timezoneOffset%22%3A180%7D%7D%7D::Release::rocket::Release::%7B%7D",
+                "componentName": "component",
+                "componentState": {
+                  "id": "%7B%22oid%22%3A%2267641853885a6b4b0706751f65c33234818ba637%22%2C%22short%22%3A%226764185%22%2C%22commit%22%3A%7B%22message%22%3A%22pasta%20nova%20criada%5Cn%22%2C%22parent%22%3A%5B%22c11f85400db4cba2ff79d1b350e749fa20623120%22%5D%2C%22tree%22%3A%226305ce3b3edfbae69b64b0a7397f800408f3e157%22%2C%22author%22%3A%7B%22name%22%3A%22Caio%20Nogueira%22%2C%22email%22%3A%22programmercaio98%40gmail.com%22%2C%22timestamp%22%3A1717282042%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22Caio%20Nogueira%22%2C%22email%22%3A%22programmercaio98%40gmail.com%22%2C%22timestamp%22%3A1717282042%2C%22timezoneOffset%22%3A180%7D%7D%7D::Release::rocket::Release::%7B%7D"
+                }
+              }
+            ],
+            "width": 100,
+            "activeItemIndex": 0
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%7B%22oid%22%3A%2267641853885a6b4b0706751f65c33234818ba637%22%2C%22short%22%3A%226764185%22%2C%22commit%22%3A%7B%22message%22%3A%22pasta%20nova%20criada%5Cn%22%2C%22parent%22%3A%5B%22c11f85400db4cba2ff79d1b350e749fa20623120%22%5D%2C%22tree%22%3A%226305ce3b3edfbae69b64b0a7397f800408f3e157%22%2C%22author%22%3A%7B%22name%22%3A%22Caio%20Nogueira%22%2C%22email%22%3A%22programmercaio98%40gmail.com%22%2C%22timestamp%22%3A1717282042%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22Caio%20Nogueira%22%2C%22email%22%3A%22programmercaio98%40gmail.com%22%2C%22timestamp%22%3A1717282042%2C%22timezoneOffset%22%3A180%7D%7D%7D::Release::rocket::Release::%7B%7D": {
+          "name": "Release",
+          "icon": "rocket",
+          "render": "function",
+          "viewId": "Release",
+          "id": "%7B%22oid%22%3A%2267641853885a6b4b0706751f65c33234818ba637%22%2C%22short%22%3A%226764185%22%2C%22commit%22%3A%7B%22message%22%3A%22pasta%20nova%20criada%5Cn%22%2C%22parent%22%3A%5B%22c11f85400db4cba2ff79d1b350e749fa20623120%22%5D%2C%22tree%22%3A%226305ce3b3edfbae69b64b0a7397f800408f3e157%22%2C%22author%22%3A%7B%22name%22%3A%22Caio%20Nogueira%22%2C%22email%22%3A%22programmercaio98%40gmail.com%22%2C%22timestamp%22%3A1717282042%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22Caio%20Nogueira%22%2C%22email%22%3A%22programmercaio98%40gmail.com%22%2C%22timestamp%22%3A1717282042%2C%22timezoneOffset%22%3A180%7D%7D%7D::Release::rocket::Release::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Preview%20site%2Fsections%2FSliderCustom%2FNovoCarrossel.tsx.json",
+      "name": "Preview site/sections/SliderCustom/NovoCarrossel.tsx",
+      "pinned": false,
+      "icon": "package",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FSliderCustom%252FNovoCarrossel.tsx.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FSliderCustom%252FNovoCarrossel.tsx.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FSliderCustom%252FNovoCarrossel.tsx.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FSliderCustom%252FNovoCarrossel.tsx.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FSliderCustom%252FNovoCarrossel.tsx.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FSliderCustom%252FNovoCarrossel.tsx.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FSliderCustom%252FNovoCarrossel.tsx.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FSliderCustom%252FNovoCarrossel.tsx.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
         "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FSliderCustom%252FNovoCarrossel.tsx.json::Preview::world::Preview::%7B%7D": {
           "name": "Preview",
           "icon": "world",
@@ -2667,6 +3004,714 @@
           "render": "function",
           "viewId": "Preview",
           "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FSliderCustom%252FNovoCarrossel.tsx.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Rodap%C3%A9%20FULL.json",
+      "name": "Rodapé FULL",
+      "pinned": false,
+      "icon": "package",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FRodap%25C3%25A9%2520FULL.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FRodap%25C3%25A9%2520FULL.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FRodap%25C3%25A9%2520FULL.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FRodap%25C3%25A9%2520FULL.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FRodap%25C3%25A9%2520FULL.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FRodap%25C3%25A9%2520FULL.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FRodap%25C3%25A9%2520FULL.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "id": "%2F.deco%2Fblocks%2FRodap%25C3%25A9%2520FULL.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FRodap%25C3%25A9%2520FULL.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2FRodap%25C3%25A9%2520FULL.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Preview%20%2Fsections%2FHeader%2FHeader.tsx.json",
+      "name": "Preview /sections/Header/Header.tsx",
+      "pinned": false,
+      "icon": "package",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader%252FHeader.tsx.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader%252FHeader.tsx.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader%252FHeader.tsx.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader%252FHeader.tsx.json::Code::code::Code::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader%252FHeader.tsx.json::Code::code::Code::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader%252FHeader.tsx.json::Code::code::Code::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader%252FHeader.tsx.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader%252FHeader.tsx.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader%252FHeader.tsx.json::Code::code::Code::%7B%7D": {
+          "name": "Code",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader%252FHeader.tsx.json::Code::code::Code::%7B%7D",
+          "state": {
+            "__signal": "error"
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Card%20de%20Produto.json",
+      "name": "Card de Produto",
+      "pinned": false,
+      "icon": "package",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FCard%2520de%2520Produto.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FCard%2520de%2520Produto.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FCard%2520de%2520Produto.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FCard%2520de%2520Produto.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FCard%2520de%2520Produto.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FCard%2520de%2520Produto.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FCard%2520de%2520Produto.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "id": "%2F.deco%2Fblocks%2FCard%2520de%2520Produto.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FCard%2520de%2520Produto.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2FCard%2520de%2520Produto.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Nossas%20Lojas%20-%20Palacio.json",
+      "name": "Nossas Lojas - Palacio",
+      "pinned": false,
+      "icon": "package",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FNossas%2520Lojas%2520-%2520Palacio.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FNossas%2520Lojas%2520-%2520Palacio.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FNossas%2520Lojas%2520-%2520Palacio.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FNossas%2520Lojas%2520-%2520Palacio.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FNossas%2520Lojas%2520-%2520Palacio.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FNossas%2520Lojas%2520-%2520Palacio.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FNossas%2520Lojas%2520-%2520Palacio.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "id": "%2F.deco%2Fblocks%2FNossas%2520Lojas%2520-%2520Palacio.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FNossas%2520Lojas%2520-%2520Palacio.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2FNossas%2520Lojas%2520-%2520Palacio.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Category%20List%20-%2001.json",
+      "name": "Category List - 01",
+      "pinned": false,
+      "icon": "package",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FCategory%2520List%2520-%252001.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FCategory%2520List%2520-%252001.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FCategory%2520List%2520-%252001.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FCategory%2520List%2520-%252001.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FCategory%2520List%2520-%252001.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FCategory%2520List%2520-%252001.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FCategory%2520List%2520-%252001.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "id": "%2F.deco%2Fblocks%2FCategory%2520List%2520-%252001.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FCategory%2520List%2520-%252001.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2FCategory%2520List%2520-%252001.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Carousel%20-%2002%20-%20promotion.json",
+      "name": "Carousel - 02 - promotion",
+      "pinned": false,
+      "icon": "package",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FCarousel%2520-%252002%2520-%2520promotion.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FCarousel%2520-%252002%2520-%2520promotion.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FCarousel%2520-%252002%2520-%2520promotion.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FCarousel%2520-%252002%2520-%2520promotion.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FCarousel%2520-%252002%2520-%2520promotion.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FCarousel%2520-%252002%2520-%2520promotion.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FCarousel%2520-%252002%2520-%2520promotion.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "id": "%2F.deco%2Fblocks%2FCarousel%2520-%252002%2520-%2520promotion.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FCarousel%2520-%252002%2520-%2520promotion.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2FCarousel%2520-%252002%2520-%2520promotion.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
           }

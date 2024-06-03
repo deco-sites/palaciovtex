@@ -3,8 +3,8 @@
     {
       "href": "/masculino",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/5a8edfec-400f-421f-b436-4ce23d2b13e7",
-      "label": "Dresses",
-      "description": "Amazing"
+      "description": "Amazing",
+      "label": "This field is required."
     },
     {
       "href": "/feminino",
@@ -42,7 +42,10 @@
     "description": "Take a look at our categories"
   },
   "layout": {
-    "categoryCard": { "textPosition": "top", "textAlignment": "center" },
+    "categoryCard": {
+      "textPosition": "top",
+      "textAlignment": "center"
+    },
     "headerAlignment": "center"
   },
   "__resolveType": "site/sections/Category/CategoryList.tsx"
