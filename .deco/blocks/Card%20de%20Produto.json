@@ -5,13 +5,25 @@
       "oldPriceSize": "Small",
       "contentAlignment": "Center"
     },
-    "onMouseOver": { "card": "None", "image": "Change image" },
-    "elementsPositions": { "favoriteIcon": "Top right" }
+    "onMouseOver": {
+      "card": "None",
+      "image": "Change image",
+      "showBrand": false,
+      "showCta": false
+    },
+    "elementsPositions": {
+      "favoriteIcon": "Top right"
+    }
   },
   "product": {
     "@type": "Product",
-    "brand": { "@type": "Brand" },
-    "offers": { "@type": "AggregateOffer", "offers": [] },
+    "brand": {
+      "@type": "Brand"
+    },
+    "offers": {
+      "@type": "AggregateOffer",
+      "offers": []
+    },
     "review": [],
     "isRelatedTo": [],
     "isSimilarTo": [],
@@ -20,7 +32,9 @@
       "hasVariant": [],
       "additionalProperty": []
     },
-    "aggregateRating": { "@type": "AggregateRating" },
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
     "additionalProperty": [],
     "isAccessoryOrSparePartFor": []
   },
@@ -28,12 +42,16 @@
   "products": {
     "props": {
       "sort": "OrderByPriceDESC",
-      "count": 24,
+      "count": 36,
       "fuzzy": "automatic",
       "similars": false,
-      "collection": "141"
+      "collection": "170"
     },
     "__resolveType": "vtex/loaders/legacy/productList.ts"
   },
-  "__resolveType": "site/sections/Product/ProductCardCustom.tsx"
+  "__resolveType": "site/sections/Product/ProductCardCustom.tsx",
+  "title": "PRODUTOS COM ATÉ 200 REAIS EM DESCONTO",
+  "addWithoutPLP": true,
+  "showAddButton": true,
+  "pixPercentageTextColor": "#fcfcfc"
 }

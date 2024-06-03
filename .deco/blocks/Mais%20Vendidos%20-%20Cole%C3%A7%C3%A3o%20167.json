@@ -8,7 +8,9 @@
     },
     "onMouseOver": {
       "card": "None",
-      "image": "Change image"
+      "image": "Change image",
+      "showBrand": true,
+      "showCta": true
     },
     "elementsPositions": {
       "favoriteIcon": "Top right"
@@ -41,10 +43,10 @@
   "products": {
     "props": {
       "sort": "",
-      "count": 12,
       "fuzzy": "automatic",
       "similars": false,
-      "collection": "167"
+      "collection": "167",
+      "count": 36
     },
     "__resolveType": "vtex/loaders/legacy/productList.ts"
   },
