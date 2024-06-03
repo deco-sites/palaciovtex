@@ -2935,7 +2935,8 @@
           "viewId": "Properties",
           "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FSliderCustom%252FNovoCarrossel.tsx.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FSliderCustom%252FNovoCarrossel.tsx.json::Preview::world::Preview::%7B%7D": {
@@ -3289,7 +3290,8 @@
           "viewId": "Properties",
           "id": "%2F.deco%2Fblocks%2FCard%2520de%2520Produto.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": "error"
           }
         },
         "%2F.deco%2Fblocks%2FCard%2520de%2520Produto.json::Preview::world::Preview::%7B%7D": {
