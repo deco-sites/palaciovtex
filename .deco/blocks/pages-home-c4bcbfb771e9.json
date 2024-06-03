@@ -4237,8 +4237,7 @@
             "logoPosition": "left",
             "alternateGridImages": false,
             "navItems": {
-              "__resolveType": "commerce/loaders/navbar.ts",
-              "items": []
+              "__resolveType": "vtex/loaders/navbar.ts"
             }
           },
           {
