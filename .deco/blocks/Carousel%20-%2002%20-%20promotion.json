@@ -11,7 +11,7 @@
         "subTitle": "."
       },
       "mobile": "https://www.casasbahia-imagens.com.br/criacao/01-home/home-especial/2024/liquida/top/banner-tv/04-abr/01/btv-48h-telas.png",
-      "desktop": "https://www.casasbahia-imagens.com.br/criacao/01-home/home-especial/2024/liquida/top/banner-tv/04-abr/01/btv-48h-telas.png"
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/388f049e-4d2d-45f0-b1f9-a6cfccf1ebd3"
     },
     {
       "alt": "Whatsapp",
@@ -80,7 +80,12 @@
       "desktop": "https://www.casasbahia-imagens.com.br/criacao/01-home/home-especial/2024/liquida/top/banner-tv/04-abr/01/btv-48h-telas.png"
     }
   ],
-  "layout": { "columns": { "mobile": 2, "desktop": 4 } },
+  "layout": {
+    "columns": {
+      "mobile": 2,
+      "desktop": 4
+    }
+  },
   "preload": false,
   "interval": 5,
   "container": true,
