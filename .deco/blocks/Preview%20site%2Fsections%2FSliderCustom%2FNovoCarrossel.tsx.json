@@ -3,9 +3,9 @@
   "images": [
     {
       "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/1f316789-1d9a-4cf7-856c-8fafa89c5b28",
-      "alt": "Ofertas Até 100 Reais",
+      "alt": "Loja 1",
       "action": {
-        "href": "/ofertas",
+        "href": "/institucional/nossas-lojas",
         "title": "title",
         "subTitle": "Subtitle",
         "label": "Label"
@@ -13,9 +13,9 @@
     },
     {
       "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/8a4578e9-20a3-4e65-933e-e9612bfad3b0",
-      "alt": "Dremel",
+      "alt": "Loja 2",
       "action": {
-        "href": "/dremel",
+        "href": "/institucional/nossas-lojas",
         "title": "title",
         "subTitle": "Subtitle",
         "label": "Label"
@@ -23,9 +23,9 @@
     },
     {
       "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/e6065645-f71c-42c0-bdf1-c7bff21fd66e",
-      "alt": "Pegue seu cupom",
+      "alt": "Loja 3",
       "action": {
-        "href": "/",
+        "href": "/institucional/nossas-lojas",
         "title": "title",
         "subTitle": "Subtitle",
         "label": "Label"
