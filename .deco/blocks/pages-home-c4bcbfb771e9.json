@@ -4365,65 +4365,10 @@
             "__resolveType": "PARAFUSADEIRAS E FURADEIRAS - Coleção 164"
           },
           {
-            "__resolveType": "site/sections/Product/ProductCardCustom.tsx",
-            "layout": {
-              "basics": {
-                "ctaText": "Adicionar ao carrinho",
-                "oldPriceSize": "Small",
-                "contentAlignment": "Center"
-              },
-              "onMouseOver": {
-                "card": "None",
-                "image": "Change image",
-                "showBrand": false,
-                "showCta": false
-              },
-              "elementsPositions": {
-                "favoriteIcon": "Top right"
-              }
-            },
-            "product": {
-              "@type": "Product",
-              "brand": {
-                "@type": "Brand"
-              },
-              "offers": {
-                "@type": "AggregateOffer",
-                "offers": []
-              },
-              "review": [],
-              "isRelatedTo": [],
-              "isSimilarTo": [],
-              "isVariantOf": {
-                "@type": "ProductGroup",
-                "hasVariant": [],
-                "additionalProperty": []
-              },
-              "aggregateRating": {
-                "@type": "AggregateRating"
-              },
-              "additionalProperty": [],
-              "isAccessoryOrSparePartFor": []
-            },
-            "platform": "vtex",
-            "products": {
-              "props": {
-                "sort": "OrderByPriceDESC",
-                "count": 36,
-                "fuzzy": "automatic",
-                "similars": false,
-                "collection": "171"
-              },
-              "__resolveType": "vtex/loaders/legacy/productList.ts"
-            },
-            "title": "COMPRE E GANHE ",
-            "addWithoutPLP": true,
-            "showAddButton": true,
-            "pixPercentageTextColor": "#fcfcfc",
-            "pixPercentageBGColor": "#000000"
+            "__resolveType": "Card de Produto"
           },
           {
-            "__resolveType": "Card de Produto"
+            "__resolveType": "NOVA VITRINE TESTE - COLEÇÃO 123"
           },
           {
             "__resolveType": "Slider de Categorias"
