@@ -3486,6 +3486,7 @@
             "__resolveType": "site/sections/Content/Tipbar.tsx"
           },
           {
+            "__resolveType": "site/sections/Product/ProductCardCustom.tsx",
             "title": "PRODUTOS MAIS VENDIDOS 😍👌✨",
             "layout": {
               "basics": {
@@ -3537,13 +3538,19 @@
               "__resolveType": "vtex/loaders/legacy/productList.ts"
             },
             "buttonColor": "#eacd78",
-            "__resolveType": "site/sections/Product/ProductCardCustom.tsx",
             "addWithoutPLP": true,
             "showAddButton": true,
             "pixPercentageBGColor": "#eacd78",
             "pixPercentageTextColor": "#000000"
           },
           {
+            "layout": {
+              "columns": {
+                "mobile": 1,
+                "desktop": 2
+              }
+            },
+            "__resolveType": "site/sections/Images/Carousel.tsx",
             "dots": false,
             "arrows": true,
             "images": [
@@ -3581,19 +3588,11 @@
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/174e7697-f6db-462c-8d75-1607e228c57e"
               }
             ],
-            "layout": {
-              "columns": {
-                "mobile": 1,
-                "desktop": 2
-              }
-            },
             "preload": true,
             "interval": 6,
-            "container": false,
-            "__resolveType": "site/sections/Images/Carousel.tsx"
+            "container": false
           },
           {
-            "title": "NOSSAS PROMOÇÕES",
             "layout": {
               "basics": {
                 "ctaText": "Adicionar ao carrinho",
@@ -3609,6 +3608,8 @@
                 "favoriteIcon": "Top right"
               }
             },
+            "__resolveType": "site/sections/Product/ProductCardCustom.tsx",
+            "title": "NOSSAS PROMOÇÕES",
             "product": {
               "@type": "Product",
               "brand": {
@@ -3644,7 +3645,6 @@
               "__resolveType": "vtex/loaders/legacy/productList.ts"
             },
             "buttonColor": "#eacd78",
-            "__resolveType": "site/sections/Product/ProductCardCustom.tsx",
             "addWithoutPLP": true,
             "showAddButton": true,
             "pixPercentageBGColor": "#eacd78",
@@ -3652,6 +3652,7 @@
           },
           {
             "title": "MARCAS DE QUALIDADE",
+            "__resolveType": "site/sections/Content/BrandCarousel.tsx",
             "brands": [
               {
                 "link": "/bosch",
@@ -3823,10 +3824,10 @@
                 "text": "Deca",
                 "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/d2863c7c-4071-4120-954b-7d7fe499e249"
               }
-            ],
-            "__resolveType": "site/sections/Content/BrandCarousel.tsx"
+            ]
           },
           {
+            "__resolveType": "site/sections/Images/Carousel.tsx",
             "dots": false,
             "arrows": true,
             "images": [
@@ -3861,12 +3862,10 @@
             },
             "preload": true,
             "interval": 6,
-            "container": false,
-            "__resolveType": "site/sections/Images/Carousel.tsx"
+            "container": false
           },
           {
             "__resolveType": "site/sections/Product/ProductCardCustom.tsx",
-            "title": "PARAFUSADEIRAS E FURADEIRAS⚡👷‍♂️",
             "layout": {
               "basics": {
                 "ctaText": "Adicionar ao carrinho",
@@ -3881,6 +3880,7 @@
                 "favoriteIcon": "Top right"
               }
             },
+            "title": "PARAFUSADEIRAS E FURADEIRAS⚡👷‍♂️",
             "product": {
               "@type": "Product",
               "brand": {
