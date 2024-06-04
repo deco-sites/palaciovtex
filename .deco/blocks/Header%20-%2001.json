@@ -1083,7 +1083,11 @@
       {
         "url": "/casa-e-jardim",
         "name": "Casa e Jardim",
-        "image": [],
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/1f94e91b-0618-4d98-af26-53fd57837c90"
+          }
+        ],
         "children": [
           {
             "url": "/casa-e-jardim/banheiro",
@@ -1093,8 +1097,8 @@
             "children": []
           },
           {
-            "url": "/casa-e-jardim/acessorios-para-cozinha",
-            "name": "Acessórios para Cozinha",
+            "url": "/casa-e-jardim/casa-e-jardim/cozinha",
+            "name": "Cozinha",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -1107,29 +1111,8 @@
             "children": []
           },
           {
-            "url": "/casa-e-jardim/carrinhos-de-mao",
-            "name": "Carrinhos de Mão",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/casa-e-jardim/eletroportateis",
-            "name": "Eletroportáteis",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
             "url": "/casa-e-jardim/ferramentas-para-jardim",
             "name": "Ferramentas para Jardim",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/casa-e-jardim/fogoes",
-            "name": "Fogoes",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -1149,13 +1132,6 @@
             "children": []
           },
           {
-            "url": "/casa-e-jardim/pulverizadores",
-            "name": "Pulverizadores",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
             "url": "/casa-e-jardim/seguranca",
             "name": "Segurança",
             "@type": "SiteNavigationElement",
@@ -1170,8 +1146,8 @@
             "children": []
           },
           {
-            "url": "/casa-e-jardim/tesouras",
-            "name": "Tesouras",
+            "url": "/casa-e-jardim/tesouras-e-podoes",
+            "name": "Tesouras e Podões",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
