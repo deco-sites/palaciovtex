@@ -4177,68 +4177,7 @@
             "__resolveType": "website/sections/Seo/Seo.tsx"
           },
           {
-            "__resolveType": "site/sections/Header/Header.tsx",
-            "cart": {
-              "freeShippingObjectiveQuantity": 300
-            },
-            "logo": {
-              "alt": "Palacio Logo",
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/41cdd066-6f14-4d2b-8257-75229b7c2caa",
-              "width": 190,
-              "height": 90
-            },
-            "links": [
-              {
-                "link": "/institucional/nossas-lojas",
-                "text": "Nossas Lojas"
-              },
-              {
-                "link": "/orders",
-                "text": "Meus Pedidos"
-              }
-            ],
-            "alerts": [
-              "FRETE GRÁTIS para compras acima de R$ 300,00 (RJ, SP, MG e ES) |    ",
-              " 💰 Ganhe 10% de desconto na sua 1º compra online, use o código: BEMVINDO10"
-            ],
-            "colors": {
-              "corFundo": "#ffffff",
-              "corFundoNavegador": "#ffffff",
-              "corTextoNavegador": "#000000"
-            },
-            "buttons": {
-              "hideSearchButton": false,
-              "hideAccountButton": false,
-              "hideWishlistButton": true
-            },
-            "products": [],
-            "searchbar": {
-              "name": "q",
-              "action": "/s",
-              "loader": {
-                "data": {
-                  "__resolveType": "vtex/loaders/legacy/suggestions.ts"
-                },
-                "__resolveType": "resolved"
-              },
-              "placeholder": "O que você está procurando?"
-            },
-            "gridImages": [
-              {
-                "link": "/",
-                "image": "https://www.casasbahia-imagens.com.br/criacao/01-home/home-especial/2024/liquida/master/04-abr/01/cupom.svg",
-                "title": "titulo"
-              }
-            ],
-            "suggestions": {
-              "products": [],
-              "searches": []
-            },
-            "logoPosition": "left",
-            "alternateGridImages": false,
-            "navItems": {
-              "__resolveType": "vtex/loaders/navbar.ts"
-            }
+            "__resolveType": "Header - 01"
           },
           {
             "__resolveType": "Carousel - 01"
@@ -4373,9 +4312,6 @@
           },
           {
             "__resolveType": "NOVA VITRINE TESTE - COLEÇÃO 123"
-          },
-          {
-            "__resolveType": "Slider de Categorias"
           },
           {
             "__resolveType": "site/sections/Institucional/InstitucionalTitle.tsx",
