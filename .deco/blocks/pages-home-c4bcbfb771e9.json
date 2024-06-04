@@ -4359,7 +4359,7 @@
             },
             "preload": false,
             "container": true,
-            "arrows": true,
+            "arrows": false,
             "dots": false,
             "interval": 4000
           },

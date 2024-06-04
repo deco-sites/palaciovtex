@@ -1082,7 +1082,7 @@
       },
       {
         "url": "/casa-e-jardim",
-        "name": "Casa & Jardim",
+        "name": "Casa e Jardim",
         "image": [],
         "children": [
           {
@@ -1093,84 +1093,84 @@
             "children": []
           },
           {
-            "url": "/casa---jardim/acessorios-para-cozinha",
+            "url": "/casa-e-jardim/acessorios-para-cozinha",
             "name": "Acessórios para Cozinha",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
           },
           {
-            "url": "/casa---jardim/acessorios-para-jardim",
+            "url": "/casa-e-jardim/acessorios-para-jardim",
             "name": "Acessórios para Jardim",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
           },
           {
-            "url": "/casa---jardim/carrinhos-de-mao",
+            "url": "/casa-e-jardim/carrinhos-de-mao",
             "name": "Carrinhos de Mão",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
           },
           {
-            "url": "/casa---jardim/eletroportateis",
+            "url": "/casa-e-jardim/eletroportateis",
             "name": "Eletroportáteis",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
           },
           {
-            "url": "/casa---jardim/ferramentas-para-jardim",
+            "url": "/casa-e-jardim/ferramentas-para-jardim",
             "name": "Ferramentas para Jardim",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
           },
           {
-            "url": "/casa---jardim/fogoes",
+            "url": "/casa-e-jardim/fogoes",
             "name": "Fogoes",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
           },
           {
-            "url": "/casa---jardim/limpeza",
+            "url": "/casa-e-jardim/limpeza",
             "name": "Limpeza",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
           },
           {
-            "url": "/casa---jardim/mangueiras",
+            "url": "/casa-e-jardim/mangueiras",
             "name": "Mangueiras",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
           },
           {
-            "url": "/casa---jardim/pulverizadores",
+            "url": "/casa-e-jardim/pulverizadores",
             "name": "Pulverizadores",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
           },
           {
-            "url": "/casa---jardim/seguranca",
+            "url": "/casa-e-jardim/seguranca",
             "name": "Segurança",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
           },
           {
-            "url": "/casa---jardim/telefones",
+            "url": "/casa-e-jardim/telefones",
             "name": "Telefones",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
           },
           {
-            "url": "/casa---jardim/tesouras",
+            "url": "/casa-e-jardim/tesouras",
             "name": "Tesouras",
             "@type": "SiteNavigationElement",
             "image": [],
