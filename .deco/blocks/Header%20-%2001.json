@@ -1,5 +1,7 @@
 {
-  "cart": { "freeShippingObjectiveQuantity": 300 },
+  "cart": {
+    "freeShippingObjectiveQuantity": 300
+  },
   "logo": {
     "alt": "Palacio Logo",
     "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/41cdd066-6f14-4d2b-8257-75229b7c2caa",
@@ -7,8 +9,14 @@
     "height": 90
   },
   "links": [
-    { "link": "/institucional/nossas-lojas", "text": "Nossas Lojas" },
-    { "link": "/orders", "text": "Meus Pedidos" }
+    {
+      "link": "/institucional/nossas-lojas",
+      "text": "Nossas Lojas"
+    },
+    {
+      "link": "/orders",
+      "text": "Meus Pedidos"
+    }
   ],
   "alerts": [
     "FRETE GRÁTIS para compras acima de R$ 300,00 (RJ, SP, MG e ES) |    ",
@@ -26,7 +34,12 @@
   },
   "navItems": {
     "items": [
-      { "url": "/ofertas", "name": "Ofertas", "image": [], "children": [] },
+      {
+        "url": "/ofertas",
+        "name": "Ofertas",
+        "image": [],
+        "children": []
+      },
       {
         "url": "/ferramentas-eletricas",
         "name": "Ferramentas Elétricas",
@@ -1073,7 +1086,7 @@
         "image": [],
         "children": [
           {
-            "url": "/casa---jardim/banheiro",
+            "url": "/casa-e-jardim/banheiro",
             "name": "Banheiro",
             "@type": "SiteNavigationElement",
             "image": [],
@@ -1284,7 +1297,9 @@
     "name": "q",
     "action": "/s",
     "loader": {
-      "data": { "__resolveType": "vtex/loaders/legacy/suggestions.ts" },
+      "data": {
+        "__resolveType": "vtex/loaders/legacy/suggestions.ts"
+      },
       "__resolveType": "resolved"
     },
     "placeholder": "O que você está procurando?"
@@ -1296,7 +1311,10 @@
       "title": "titulo"
     }
   ],
-  "suggestions": { "products": [], "searches": [] },
+  "suggestions": {
+    "products": [],
+    "searches": []
+  },
   "logoPosition": "left",
   "__resolveType": "site/sections/Header/Header.tsx",
   "alternateGridImages": false
