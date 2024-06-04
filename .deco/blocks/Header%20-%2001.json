@@ -1187,7 +1187,11 @@
       {
         "url": "/decoracao-e-organizacao",
         "name": "Decoração e Organização",
-        "image": [],
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/e478fd00-de6b-404e-b968-4554453cebc6"
+          }
+        ],
         "children": [
           {
             "url": "/decoracao-e-organizacao/carrinhos-para-transporte",
