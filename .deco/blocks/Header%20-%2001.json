@@ -1190,13 +1190,6 @@
         "image": [],
         "children": [
           {
-            "url": "/decoracao-e-organizacao/armarios-para-banheiro",
-            "name": "Armários para Banheiro",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
             "url": "/decoracao-e-organizacao/carrinhos-para-transporte",
             "name": "Carrinhos para Transporte",
             "@type": "SiteNavigationElement",
@@ -1204,29 +1197,8 @@
             "children": []
           },
           {
-            "url": "/decoracao-e-organizacao/cofres",
-            "name": "Cofres",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/decoracao-e-organizacao/escadas",
-            "name": "Escadas",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
             "url": "/decoracao-e-organizacao/ganchos-e-suportes",
             "name": "Ganchos e Suportes",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/decoracao-e-organizacao/lixeiras",
-            "name": "Lixadeiras",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -1240,7 +1212,7 @@
           },
           {
             "url": "/decoracao-e-organizacao/nichos",
-            "name": "Nichos",
+            "name": "Nichos e Prateleiras",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -1253,29 +1225,8 @@
             "children": []
           },
           {
-            "url": "/decoracao-e-organizacao/pistola-cola-quente",
-            "name": "Pistola de Cola Quente",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/decoracao-e-organizacao/prateleiras",
-            "name": "Prateleiras",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
             "url": "/decoracao-e-organizacao/tecidos-adesivos",
             "name": "Tecidos Adesivos",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/decoracao-e-organizacao/trilhos",
-            "name": "Trilhos",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
