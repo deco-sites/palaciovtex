@@ -4359,7 +4359,11 @@
             "__resolveType": "Nossas Promoções - Coleção 141"
           },
           {
-            "__resolveType": "Carrossel de Marcas"
+            "__resolveType": "site/sections/Institucional/InstitucionalTitle.tsx",
+            "title": "                        MARCAS DE QUALIDADE"
+          },
+          {
+            "__resolveType": "Preview site/sections/SliderCustom/NovoCarrossel.tsx"
           },
           {
             "__resolveType": "PARAFUSADEIRAS E FURADEIRAS - Coleção 164"
@@ -4374,10 +4378,54 @@
             "__resolveType": "Slider de Categorias"
           },
           {
-            "__resolveType": "Institucional Title"
+            "__resolveType": "site/sections/Institucional/InstitucionalTitle.tsx",
+            "title": "                        MARCAS DE QUALIDADE"
           },
           {
-            "__resolveType": "Preview site/sections/SliderCustom/NovoCarrossel.tsx"
+            "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
+            "images": [
+              {
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/7905f0e1-9858-47eb-92f1-ba1c8b4a7dc7",
+                "alt": "Loja 1",
+                "action": {
+                  "href": "/institucional/nossas-lojas",
+                  "title": "title",
+                  "subTitle": "Subtitle",
+                  "label": "Label"
+                }
+              },
+              {
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ee1b423a-52ee-4d9e-87ca-e1d39d380236",
+                "alt": "Loja 2",
+                "action": {
+                  "href": "/institucional/nossas-lojas",
+                  "title": "title",
+                  "subTitle": "Subtitle",
+                  "label": "Label"
+                }
+              },
+              {
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/dfdabae3-e22b-4a14-b681-02340c493eb5",
+                "alt": "Loja 3",
+                "action": {
+                  "href": "/institucional/nossas-lojas",
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": "."
+                }
+              }
+            ],
+            "layout": {
+              "columns": {
+                "mobile": 1,
+                "desktop": 3
+              }
+            },
+            "preload": false,
+            "container": true,
+            "arrows": true,
+            "dots": false,
+            "interval": 4000
           },
           {
             "__resolveType": "Rodapé FULL"
