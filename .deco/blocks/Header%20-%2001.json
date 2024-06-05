@@ -607,7 +607,11 @@
       {
         "url": "/ferramentas-e-epi",
         "name": "Ferramentas e EPI",
-        "image": [],
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/770d1e8d-7dd6-4e6d-acfd-010ba3010551"
+          }
+        ],
         "children": [
           {
             "url": "/ferramentas-e-epi/botas-de-seguranca",
@@ -627,7 +631,9 @@
             "url": "/ferramentas-e-epi/epi",
             "name": "EPI",
             "@type": "SiteNavigationElement",
-            "image": [],
+            "image": [
+              {}
+            ],
             "children": []
           },
           {
