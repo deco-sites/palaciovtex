@@ -764,41 +764,6 @@
             "children": []
           },
           {
-            "url": "/hidraulica-e-metais/metais-para-cozinha",
-            "name": "Metais para Cozinha",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/hidraulica-e-metais/misturadores",
-            "name": "Misturadores",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/hidraulica-e-metais/motobomba",
-            "name": "Motobomba",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/hidraulica-e-metais/prolongadores",
-            "name": "Prolongadores",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/hidraulica-e-metais/ralos-e-caixas-sanfonadas",
-            "name": "Ralos e Caixas sanfonadas",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
             "url": "/hidraulica-e-metais/reparos",
             "name": "Reparos",
             "@type": "SiteNavigationElement",
@@ -813,8 +778,8 @@
             "children": []
           },
           {
-            "url": "/hidraulica-e-metais/sifoes",
-            "name": "Sifões",
+            "url": "/hidraulica-e-metais/sifoes-e-prolongadores",
+            "name": "Sifões e Prolongadores",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
