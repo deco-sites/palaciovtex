@@ -584,5 +584,9 @@
     "path": "/cupom",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Preview%20vtex%2Floaders%2Fproxy.ts.json": {
+    "blockType": "loaders",
+    "__resolveType": "vtex/loaders/proxy.ts"
   }
 }
