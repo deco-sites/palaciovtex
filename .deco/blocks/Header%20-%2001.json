@@ -684,7 +684,11 @@
       {
         "url": "/hidraulica-e-metais",
         "name": "Hidráulica e Metais",
-        "image": [],
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/a2325a86-22db-43e6-8d11-c622d3b5e169"
+          }
+        ],
         "children": [
           {
             "url": "/hidraulica-e-metais/aquecedores",
@@ -696,13 +700,6 @@
           {
             "url": "/hidraulica-e-metais/assento-sanitario",
             "name": "Assento Sanitário",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/hidraulica-e-metais/barras-de-apoio",
-            "name": "Barras de Apoio",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -745,13 +742,6 @@
           {
             "url": "/hidraulica-e-metais/filtros-e-purificadores",
             "name": "Filtros e Purificadores",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/hidraulica-e-metais/fitas-veda-rosca",
-            "name": "Fitas Veda Rosca",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
