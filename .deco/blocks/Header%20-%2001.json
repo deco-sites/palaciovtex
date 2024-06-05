@@ -1126,6 +1126,12 @@
             "children": []
           }
         ]
+      },
+      {
+        "children": [],
+        "image": [],
+        "name": "AUTOMOTIVO",
+        "url": "/automotivo/d"
       }
     ],
     "__resolveType": "commerce/loaders/navbar.ts"
