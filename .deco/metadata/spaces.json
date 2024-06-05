@@ -1179,7 +1179,7 @@
           "viewId": "Properties",
           "id": "%2F.deco%2Fblocks%2Fpages-category-7493d4326022.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": "error"
           }
         },
         "%2F.deco%2Fblocks%2Fpages-category-7493d4326022.json::Preview::world::Preview::%7B%7D": {
