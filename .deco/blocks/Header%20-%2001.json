@@ -964,7 +964,11 @@
       {
         "url": "/tintas-e-impermeabilizantes",
         "name": "Tintas e Impermeabilizantes",
-        "image": [],
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/76f4a2bd-2d3d-4a9d-a78a-03b84b78f875"
+          }
+        ],
         "children": [
           {
             "url": "/tintas-e-impermeabilizantes/acessorios-para-pintura",
@@ -974,29 +978,8 @@
             "children": []
           },
           {
-            "url": "/tintas-e-impermeabilizantes/auto",
-            "name": "Auto",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/tintas-e-impermeabilizantes/baldes-e-bandejas",
-            "name": "Baldes e Bandejas",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
             "url": "/tintas-e-impermeabilizantes/colas-silicones-e-adesivos",
             "name": "Colas, Silicones e Adesivos",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/tintas-e-impermeabilizantes/espuma-expansiva",
-            "name": "Expuma Expansiva",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -1011,13 +994,6 @@
           {
             "url": "/tintas-e-impermeabilizantes/impermeabilizantes",
             "name": "Impermeabilizantes",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/tintas-e-impermeabilizantes/kits-de-pintura",
-            "name": "Kits de Pintura",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
