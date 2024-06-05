@@ -4292,10 +4292,10 @@
             "interval": 4000
           },
           {
-            "__resolveType": "Mais Vendidos - Coleção 167"
+            "__resolveType": "NOVA VITRINE TESTE - COLEÇÃO 123"
           },
           {
-            "__resolveType": "Nossas Promoções - Coleção 141"
+            "__resolveType": "Mais Vendidos - Coleção 167"
           },
           {
             "__resolveType": "site/sections/Institucional/InstitucionalTitle.tsx",
@@ -4305,13 +4305,13 @@
             "__resolveType": "Preview site/sections/SliderCustom/NovoCarrossel.tsx"
           },
           {
-            "__resolveType": "PARAFUSADEIRAS E FURADEIRAS - Coleção 164"
-          },
-          {
             "__resolveType": "Card de Produto"
           },
           {
-            "__resolveType": "NOVA VITRINE TESTE - COLEÇÃO 123"
+            "__resolveType": "Nossas Promoções - Coleção 141"
+          },
+          {
+            "__resolveType": "PARAFUSADEIRAS E FURADEIRAS - Coleção 164"
           },
           {
             "__resolveType": "site/sections/Institucional/InstitucionalTitle.tsx",

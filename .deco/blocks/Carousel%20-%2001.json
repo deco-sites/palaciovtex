@@ -3,26 +3,37 @@
   "arrows": true,
   "images": [
     {
-      "alt": "inverno",
+      "alt": "Dia dos namorados",
       "action": {
-        "href": "https://www.palacio.com.br/Lorenzetti/141?map=b%2CproductClusterIds",
+        "href": "/ferramentas-eletricas/parafusadeiras",
         "label": ".",
         "title": ".",
         "subTitle": "."
       },
-      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/5c915fbf-5745-4f4e-a978-8b4a6c2f6c48",
-      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/3c3a87f6-9104-44f1-9b1e-80e0d6250b5f"
+      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/04f25d11-df1b-4d07-8c00-e65772027e4b",
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/e14d01b3-9e3a-414c-bdc4-047a5b9a5788"
     },
     {
+      "alt": "ferramentas eletricas",
+      "action": {
+        "href": "https://www.palacio.com.br/ferramentas-eletricas",
+        "label": ".",
+        "title": ".",
+        "subTitle": "."
+      },
+      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9622c7c1-fe94-4a15-a587-1fa1c74a3bf4",
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9b108290-0983-489e-b78b-762a2ac0df30"
+    },
+    {
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9f091620-4c93-46da-b70a-ad31843672d9",
+      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/01791714-6a47-43b2-a1b3-cde516976bc5",
       "alt": "ofertas",
       "action": {
         "href": "https://www.palacio.com.br/ofertas",
-        "label": ".",
         "title": ".",
-        "subTitle": "."
-      },
-      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/01791714-6a47-43b2-a1b3-cde516976bc5",
-      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9f091620-4c93-46da-b70a-ad31843672d9"
+        "subTitle": ".",
+        "label": "."
+      }
     },
     {
       "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/990ce8c4-7805-4d64-89ea-db79ca4ca40e",
@@ -36,29 +47,23 @@
       }
     },
     {
-      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/858187d4-8e18-4ee4-a5de-07745a0c1740",
-      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9936b528-48ad-4336-92f2-3d3964321462",
-      "alt": "Ferramentas manuais",
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/3c3a87f6-9104-44f1-9b1e-80e0d6250b5f",
+      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/5c915fbf-5745-4f4e-a978-8b4a6c2f6c48",
+      "alt": "inverno",
       "action": {
-        "href": "https://www.palacio.com.br/ferramentas-manuais",
-        "title": ".",
-        "subTitle": ".",
-        "label": "."
-      }
-    },
-    {
-      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9b108290-0983-489e-b78b-762a2ac0df30",
-      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9622c7c1-fe94-4a15-a587-1fa1c74a3bf4",
-      "alt": "ferramentas eletricas",
-      "action": {
-        "href": "https://www.palacio.com.br/ferramentas-eletricas",
+        "href": "https://www.palacio.com.br/Lorenzetti/141?map=b%2CproductClusterIds",
         "title": ".",
         "subTitle": ".",
         "label": "."
       }
     }
   ],
-  "layout": { "columns": { "mobile": 1, "desktop": 1 } },
+  "layout": {
+    "columns": {
+      "mobile": 1,
+      "desktop": 1
+    }
+  },
   "preload": true,
   "interval": 6,
   "container": false,
