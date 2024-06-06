@@ -57,7 +57,7 @@
             "children": []
           },
           {
-            "url": "/ferramentas-eletricas/acessorios-para-ferramentas-eletricas",
+            "url": "/ferramentas-eletricas/acessorios",
             "name": "Acessórios",
             "@type": "SiteNavigationElement",
             "image": [],
@@ -71,22 +71,8 @@
             "children": []
           },
           {
-            "url": "/ferramentas-eletricas/chave-de-impacto",
-            "name": "Chave de Impacto",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
             "url": "/ferramentas-eletricas/compressores",
             "name": "Compressores",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/ferramentas-eletricas/cortadores",
-            "name": "Cortadores",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -129,13 +115,6 @@
           {
             "url": "/ferramentas-eletricas/moto-esmeril",
             "name": "Moto Esmeril",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/ferramentas-eletricas/multicortadora",
-            "name": "Multicortadora",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
