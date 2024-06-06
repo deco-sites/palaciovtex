@@ -384,6 +384,12 @@
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
+          },
+          {
+            "image": [],
+            "children": [],
+            "url": "/ferramentas-manuais/escovas-e-raspadores",
+            "name": "Escovas e Raspadores"
           }
         ]
       },
