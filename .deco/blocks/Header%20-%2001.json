@@ -390,7 +390,11 @@
       {
         "url": "/eletrica",
         "name": "Elétrica",
-        "image": [],
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/f1b9d02f-99dd-4d46-a6e5-b65d0bb24ae0"
+          }
+        ],
         "children": [
           {
             "url": "/eletrica/alicate-amperimetro",
@@ -435,14 +439,7 @@
             "children": []
           },
           {
-            "url": "/eletrica/extensoes",
-            "name": "Extensões",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/eletrica/filtros-de-linha",
+            "url": "/eletrica/extensoes-e-filtros-de-linha",
             "name": "Filtros de Linha",
             "@type": "SiteNavigationElement",
             "image": [],
@@ -486,13 +483,6 @@
           {
             "url": "/eletrica/tomadas-e-interruptores",
             "name": "Tomadas e Interruptores",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/eletrica/transformadores",
-            "name": "Transformadores",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
