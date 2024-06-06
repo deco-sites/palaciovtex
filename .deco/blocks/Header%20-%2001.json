@@ -499,7 +499,7 @@
         ],
         "children": [
           {
-            "url": "/lampadas-e-iluminacao/abajures",
+            "url": "/lampadas-e-iluminacao/abajures-e-balizadores",
             "name": "Abajures",
             "@type": "SiteNavigationElement",
             "image": [],
@@ -508,13 +508,6 @@
           {
             "url": "/lampadas-e-iluminacao/arandelas",
             "name": "Arandelas",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/lampadas-e-iluminacao/balizadores",
-            "name": "Balizadores",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
