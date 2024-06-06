@@ -484,13 +484,6 @@
             "children": []
           },
           {
-            "url": "/eletrica/termometro",
-            "name": "Termômetro",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
             "url": "/eletrica/tomadas-e-interruptores",
             "name": "Tomadas e Interruptores",
             "@type": "SiteNavigationElement",
