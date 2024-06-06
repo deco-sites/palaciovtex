@@ -509,7 +509,11 @@
       {
         "url": "/lampadas-e-iluminacao",
         "name": "Lâmpadas e Iluminação",
-        "image": [],
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/5583fbb1-05cc-4e75-b9b9-7b8f29a21aa6"
+          }
+        ],
         "children": [
           {
             "url": "/lampadas-e-iluminacao/abajures",
