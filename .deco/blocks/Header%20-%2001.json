@@ -215,7 +215,11 @@
       {
         "url": "/ferramentas-manuais",
         "name": "Ferramentas Manuais",
-        "image": [],
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/726e9935-99a3-4166-832f-987ac193587f"
+          }
+        ],
         "children": [
           {
             "url": "/ferramentas-manuais/alicates",
@@ -323,13 +327,6 @@
             "children": []
           },
           {
-            "url": "/ferramentas-manuais/pistola-de-fixacao",
-            "name": "Pistola de Fixação",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
             "url": "/ferramentas-manuais/plainas",
             "name": "Plainas",
             "@type": "SiteNavigationElement",
@@ -337,22 +334,8 @@
             "children": []
           },
           {
-            "url": "/ferramentas-manuais/raspador-manual",
-            "name": "Raspador Manual",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
             "url": "/ferramentas-manuais/rebitador-manual",
             "name": "Rebitador Manual",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/ferramentas-manuais/refilador-manual",
-            "name": "Refilador Manual",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -386,10 +369,16 @@
             "children": []
           },
           {
+            "url": "/ferramentas-manuais/escovas-e-raspadores",
+            "name": "Escovas e Raspadores",
+            "image": [],
+            "children": []
+          },
+          {
             "image": [],
             "children": [],
-            "url": "/ferramentas-manuais/escovas-e-raspadores",
-            "name": "Escovas e Raspadores"
+            "url": "/ferramentas-manuais/buchas-pregos-e-parafusos",
+            "name": "Buchas, Pregos e Parafusos"
           }
         ]
       },
