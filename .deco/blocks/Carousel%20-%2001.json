@@ -14,15 +14,15 @@
       "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/e14d01b3-9e3a-414c-bdc4-047a5b9a5788"
     },
     {
-      "alt": "ferramentas eletricas",
+      "alt": "Na palacio tem",
       "action": {
-        "href": "https://www.palacio.com.br/ferramentas-eletricas",
+        "href": "/ofertas",
         "label": ".",
         "title": ".",
         "subTitle": "."
       },
-      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9622c7c1-fe94-4a15-a587-1fa1c74a3bf4",
-      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9b108290-0983-489e-b78b-762a2ac0df30"
+      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/4079d8e3-115d-4dd1-91ad-030bb8d5e680",
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/e977257c-4dfb-4fd4-974c-23a0de66f062"
     },
     {
       "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9f091620-4c93-46da-b70a-ad31843672d9",
@@ -36,22 +36,22 @@
       }
     },
     {
-      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/990ce8c4-7805-4d64-89ea-db79ca4ca40e",
-      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/4142a633-936c-4074-bf4a-30d1c8fa50fa",
-      "alt": "Outlet Tramontina",
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ea1e158c-5653-4587-a50c-59b2d9f19d54",
+      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/a94293d2-5f45-4e42-aba4-6329f542f038",
+      "alt": "Luminárias",
       "action": {
-        "href": "https://www.palacio.com.br/tramontina?page=1",
+        "href": "/lampadas-e-iluminacao/lustres-e-pendentes",
         "title": ".",
         "subTitle": ".",
         "label": "."
       }
     },
     {
-      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/3c3a87f6-9104-44f1-9b1e-80e0d6250b5f",
-      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/5c915fbf-5745-4f4e-a978-8b4a6c2f6c48",
-      "alt": "inverno",
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/478d2b3e-6ab2-4dea-b4bb-d1918a8bbe0f",
+      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/d4713ef2-5787-4abc-86ec-332841c0fa80",
+      "alt": "solda",
       "action": {
-        "href": "https://www.palacio.com.br/Lorenzetti/141?map=b%2CproductClusterIds",
+        "href": "/eletrica/maquinas-e-acessorios-de-solda",
         "title": ".",
         "subTitle": ".",
         "label": "."
