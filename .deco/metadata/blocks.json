@@ -23,10 +23,6 @@
     "blockType": "loaders",
     "__resolveType": "commerce/loaders/navbar.ts"
   },
-  "/.deco/blocks/weather.json": {
-    "blockType": "apps",
-    "__resolveType": "decohub/apps/weather.ts"
-  },
   "/.deco/blocks/Deco%20HUB.json": {
     "blockType": "apps",
     "__resolveType": "site/apps/decohub.ts"
@@ -572,5 +568,13 @@
   "/.deco/blocks/Preview%20%2Fsections%2FHeader%2FHeader.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Header/Header.tsx"
+  },
+  "/.deco/blocks/decohub.json": {
+    "blockType": "apps",
+    "__resolveType": "decohub/apps/decohub.ts"
+  },
+  "/.deco/blocks/site.json": {
+    "blockType": "apps",
+    "__resolveType": "decohub/apps/site.ts"
   }
 }

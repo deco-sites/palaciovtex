@@ -52,6 +52,17 @@ interface Props {
   layout?: Layout;
 }
 
+
+export function LoadingFallback() {
+  // Renderize spinners, esqueletos e outros espaços reservados
+  return (
+    <div>
+      <h2>CARREGANDO VITRINE</h2>
+    </div>
+  );
+}
+
+
 const calculate = (item: number, item2: number) => {
   if ((item - item2) > 0) {
     const percentValue = Math.round((item - item2) / item * 100);
