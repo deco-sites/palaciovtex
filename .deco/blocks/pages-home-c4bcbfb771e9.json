@@ -4298,10 +4298,6 @@
             "__resolveType": "Mais Vendidos - Coleção 167"
           },
           {
-            "__resolveType": "site/sections/Institucional/InstitucionalTitle.tsx",
-            "title": "                        MARCAS DE QUALIDADE"
-          },
-          {
             "__resolveType": "Preview site/sections/SliderCustom/NovoCarrossel.tsx"
           },
           {
@@ -4314,11 +4310,8 @@
             "__resolveType": "PARAFUSADEIRAS E FURADEIRAS - Coleção 164"
           },
           {
-            "__resolveType": "site/sections/Institucional/InstitucionalTitle.tsx",
-            "title": "                        NOSSAS LOJAS"
-          },
-          {
             "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
+            "title": "NOSSAS LOJAS",
             "images": [
               {
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/7905f0e1-9858-47eb-92f1-ba1c8b4a7dc7",

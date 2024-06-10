@@ -209,6 +209,10 @@ function NovoCarrossel(props: Props) {
   const desktop = DESKTOP_COLUMNS[props.layout?.columns?.desktop ?? 1];
 
   return (
+    <>
+    {props.title && (
+      <h2 class="text-[30px] leading-[36px] font-bold text-center pb-[30px]" dangerouslySetInnerHTML={{ __html: props.title }} />
+    )}
     <div
       id={id}
       class={`${
@@ -247,6 +251,7 @@ function NovoCarrossel(props: Props) {
 
       <SliderJS rootId={id} interval={interval && interval * 1e3} infinite />
     </div>
+    </>
   );
 }
 

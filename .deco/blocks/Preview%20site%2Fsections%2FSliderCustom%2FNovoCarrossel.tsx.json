@@ -192,5 +192,6 @@
   "container": true,
   "arrows": true,
   "dots": false,
-  "interval": 4000
+  "interval": 4000,
+  "title": "MARCAS DE QUALIDADE"
 }
