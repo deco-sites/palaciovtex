@@ -575,6 +575,6 @@
   },
   "/.deco/blocks/site.json": {
     "blockType": "apps",
-    "__resolveType": "decohub/apps/site.ts"
+    "__resolveType": "site/apps/site.ts"
   }
 }
