@@ -38,6 +38,7 @@ export interface Columns {
 }
 
 export interface Props {
+  title?: string;
   images?: Banner[];
   /**
    * @description Check this option when this banner is the biggest image on the screen for image optimizations
