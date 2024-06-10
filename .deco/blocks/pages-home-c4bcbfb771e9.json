@@ -3486,6 +3486,7 @@
             "__resolveType": "site/sections/Content/Tipbar.tsx"
           },
           {
+            "__resolveType": "site/sections/Product/ProductCardCustom.tsx",
             "title": "PRODUTOS MAIS VENDIDOS 😍👌✨",
             "layout": {
               "basics": {
@@ -3537,13 +3538,19 @@
               "__resolveType": "vtex/loaders/legacy/productList.ts"
             },
             "buttonColor": "#eacd78",
-            "__resolveType": "site/sections/Product/ProductCardCustom.tsx",
             "addWithoutPLP": true,
             "showAddButton": true,
             "pixPercentageBGColor": "#eacd78",
             "pixPercentageTextColor": "#000000"
           },
           {
+            "layout": {
+              "columns": {
+                "mobile": 1,
+                "desktop": 2
+              }
+            },
+            "__resolveType": "site/sections/Images/Carousel.tsx",
             "dots": false,
             "arrows": true,
             "images": [
@@ -3581,19 +3588,11 @@
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/174e7697-f6db-462c-8d75-1607e228c57e"
               }
             ],
-            "layout": {
-              "columns": {
-                "mobile": 1,
-                "desktop": 2
-              }
-            },
             "preload": true,
             "interval": 6,
-            "container": false,
-            "__resolveType": "site/sections/Images/Carousel.tsx"
+            "container": false
           },
           {
-            "title": "NOSSAS PROMOÇÕES",
             "layout": {
               "basics": {
                 "ctaText": "Adicionar ao carrinho",
@@ -3609,6 +3608,8 @@
                 "favoriteIcon": "Top right"
               }
             },
+            "__resolveType": "site/sections/Product/ProductCardCustom.tsx",
+            "title": "NOSSAS PROMOÇÕES",
             "product": {
               "@type": "Product",
               "brand": {
@@ -3644,7 +3645,6 @@
               "__resolveType": "vtex/loaders/legacy/productList.ts"
             },
             "buttonColor": "#eacd78",
-            "__resolveType": "site/sections/Product/ProductCardCustom.tsx",
             "addWithoutPLP": true,
             "showAddButton": true,
             "pixPercentageBGColor": "#eacd78",
@@ -3652,6 +3652,7 @@
           },
           {
             "title": "MARCAS DE QUALIDADE",
+            "__resolveType": "site/sections/Content/BrandCarousel.tsx",
             "brands": [
               {
                 "link": "/bosch",
@@ -3823,10 +3824,10 @@
                 "text": "Deca",
                 "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/d2863c7c-4071-4120-954b-7d7fe499e249"
               }
-            ],
-            "__resolveType": "site/sections/Content/BrandCarousel.tsx"
+            ]
           },
           {
+            "__resolveType": "site/sections/Images/Carousel.tsx",
             "dots": false,
             "arrows": true,
             "images": [
@@ -3861,12 +3862,10 @@
             },
             "preload": true,
             "interval": 6,
-            "container": false,
-            "__resolveType": "site/sections/Images/Carousel.tsx"
+            "container": false
           },
           {
             "__resolveType": "site/sections/Product/ProductCardCustom.tsx",
-            "title": "PARAFUSADEIRAS E FURADEIRAS⚡👷‍♂️",
             "layout": {
               "basics": {
                 "ctaText": "Adicionar ao carrinho",
@@ -3881,6 +3880,7 @@
                 "favoriteIcon": "Top right"
               }
             },
+            "title": "PARAFUSADEIRAS E FURADEIRAS⚡👷‍♂️",
             "product": {
               "@type": "Product",
               "brand": {
@@ -4177,68 +4177,7 @@
             "__resolveType": "website/sections/Seo/Seo.tsx"
           },
           {
-            "__resolveType": "site/sections/Header/Header.tsx",
-            "cart": {
-              "freeShippingObjectiveQuantity": 300
-            },
-            "logo": {
-              "alt": "Palacio Logo",
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/41cdd066-6f14-4d2b-8257-75229b7c2caa",
-              "width": 190,
-              "height": 90
-            },
-            "links": [
-              {
-                "link": "/institucional/nossas-lojas",
-                "text": "Nossas Lojas"
-              },
-              {
-                "link": "/orders",
-                "text": "Meus Pedidos"
-              }
-            ],
-            "alerts": [
-              "FRETE GRÁTIS para compras acima de R$ 300,00 (RJ, SP, MG e ES) |    ",
-              " 💰 Ganhe 10% de desconto na sua 1º compra online, use o código: BEMVINDO10"
-            ],
-            "colors": {
-              "corFundo": "#ffffff",
-              "corFundoNavegador": "#ffffff",
-              "corTextoNavegador": "#000000"
-            },
-            "buttons": {
-              "hideSearchButton": false,
-              "hideAccountButton": false,
-              "hideWishlistButton": true
-            },
-            "products": [],
-            "searchbar": {
-              "name": "q",
-              "action": "/s",
-              "loader": {
-                "data": {
-                  "__resolveType": "vtex/loaders/legacy/suggestions.ts"
-                },
-                "__resolveType": "resolved"
-              },
-              "placeholder": "O que você está procurando?"
-            },
-            "gridImages": [
-              {
-                "link": "/",
-                "image": "https://www.casasbahia-imagens.com.br/criacao/01-home/home-especial/2024/liquida/master/04-abr/01/cupom.svg",
-                "title": "titulo"
-              }
-            ],
-            "suggestions": {
-              "products": [],
-              "searches": []
-            },
-            "logoPosition": "left",
-            "alternateGridImages": false,
-            "navItems": {
-              "__resolveType": "vtex/loaders/navbar.ts"
-            }
+            "__resolveType": "Header - 01"
           },
           {
             "__resolveType": "Carousel - 01"
@@ -4353,25 +4292,76 @@
             "interval": 4000
           },
           {
+            "__resolveType": "NOVA VITRINE TESTE - COLEÇÃO 123"
+          },
+          {
             "__resolveType": "Mais Vendidos - Coleção 167"
           },
           {
-            "__resolveType": "Nossas Promoções - Coleção 141"
+            "__resolveType": "site/sections/Institucional/InstitucionalTitle.tsx",
+            "title": "                        MARCAS DE QUALIDADE"
           },
           {
-            "__resolveType": "Carrossel de Marcas"
-          },
-          {
-            "__resolveType": "PARAFUSADEIRAS E FURADEIRAS - Coleção 164"
+            "__resolveType": "Preview site/sections/SliderCustom/NovoCarrossel.tsx"
           },
           {
             "__resolveType": "Card de Produto"
           },
           {
-            "__resolveType": "Slider de Categorias"
+            "__resolveType": "Nossas Promoções - Coleção 141"
           },
           {
-            "__resolveType": "Nossas Lojas - Palacio"
+            "__resolveType": "PARAFUSADEIRAS E FURADEIRAS - Coleção 164"
+          },
+          {
+            "__resolveType": "site/sections/Institucional/InstitucionalTitle.tsx",
+            "title": "                        NOSSAS LOJAS"
+          },
+          {
+            "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
+            "images": [
+              {
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/7905f0e1-9858-47eb-92f1-ba1c8b4a7dc7",
+                "alt": "Loja 1",
+                "action": {
+                  "href": "/institucional/nossas-lojas",
+                  "title": "title",
+                  "subTitle": "Subtitle",
+                  "label": "Label"
+                }
+              },
+              {
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ee1b423a-52ee-4d9e-87ca-e1d39d380236",
+                "alt": "Loja 2",
+                "action": {
+                  "href": "/institucional/nossas-lojas",
+                  "title": "title",
+                  "subTitle": "Subtitle",
+                  "label": "Label"
+                }
+              },
+              {
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/dfdabae3-e22b-4a14-b681-02340c493eb5",
+                "alt": "Loja 3",
+                "action": {
+                  "href": "/institucional/nossas-lojas",
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": "."
+                }
+              }
+            ],
+            "layout": {
+              "columns": {
+                "mobile": 1,
+                "desktop": 3
+              }
+            },
+            "preload": false,
+            "container": true,
+            "arrows": false,
+            "dots": false,
+            "interval": 4000
           },
           {
             "__resolveType": "Rodapé FULL"

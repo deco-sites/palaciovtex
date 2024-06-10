@@ -1,7 +1,9 @@
 {
   "name": "Category",
   "path": "/*",
-  "default": { "possiblePaths": [] },
+  "default": {
+    "possiblePaths": []
+  },
   "sections": [
     {
       "jsonLD": {
@@ -12,7 +14,9 @@
       },
       "__resolveType": "commerce/sections/Seo/SeoPLP.tsx"
     },
-    { "__resolveType": "Header - 01" },
+    {
+      "__resolveType": "Header - 01"
+    },
     {
       "banners": [
         {
@@ -84,7 +88,7 @@
             "mobile": "https://palaciodasferramentas.vteximg.com.br/arquivos/ids/159407/375X250_Casa_e_jardim_PalaciodaFerramenta.jpg",
             "desktop": "https://palaciodasferramentas.vteximg.com.br/arquivos/ids/159401/1920X390_Casa_e_jardim_PalaciodaFerramenta.jpg"
           },
-          "matcher": "/casa---jardim"
+          "matcher": "/casa-e-jardim"
         },
         {
           "image": {
@@ -104,13 +108,18 @@
         "__resolveType": "vtex/loaders/legacy/productListingPage.ts"
       },
       "layout": {
-        "columns": { "mobile": 2, "desktop": 4 },
+        "columns": {
+          "mobile": 2,
+          "desktop": 4
+        },
         "variant": "aside",
         "pagination": "show-more"
       },
       "cardLayout": {
         "layout": {
-          "hide": { "cta": false },
+          "hide": {
+            "cta": false
+          },
           "show": {
             "cta": true,
             "allPrices": true,
@@ -119,7 +128,10 @@
             "installments": true,
             "productDescription": true
           },
-          "basics": { "oldPriceSize": "Small", "contentAlignment": "Center" },
+          "basics": {
+            "oldPriceSize": "Small",
+            "contentAlignment": "Center"
+          },
           "onMouseOver": {
             "card": "None",
             "image": "Change image",
@@ -144,7 +156,9 @@
       "startingPage": 1,
       "__resolveType": "site/sections/Product/SearchResult.tsx"
     },
-    { "__resolveType": "Rodapé FULL" }
+    {
+      "__resolveType": "Rodapé FULL"
+    }
   ],
   "__resolveType": "website/pages/Page.tsx"
 }

@@ -1,5 +1,7 @@
 {
-  "cart": { "freeShippingObjectiveQuantity": 300 },
+  "cart": {
+    "freeShippingObjectiveQuantity": 300
+  },
   "logo": {
     "alt": "Palacio Logo",
     "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/41cdd066-6f14-4d2b-8257-75229b7c2caa",
@@ -7,8 +9,14 @@
     "height": 90
   },
   "links": [
-    { "link": "/institucional/nossas-lojas", "text": "Nossas Lojas" },
-    { "link": "/orders", "text": "Meus Pedidos" }
+    {
+      "link": "/institucional/nossas-lojas",
+      "text": "Nossas Lojas"
+    },
+    {
+      "link": "/orders",
+      "text": "Meus Pedidos"
+    }
   ],
   "alerts": [
     "FRETE GRÁTIS para compras acima de R$ 300,00 (RJ, SP, MG e ES) |    ",
@@ -26,7 +34,12 @@
   },
   "navItems": {
     "items": [
-      { "url": "/ofertas", "name": "Ofertas", "image": [], "children": [] },
+      {
+        "url": "/ofertas",
+        "name": "Ofertas",
+        "image": [],
+        "children": []
+      },
       {
         "url": "/ferramentas-eletricas",
         "name": "Ferramentas Elétricas",
@@ -44,7 +57,7 @@
             "children": []
           },
           {
-            "url": "/ferramentas-eletricas/acessorios-para-ferramentas-eletricas",
+            "url": "/ferramentas-eletricas/acessorios",
             "name": "Acessórios",
             "@type": "SiteNavigationElement",
             "image": [],
@@ -58,22 +71,8 @@
             "children": []
           },
           {
-            "url": "/ferramentas-eletricas/chave-de-impacto",
-            "name": "Chave de Impacto",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
             "url": "/ferramentas-eletricas/compressores",
             "name": "Compressores",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/ferramentas-eletricas/cortadores",
-            "name": "Cortadores",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -116,13 +115,6 @@
           {
             "url": "/ferramentas-eletricas/moto-esmeril",
             "name": "Moto Esmeril",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/ferramentas-eletricas/multicortadora",
-            "name": "Multicortadora",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -202,7 +194,11 @@
       {
         "url": "/ferramentas-manuais",
         "name": "Ferramentas Manuais",
-        "image": [],
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/726e9935-99a3-4166-832f-987ac193587f"
+          }
+        ],
         "children": [
           {
             "url": "/ferramentas-manuais/alicates",
@@ -310,22 +306,8 @@
             "children": []
           },
           {
-            "url": "/ferramentas-manuais/pistola-de-fixacao",
-            "name": "Pistola de Fixação",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
             "url": "/ferramentas-manuais/plainas",
             "name": "Plainas",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/ferramentas-manuais/raspador-manual",
-            "name": "Raspador Manual",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -338,15 +320,8 @@
             "children": []
           },
           {
-            "url": "/ferramentas-manuais/refilador-manual",
-            "name": "Refilador Manual",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/ferramentas-manuais/serrotes",
-            "name": "Serrotes",
+            "url": "/ferramentas-manuais/serrotes-e-pe-de-cabra",
+            "name": "Serrotes e Pé de Cabra",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -371,13 +346,29 @@
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
+          },
+          {
+            "url": "/ferramentas-manuais/escovas-e-raspadores",
+            "name": "Escovas e Raspadores",
+            "image": [],
+            "children": []
+          },
+          {
+            "image": [],
+            "children": [],
+            "url": "/ferramentas-manuais/buchas-pregos-e-parafusos",
+            "name": "Buchas, Pregos e Parafusos"
           }
         ]
       },
       {
         "url": "/eletrica",
         "name": "Elétrica",
-        "image": [],
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/f1b9d02f-99dd-4d46-a6e5-b65d0bb24ae0"
+          }
+        ],
         "children": [
           {
             "url": "/eletrica/alicate-amperimetro",
@@ -422,15 +413,8 @@
             "children": []
           },
           {
-            "url": "/eletrica/extensoes",
-            "name": "Extensões",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/eletrica/filtros-de-linha",
-            "name": "Filtros de Linha",
+            "url": "/eletrica/extensoes-e-filtros-de-linha",
+            "name": "Extensões e Filtros de Linha",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -471,22 +455,8 @@
             "children": []
           },
           {
-            "url": "/eletrica/termometro",
-            "name": "Termômetro",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
             "url": "/eletrica/tomadas-e-interruptores",
             "name": "Tomadas e Interruptores",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/eletrica/transformadores",
-            "name": "Transformadores",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -496,11 +466,15 @@
       {
         "url": "/lampadas-e-iluminacao",
         "name": "Lâmpadas e Iluminação",
-        "image": [],
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/5583fbb1-05cc-4e75-b9b9-7b8f29a21aa6"
+          }
+        ],
         "children": [
           {
-            "url": "/lampadas-e-iluminacao/abajures",
-            "name": "Abajures",
+            "url": "/lampadas-e-iluminacao/abajures-e-balizadores",
+            "name": "Abajures e Balizadores",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -508,13 +482,6 @@
           {
             "url": "/lampadas-e-iluminacao/arandelas",
             "name": "Arandelas",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/lampadas-e-iluminacao/balizadores",
-            "name": "Balizadores",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -594,7 +561,11 @@
       {
         "url": "/ferramentas-e-epi",
         "name": "Ferramentas e EPI",
-        "image": [],
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/770d1e8d-7dd6-4e6d-acfd-010ba3010551"
+          }
+        ],
         "children": [
           {
             "url": "/ferramentas-e-epi/botas-de-seguranca",
@@ -614,7 +585,9 @@
             "url": "/ferramentas-e-epi/epi",
             "name": "EPI",
             "@type": "SiteNavigationElement",
-            "image": [],
+            "image": [
+              {}
+            ],
             "children": []
           },
           {
@@ -671,7 +644,11 @@
       {
         "url": "/hidraulica-e-metais",
         "name": "Hidráulica e Metais",
-        "image": [],
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/a2325a86-22db-43e6-8d11-c622d3b5e169"
+          }
+        ],
         "children": [
           {
             "url": "/hidraulica-e-metais/aquecedores",
@@ -683,13 +660,6 @@
           {
             "url": "/hidraulica-e-metais/assento-sanitario",
             "name": "Assento Sanitário",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/hidraulica-e-metais/barras-de-apoio",
-            "name": "Barras de Apoio",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -737,50 +707,8 @@
             "children": []
           },
           {
-            "url": "/hidraulica-e-metais/fitas-veda-rosca",
-            "name": "Fitas Veda Rosca",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
             "url": "/hidraulica-e-metais/metais-para-banheiro",
             "name": "Metais para Banheiro",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/hidraulica-e-metais/metais-para-cozinha",
-            "name": "Metais para Cozinha",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/hidraulica-e-metais/misturadores",
-            "name": "Misturadores",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/hidraulica-e-metais/motobomba",
-            "name": "Motobomba",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/hidraulica-e-metais/prolongadores",
-            "name": "Prolongadores",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/hidraulica-e-metais/ralos-e-caixas-sanfonadas",
-            "name": "Ralos e Caixas sanfonadas",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -800,8 +728,8 @@
             "children": []
           },
           {
-            "url": "/hidraulica-e-metais/sifoes",
-            "name": "Sifões",
+            "url": "/hidraulica-e-metais/sifoes-e-prolongadores",
+            "name": "Sifões e Prolongadores",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -825,18 +753,15 @@
       {
         "url": "/ferragens",
         "name": "Ferragens",
-        "image": [],
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/d0806fd4-d310-4609-a3a1-f2f4c36a8e4d"
+          }
+        ],
         "children": [
           {
             "url": "/ferragens/cadeados",
             "name": "Cadeados",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/ferragens/caixas-de-correio",
-            "name": "Caixas de Correio",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -884,7 +809,7 @@
             "children": []
           },
           {
-            "url": "/ferragens/molas-hidraulica",
+            "url": "/ferragens/molas-hidraulicas",
             "name": "Molas Hidráulicas",
             "@type": "SiteNavigationElement",
             "image": [],
@@ -893,20 +818,6 @@
           {
             "url": "/ferragens/olho-magico",
             "name": "Olho Mágico",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/ferragens/pes-de-cabra",
-            "name": "Pés de Cabra",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/ferragens/puxadores",
-            "name": "Puxadores",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -938,20 +849,17 @@
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
-          },
-          {
-            "url": "/ferragens/torquimetro",
-            "name": "Torquímetro",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
           }
         ]
       },
       {
-        "url": "/tintas-e-mpermiabilizantes",
-        "name": "Tintas e Impermiabilizantes",
-        "image": [],
+        "url": "/tintas-e-impermeabilizantes",
+        "name": "Tintas e Impermeabilizantes",
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/76f4a2bd-2d3d-4a9d-a78a-03b84b78f875"
+          }
+        ],
         "children": [
           {
             "url": "/tintas-e-impermeabilizantes/acessorios-para-pintura",
@@ -961,29 +869,8 @@
             "children": []
           },
           {
-            "url": "/tintas-e-impermeabilizantes/auto",
-            "name": "Auto",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/tintas-e-impermeabilizantes/baldes-e-bandejas",
-            "name": "Baldes e Bandejas",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
             "url": "/tintas-e-impermeabilizantes/colas-silicones-e-adesivos",
             "name": "Colas, Silicones e Adesivos",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/tintas-e-impermeabilizantes/espuma-expansiva",
-            "name": "Expuma Expansiva",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -998,13 +885,6 @@
           {
             "url": "/tintas-e-impermeabilizantes/impermeabilizantes",
             "name": "Impermeabilizantes",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/tintas-e-impermeabilizantes/kits-de-pintura",
-            "name": "Kits de Pintura",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -1069,96 +949,72 @@
       },
       {
         "url": "/casa-e-jardim",
-        "name": "Casa & Jardim",
-        "image": [],
+        "name": "Casa e Jardim",
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/1f94e91b-0618-4d98-af26-53fd57837c90"
+          }
+        ],
         "children": [
           {
-            "url": "/casa---jardim/banheiro",
+            "url": "/casa-e-jardim/banheiro",
             "name": "Banheiro",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
           },
           {
-            "url": "/casa---jardim/acessorios-para-cozinha",
-            "name": "Acessórios para Cozinha",
+            "url": "/casa-e-jardim/cozinha",
+            "name": "Cozinha",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
           },
           {
-            "url": "/casa---jardim/acessorios-para-jardim",
+            "url": "/casa-e-jardim/acessorios-para-jardim",
             "name": "Acessórios para Jardim",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
           },
           {
-            "url": "/casa---jardim/carrinhos-de-mao",
-            "name": "Carrinhos de Mão",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/casa---jardim/eletroportateis",
-            "name": "Eletroportáteis",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/casa---jardim/ferramentas-para-jardim",
+            "url": "/casa-e-jardim/ferramentas-para-jardim",
             "name": "Ferramentas para Jardim",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
           },
           {
-            "url": "/casa---jardim/fogoes",
-            "name": "Fogoes",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/casa---jardim/limpeza",
+            "url": "/casa-e-jardim/limpeza",
             "name": "Limpeza",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
           },
           {
-            "url": "/casa---jardim/mangueiras",
+            "url": "/casa-e-jardim/mangueiras",
             "name": "Mangueiras",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
           },
           {
-            "url": "/casa---jardim/pulverizadores",
-            "name": "Pulverizadores",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/casa---jardim/seguranca",
+            "url": "/casa-e-jardim/seguranca",
             "name": "Segurança",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
           },
           {
-            "url": "/casa---jardim/telefones",
+            "url": "/casa-e-jardim/telefones",
             "name": "Telefones",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
           },
           {
-            "url": "/casa---jardim/tesouras",
-            "name": "Tesouras",
+            "url": "/casa-e-jardim/tesouras-e-podoes",
+            "name": "Tesouras e Podões",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -1174,15 +1030,12 @@
       {
         "url": "/decoracao-e-organizacao",
         "name": "Decoração e Organização",
-        "image": [],
-        "children": [
+        "image": [
           {
-            "url": "/decoracao-e-organizacao/armarios-para-banheiro",
-            "name": "Armários para Banheiro",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/e478fd00-de6b-404e-b968-4554453cebc6"
+          }
+        ],
+        "children": [
           {
             "url": "/decoracao-e-organizacao/carrinhos-para-transporte",
             "name": "Carrinhos para Transporte",
@@ -1191,29 +1044,8 @@
             "children": []
           },
           {
-            "url": "/decoracao-e-organizacao/cofres",
-            "name": "Cofres",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/decoracao-e-organizacao/escadas",
-            "name": "Escadas",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
             "url": "/decoracao-e-organizacao/ganchos-e-suportes",
             "name": "Ganchos e Suportes",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/decoracao-e-organizacao/lixeiras",
-            "name": "Lixadeiras",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -1227,7 +1059,7 @@
           },
           {
             "url": "/decoracao-e-organizacao/nichos",
-            "name": "Nichos",
+            "name": "Nichos e Prateleiras",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -1240,29 +1072,8 @@
             "children": []
           },
           {
-            "url": "/decoracao-e-organizacao/pistola-cola-quente",
-            "name": "Pistola de Cola Quente",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/decoracao-e-organizacao/prateleiras",
-            "name": "Prateleiras",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
             "url": "/decoracao-e-organizacao/tecidos-adesivos",
             "name": "Tecidos Adesivos",
-            "@type": "SiteNavigationElement",
-            "image": [],
-            "children": []
-          },
-          {
-            "url": "/decoracao-e-organizacao/trilhos",
-            "name": "Trilhos",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -1275,6 +1086,12 @@
             "children": []
           }
         ]
+      },
+      {
+        "children": [],
+        "image": [],
+        "name": "AUTOMOTIVO",
+        "url": "/automotivo/d"
       }
     ],
     "__resolveType": "commerce/loaders/navbar.ts"
@@ -1284,7 +1101,9 @@
     "name": "q",
     "action": "/s",
     "loader": {
-      "data": { "__resolveType": "vtex/loaders/legacy/suggestions.ts" },
+      "data": {
+        "__resolveType": "vtex/loaders/legacy/suggestions.ts"
+      },
       "__resolveType": "resolved"
     },
     "placeholder": "O que você está procurando?"
@@ -1296,7 +1115,10 @@
       "title": "titulo"
     }
   ],
-  "suggestions": { "products": [], "searches": [] },
+  "suggestions": {
+    "products": [],
+    "searches": []
+  },
   "logoPosition": "left",
   "__resolveType": "site/sections/Header/Header.tsx",
   "alternateGridImages": false

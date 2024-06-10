@@ -95,6 +95,10 @@
       {
         "link": "/suporte/politica-de-pagamento",
         "text": "Política de Pagamento"
+      },
+      {
+        "text": "Fale Conosco",
+        "link": "/suporte/fale-conosco"
       }
     ],
     "title": "Políticas e suporte"
