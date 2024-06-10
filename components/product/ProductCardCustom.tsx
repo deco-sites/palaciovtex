@@ -52,7 +52,6 @@ interface Props {
   layout?: Layout;
 }
 
-
 export function LoadingFallback() {
   // Renderize spinners, esqueletos e outros espaços reservados
   return (
@@ -61,7 +60,6 @@ export function LoadingFallback() {
     </div>
   );
 }
-
 
 const calculate = (item: number, item2: number) => {
   if ((item - item2) > 0) {
