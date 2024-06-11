@@ -41,7 +41,7 @@
   "platform": "vtex",
   "products": {
     "props": {
-      "sort": "",
+      "sort": "OrderByPriceDESC",
       "count": 18,
       "fuzzy": "automatic",
       "similars": false,

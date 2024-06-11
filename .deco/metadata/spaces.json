@@ -953,7 +953,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 26.609105180533753,
+                "width": 26.21664050235479,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -975,7 +975,7 @@
               },
               {
                 "type": "stack",
-                "width": 73.39089481946624,
+                "width": 73.78335949764521,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1014,8 +1014,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D": {
@@ -5262,7 +5261,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 30,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -5284,7 +5283,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 70,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -5323,7 +5322,8 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2FNossas%2520Promo%25C3%25A7%25C3%25B5es%2520-%2520Cole%25C3%25A7%25C3%25A3o%2520141.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2FNossas%2520Promo%25C3%25A7%25C3%25B5es%2520-%2520Cole%25C3%25A7%25C3%25A3o%2520141.json::Preview::world::Preview::%7B%7D": {
