@@ -1,5 +1,5 @@
 {
-  "title": "NOSSAS PROMOÇÕES",
+  "title": "MELHORES LUSTRES + FRETE GRÁTIS",
   "layout": {
     "basics": {
       "ctaText": "Adicionar ao carrinho",
@@ -11,12 +11,19 @@
       "image": "Change image",
       "showBrand": false
     },
-    "elementsPositions": { "favoriteIcon": "Top right" }
+    "elementsPositions": {
+      "favoriteIcon": "Top right"
+    }
   },
   "product": {
     "@type": "Product",
-    "brand": { "@type": "Brand" },
-    "offers": { "@type": "AggregateOffer", "offers": [] },
+    "brand": {
+      "@type": "Brand"
+    },
+    "offers": {
+      "@type": "AggregateOffer",
+      "offers": []
+    },
     "review": [],
     "isRelatedTo": [],
     "isSimilarTo": [],
@@ -25,7 +32,9 @@
       "hasVariant": [],
       "additionalProperty": []
     },
-    "aggregateRating": { "@type": "AggregateRating" },
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
     "additionalProperty": [],
     "isAccessoryOrSparePartFor": []
   },
@@ -33,10 +42,10 @@
   "products": {
     "props": {
       "sort": "",
-      "count": 12,
+      "count": 18,
       "fuzzy": "automatic",
       "similars": false,
-      "collection": "141"
+      "collection": "172"
     },
     "__resolveType": "vtex/loaders/legacy/productList.ts"
   },
