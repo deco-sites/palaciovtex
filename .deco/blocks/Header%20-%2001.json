@@ -258,7 +258,7 @@
           },
           {
             "url": "/ferramentas-manuais/flangeador-de-tubos",
-            "name": "Flangeador de Tubos",
+            "name": "Flangeador",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -272,14 +272,14 @@
           },
           {
             "url": "/ferramentas-manuais/jogo-de-ferramentas",
-            "name": "Jogo de Ferramentas",
+            "name": "Jogo Ferramentas",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
           },
           {
             "url": "/ferramentas-manuais/jogo-de-tarraxas",
-            "name": "Jogo de Tarraxas",
+            "name": "Jogo Tarraxas",
             "@type": "SiteNavigationElement",
             "image": [],
             "children": []
@@ -357,7 +357,7 @@
             "image": [],
             "children": [],
             "url": "/ferramentas-manuais/buchas-pregos-e-parafusos",
-            "name": "Buchas, Pregos e Parafusos"
+            "name": "Parafusos"
           }
         ]
       },
