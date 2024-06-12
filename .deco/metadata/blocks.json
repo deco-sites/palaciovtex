@@ -556,8 +556,8 @@
     "__resolveType": "site/sections/Images/BannerGrid.tsx"
   },
   "/.deco/blocks/pages-page-teste-125764.json": {
-    "name": "page-teste",
-    "path": "/page-teste-2fabk31020391kasd",
+    "name": "Pegue seu Cupom",
+    "path": "/pegue-seu-cupom",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },

@@ -3865,6 +3865,18 @@
             "container": false
           },
           {
+            "__resolveType": "site/sections/Content/CallToAction.tsx",
+            "cta": [
+              {
+                "variant": "Normal",
+                "id": ".",
+                "href": "/ferramentas-eletricas/furadeiras",
+                "text": "Ver mais"
+              }
+            ],
+            "text": "."
+          },
+          {
             "__resolveType": "site/sections/Product/ProductCardCustom.tsx",
             "layout": {
               "basics": {
@@ -3874,7 +3886,8 @@
               },
               "onMouseOver": {
                 "card": "None",
-                "image": "Change image"
+                "image": "Change image",
+                "showCta": false
               },
               "elementsPositions": {
                 "favoriteIcon": "Top right"
@@ -3987,14 +4000,14 @@
             ]
           },
           {
-            "__resolveType": "site/sections/Content/SeoSupportText.tsx",
             "title": "PALÁCIO DA FERRAMENTA",
+            "__resolveType": "site/sections/Content/SeoSupportText.tsx",
             "textFinal": "<b>Precisou de algo? na Palácio tem. 😄👍</b>",
             "description": "O <b>Palácio da Ferramenta</b> é a loja que fica no coração do Rio❤️ há 53 anos. Somos especializados em ferramentas e máquinas para a sua obra e reforma. Fornecemos aos nossos clientes as melhores marcas em diversos departamentos como: Materiais de Construção, Elétrica, Hidráulica, Acabamentos, Metais, Iluminação, Tintas, Ferragens, Máquinas, Jardinagem, Utilidades para o Lar, Decoração… e muito mais."
           },
           {
-            "title": "NOSSAS LOJAS 🤩🖤💛",
             "__resolveType": "site/sections/Content/LojasCarousel.tsx",
+            "title": "NOSSAS LOJAS 🤩🖤💛",
             "lojas": [
               {
                 "image": "https://palaciodasferramentas.vteximg.com.br/arquivos/ids/162611/Img_01_Palacio_342X228.jpg"
