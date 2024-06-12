@@ -1133,21 +1133,11 @@
     },
     {
       "__resolveType": "site/sections/Institucional/InstitucionalHTML.tsx",
-      "content": "<p>O&nbsp;<strong>Palácio da Ferramenta</strong>&nbsp;tem o compromisso com a privacidade e a segurança de seus clientes durante todo o processo de navegação e compra aqui no site. Os dados cadastrais dos clientes não são vendidos, trocados ou divulgados para terceiros, exceto quando essas informações são necessárias para o processo de entrega ou para cobrança. Seus dados pessoais são peça fundamental para que seu pedido chegue em segurança, na sua casa, de acordo com nosso prazo de entrega.</p><p><br data-mce-bogus=\"1\"></p><p>O&nbsp;<strong>Palácio da Ferramenta</strong>&nbsp;utiliza cookies e informações de sua navegação (sessão do browser) com o objetivo de traçar um perfil do público que visita o site e aperfeiçoar sempre nossos serviços, produtos, conteúdos e garantir as melhores ofertas e promoções para você.</p><p><br data-mce-bogus=\"1\"></p><p>Durante todo este processo mantemos suas informações em sigilo absoluto. Vale lembrar que seus dados são registrados pelo&nbsp;<strong>Palácio da Ferramenta</strong>&nbsp;de forma automatizada, dispensando manipulação humana. Para que estes dados permaneçam intactos, nós desaconselhamos expressamente a divulgação de sua senha a terceiros, mesmo a amigos e parentes.</p><p><br data-mce-bogus=\"1\"></p><p>As alterações sobre nossa política de privacidade serão devidamente informadas neste espaço.</p>"
+      "content": "<p style=\"text-align: justify;\" data-mce-style=\"text-align: justify;\">Utilize os cupons abaixo na <strong>página de pagamento</strong> para aproveitar os descontos nos <strong>produtos selecionados</strong> em cada categoria. A promoção<strong> não é válida</strong> para Lojas Físicas e Televendas, <strong>somente no site!</strong> Os descontos <strong>não são acumulativos</strong> com outras promoções e cupons vigentes. Promoções <strong>válidas</strong> enquanto durarem os estoques.</p>"
     },
     {
       "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
       "images": [
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/074f112e-5f54-464a-aceb-2eb8d921c7cb",
-          "alt": "Makita",
-          "action": {
-            "href": "/makita",
-            "title": "title",
-            "subTitle": "Subtitle",
-            "label": "Label"
-          }
-        },
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/d22bc295-57cb-447e-b753-907d4bc7909d",
           "alt": "Black e Decker",
@@ -1169,150 +1159,10 @@
           }
         },
         {
-          "alt": "Papaiz",
-          "action": {
-            "href": "/papaiz",
-            "title": ".",
-            "subTitle": ".",
-            "label": "."
-          },
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ebf3ebe7-e59d-4803-bfdb-4416f7b448d1"
-        },
-        {
-          "alt": "Stam",
-          "action": {
-            "href": "/stam",
-            "title": ".",
-            "subTitle": ".",
-            "label": "."
-          },
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/f449a8ae-0eb4-4efd-a1c7-0a401ea146fd"
-        },
-        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/eca6e476-65d5-4d10-b6cc-d9136edfc3ec",
           "alt": "Docol",
           "action": {
             "href": "/docol",
-            "title": ".",
-            "subTitle": ".",
-            "label": "."
-          },
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/eca6e476-65d5-4d10-b6cc-d9136edfc3ec"
-        },
-        {
-          "alt": "WD-40",
-          "action": {
-            "href": "/wd-40",
-            "title": ".",
-            "subTitle": ".",
-            "label": "."
-          },
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/e753401e-5bfd-4cda-92f4-7881f828c838"
-        },
-        {
-          "alt": "Dremel",
-          "action": {
-            "href": "/dremel",
-            "title": ".",
-            "subTitle": ".",
-            "label": "."
-          },
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/76f8b912-f8d0-4172-b4d0-0e9304ddf008"
-        },
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/fa8e36bd-46c0-4925-bb17-1c9d750f9e0c",
-          "alt": "Tramontina",
-          "action": {
-            "href": "/tramontina",
-            "title": ".",
-            "subTitle": ".",
-            "label": "."
-          }
-        },
-        {
-          "alt": "Taschibra",
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/4a06fcce-d672-4fb8-8c84-0e241293be26",
-          "action": {
-            "href": "/taschibra",
-            "title": ".",
-            "subTitle": ".",
-            "label": "."
-          }
-        },
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/cbc88d5b-9a3f-4e45-8100-2152a900a7b1",
-          "alt": "Starret",
-          "action": {
-            "href": "/starret",
-            "title": ".",
-            "subTitle": ".",
-            "label": "."
-          }
-        },
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/8083e4f6-2a1d-4e89-a007-bcbe88727b9b",
-          "alt": "Stanley",
-          "action": {
-            "href": "/stanley",
-            "title": ".",
-            "subTitle": ".",
-            "label": "."
-          }
-        },
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/2f8dfa58-8868-4d0a-9edb-fde25993d7b2",
-          "alt": "Quartizolit",
-          "action": {
-            "href": "/quartzolit",
-            "title": ".",
-            "subTitle": ".",
-            "label": "."
-          }
-        },
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/67a1d6c5-d772-447b-87d9-1543b023f97c",
-          "alt": "Ourolux",
-          "action": {
-            "href": "/ourolux",
-            "title": ".",
-            "subTitle": ".",
-            "label": "."
-          }
-        },
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/09854b4b-6066-40a0-895e-6d4805e4aa07",
-          "alt": "Lorenzetti",
-          "action": {
-            "href": "/lorenzetti",
-            "title": ".",
-            "subTitle": ".",
-            "label": "."
-          }
-        },
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/df0a9120-202d-4c10-b75c-e0c59c118120",
-          "alt": "Intelbras",
-          "action": {
-            "href": "/intelbras",
-            "title": ".",
-            "subTitle": ".",
-            "label": "."
-          }
-        },
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/4828393e-ed9a-47f2-88c2-d8a2c0392c3e",
-          "alt": "Cortag",
-          "action": {
-            "href": "/cortag",
-            "title": ".",
-            "label": ".",
-            "subTitle": "."
-          }
-        },
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/a0c3af61-016e-4f9b-825a-44d0e5cffbb4",
-          "alt": "3M",
-          "action": {
-            "href": "/3m",
             "title": ".",
             "subTitle": ".",
             "label": "."
@@ -1327,12 +1177,103 @@
       },
       "preload": false,
       "container": true,
-      "arrows": true,
+      "arrows": false,
       "dots": false,
       "interval": 4000
     },
     {
-      "__resolveType": "site/sections/Footer/Rodape.tsx",
+      "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
+      "layout": {
+        "columns": {
+          "mobile": 1,
+          "desktop": 3
+        }
+      },
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/d22bc295-57cb-447e-b753-907d4bc7909d",
+          "alt": "Black e Decker",
+          "action": {
+            "href": "/black---decker",
+            "title": "title",
+            "subTitle": "Subtitle",
+            "label": "Label"
+          }
+        },
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/d84aca76-8109-4705-87cd-30f9126fa4c0",
+          "alt": "Bosch",
+          "action": {
+            "href": "/bosch",
+            "title": "title",
+            "subTitle": "Subtitle",
+            "label": "Label"
+          }
+        },
+        {
+          "alt": "Docol",
+          "action": {
+            "href": "/docol",
+            "title": ".",
+            "subTitle": ".",
+            "label": "."
+          },
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/eca6e476-65d5-4d10-b6cc-d9136edfc3ec"
+        }
+      ],
+      "preload": false,
+      "container": true,
+      "arrows": false,
+      "dots": false,
+      "interval": 4000
+    },
+    {
+      "layout": {
+        "columns": {
+          "mobile": 1,
+          "desktop": 3
+        }
+      },
+      "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/d22bc295-57cb-447e-b753-907d4bc7909d",
+          "alt": "Black e Decker",
+          "action": {
+            "href": "/black---decker",
+            "title": "title",
+            "subTitle": "Subtitle",
+            "label": "Label"
+          }
+        },
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/d84aca76-8109-4705-87cd-30f9126fa4c0",
+          "alt": "Bosch",
+          "action": {
+            "href": "/bosch",
+            "title": "title",
+            "subTitle": "Subtitle",
+            "label": "Label"
+          }
+        },
+        {
+          "alt": "Docol",
+          "action": {
+            "href": "/docol",
+            "title": ".",
+            "subTitle": ".",
+            "label": "."
+          },
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/eca6e476-65d5-4d10-b6cc-d9136edfc3ec"
+        }
+      ],
+      "preload": false,
+      "container": true,
+      "arrows": false,
+      "dots": false,
+      "interval": 4000
+    },
+    {
       "colors": {
         "corFundo": "#000000",
         "corTexto": "#ffffff",
@@ -1451,6 +1392,7 @@
         ],
         "title": "Canal no WhatsApp para receber promoções e Ofertas!"
       },
+      "__resolveType": "site/sections/Footer/Rodape.tsx",
       "institucional": {
         "items": [
           {
