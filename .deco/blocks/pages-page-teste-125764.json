@@ -1242,10 +1242,10 @@
       "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/1150c35d-de32-4aa3-82ba-052a24ad1c49",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/5ac67551-7504-4768-bc19-6b66f86d17ac",
           "alt": "Ferramentas Elétricas 10",
           "action": {
-            "href": "https://www.palacio.com.br/ferramentas-eletricas",
+            "href": "/ferramentas-eletricas",
             "title": "title",
             "subTitle": "Subtitle",
             "label": "Label"
