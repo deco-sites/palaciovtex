@@ -3,7 +3,9 @@
   "path": "/pegue-seu-cupom",
   "sections": [
     {
-      "__resolveType": "Preview blog/sections/Seo/SeoBlogPost.tsx"
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Pegue seu cupom",
+      "titleTemplate": "%s | Palácio das Ferramentas"
     },
     {
       "__resolveType": "site/sections/Header/Header.tsx",

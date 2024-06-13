@@ -573,8 +573,5 @@
     "blockType": "apps",
     "__resolveType": "decohub/apps/decohub.ts"
   },
-  "/.deco/blocks/site.json": {
-    "blockType": "apps",
-    "__resolveType": "site/apps/site.ts"
-  }
+  "/.deco/blocks/site.json": null
 }

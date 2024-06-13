@@ -1,0 +1,7 @@
+{
+  "seo": {
+    "titleTemplate": "%s",
+    "descriptionTemplate": "%s",
+    "type": "website"
+  }
+}
