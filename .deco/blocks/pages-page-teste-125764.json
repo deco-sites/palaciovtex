@@ -3,6 +3,9 @@
   "path": "/pegue-seu-cupom",
   "sections": [
     {
+      "__resolveType": "Preview blog/sections/Seo/SeoBlogPost.tsx"
+    },
+    {
       "__resolveType": "site/sections/Header/Header.tsx",
       "cart": {
         "freeShippingObjectiveQuantity": 300
@@ -1137,15 +1140,21 @@
     },
     {
       "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
+      "layout": {
+        "columns": {
+          "mobile": 1,
+          "desktop": 3
+        }
+      },
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/d1bac42c-6615-4f18-9d1a-89f6259a2824",
           "alt": "LUSTRE 10",
           "action": {
+            "href": "/lampadas-e-iluminacao/lustres-e-pendentes",
             "title": "title",
             "subTitle": "Subtitle",
-            "label": "Label",
-            "href": "/lampadas-e-iluminacao/lustres-e-pendentes"
+            "label": "Label"
           }
         },
         {
@@ -1159,22 +1168,16 @@
           }
         },
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/54339478-d9bb-4fc7-aa25-2719f2624fbe",
           "alt": "Ducha 10",
           "action": {
             "href": "/hidraulica-e-metais/chuveiros-e-duchas",
             "title": ".",
             "subTitle": ".",
             "label": "."
-          }
+          },
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/54339478-d9bb-4fc7-aa25-2719f2624fbe"
         }
       ],
-      "layout": {
-        "columns": {
-          "mobile": 1,
-          "desktop": 3
-        }
-      },
       "preload": false,
       "container": true,
       "arrows": false,
@@ -1182,13 +1185,13 @@
       "interval": 4000
     },
     {
-      "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
       "layout": {
         "columns": {
           "mobile": 1,
           "desktop": 3
         }
       },
+      "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/96ba6a97-78b2-4714-ba23-dc32299b39ba",
@@ -1274,6 +1277,7 @@
       "interval": 4000
     },
     {
+      "__resolveType": "site/sections/Footer/Rodape.tsx",
       "colors": {
         "corFundo": "#000000",
         "corTexto": "#ffffff",
@@ -1392,7 +1396,6 @@
         ],
         "title": "Canal no WhatsApp para receber promoções e Ofertas!"
       },
-      "__resolveType": "site/sections/Footer/Rodape.tsx",
       "institucional": {
         "items": [
           {
