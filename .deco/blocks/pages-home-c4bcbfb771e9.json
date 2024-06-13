@@ -4225,7 +4225,7 @@
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/2f8e732e-04ec-48f7-8236-654e2b50514b",
                 "alt": "Pegue seu cupom",
                 "action": {
-                  "href": "/",
+                  "href": "/pegue-seu-cupom",
                   "title": "title",
                   "subTitle": "Subtitle",
                   "label": "Label"
@@ -4275,7 +4275,7 @@
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/beee9e90-a2f3-4f9c-a71f-62ba9522c800",
                 "alt": "cupom",
                 "action": {
-                  "href": "/",
+                  "href": "/pegue-seu-cupom",
                   "title": ".",
                   "subTitle": ".",
                   "label": "."
