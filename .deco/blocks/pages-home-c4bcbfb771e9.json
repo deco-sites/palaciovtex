@@ -5,9 +5,9 @@
     "variants": [
       {
         "rule": {
+          "__resolveType": "website/matchers/date.ts",
           "end": "2025-07-31T19:03:00.000Z",
-          "start": "2025-06-18T13:30:00.000Z",
-          "__resolveType": "website/matchers/date.ts"
+          "start": "2025-06-18T13:30:00.000Z"
         },
         "value": [
           {
@@ -4193,13 +4193,87 @@
             "__resolveType": "Header - 01"
           },
           {
-            "__resolveType": "Carousel - 01"
+            "__resolveType": "site/sections/Images/Carousel.tsx",
+            "dots": false,
+            "arrows": false,
+            "images": [
+              {
+                "alt": "Dia dos namorados",
+                "action": {
+                  "href": "/ferramentas-eletricas/parafusadeiras",
+                  "label": ".",
+                  "title": ".",
+                  "subTitle": "."
+                },
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/04f25d11-df1b-4d07-8c00-e65772027e4b",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/e14d01b3-9e3a-414c-bdc4-047a5b9a5788"
+              },
+              {
+                "alt": "Na palacio tem",
+                "action": {
+                  "href": "/ofertas",
+                  "label": ".",
+                  "title": ".",
+                  "subTitle": "."
+                },
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/4079d8e3-115d-4dd1-91ad-030bb8d5e680",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/e977257c-4dfb-4fd4-974c-23a0de66f062"
+              },
+              {
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9f091620-4c93-46da-b70a-ad31843672d9",
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/01791714-6a47-43b2-a1b3-cde516976bc5",
+                "alt": "ofertas",
+                "action": {
+                  "href": "https://www.palacio.com.br/ofertas",
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": "."
+                }
+              },
+              {
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ea1e158c-5653-4587-a50c-59b2d9f19d54",
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/a94293d2-5f45-4e42-aba4-6329f542f038",
+                "alt": "Luminárias",
+                "action": {
+                  "href": "/lampadas-e-iluminacao/lustres-e-pendentes",
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": "."
+                }
+              },
+              {
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/478d2b3e-6ab2-4dea-b4bb-d1918a8bbe0f",
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/d4713ef2-5787-4abc-86ec-332841c0fa80",
+                "alt": "solda",
+                "action": {
+                  "href": "/eletrica/maquinas-e-acessorios-de-solda",
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": "."
+                }
+              }
+            ],
+            "layout": {
+              "columns": {
+                "mobile": 1,
+                "desktop": 1
+              }
+            },
+            "preload": true,
+            "interval": 6,
+            "container": true
           },
           {
             "__resolveType": "Tarja de Beneficios"
           },
           {
             "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
+            "layout": {
+              "columns": {
+                "mobile": 1,
+                "desktop": 5
+              }
+            },
             "images": [
               {
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/89571973-caa6-4b34-946e-3f083d664db6",
@@ -4292,12 +4366,6 @@
                 }
               }
             ],
-            "layout": {
-              "columns": {
-                "mobile": 1,
-                "desktop": 5
-              }
-            },
             "preload": false,
             "container": true,
             "arrows": true,

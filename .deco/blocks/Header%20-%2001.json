@@ -41,6 +41,12 @@
         "children": []
       },
       {
+        "url": "/pegue-seu-cupom",
+        "name": "Pegue seu Cupom",
+        "image": [],
+        "children": []
+      },
+      {
         "url": "/ferramentas-eletricas",
         "name": "Ferramentas Elétricas",
         "image": [
@@ -927,9 +933,9 @@
           {
             "url": "/tintas-e-impermeabilizantes/tintas",
             "name": "Tintas",
-            "@type": "SiteNavigationElement",
             "image": [],
-            "children": []
+            "children": [],
+            "@type": "SiteNavigationElement"
           },
           {
             "url": "/tintas-e-impermeabilizantes/trinchas-pinceis-e-broxas",
@@ -1028,13 +1034,6 @@
         ]
       },
       {
-        "url": "/decoracao-e-organizacao",
-        "name": "Decoração e Organização",
-        "image": [
-          {
-            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/e478fd00-de6b-404e-b968-4554453cebc6"
-          }
-        ],
         "children": [
           {
             "url": "/decoracao-e-organizacao/carrinhos-para-transporte",
@@ -1085,7 +1084,14 @@
             "image": [],
             "children": []
           }
-        ]
+        ],
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/e478fd00-de6b-404e-b968-4554453cebc6"
+          }
+        ],
+        "name": "Decoração e Organização",
+        "url": "/decoracao-e-organizacao"
       },
       {
         "children": [],
