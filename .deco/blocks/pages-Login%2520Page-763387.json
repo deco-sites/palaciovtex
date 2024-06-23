@@ -12,7 +12,7 @@
     },
     {
       "__resolveType": "site/sections/Iframes/IframeLogin.tsx",
-      "src": "/login?returnUrl=%2Faccount"
+      "src": "/account#"
     },
     {
       "__resolveType": "Rodapé FULL"
