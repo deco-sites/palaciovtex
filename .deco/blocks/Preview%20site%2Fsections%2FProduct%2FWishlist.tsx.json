@@ -13,7 +13,10 @@
       "pagesize": 3
     },
     "pageInfo": {
-      "pageTypes": []
+      "pageTypes": [],
+      "currentPage": 1,
+      "nextPage": "2",
+      "previousPage": "1"
     },
     "sortOptions": []
   },

@@ -30,7 +30,7 @@
   "buttons": {
     "hideSearchButton": false,
     "hideAccountButton": false,
-    "hideWishlistButton": false
+    "hideWishlistButton": true
   },
   "navItems": {
     "items": [
@@ -1108,7 +1108,8 @@
     "action": "/s",
     "loader": {
       "data": {
-        "__resolveType": "vtex/loaders/legacy/suggestions.ts"
+        "__resolveType": "vtex/loaders/intelligentSearch/suggestions.ts",
+        "count": 4
       },
       "__resolveType": "resolved"
     },
