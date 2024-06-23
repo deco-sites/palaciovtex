@@ -2072,9 +2072,9 @@
       },
       {
         "rule": {
+          "__resolveType": "website/matchers/date.ts",
           "end": "2024-05-22T19:03:00.000Z",
-          "start": "2024-05-18T13:30:00.000Z",
-          "__resolveType": "website/matchers/date.ts"
+          "start": "2024-05-18T13:30:00.000Z"
         },
         "value": [
           {
@@ -3486,7 +3486,6 @@
             "__resolveType": "site/sections/Content/Tipbar.tsx"
           },
           {
-            "__resolveType": "site/sections/Product/ProductCardCustom.tsx",
             "title": "PRODUTOS MAIS VENDIDOS 😍👌✨",
             "layout": {
               "basics": {
@@ -3538,19 +3537,13 @@
               "__resolveType": "vtex/loaders/legacy/productList.ts"
             },
             "buttonColor": "#eacd78",
+            "__resolveType": "site/sections/Product/ProductCardCustom.tsx",
             "addWithoutPLP": true,
             "showAddButton": true,
             "pixPercentageBGColor": "#eacd78",
             "pixPercentageTextColor": "#000000"
           },
           {
-            "layout": {
-              "columns": {
-                "mobile": 1,
-                "desktop": 2
-              }
-            },
-            "__resolveType": "site/sections/Images/Carousel.tsx",
             "dots": false,
             "arrows": true,
             "images": [
@@ -3588,11 +3581,19 @@
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/174e7697-f6db-462c-8d75-1607e228c57e"
               }
             ],
+            "layout": {
+              "columns": {
+                "mobile": 1,
+                "desktop": 2
+              }
+            },
             "preload": true,
             "interval": 6,
-            "container": false
+            "container": false,
+            "__resolveType": "site/sections/Images/Carousel.tsx"
           },
           {
+            "title": "NOSSAS PROMOÇÕES",
             "layout": {
               "basics": {
                 "ctaText": "Adicionar ao carrinho",
@@ -3608,8 +3609,6 @@
                 "favoriteIcon": "Top right"
               }
             },
-            "__resolveType": "site/sections/Product/ProductCardCustom.tsx",
-            "title": "NOSSAS PROMOÇÕES",
             "product": {
               "@type": "Product",
               "brand": {
@@ -3645,6 +3644,7 @@
               "__resolveType": "vtex/loaders/legacy/productList.ts"
             },
             "buttonColor": "#eacd78",
+            "__resolveType": "site/sections/Product/ProductCardCustom.tsx",
             "addWithoutPLP": true,
             "showAddButton": true,
             "pixPercentageBGColor": "#eacd78",
@@ -3652,7 +3652,6 @@
           },
           {
             "title": "MARCAS DE QUALIDADE",
-            "__resolveType": "site/sections/Content/BrandCarousel.tsx",
             "brands": [
               {
                 "link": "/bosch",
@@ -3824,10 +3823,10 @@
                 "text": "Deca",
                 "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/d2863c7c-4071-4120-954b-7d7fe499e249"
               }
-            ]
+            ],
+            "__resolveType": "site/sections/Content/BrandCarousel.tsx"
           },
           {
-            "__resolveType": "site/sections/Images/Carousel.tsx",
             "dots": false,
             "arrows": true,
             "images": [
@@ -3862,7 +3861,8 @@
             },
             "preload": true,
             "interval": 6,
-            "container": false
+            "container": false,
+            "__resolveType": "site/sections/Images/Carousel.tsx"
           },
           {
             "__resolveType": "site/sections/Content/CallToAction.tsx",
@@ -4220,26 +4220,26 @@
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/e977257c-4dfb-4fd4-974c-23a0de66f062"
               },
               {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9f091620-4c93-46da-b70a-ad31843672d9",
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/01791714-6a47-43b2-a1b3-cde516976bc5",
                 "alt": "ofertas",
                 "action": {
                   "href": "https://www.palacio.com.br/ofertas",
+                  "label": ".",
                   "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                }
+                  "subTitle": "."
+                },
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/01791714-6a47-43b2-a1b3-cde516976bc5",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9f091620-4c93-46da-b70a-ad31843672d9"
               },
               {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ea1e158c-5653-4587-a50c-59b2d9f19d54",
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/a94293d2-5f45-4e42-aba4-6329f542f038",
                 "alt": "Luminárias",
                 "action": {
                   "href": "/lampadas-e-iluminacao/lustres-e-pendentes",
+                  "label": ".",
                   "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                }
+                  "subTitle": "."
+                },
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/a94293d2-5f45-4e42-aba4-6329f542f038",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ea1e158c-5653-4587-a50c-59b2d9f19d54"
               },
               {
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/478d2b3e-6ab2-4dea-b4bb-d1918a8bbe0f",
