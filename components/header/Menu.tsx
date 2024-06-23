@@ -58,21 +58,11 @@ function Menu({ items }: Props) {
             <span class="text-sm">Nossas lojas</span>
           </a>
         </li>
-        {
-          /* <li>
-          <a
-            class="flex items-center gap-4 px-4 py-2"
-            href="https://www.deco.cx"
-          >
-            <Icon id="Phone" size={24} strokeWidth={2} />
-            <span class="text-sm">Fale conosco</span>
-          </a>
-        </li> */
-        }
+        
         <li>
           <a
             class="flex items-center gap-4 px-4 py-2"
-            href="/account"
+            href="/login-page"
           >
             <Icon id="User" size={24} strokeWidth={2} />
             <span class="text-sm">Minha conta</span>

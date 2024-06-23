@@ -1,7 +1,7 @@
 import type { Platform } from "$store/apps/site.ts";
 // import { SendEventOnClick } from "$store/components/Analytics.tsx";
 import Avatar from "$store/components/ui/Avatar.tsx";
-// import WishlistButtonVtex from "../../islands/WishlistButton/vtex.tsx";
+import WishlistButtonVtex from "../../islands/WishlistButton/vtex.tsx";
 // import WishlistButtonWake from "../../islands/WishlistButton/vtex.tsx";
 import { formatPrice } from "$store/sdk/format.ts";
 import { useOffer } from "$store/sdk/useOffer.ts";
@@ -386,6 +386,10 @@ function ProductCard({
           <div class="relative">
             {product.image && (
               <>
+                <WishlistButtonVtex
+                      productGroupID={product?.isVariantOf?.productGroupID}
+                      productID={product.productID}
+                    />
                 <figure class="p-[15px] m-0">
                   <Image
                     class="block max-w-full h-auto mx-auto my-0 outline-none"

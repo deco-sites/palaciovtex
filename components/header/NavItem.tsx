@@ -49,10 +49,10 @@ function NavItem({ item, index }: {
               item?.image.length != 0 &&
               (
                 <div class="banners-submenu">
-                  <div>
-                    <div class="box-banner">
+                  <div class="h-full">
+                    <div class="box-banner h-full">
                       <Image
-                        class="inline-block align-top h-auto max-w-full"
+                        class="inline-block align-top h-full object-cover max-w-full"
                         width={100}
                         height={300}
                         alt={"banner"}

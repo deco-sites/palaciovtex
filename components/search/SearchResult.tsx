@@ -48,12 +48,25 @@ function Result({
   const { products, filters, breadcrumb, pageInfo, sortOptions } = page;
   const perPage = pageInfo.recordPerPage || products.length;
 
+  console.log("infos da page: ", pageInfo)
+
   const id = useId();
 
   const zeroIndexedOffsetPage = pageInfo.currentPage - startingPage;
   const offset = zeroIndexedOffsetPage * perPage;
 
   const categoryName = breadcrumb.itemListElement.slice(-1);
+
+  const pageFormated = pageInfo.nextPage ? pageInfo.nextPage.split("page=")[0] : "?";
+  const links = [];
+  const totalPages = Math.ceil(pageInfo.records / pageInfo.recordPerPage);
+  
+  for (let i = 1; i <= totalPages; i++) {
+    links.push({
+      "label": i,
+      "href": `${pageFormated}page=${i}`
+    })
+  }
 
   return (
     <>
@@ -95,9 +108,15 @@ function Result({
             >
               <Icon id="ChevronLeft" size={24} strokeWidth={2} />
             </a>
-            <span class="btn btn-ghost join-item">
-              Page {zeroIndexedOffsetPage + 1}
-            </span>
+            {links.map((link) => {
+              return (
+                <a href={link.href} class={`btn ${pageInfo.currentPage == link.label ? "btn-primary" : "btn-ghost"} join-item`}>
+                  <span>
+                    {link.label}
+                  </span>
+                </a>
+              )
+            })}
             <a
               aria-label="next page link"
               rel="next"
@@ -132,8 +151,9 @@ function Result({
   );
 }
 
+
+
 function SearchResult({ page, ...props }: Props) {
-  console.log("Dados da Page: ", page);
   if (page?.pageInfo.records == 0) {
     return <NotFound />;
   }

@@ -30,7 +30,7 @@
   "buttons": {
     "hideSearchButton": false,
     "hideAccountButton": false,
-    "hideWishlistButton": true
+    "hideWishlistButton": false
   },
   "navItems": {
     "items": [

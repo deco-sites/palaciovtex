@@ -573,5 +573,33 @@
     "blockType": "apps",
     "__resolveType": "decohub/apps/decohub.ts"
   },
-  "/.deco/blocks/site.json": null
+  "/.deco/blocks/site.json": null,
+  "/.deco/blocks/pages-Login%2520Page-763387.json": {
+    "name": "Login Page",
+    "path": "/login-page",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Preview%20vtex%2Floaders%2Fproduct%2Fwishlist.ts.json": {
+    "blockType": "loaders",
+    "__resolveType": "vtex/loaders/product/wishlist.ts"
+  },
+  "/.deco/blocks/Preview%20site%2Fsections%2FProduct%2FWishlist.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Product/Wishlist.tsx"
+  },
+  "/.deco/blocks/Preview%20site%2Fsections%2FProduct%2FSearchResult.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Product/SearchResult.tsx"
+  },
+  "/.deco/blocks/pages-Lista%2520de%2520desejos-192230.json": {
+    "name": "Lista de desejos",
+    "path": "/wishlist",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Preview%20vtex%2Floaders%2Fwishlist.ts.json": {
+    "blockType": "loaders",
+    "__resolveType": "vtex/loaders/wishlist.ts"
+  }
 }

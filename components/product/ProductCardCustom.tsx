@@ -290,12 +290,10 @@ export default function ProductCardCustom(
                         )}
                       </div>
                     </div>
-                    {
-                      /* <WishlistButtonVtex
+                    <WishlistButtonVtex
                       productGroupID={product?.isVariantOf?.productGroupID}
                       productID={product.productID}
-                    /> */
-                    }
+                    />
                   </div>
                 </div>
               </Slider.Item>

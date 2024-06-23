@@ -1,0 +1,38 @@
+{
+  "__resolveType": "site/sections/Product/SearchResult.tsx",
+  "page": {
+    "@type": "ProductListingPage",
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "numberOfItems": 4
+    },
+    "filters": [],
+    "products": [],
+    "pageInfo": {
+      "pageTypes": []
+    },
+    "sortOptions": []
+  },
+  "layout": {
+    "variant": "aside",
+    "columns": {
+      "mobile": 1,
+      "desktop": 2
+    }
+  },
+  "cardLayout": {
+    "basics": {
+      "contentAlignment": "Left",
+      "oldPriceSize": "Small"
+    },
+    "elementsPositions": {
+      "skuSelector": "Top",
+      "favoriteIcon": "Top right"
+    },
+    "onMouseOver": {
+      "image": "Change image",
+      "card": "None"
+    }
+  },
+  "startingPage": 0
+}

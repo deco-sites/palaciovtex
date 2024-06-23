@@ -227,7 +227,7 @@ function BuyTogether({
       }
     });
 
-    console.log(skuList);
+    // console.log(skuList);
   }
 
   return (

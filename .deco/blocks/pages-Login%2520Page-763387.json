@@ -1,0 +1,25 @@
+{
+  "name": "Login Page",
+  "path": "/login-page",
+  "sections": [
+    {
+      "title": "Palácio na Mídia",
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "titleTemplate": "%s | Palácio das Ferramentas"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Iframes/IframeLogin.tsx",
+      "src": "/login?returnUrl=%2Faccount"
+    },
+    {
+      "__resolveType": "Rodapé FULL"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

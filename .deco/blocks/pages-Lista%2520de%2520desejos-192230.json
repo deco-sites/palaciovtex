@@ -1,0 +1,69 @@
+{
+  "name": "Lista de desejos",
+  "path": "/wishlist",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Product/ProductCardCustom.tsx",
+      "title": "FERRAMENTAS ELÉTRICAS 👨‍🔧⚡",
+      "layout": {
+        "basics": {
+          "ctaText": "Adicionar ao carrinho",
+          "oldPriceSize": "Small",
+          "contentAlignment": "Center"
+        },
+        "onMouseOver": {
+          "card": "None",
+          "image": "Change image"
+        },
+        "elementsPositions": {
+          "favoriteIcon": "Top right"
+        }
+      },
+      "product": {
+        "@type": "Product",
+        "brand": {
+          "@type": "Brand"
+        },
+        "offers": {
+          "@type": "AggregateOffer",
+          "offers": []
+        },
+        "review": [],
+        "isRelatedTo": [],
+        "isSimilarTo": [],
+        "isVariantOf": {
+          "@type": "ProductGroup",
+          "hasVariant": [],
+          "additionalProperty": []
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating"
+        },
+        "additionalProperty": [],
+        "isAccessoryOrSparePartFor": []
+      },
+      "platform": "vtex",
+      "products": {
+        "props": {
+          "sort": "",
+          "count": 12,
+          "fuzzy": "automatic",
+          "similars": false,
+          "collection": "165"
+        },
+        "__resolveType": "vtex/loaders/legacy/productList.ts"
+      },
+      "addWithoutPLP": true,
+      "showAddButton": true,
+      "pixPercentageBGColor": "#000000",
+      "pixPercentageTextColor": "#fafafa"
+    },
+    {
+      "__resolveType": "Preview site/sections/Product/Wishlist.tsx"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
