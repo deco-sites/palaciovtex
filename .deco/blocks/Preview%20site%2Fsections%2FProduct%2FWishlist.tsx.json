@@ -1,24 +1,7 @@
 {
   "__resolveType": "site/sections/Product/Wishlist.tsx",
   "page": {
-    "@type": "ProductListingPage",
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "numberOfItems": 8
-    },
-    "filters": [],
-    "products": {
-      "__resolveType": "vtex/loaders/workflow/products.ts",
-      "page": 1,
-      "pagesize": 3
-    },
-    "pageInfo": {
-      "pageTypes": [],
-      "currentPage": 1,
-      "nextPage": "2",
-      "previousPage": "1"
-    },
-    "sortOptions": []
+    "__resolveType": "Preview vtex/loaders/product/wishlist.ts"
   },
   "layout": {
     "variant": "aside",
