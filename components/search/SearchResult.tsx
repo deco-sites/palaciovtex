@@ -22,7 +22,7 @@ export interface Layout {
 
 export interface Props {
   /** @title Integration */
-  page: ProductListingPage;
+  page: ProductListingPage | null;
   layout?: Layout;
   cardLayout?: CardLayout;
 
