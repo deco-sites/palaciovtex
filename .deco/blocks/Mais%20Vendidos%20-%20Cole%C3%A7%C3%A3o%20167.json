@@ -50,9 +50,10 @@
     "__resolveType": "vtex/loaders/legacy/productList.ts"
   },
   "__resolveType": "site/sections/Product/ProductCardCustom.tsx",
-  "addWithoutPLP": true,
+  "addWithoutPLP": false,
   "showAddButton": true,
   "pixPercentageBGColor": "#000000",
   "pixPercentageTextColor": "#ffffff",
-  "title": "PRODUTOS MAIS VENDIDOS"
+  "title": "PRODUTOS MAIS VENDIDOS",
+  "buttonColor": "#fdd60f"
 }

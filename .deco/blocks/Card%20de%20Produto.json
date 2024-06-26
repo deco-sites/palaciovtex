@@ -53,5 +53,6 @@
   "title": "PRODUTOS COM ATÉ 200 REAIS EM DESCONTO",
   "addWithoutPLP": true,
   "showAddButton": true,
-  "pixPercentageTextColor": "#fcfcfc"
+  "pixPercentageTextColor": "#fcfcfc",
+  "buttonColor": "#fdd60f"
 }
