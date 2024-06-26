@@ -53,5 +53,6 @@
   "addWithoutPLP": true,
   "showAddButton": true,
   "pixPercentageBGColor": "#000000",
-  "pixPercentageTextColor": "#ffffff"
+  "pixPercentageTextColor": "#ffffff",
+  "buttonColor": "#fdd60f"
 }

@@ -1,0 +1,19 @@
+{
+  "name": "Dicas",
+  "path": "/dicas",
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "Carousel - Categorias"
+    },
+    {
+      "__resolveType": "Rodapé FULL"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

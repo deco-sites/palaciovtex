@@ -6,13 +6,23 @@
       "oldPriceSize": "Small",
       "contentAlignment": "Center"
     },
-    "onMouseOver": { "card": "None", "image": "Change image" },
-    "elementsPositions": { "favoriteIcon": "Top right" }
+    "onMouseOver": {
+      "card": "None",
+      "image": "Change image"
+    },
+    "elementsPositions": {
+      "favoriteIcon": "Top right"
+    }
   },
   "product": {
     "@type": "Product",
-    "brand": { "@type": "Brand" },
-    "offers": { "@type": "AggregateOffer", "offers": [] },
+    "brand": {
+      "@type": "Brand"
+    },
+    "offers": {
+      "@type": "AggregateOffer",
+      "offers": []
+    },
     "review": [],
     "isRelatedTo": [],
     "isSimilarTo": [],
@@ -21,7 +31,9 @@
       "hasVariant": [],
       "additionalProperty": []
     },
-    "aggregateRating": { "@type": "AggregateRating" },
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
     "additionalProperty": [],
     "isAccessoryOrSparePartFor": []
   },
@@ -40,5 +52,6 @@
   "addWithoutPLP": true,
   "showAddButton": true,
   "pixPercentageBGColor": "#000000",
-  "pixPercentageTextColor": "#ffffff"
+  "pixPercentageTextColor": "#ffffff",
+  "buttonColor": "#fdd60f"
 }

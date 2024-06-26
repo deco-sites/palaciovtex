@@ -8,8 +8,8 @@
     "onMouseOver": {
       "card": "None",
       "image": "Change image",
-      "showBrand": true,
-      "showCta": true
+      "showBrand": false,
+      "showCta": false
     },
     "elementsPositions": {
       "favoriteIcon": "Top right"
@@ -54,5 +54,6 @@
   "showAddButton": true,
   "pixPercentageBGColor": "#000000",
   "pixPercentageTextColor": "#ffffff",
-  "title": "PRODUTOS MAIS VENDIDOS"
+  "title": "PRODUTOS MAIS VENDIDOS",
+  "buttonColor": "#fdd60f"
 }
