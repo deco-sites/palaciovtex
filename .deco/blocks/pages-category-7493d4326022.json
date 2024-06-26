@@ -12,7 +12,8 @@
         "filters": "dynamic",
         "__resolveType": "vtex/loaders/legacy/productListingPage.ts"
       },
-      "__resolveType": "commerce/sections/Seo/SeoPLP.tsx"
+      "__resolveType": "commerce/sections/Seo/SeoPLP.tsx",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/edee87ee-31f9-46e4-94b4-e660a406b1d0"
     },
     {
       "__resolveType": "Header - 01"
