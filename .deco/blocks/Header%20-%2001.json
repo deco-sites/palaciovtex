@@ -25,7 +25,8 @@
   "colors": {
     "corFundo": "#ffffff",
     "corFundoNavegador": "#ffffff",
-    "corTextoNavegador": "#000000"
+    "corTextoNavegador": "#000000",
+    "corFundoTopbar": "#fdd60f"
   },
   "buttons": {
     "hideSearchButton": false,
