@@ -3,7 +3,34 @@
   "path": "/wishlist",
   "sections": [
     {
-      "__resolveType": "Preview site/sections/Product/Wishlist.tsx"
+      "__resolveType": "site/sections/Product/Wishlist.tsx",
+      "page": {
+        "__resolveType": "vtex/loaders/product/wishlist.ts",
+        "count": 12,
+        "offset": 0
+      },
+      "layout": {
+        "variant": "aside",
+        "columns": {
+          "mobile": 1,
+          "desktop": 2
+        }
+      },
+      "cardLayout": {
+        "basics": {
+          "contentAlignment": "Left",
+          "oldPriceSize": "Small"
+        },
+        "elementsPositions": {
+          "skuSelector": "Top",
+          "favoriteIcon": "Top right"
+        },
+        "onMouseOver": {
+          "image": "Change image",
+          "card": "None"
+        }
+      },
+      "startingPage": 0
     }
   ],
   "seo": {

@@ -1,7 +1,9 @@
 {
   "__resolveType": "site/sections/Product/Wishlist.tsx",
   "page": {
-    "__resolveType": "Preview vtex/loaders/product/wishlist.ts"
+    "__resolveType": "vtex/loaders/product/wishlist.ts",
+    "count": 12,
+    "offset": 0
   },
   "layout": {
     "variant": "aside",

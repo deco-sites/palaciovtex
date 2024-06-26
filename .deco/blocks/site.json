@@ -146,6 +146,4 @@
   },
   "firstByteThresholdMS": true,
   "flavor": {
-    "framework": "fresh"
-  }
-}
+    "framework": "fres
