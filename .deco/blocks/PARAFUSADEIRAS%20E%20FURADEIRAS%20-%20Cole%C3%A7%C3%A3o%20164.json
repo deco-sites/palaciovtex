@@ -50,7 +50,7 @@
   },
   "__resolveType": "site/sections/Product/ProductCardCustom.tsx",
   "addWithoutPLP": true,
-  "showAddButton": false,
+  "showAddButton": true,
   "pixPercentageBGColor": "#000000",
   "pixPercentageTextColor": "#ffffff",
   "buttonColor": "#fdd60f"

@@ -8,8 +8,8 @@
     "onMouseOver": {
       "card": "None",
       "image": "Change image",
-      "showBrand": true,
-      "showCta": true
+      "showBrand": false,
+      "showCta": false
     },
     "elementsPositions": {
       "favoriteIcon": "Top right"
@@ -50,7 +50,7 @@
     "__resolveType": "vtex/loaders/legacy/productList.ts"
   },
   "__resolveType": "site/sections/Product/ProductCardCustom.tsx",
-  "addWithoutPLP": false,
+  "addWithoutPLP": true,
   "showAddButton": true,
   "pixPercentageBGColor": "#000000",
   "pixPercentageTextColor": "#ffffff",
