@@ -4,6 +4,12 @@
   "sections": [
     {
       "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "Carousel - Categorias"
+    },
+    {
+      "__resolveType": "Rodapé FULL"
     }
   ],
   "seo": {
