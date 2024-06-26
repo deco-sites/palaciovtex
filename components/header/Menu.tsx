@@ -58,7 +58,7 @@ function Menu({ items }: Props) {
             <span class="text-sm">Nossas lojas</span>
           </a>
         </li>
-        
+
         <li>
           <a
             class="flex items-center gap-4 px-4 py-2"

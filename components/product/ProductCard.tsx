@@ -387,9 +387,9 @@ function ProductCard({
             {product.image && (
               <>
                 <WishlistButtonVtex
-                      productGroupID={product?.isVariantOf?.productGroupID}
-                      productID={product.productID}
-                    />
+                  productGroupID={product?.isVariantOf?.productGroupID}
+                  productID={product.productID}
+                />
                 <figure class="p-[15px] m-0">
                   <Image
                     class="block max-w-full h-auto mx-auto my-0 outline-none"

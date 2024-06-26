@@ -1,6 +1,5 @@
 // import { SendEventOnClick } from "$store/components/Analytics.tsx";
 // import Avatar from "$store/components/ui/Avatar.tsx";
-// deno-lint-ignore no-unused-vars
 import WishlistButtonVtex from "../../islands/WishlistButton/vtex.tsx";
 // import WishlistButtonWake from "../../islands/WishlistButton/vtex.tsx";
 import { formatPrice } from "$store/sdk/format.ts";

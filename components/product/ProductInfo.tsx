@@ -145,9 +145,9 @@ function ProductInfo({ page, layout }: Props) {
                     seller={seller}
                   />
                   <WishlistButtonVtex
-                      productGroupID={product?.isVariantOf?.productGroupID}
-                      productID={product.productID}
-                    />
+                    productGroupID={product?.isVariantOf?.productGroupID}
+                    productID={product.productID}
+                  />
                 </>
               )}
               {platform === "wake" && (

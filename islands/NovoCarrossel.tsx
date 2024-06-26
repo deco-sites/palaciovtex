@@ -210,47 +210,50 @@ function NovoCarrossel(props: Props) {
 
   return (
     <>
-    {props.title && (
-      <h2 class="text-[30px] leading-[36px] font-bold text-center pb-[30px]" dangerouslySetInnerHTML={{ __html: props.title }} />
-    )}
-    <div
-      id={id}
-      class={`${
-        props.container ? "container" : ""
-      } grid grid-cols-[48px_1fr_48px] sm:grid-cols-[120px_1fr_120px] grid-rows-[1fr_48px_1fr_64px] sm:min-h-min mb-10`}
-    >
-      <Slider class="carousel carousel-center w-full col-span-full row-span-full">
-        {images?.map((image, index) => {
-          const params = { promotion_name: image.alt };
-          return (
-            <Slider.Item
-              index={index}
-              class={`carousel-item ${mobile} ${desktop}`}
-            >
-              <BannerItem
-                image={image}
-                lcp={index === 0 && preload}
-                id={`${id}::${index}`}
-              />
-              <SendEventOnClick
-                id={`${id}::${index}`}
-                event={{ name: "select_promotion", params }}
-              />
-              <SendEventOnView
-                id={`${id}::${index}`}
-                event={{ name: "view_promotion", params }}
-              />
-            </Slider.Item>
-          );
-        })}
-      </Slider>
+      {props.title && (
+        <h2
+          class="text-[30px] leading-[36px] font-bold text-center pb-[30px]"
+          dangerouslySetInnerHTML={{ __html: props.title }}
+        />
+      )}
+      <div
+        id={id}
+        class={`${
+          props.container ? "container" : ""
+        } grid grid-cols-[48px_1fr_48px] sm:grid-cols-[120px_1fr_120px] grid-rows-[1fr_48px_1fr_64px] sm:min-h-min mb-10`}
+      >
+        <Slider class="carousel carousel-center w-full col-span-full row-span-full">
+          {images?.map((image, index) => {
+            const params = { promotion_name: image.alt };
+            return (
+              <Slider.Item
+                index={index}
+                class={`carousel-item ${mobile} ${desktop}`}
+              >
+                <BannerItem
+                  image={image}
+                  lcp={index === 0 && preload}
+                  id={`${id}::${index}`}
+                />
+                <SendEventOnClick
+                  id={`${id}::${index}`}
+                  event={{ name: "select_promotion", params }}
+                />
+                <SendEventOnView
+                  id={`${id}::${index}`}
+                  event={{ name: "view_promotion", params }}
+                />
+              </Slider.Item>
+            );
+          })}
+        </Slider>
 
-      {props.arrows && <Buttons />}
+        {props.arrows && <Buttons />}
 
-      {props.dots && <Dots images={images} interval={interval} />}
+        {props.dots && <Dots images={images} interval={interval} />}
 
-      <SliderJS rootId={id} interval={interval && interval * 1e3} infinite />
-    </div>
+        <SliderJS rootId={id} interval={interval && interval * 1e3} infinite />
+      </div>
     </>
   );
 }

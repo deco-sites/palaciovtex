@@ -75,29 +75,34 @@ function Filters({ filters }: Props) {
         .map((filter) => {
           return (
             <>
-            {filter.label != "Departments" && filter.label != "PriceRanges" && (
-              <div class="collapse collapse-plus">
-              <input type="checkbox" />
-              {filter.label != "Departments" && filter.label != "PriceRanges" && (
-                <div class="pt-2 pb-2 mb-1.5 text-md rounded-none border-b-[#e9e9e9] 
+              {filter.label != "Departments" && filter.label != "PriceRanges" &&
+                (
+                  <div class="collapse collapse-plus">
+                    <input type="checkbox" />
+                    {filter.label != "Departments" &&
+                      filter.label != "PriceRanges" && (
+                      <div class="pt-2 pb-2 mb-1.5 text-md rounded-none border-b-[#e9e9e9] 
                 border-b border-solid collapse-title font-semibold 
                 leading-9 after:!w-[30px] after:!h-[30px] after:!flex 
                 after:!items-center after:!justify-center after:rounded-md">
-                  {filter.label == "Categories" && <span>Categorias</span>}
-                  {filter.label == "Brands" && <span>Marcas</span>}
-                  {filter.label != "Brands" && filter.label != "Categories" && (
-                    <span>{filter.label}</span>
-                  )}
-                </div>
-              )}
-  
-              <div class="collapse-content">
-                <FilterValues {...filter} />
-              </div>
-            </div>
-            )}
+                        {filter.label == "Categories" && (
+                          <span>Categorias</span>
+                        )}
+                        {filter.label == "Brands" && <span>Marcas</span>}
+                        {filter.label != "Brands" &&
+                          filter.label != "Categories" && (
+                          <span>{filter.label}</span>
+                        )}
+                      </div>
+                    )}
+
+                    <div class="collapse-content">
+                      <FilterValues {...filter} />
+                    </div>
+                  </div>
+                )}
             </>
-          )
+          );
         })}
     </ul>
   );
