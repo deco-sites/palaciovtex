@@ -3,6 +3,9 @@
   "path": "/wishlist",
   "sections": [
     {
+      "__resolveType": "Header - 01"
+    },
+    {
       "__resolveType": "site/sections/Product/Wishlist.tsx",
       "page": {
         "__resolveType": "vtex/loaders/product/wishlist.ts",
@@ -32,6 +35,9 @@
         }
       },
       "startingPage": 1
+    },
+    {
+      "__resolveType": "Rodapé FULL"
     }
   ],
   "seo": {
