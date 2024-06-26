@@ -609,5 +609,11 @@
   "/.deco/blocks/deco-workflows.json": {
     "blockType": "apps",
     "__resolveType": "site/apps/deco/workflows.ts"
+  },
+  "/.deco/blocks/pages-My%2520New%2520Page-915998.json": {
+    "name": "Dicas",
+    "path": "/dicas",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
