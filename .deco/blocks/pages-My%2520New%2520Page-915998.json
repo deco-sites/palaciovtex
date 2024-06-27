@@ -89,20 +89,40 @@
       "arrows": false,
       "images": [
         {
+          "alt": ".",
+          "action": {
+            "label": ".",
+            "title": ".",
+            "subTitle": ".",
+            "href": "."
+          },
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ea36a219-ff6e-4f82-a5dd-d2e1af704e2a"
+        },
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/0112c24d-98a0-4f7c-8291-2b38ec1509c0",
           "alt": "Maior flexibilidade",
           "action": {
-            "label": "Label",
+            "href": "/",
             "title": "title",
             "subTitle": "Subtitle",
-            "href": "/"
-          },
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/0112c24d-98a0-4f7c-8291-2b38ec1509c0"
+            "label": "Label"
+          }
+        },
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ea36a219-ff6e-4f82-a5dd-d2e1af704e2a",
+          "alt": ".",
+          "action": {
+            "href": ".",
+            "title": ".",
+            "subTitle": ".",
+            "label": "."
+          }
         }
       ],
       "layout": {
         "columns": {
           "mobile": 1,
-          "desktop": 1
+          "desktop": 3
         }
       },
       "preload": false,
