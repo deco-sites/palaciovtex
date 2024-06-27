@@ -1,6 +1,6 @@
 {
-  "name": "Dicas",
-  "path": "/dicas",
+  "name": "Serviços",
+  "path": "/servicos",
   "sections": [
     {
       "__resolveType": "Header - 01"
