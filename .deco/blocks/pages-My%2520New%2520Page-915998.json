@@ -6,7 +6,31 @@
       "__resolveType": "Header - 01"
     },
     {
-      "__resolveType": "Carousel - Categorias"
+      "__resolveType": "site/sections/Images/Carousel.tsx",
+      "dots": true,
+      "arrows": true,
+      "images": [
+        {
+          "alt": "Outlet Tramontina",
+          "action": {
+            "href": "/casa---jardim/outlet",
+            "label": ".",
+            "title": ".",
+            "subTitle": "."
+          },
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/b39770bf-8c78-4dd1-adcb-7298a9e39c70",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/4336aadf-4066-4077-90fa-39bddf4c5054"
+        }
+      ],
+      "layout": {
+        "columns": {
+          "mobile": 1,
+          "desktop": 1
+        }
+      },
+      "preload": true,
+      "interval": 6,
+      "container": false
     },
     {
       "__resolveType": "Rodapé FULL"
