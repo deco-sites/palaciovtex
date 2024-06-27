@@ -37,6 +37,32 @@
       "arrows": false,
       "images": [
         {
+          "alt": "Atendimento ",
+          "action": {
+            "label": "Label",
+            "title": "title",
+            "subTitle": "Subtitle",
+            "href": "/"
+          },
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/aba263cd-926c-49ed-845e-152ddd48d8ca"
+        }
+      ],
+      "layout": {
+        "columns": {
+          "mobile": 1,
+          "desktop": 1
+        }
+      },
+      "preload": false,
+      "interval": 4000,
+      "container": true
+    },
+    {
+      "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
+      "dots": false,
+      "arrows": false,
+      "images": [
+        {
           "alt": "Maior flexibilidade",
           "action": {
             "label": "Label",
@@ -44,7 +70,7 @@
             "subTitle": "Subtitle",
             "href": "/"
           },
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/e6e4237b-9531-49c4-ad70-4408a987c4ad"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/e96921ef-19a8-4069-95e6-c9d75e97b489"
         }
       ],
       "layout": {
