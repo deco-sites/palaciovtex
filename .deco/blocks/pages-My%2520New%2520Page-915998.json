@@ -63,6 +63,32 @@
       "arrows": false,
       "images": [
         {
+          "alt": "Descontos",
+          "action": {
+            "label": "Label",
+            "title": "title",
+            "subTitle": "Subtitle",
+            "href": "/"
+          },
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9c0951f4-8380-4b1d-92a7-fa4194c1945e"
+        }
+      ],
+      "layout": {
+        "columns": {
+          "mobile": 1,
+          "desktop": 1
+        }
+      },
+      "preload": false,
+      "interval": 4000,
+      "container": true
+    },
+    {
+      "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
+      "dots": false,
+      "arrows": false,
+      "images": [
+        {
           "alt": "Maior flexibilidade",
           "action": {
             "label": "Label",
