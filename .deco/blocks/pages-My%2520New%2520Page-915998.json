@@ -6,20 +6,19 @@
       "__resolveType": "Header - 01"
     },
     {
-      "__resolveType": "site/sections/Images/Carousel.tsx",
-      "dots": true,
-      "arrows": true,
+      "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
+      "dots": false,
+      "arrows": false,
       "images": [
         {
-          "alt": "Outlet Tramontina",
+          "alt": "Conheça vantagens",
           "action": {
-            "href": "/casa---jardim/outlet",
-            "label": ".",
-            "title": ".",
-            "subTitle": "."
+            "href": "/",
+            "label": "Label",
+            "title": "title",
+            "subTitle": "Subtitle"
           },
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/4336aadf-4066-4077-90fa-39bddf4c5054",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/b39770bf-8c78-4dd1-adcb-7298a9e39c70"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/b061e75c-e6e2-43a4-ab94-71feaf28bfd8"
         }
       ],
       "layout": {
@@ -28,9 +27,9 @@
           "desktop": 1
         }
       },
-      "preload": true,
-      "interval": 6,
-      "container": false
+      "preload": false,
+      "interval": 4000,
+      "container": true
     },
     {
       "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
@@ -38,12 +37,12 @@
       "arrows": false,
       "images": [
         {
-          "alt": "Black e Decker",
+          "alt": "Maior flexibilidade",
           "action": {
-            "href": "/black---decker",
             "label": "Label",
             "title": "title",
-            "subTitle": "Subtitle"
+            "subTitle": "Subtitle",
+            "href": "/"
           },
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/e6e4237b-9531-49c4-ad70-4408a987c4ad"
         }
@@ -56,8 +55,7 @@
       },
       "preload": false,
       "interval": 4000,
-      "container": true,
-      "title": "MARCAS DE QUALIDADE"
+      "container": true
     },
     {
       "__resolveType": "Rodapé FULL"
