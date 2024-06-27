@@ -4405,16 +4405,6 @@
                 }
               },
               {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ee1b423a-52ee-4d9e-87ca-e1d39d380236",
-                "alt": "Loja 2",
-                "action": {
-                  "href": "/institucional/nossas-lojas",
-                  "title": "title",
-                  "subTitle": "Subtitle",
-                  "label": "Label"
-                }
-              },
-              {
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/dfdabae3-e22b-4a14-b681-02340c493eb5",
                 "alt": "Loja 3",
                 "action": {
@@ -4422,6 +4412,16 @@
                   "title": ".",
                   "subTitle": ".",
                   "label": "."
+                }
+              },
+              {
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ee1b423a-52ee-4d9e-87ca-e1d39d380236",
+                "alt": "Loja 2",
+                "action": {
+                  "href": "/institucional/nossas-lojas",
+                  "title": "title",
+                  "subTitle": "Subtitle",
+                  "label": "Label"
                 }
               }
             ],
