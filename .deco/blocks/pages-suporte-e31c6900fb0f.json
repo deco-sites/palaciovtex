@@ -7,11 +7,13 @@
       "__resolveType": "website/sections/Seo/Seo.tsx",
       "titleTemplate": "%s | Palácio das Ferramentas"
     },
-    { "__resolveType": "Header - 01" },
+    {
+      "__resolveType": "Header - 01"
+    },
     {
       "sections": [
         {
-          "title": "Política de Privacidade",
+          "title": "Como comprar",
           "__resolveType": "site/sections/Institucional/InstitucionalTitle.tsx"
         },
         {
@@ -21,7 +23,9 @@
       ],
       "__resolveType": "site/sections/Content/InstitucionalContent.tsx"
     },
-    { "__resolveType": "Rodapé FULL" }
+    {
+      "__resolveType": "Rodapé FULL"
+    }
   ],
   "__resolveType": "website/pages/Page.tsx"
 }
