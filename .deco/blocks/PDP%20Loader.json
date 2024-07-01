@@ -9,10 +9,7 @@
   "extensions": [
     {
       "__resolveType": "vtex/loaders/product/extensions/detailsPage.ts",
-      "reviews": true,
-      "variants": true,
-      "kitItems": true,
-      "similars": true
+      "reviews": true
     }
   ],
   "__resolveType": "commerce/loaders/product/extensions/detailsPage.ts"
