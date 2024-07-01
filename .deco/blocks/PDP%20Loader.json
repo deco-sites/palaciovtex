@@ -1,13 +1,19 @@
 {
   "data": {
+    "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
     "slug": {
       "param": "slug",
       "__resolveType": "website/functions/requestToParam.ts"
-    },
-    "__resolveType": "vtex/loaders/legacy/productDetailsPage.ts"
+    }
   },
   "extensions": [
-    { "__resolveType": "vtex/loaders/product/extensions/detailsPage.ts" }
+    {
+      "__resolveType": "vtex/loaders/product/extensions/detailsPage.ts",
+      "reviews": true,
+      "variants": true,
+      "kitItems": true,
+      "similars": true
+    }
   ],
   "__resolveType": "commerce/loaders/product/extensions/detailsPage.ts"
 }

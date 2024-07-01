@@ -68,12 +68,12 @@ function Formulario() {
 
   return (
     <div
-      class={"flex"}
+      class={"flex justify-center mb-10 mt-10"}
     >
       <div class="flex flex-col gap-4 pt-[30px]">
         <form onSubmit={handleSubmit}>
           <div class="row">
-            <div class="col-xs-12 col-sm-6">
+            <div class="col-xs-12 col-sm-6 mb-4">
               <label for="nome">Nome*</label>
               <input
                 type="text"
@@ -86,7 +86,7 @@ function Formulario() {
                 required
               />
             </div>
-            <div class="col-xs-12 col-sm-6">
+            <div class="col-xs-12 col-sm-6 mb-4">
               <label for="email">Email*</label>
               <input
                 type="email"
@@ -102,7 +102,7 @@ function Formulario() {
           </div>
 
           <div class="row">
-            <div class="col-xs-12 col-sm-3">
+            <div class="col-xs-12 col-sm-3 mb-4">
               <label for="cpf">CPF/CNPJ*</label>
               <input
                 type="number"
@@ -115,7 +115,7 @@ function Formulario() {
                 required
               />
             </div>
-            <div class="col-xs-12 col-sm-3">
+            <div class="col-xs-12 col-sm-3 mb-4">
               <label for="celular">Celular*</label>
               <input
                 type="tel"
@@ -128,7 +128,7 @@ function Formulario() {
                 required
               />
             </div>
-            <div class="col-xs-12 col-sm-3">
+            <div class="col-xs-12 col-sm-3 mb-4">
               <label for="telefone">Telefone</label>
               <input
                 type="tel"
@@ -140,7 +140,7 @@ function Formulario() {
                 aria-invalid="false"
               />
             </div>
-            <div class="col-xs-12 col-sm-3">
+            <div class="col-xs-12 col-sm-3 mb-4">
               <label for="assunto">Assunto*</label>
               <select
                 class="select select-bordered w-full max-w-xs"
@@ -160,7 +160,7 @@ function Formulario() {
           </div>
 
           <div class="row">
-            <div class="col-xs-12">
+            <div class="col-xs-12 mb-4">
               <label for="mensagem">Mensagem*</label>
               <textarea
                 name="mensagem"
@@ -176,7 +176,7 @@ function Formulario() {
           </div>
 
           <div class="row">
-            <div class="col-xs-12 col-sm-6">
+            <div class="col-xs-12 col-sm-6 mb-4">
               <span class="warning">Os campos com * são obrigatórios</span>
             </div>
             <div class="col-xs-12 col-sm-6">
@@ -184,7 +184,7 @@ function Formulario() {
                 disabled={loading}
                 type="submit"
                 value="Enviar"
-                class="form-control submit btn btn-secondary"
+                class="form-control submit btn btn-secondary w-full"
               >
                 Enviar
               </button>

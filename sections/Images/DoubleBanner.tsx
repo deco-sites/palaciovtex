@@ -20,7 +20,7 @@ export interface Props {
 
 export default function DoubleBanner({ image1, image2 }: Props) {
   return (
-    <div class="home__banners--wrapper flex container mb-[40px]">
+    <div class="home__banners--wrapper flex container mb-20">
       <div class="desk-view">
         {image1 &&
           (

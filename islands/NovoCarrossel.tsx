@@ -220,7 +220,7 @@ function NovoCarrossel(props: Props) {
         id={id}
         class={`${
           props.container ? "container" : ""
-        } grid grid-cols-[48px_1fr_48px] sm:grid-cols-[120px_1fr_120px] grid-rows-[1fr_48px_1fr_64px] sm:min-h-min mb-10`}
+        } grid grid-cols-[48px_1fr_48px] sm:grid-cols-[120px_1fr_120px] grid-rows-[1fr_48px_1fr_64px] sm:min-h-min mb-20`}
       >
         <Slider class="carousel carousel-center w-full col-span-full row-span-full">
           {images?.map((image, index) => {

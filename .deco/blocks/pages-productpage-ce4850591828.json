@@ -1,22 +1,38 @@
 {
   "name": "Product Page",
   "path": "/:slug/p",
-  "default": { "possiblePaths": [] },
+  "default": {
+    "possiblePaths": []
+  },
   "sections": [
     {
-      "jsonLD": { "__resolveType": "PDP Loader" },
-      "jsonLDs": [{}],
+      "jsonLD": {
+        "__resolveType": "PDP Loader"
+      },
+      "jsonLDs": [
+        {}
+      ],
       "__resolveType": "commerce/sections/Seo/SeoPDP.tsx"
     },
-    { "__resolveType": "Header - 01" },
-    { "__resolveType": "Product Details - Gallery Slider " },
     {
-      "page": { "__resolveType": "PDP Loader" },
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "Product Details - Gallery Slider "
+    },
+    {
+      "__resolveType": "site/sections/Product/ProductDescription.tsx",
+      "page": {
+        "__resolveType": "PDP Loader"
+      },
       "extraSection": {
         "layout": {
           "headerfontSize": "Normal",
           "headerAlignment": "center",
-          "numberOfSliders": { "mobile": 1, "desktop": 1 }
+          "numberOfSliders": {
+            "mobile": 1,
+            "desktop": 1
+          }
         },
         "products": {
           "slug": {
@@ -28,23 +44,32 @@
           "__resolveType": "vtex/loaders/legacy/relatedProductsLoader.ts"
         },
         "cardLayout": {
-          "basics": { "oldPriceSize": "Small", "contentAlignment": "Left" },
-          "onMouseOver": { "card": "None", "image": "Change image" },
+          "basics": {
+            "oldPriceSize": "Small",
+            "contentAlignment": "Left"
+          },
+          "onMouseOver": {
+            "card": "None",
+            "image": "Change image"
+          },
           "elementsPositions": {
             "skuSelector": "Top",
             "favoriteIcon": "Top right"
           }
         },
         "__resolveType": "site/sections/Product/BuyTogether.tsx"
-      },
-      "__resolveType": "site/sections/Product/ProductDescription.tsx"
+      }
     },
     {
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
       "title": "QUEM VIU, VIU TAMBÉM",
       "layout": {
         "showArrows": true,
         "headerAlignment": "center",
-        "numberOfSliders": { "mobile": 1, "desktop": 4 }
+        "numberOfSliders": {
+          "mobile": 1,
+          "desktop": 4
+        }
       },
       "products": {
         "slug": {
@@ -55,10 +80,15 @@
         "crossSelling": "whosawalsosaw",
         "__resolveType": "vtex/loaders/legacy/relatedProductsLoader.ts"
       },
-      "cardLayout": { "basics": { "contentAlignment": "Center" } },
-      "__resolveType": "site/sections/Product/ProductShelf.tsx"
+      "cardLayout": {
+        "basics": {
+          "contentAlignment": "Center"
+        }
+      }
     },
-    { "__resolveType": "Rodapé FULL" }
+    {
+      "__resolveType": "Rodapé FULL"
+    }
   ],
   "__resolveType": "website/pages/Page.tsx"
 }

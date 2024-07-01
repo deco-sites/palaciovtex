@@ -22,7 +22,7 @@ export default function CategoriesGallery({ categories }: Props) {
     <>
       <div
         id={id}
-        class="container grid grid-cols-[48px_1fr_48px] px-0 md:px-5 mb-[40px] "
+        class="container grid grid-cols-[48px_1fr_48px] px-0 md:px-5 mb-20 "
       >
         <Slider class="carousel carousel-center sm:carousel-end row-start-2 row-end-5">
           {categories && categories.map((category, index) => {

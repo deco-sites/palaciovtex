@@ -19,7 +19,7 @@ export interface Props {
 export default function BrandCarousel({ brands, title }: Props) {
   const id = useId();
   return (
-    <div class="container py-5 border-y-[#cccbc6] border-t border-solid border-b mb-[40px]">
+    <div class="container py-5 border-y-[#cccbc6] border-t border-solid border-b mb-20">
       <h2
         class="text-[30px] leading-[36px] font-bold text-center pb-[30px]"
         dangerouslySetInnerHTML={{ __html: title }}
@@ -27,7 +27,7 @@ export default function BrandCarousel({ brands, title }: Props) {
       </h2>
       <div
         id={id}
-        class="grid grid-cols-[48px_1fr_48px] px-0 md:px-5 mb-[40px] "
+        class="grid grid-cols-[48px_1fr_48px] px-0 md:px-5 mb-20"
       >
         <Slider class="carousel carousel-center sm:carousel-end row-start-2 row-end-5">
           {brands && brands.map((brand, index) => {

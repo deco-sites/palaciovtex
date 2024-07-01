@@ -28,19 +28,13 @@ export interface Link {
 export interface ThemeColors {
   /**
    * @format color
-   * @title Cor do Fundo
-   */
-  /** @format color */
-  corFundo?: string;
-  /**
-   * @format color
    * @title Cor de fundo do menu
    * @description Aqui se altera a cor de fundo do menu
    */
   corFundoNavegador?: string;
   /**
    * @format color
-   * * @title Cor de fundo do menu
+   * * @title Cor de fundo da topbar
    */
   corFundoTopbar?: string;
   // corTextoNavegador?: string;
@@ -132,7 +126,13 @@ function Header({
           <div class="bg-white fixed w-full z-50 md:pb-0 pb-2">
             {alternateGridImages == false && alerts && alerts.length > 0 &&
               (
-                <div class="bg-[#F0D02C] px-0 py-1.5 border-b-[#777] border-b border-solid hidden md:block">
+                <div
+                style={{
+                  backgroundColor: colors?.corFundoTopbar
+                    ? colors?.corFundoTopbar
+                    : "",
+                }}
+                class="bg-[#F0D02C] px-0 py-1.5 border-b-[#777] border-b border-solid hidden md:block">
                   <div class="flex justify-between items-center container">
                     <Alert alerts={alerts} />
 

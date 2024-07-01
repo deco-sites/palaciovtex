@@ -96,7 +96,7 @@ export default function ProductCardCustom(
       </h2>
       <div
         id={id}
-        class="container grid grid-cols-[48px_1fr_48px] px-0 md:px-5 relative mb-[40px]"
+        class="container grid grid-cols-[48px_1fr_48px] px-0 md:px-5 relative mb-20"
       >
         <Slider class="carousel carousel-center sm:carousel-end sm:gap-1 row-start-2 row-end-5">
           {products && products.map((product, index) => {
@@ -290,6 +290,7 @@ export default function ProductCardCustom(
                       </div>
                     </div>
                     <WishlistButtonVtex
+                      classCustom="absolute top-0 right-0"
                       productGroupID={product?.isVariantOf?.productGroupID}
                       productID={product.productID}
                     />

@@ -387,6 +387,7 @@ function ProductCard({
             {product.image && (
               <>
                 <WishlistButtonVtex
+                  classCustom="absolute top-0 right-0"
                   productGroupID={product?.isVariantOf?.productGroupID}
                   productID={product.productID}
                 />

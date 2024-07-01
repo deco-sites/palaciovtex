@@ -6,6 +6,7 @@ import { useUser } from "apps/vtex/hooks/useUser.ts";
 export interface Props {
   productID: string;
   productGroupID?: string;
+  classCustom?: string;
   variant?: "icon" | "full";
 }
 
@@ -13,6 +14,7 @@ function WishlistButton({
   variant = "icon",
   productGroupID,
   productID,
+  classCustom
 }: Props) {
   const { user } = useUser();
   const { loading, addItem, removeItem, getItem } = useWishlist();
@@ -25,6 +27,7 @@ function WishlistButton({
 
   return (
     <Button
+      customClasses={classCustom}
       loading={loading.value}
       inWishlist={inWishlist}
       isUserLoggedIn={isUserLoggedIn}

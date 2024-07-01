@@ -1,146 +1,4 @@
-// import { Product, ProductDetailsPage } from "apps/commerce/types.ts";
-// import { AppContext } from "apps/website/mod.ts";
-// import { invoke } from "$store/runtime.ts";
-// import { useOffer } from "site/sdk/useOffer.ts";
-// import { formatPrice } from "site/sdk/format.ts";
-// import AddToCartBuyTogether from "site/islands/AddToCartBuyTogether.tsx";
-
-// export type SkuListType = {
-//   id: string;
-//   name: string | undefined;
-//   image: string | null;
-//   price: number | null;
-//   seller: string | undefined;
-// };
-
-// interface BuyTogetherProps {
-//   page: ProductDetailsPage | null;
-//   skuList?: SkuListType[];
-// }
-
-// export type Props = BuyTogetherProps;
-
-// // deno-lint-ignore require-await
-// export async function loader(props: Props, req: Request, ctx: AppContext) {
-//   if (props.page === null) {
-//     throw new Error("Missing Product Details Page Info");
-//   }
-
-//   const { product } = props.page;
-//   const { offers } = product;
-
-//   const { teasers } = useOffer(offers);
-
-//   const getSkuIds = (name: string) => {
-//     return teasers?.find((teaser) =>
-//       teaser.conditions?.parameters?.some((param) => param.name === name)
-//     )?.conditions?.parameters?.find((param) => param.name === name)
-//       ?.value;
-//   };
-
-//   const skuIdsList1 = getSkuIds("SkuIdsList1");
-//   const skuIdsList2 = getSkuIds("SkuIdsList2");
-
-//   const skuIdsList2Array = skuIdsList2 ? skuIdsList2.split(",") : [];
-
-//   const updatedProductIds: string[] = [skuIdsList1, ...skuIdsList2Array].filter(
-//     Boolean,
-//   ) as string[];
-
-//   console.log("Updated Product IDs:", updatedProductIds);
-
-//   if (!updatedProductIds.length) return null;
-
-//   // const response = await invoke.vtex.loaders.legacy.productList({
-//   //   ids: updatedProductIds,
-//   // })
-
-//   const validProductIds = new Set(updatedProductIds);
-
-//   const productMap: Record<string, SkuListType> = {};
-
-//   // response.forEach((product: Product) => {
-//   //   const productId = product.productID;
-
-//   //   if (validProductIds.has(productId)) {
-//   //     productMap[productId] = {
-//   //       id: product.productID,
-//   //       name: product.name,
-//   //       price: product?.offers?.offers?.[0]?.price ?? null,
-//   //       image: product.image?.[0]?.url ?? null,
-//   //       seller: product?.offers?.offers?.[0]?.seller,
-//   //     };
-
-//   //     if (product.isVariantOf?.hasVariant) {
-//   //       product.isVariantOf.hasVariant.forEach((variant) => {
-//   //         const variantId = variant.productID;
-
-//   //         if (validProductIds.has(variantId)) {
-//   //           productMap[variantId] = {
-//   //             id: product.productID,
-//   //             name: variant.name,
-//   //             price: variant?.offers?.offers?.[0]?.price ?? null,
-//   //             image: variant.image?.[0]?.url ?? null,
-//   //             seller: variant?.offers?.offers?.[0]?.seller,
-//   //           };
-//   //         }
-//   //       });
-//   //     }
-//   //   }
-//   // });
-
-//   // const skuList = Object.values(productMap);
-
-//   // return {
-//   //   // page: response,
-//   //   // skuList,
-//   // };
-// }
-
-// function BuyTogether({ skuList }: Props) {
-//   if (skuList === null) {
-//     throw new Error("Missing Product Details Page Info");
-//   }
-
-//   return (
-//     <div
-//       class="container mx-4 lg:mx-auto w-auto my-16"
-//       id="buy-together"
-//     >
-//       <h2 class="text-xl lg:text-[28px] text-black font-bold mb-8">
-//         Compre junto
-//       </h2>
-//       <div class="flex flex-row">
-//         {skuList?.map((sku: SkuListType) => (
-//           <div
-//             class="h-[152px] w-96 bg-white py-7 px-6 mr-9 rounded-lg border-2 border-[#E4E4E4]"
-//             key={sku.id}
-//           >
-//             <div class="flex flex-row">
-//               <img
-//                 src={sku.image ?? ""}
-//                 alt={sku.name}
-//                 class="w-24 h-24 mr-6"
-//               />
-//               <div class="flex flex-col justify-center">
-//                 <p class="text-sm font-bold text-[#56565A] max-w-[300px] mb-4">
-//                   {sku.name}
-//                 </p>
-//                 <p class="text-base font-bold text-[#101820]">
-//                   {formatPrice(sku.price ?? 0)}
-//                 </p>
-//               </div>
-//             </div>
-//           </div>
-//         ))}
-//         <AddToCartBuyTogether skuList={skuList} />
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default BuyTogether;
-
+import { useState } from 'preact/hooks';
 import { SendEventOnView as _SendEventOnView } from "$store/components/Analytics.tsx";
 import _ProductCard, {
   Layout as _cardLayout,
@@ -207,9 +65,9 @@ function BuyTogether({
     }
   });
 
-  const skuList = Object.values(productMap);
+  const initialSkuList = Object.values(productMap);
 
-  skuList.unshift({
+  initialSkuList.unshift({
     id: principal ? principal?.productID : "",
     name: principal?.isVariantOf?.name,
     price: principal?.offers?.offers?.[0].price ?? null,
@@ -217,17 +75,14 @@ function BuyTogether({
     seller: principal?.offers?.offers?.[0]?.seller,
   });
 
-  // deno-lint-ignore no-unused-vars
-  function toggleProducts(data: SkuListType, location: number) {
-    products?.map((product, index) => {
-      if (
-        Number(data.id) == Number(product.productID) && location == (index + 1)
-      ) {
-        skuList.splice(location);
-      }
-    });
+  const [selectedSkuList, setSelectedSkuList] = useState<SkuListType[]>(initialSkuList);
 
-    // console.log(skuList);
+  function toggleProduct(productId: string) {
+    setSelectedSkuList((prevSelected) =>
+      prevSelected.some((sku) => sku.id === productId)
+        ? prevSelected.filter((sku) => sku.id !== productId)
+        : [...prevSelected, initialSkuList.find((sku) => sku.id === productId)!]
+    );
   }
 
   return (
@@ -240,42 +95,38 @@ function BuyTogether({
           Compre junto
         </h2>
         <div class="flex flex-col md:flex-row items-center">
-          {skuList?.map((sku: SkuListType, index) => (
-            <>
-              <div
-                class="min-h-[152px] md:h-full w-full md:w-96 bg-white py-7 px-6 rounded-lg border-2 border-[#E4E4E4]"
-                key={sku.id}
-              >
-                {
-                  /* {index != 0 && (
-                  <input type="checkbox" value={sku.id} checked onChange={() => toggleProducts(sku, index)} />
-                )} */
-                }
-                <div class="flex flex-col">
-                  <Image
-                    src={sku.image ?? ""}
-                    alt={sku.name}
-                    width={300}
-                    height={300}
-                    class="w-24 h-24 mr-6"
-                    loading={"lazy"}
-                  />
-                  <div class="flex flex-col justify-center">
-                    <p class="text-sm font-bold text-[#56565A] max-w-[300px] mb-4">
-                      {sku.name}
-                    </p>
-                    <p class="text-base font-bold text-[#101820]">
-                      {formatPrice(sku.price ?? 0)}
-                    </p>
-                  </div>
+          {initialSkuList.map((sku: SkuListType, index) => (
+            <div
+              class="min-h-[152px] md:h-full w-full md:w-96 bg-white py-7 px-6 rounded-lg border-2 border-[#E4E4E4] flex flex-col items-start"
+              key={sku.id}
+            >
+              <input
+                type="checkbox"
+                checked={selectedSkuList.some((selectedSku) => selectedSku.id === sku.id)}
+                onChange={() => toggleProduct(sku.id)}
+                class="mb-4"
+              />
+              <div class="flex flex-col items-center">
+                <Image
+                  src={sku.image ?? ""}
+                  alt={sku.name}
+                  width={300}
+                  height={300}
+                  class="w-24 h-24 mr-6"
+                  loading={"lazy"}
+                />
+                <div class="flex flex-col justify-center">
+                  <p class="text-sm font-bold text-[#56565A] max-w-[300px] mb-4">
+                    {sku.name}
+                  </p>
+                  <p class="text-base font-bold text-[#101820]">
+                    {formatPrice(sku.price ?? 0)}
+                  </p>
                 </div>
               </div>
-              <span class="text-4xl mx-5">
-                {index == 2 ? "=" : "+"}
-              </span>
-            </>
+            </div>
           ))}
-          <AddToCartBuyTogether skuList={skuList} />
+          <AddToCartBuyTogether skuList={selectedSkuList} />
         </div>
       </div>
     </div>
