@@ -1,4 +1,4 @@
-import { useState } from 'preact/hooks';
+import { useState } from "preact/hooks";
 import { SendEventOnView as _SendEventOnView } from "$store/components/Analytics.tsx";
 import _ProductCard, {
   Layout as _cardLayout,
@@ -75,7 +75,9 @@ function BuyTogether({
     seller: principal?.offers?.offers?.[0]?.seller,
   });
 
-  const [selectedSkuList, setSelectedSkuList] = useState<SkuListType[]>(initialSkuList);
+  const [selectedSkuList, setSelectedSkuList] = useState<SkuListType[]>(
+    initialSkuList,
+  );
 
   function toggleProduct(productId: string) {
     setSelectedSkuList((prevSelected) =>
@@ -102,7 +104,9 @@ function BuyTogether({
             >
               <input
                 type="checkbox"
-                checked={selectedSkuList.some((selectedSku) => selectedSku.id === sku.id)}
+                checked={selectedSkuList.some((selectedSku) =>
+                  selectedSku.id === sku.id
+                )}
                 onChange={() => toggleProduct(sku.id)}
                 class="mb-4"
               />

@@ -51,7 +51,7 @@ export default defineApp(async (_req, ctx) => {
       </Head>
 
       {/* Rest of Preact tree */}
-      
+
       <ctx.Component />
 
       {/* Include service worker */}

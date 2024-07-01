@@ -127,12 +127,13 @@ function Header({
             {alternateGridImages == false && alerts && alerts.length > 0 &&
               (
                 <div
-                style={{
-                  backgroundColor: colors?.corFundoTopbar
-                    ? colors?.corFundoTopbar
-                    : "",
-                }}
-                class="bg-[#F0D02C] px-0 py-1.5 border-b-[#777] border-b border-solid hidden md:block">
+                  style={{
+                    backgroundColor: colors?.corFundoTopbar
+                      ? colors?.corFundoTopbar
+                      : "",
+                  }}
+                  class="bg-[#F0D02C] px-0 py-1.5 border-b-[#777] border-b border-solid hidden md:block"
+                >
                   <div class="flex justify-between items-center container">
                     <Alert alerts={alerts} />
 
