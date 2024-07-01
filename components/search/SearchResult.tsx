@@ -48,8 +48,6 @@ function Result({
   const { products, filters, breadcrumb, pageInfo, sortOptions } = page;
   const perPage = pageInfo.recordPerPage || products.length;
 
-  console.log("infos da page: ", pageInfo);
-
   const id = useId();
 
   const zeroIndexedOffsetPage = pageInfo.currentPage - startingPage;
