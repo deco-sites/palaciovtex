@@ -4198,17 +4198,6 @@
             "arrows": false,
             "images": [
               {
-                "alt": "Dia dos namorados",
-                "action": {
-                  "href": "/ferramentas-eletricas/parafusadeiras",
-                  "label": ".",
-                  "title": ".",
-                  "subTitle": "."
-                },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/04f25d11-df1b-4d07-8c00-e65772027e4b",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/e14d01b3-9e3a-414c-bdc4-047a5b9a5788"
-              },
-              {
                 "alt": "Na palacio tem",
                 "action": {
                   "href": "/ofertas",
@@ -4242,15 +4231,15 @@
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ea1e158c-5653-4587-a50c-59b2d9f19d54"
               },
               {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/478d2b3e-6ab2-4dea-b4bb-d1918a8bbe0f",
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/d4713ef2-5787-4abc-86ec-332841c0fa80",
                 "alt": "solda",
                 "action": {
                   "href": "/eletrica/maquinas-e-acessorios-de-solda",
+                  "label": ".",
                   "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                }
+                  "subTitle": "."
+                },
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/d4713ef2-5787-4abc-86ec-332841c0fa80",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/478d2b3e-6ab2-4dea-b4bb-d1918a8bbe0f"
               }
             ],
             "layout": {
