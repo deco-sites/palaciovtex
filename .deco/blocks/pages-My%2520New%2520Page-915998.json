@@ -55,12 +55,22 @@
             "href": "/"
           },
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/dada277a-f493-4c1b-bd88-15e901c06a5e"
+        },
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/cd1b5212-36c3-4426-b3ea-c771a3baa6e0",
+          "alt": "/",
+          "action": {
+            "href": ".",
+            "title": ".",
+            "subTitle": ".",
+            "label": "."
+          }
         }
       ],
       "layout": {
         "columns": {
-          "mobile": 1,
-          "desktop": 1
+          "mobile": 2,
+          "desktop": 2
         }
       },
       "preload": false,
