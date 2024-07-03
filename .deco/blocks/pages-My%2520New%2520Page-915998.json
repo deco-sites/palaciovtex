@@ -33,8 +33,8 @@
       ],
       "layout": {
         "columns": {
-          "mobile": 1,
-          "desktop": 1
+          "mobile": 2,
+          "desktop": 2
         }
       },
       "preload": false,
