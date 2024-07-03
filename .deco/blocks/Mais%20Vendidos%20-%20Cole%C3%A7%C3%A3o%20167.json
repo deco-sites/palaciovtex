@@ -41,11 +41,7 @@
   "platform": "vtex",
   "products": {
     "props": {
-      "sort": "",
-      "fuzzy": "automatic",
-      "similars": false,
-      "collection": "167",
-      "count": 36
+      "fuzzy": "automatic"
     },
     "__resolveType": "vtex/loaders/legacy/productList.ts"
   },

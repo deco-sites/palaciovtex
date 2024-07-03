@@ -11,14 +11,24 @@
       "arrows": false,
       "images": [
         {
-          "alt": "Conheça vantagens",
+          "alt": "/",
           "action": {
-            "href": "/",
-            "label": "Label",
-            "title": "title",
-            "subTitle": "Subtitle"
+            "href": ".",
+            "label": ".",
+            "title": ".",
+            "subTitle": "."
           },
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/b061e75c-e6e2-43a4-ab94-71feaf28bfd8"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9b372cc7-2b2c-454c-8d3a-210d4666f9a6"
+        },
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/b25bc0eb-12af-4940-9ef2-3cd433775cf4",
+          "alt": "//",
+          "action": {
+            "href": ".",
+            "title": ".",
+            "subTitle": ".",
+            "label": "."
+          }
         }
       ],
       "layout": {
