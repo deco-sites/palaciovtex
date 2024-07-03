@@ -54,10 +54,10 @@
             "subTitle": "Subtitle",
             "href": "/"
           },
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/dada277a-f493-4c1b-bd88-15e901c06a5e"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/47b2500c-1651-4f24-a451-a756c9bb6e6c"
         },
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/cd1b5212-36c3-4426-b3ea-c771a3baa6e0",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/80d801a5-1de1-4e7e-b184-c4ef84f6cd41",
           "alt": "/",
           "action": {
             "href": ".",
@@ -83,32 +83,6 @@
       "arrows": false,
       "images": [
         {
-          "alt": "Descontos",
-          "action": {
-            "label": "Label",
-            "title": "title",
-            "subTitle": "Subtitle",
-            "href": "/"
-          },
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/6d7cdc2d-a3cb-49e8-9883-a83d3e57a180"
-        }
-      ],
-      "layout": {
-        "columns": {
-          "mobile": 1,
-          "desktop": 1
-        }
-      },
-      "preload": false,
-      "interval": 4000,
-      "container": true
-    },
-    {
-      "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
-      "dots": false,
-      "arrows": false,
-      "images": [
-        {
           "alt": "Maior flexibilidade",
           "action": {
             "label": "Label",
@@ -116,10 +90,10 @@
             "subTitle": "Subtitle",
             "href": "/"
           },
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/0112c24d-98a0-4f7c-8291-2b38ec1509c0"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/2f01bd42-8f1a-4411-81af-210eade0f552"
         },
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ea36a219-ff6e-4f82-a5dd-d2e1af704e2a",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ede7b924-62e0-42b2-8b99-76a484e4b66b",
           "alt": ".",
           "action": {
             "href": ".",
@@ -131,7 +105,7 @@
       ],
       "layout": {
         "columns": {
-          "mobile": 1,
+          "mobile": 2,
           "desktop": 2
         }
       },
