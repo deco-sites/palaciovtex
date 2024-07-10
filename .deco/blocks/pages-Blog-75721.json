@@ -17,12 +17,22 @@
             "label": "Label",
             "href": "https://lp.palacio.com.br/guia-para-escolher-uma-lampada"
           }
+        },
+        {
+          "alt": ".",
+          "action": {
+            "href": ".",
+            "title": ".",
+            "subTitle": ".",
+            "label": "."
+          },
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/17fb3343-e457-42fe-bbc1-f6a30dda989e"
         }
       ],
       "layout": {
         "columns": {
           "mobile": 1,
-          "desktop": 1
+          "desktop": 2
         }
       },
       "preload": false,
