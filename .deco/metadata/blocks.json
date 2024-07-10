@@ -615,5 +615,11 @@
     "path": "/servicos",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Blog-75721.json": {
+    "name": "Blog",
+    "path": "/blog",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

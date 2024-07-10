@@ -1,0 +1,43 @@
+{
+  "name": "Blog",
+  "path": "/blog",
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/40caeb78-6b23-42b5-8688-e28757955228",
+          "alt": "como escolher sua lâmpada",
+          "action": {
+            "title": "title",
+            "subTitle": "Subtitle",
+            "label": "Label",
+            "href": "https://lp.palacio.com.br/guia-para-escolher-uma-lampada"
+          }
+        }
+      ],
+      "layout": {
+        "columns": {
+          "mobile": 1,
+          "desktop": 1
+        }
+      },
+      "preload": false,
+      "container": true,
+      "arrows": false,
+      "dots": false,
+      "interval": 4000,
+      "title": "Aprenda e se atualize com a Palácio"
+    },
+    {
+      "__resolveType": "Rodapé FULL"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
