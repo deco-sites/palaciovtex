@@ -6,68 +6,12 @@
       "__resolveType": "Header - 01"
     },
     {
-      "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
-      "images": [
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/40caeb78-6b23-42b5-8688-e28757955228",
-          "alt": "como escolher sua lâmpada",
-          "action": {
-            "title": "title",
-            "subTitle": "Subtitle",
-            "label": "Label",
-            "href": "https://lp.palacio.com.br/guia-para-escolher-uma-lampada"
-          }
-        },
-        {
-          "alt": ".",
-          "action": {
-            "href": ".",
-            "title": ".",
-            "subTitle": ".",
-            "label": "."
-          },
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/17fb3343-e457-42fe-bbc1-f6a30dda989e"
-        }
-      ],
-      "layout": {
-        "columns": {
-          "mobile": 1,
-          "desktop": 2
-        }
-      },
-      "preload": false,
-      "container": true,
-      "arrows": false,
-      "dots": false,
-      "interval": 4000,
-      "title": "Aprenda e se atualize com a Palácio"
+      "__resolveType": "site/sections/Institucional/InstitucionalTitle.tsx",
+      "title": "Bem vindo ao Blog da Palácio"
     },
     {
-      "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
-      "images": [
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/09b7c03d-7607-46f9-ba98-37a540a90607",
-          "alt": "como escolher sua lâmpada",
-          "action": {
-            "title": "title",
-            "subTitle": "Subtitle",
-            "label": "Label",
-            "href": "https://lp.palacio.com.br/guia-para-escolher-uma-lampada"
-          }
-        }
-      ],
-      "layout": {
-        "columns": {
-          "mobile": 1,
-          "desktop": 1
-        }
-      },
-      "preload": false,
-      "container": true,
-      "arrows": false,
-      "dots": false,
-      "interval": 4000,
-      "title": "Aprenda e se atualize com a Palácio"
+      "__resolveType": "site/sections/Institucional/InstitucionalHTML.tsx",
+      "content": "<p>O&nbsp;<strong>Palácio da Ferramenta</strong>&nbsp;tem o compromisso com a privacidade e a segurança de seus clientes durante todo o processo de navegação e compra aqui no site. Os dados cadastrais dos clientes não são vendidos, trocados ou divulgados para terceiros, exceto quando essas informações são necessárias para o processo de entrega ou para cobrança. Seus dados pessoais são peça fundamental para que seu pedido chegue em segurança, na sua casa, de acordo com nosso prazo de entrega.</p><p><br data-mce-bogus=\"1\"></p><p>O&nbsp;<strong>Palácio da Ferramenta</strong>&nbsp;utiliza cookies e informações de sua navegação (sessão do browser) com o objetivo de traçar um perfil do público que visita o site e aperfeiçoar sempre nossos serviços, produtos, conteúdos e garantir as melhores ofertas e promoções para você.</p><p><br data-mce-bogus=\"1\"></p><p>Durante todo este processo mantemos suas informações em sigilo absoluto. Vale lembrar que seus dados são registrados pelo&nbsp;<strong>Palácio da Ferramenta</strong>&nbsp;de forma automatizada, dispensando manipulação humana. Para que estes dados permaneçam intactos, nós desaconselhamos expressamente a divulgação de sua senha a terceiros, mesmo a amigos e parentes.</p><p><br data-mce-bogus=\"1\"></p><p>As alterações sobre nossa política de privacidade serão devidamente informadas neste espaço.</p>"
     },
     {
       "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
