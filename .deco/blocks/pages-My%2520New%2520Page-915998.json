@@ -11,24 +11,24 @@
       "arrows": false,
       "images": [
         {
-          "alt": "/",
+          "alt": "Computador",
           "action": {
-            "href": ".",
             "label": ".",
             "title": ".",
-            "subTitle": "."
+            "subTitle": ".",
+            "href": "/servicos"
           },
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ed4d4c36-46a7-4f5c-8f68-e2d35b8177d7"
         },
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/3e56fe55-07a2-43ad-a9d5-1a0a6ae565b4",
-          "alt": "//",
           "action": {
-            "href": ".",
             "title": ".",
             "subTitle": ".",
-            "label": "."
-          }
+            "label": ".",
+            "href": "/servicos"
+          },
+          "alt": "Texto Vantagens"
         }
       ],
       "layout": {
@@ -52,15 +52,15 @@
             "label": "Label",
             "title": "title",
             "subTitle": "Subtitle",
-            "href": "/"
+            "href": "/servicos"
           },
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/47b2500c-1651-4f24-a451-a756c9bb6e6c"
         },
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/80d801a5-1de1-4e7e-b184-c4ef84f6cd41",
-          "alt": "/",
+          "alt": "orçamento",
           "action": {
-            "href": ".",
+            "href": "/servicos",
             "title": ".",
             "subTitle": ".",
             "label": "."
@@ -88,15 +88,15 @@
             "label": "Label",
             "title": "title",
             "subTitle": "Subtitle",
-            "href": "/"
+            "href": "file:///C:/Users/Administrativo/Downloads/Cadastro%20de%20novos%20clientes%20-%20PDF.pdf"
           },
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/f5c6f175-42db-45b2-b342-74e9b3dc7044"
         },
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ad81c8be-d1bc-4217-aba0-816bfa48908d",
-          "alt": ".",
+          "alt": "texto flexibilidade",
           "action": {
-            "href": ".",
+            "href": "file:///C:/Users/Administrativo/Downloads/Cadastro%20de%20novos%20clientes%20-%20PDF.pdf",
             "title": ".",
             "subTitle": ".",
             "label": "."
