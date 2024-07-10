@@ -7,11 +7,11 @@
     },
     {
       "__resolveType": "site/sections/Institucional/InstitucionalTitle.tsx",
-      "title": "Bem vindo ao Blog da Palácio"
+      "title": "Bem-vindo ao Blog da Palácio"
     },
     {
       "__resolveType": "site/sections/Institucional/InstitucionalHTML.tsx",
-      "content": "<p>O&nbsp;<strong>Palácio da Ferramenta</strong>&nbsp;tem o compromisso com a privacidade e a segurança de seus clientes durante todo o processo de navegação e compra aqui no site. Os dados cadastrais dos clientes não são vendidos, trocados ou divulgados para terceiros, exceto quando essas informações são necessárias para o processo de entrega ou para cobrança. Seus dados pessoais são peça fundamental para que seu pedido chegue em segurança, na sua casa, de acordo com nosso prazo de entrega.</p><p><br data-mce-bogus=\"1\"></p><p>O&nbsp;<strong>Palácio da Ferramenta</strong>&nbsp;utiliza cookies e informações de sua navegação (sessão do browser) com o objetivo de traçar um perfil do público que visita o site e aperfeiçoar sempre nossos serviços, produtos, conteúdos e garantir as melhores ofertas e promoções para você.</p><p><br data-mce-bogus=\"1\"></p><p>Durante todo este processo mantemos suas informações em sigilo absoluto. Vale lembrar que seus dados são registrados pelo&nbsp;<strong>Palácio da Ferramenta</strong>&nbsp;de forma automatizada, dispensando manipulação humana. Para que estes dados permaneçam intactos, nós desaconselhamos expressamente a divulgação de sua senha a terceiros, mesmo a amigos e parentes.</p><p><br data-mce-bogus=\"1\"></p><p>As alterações sobre nossa política de privacidade serão devidamente informadas neste espaço.</p>"
+      "content": "<p style=\"text-align: justify;\" data-mce-style=\"text-align: justify;\">O <strong>Palácio da Ferramenta</strong> lhes apresenta sua nova empreitada, além da qualidade dos seus produtos e da expertise dos seus funcionários, agora o Palácio irá disponibilizar conteúdos que irão te ajudar na escolha e aplicação dos seus produtos, garantindo assim uma jornada completa para o cliente!</p><p style=\"text-align: justify;\" data-mce-style=\"text-align: justify;\"><br data-mce-bogus=\"1\"></p><p style=\"text-align: justify;\" data-mce-style=\"text-align: justify;\">Para ter acesso aos conteúdos basta clicar no tema que lhe interessa abaixo, preencher seus dados e receber o e-book de graça! Isso mesmo não custa nada para você adquirir conhecimento e receber dicas sobre produtos e cuidados com a sua casa!&nbsp;</p>"
     },
     {
       "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
