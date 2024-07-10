@@ -88,7 +88,7 @@
             "label": "Label",
             "title": "title",
             "subTitle": "Subtitle",
-            "href": "file:///C:/Users/Administrativo/Downloads/Cadastro%20de%20novos%20clientes%20-%20PDF.pdf"
+            "href": "https://drive.google.com/file/d/1GtqT_sWAWspoB50Ha5grWCtpeaHo18Rg/view?usp=sharing"
           },
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/f5c6f175-42db-45b2-b342-74e9b3dc7044"
         },
@@ -96,10 +96,10 @@
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ad81c8be-d1bc-4217-aba0-816bfa48908d",
           "alt": "texto flexibilidade",
           "action": {
-            "href": "file:///C:/Users/Administrativo/Downloads/Cadastro%20de%20novos%20clientes%20-%20PDF.pdf",
             "title": ".",
             "subTitle": ".",
-            "label": "."
+            "label": ".",
+            "href": "https://drive.google.com/file/d/1GtqT_sWAWspoB50Ha5grWCtpeaHo18Rg/view?usp=sharing"
           }
         }
       ],
