@@ -37,8 +37,7 @@
       "container": true,
       "arrows": false,
       "dots": false,
-      "interval": 4000,
-      "title": "Aprenda e se atualize com a Palácio"
+      "interval": 4000
     },
     {
       "__resolveType": "Rodapé FULL"
