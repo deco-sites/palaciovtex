@@ -43,6 +43,33 @@
       "title": "Aprenda e se atualize com a Palácio"
     },
     {
+      "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/3c3db043-9010-4c3a-873d-f9c43995c47b",
+          "alt": "como escolher sua lâmpada",
+          "action": {
+            "title": "title",
+            "subTitle": "Subtitle",
+            "label": "Label",
+            "href": "https://lp.palacio.com.br/guia-para-escolher-uma-lampada"
+          }
+        }
+      ],
+      "layout": {
+        "columns": {
+          "mobile": 1,
+          "desktop": 1
+        }
+      },
+      "preload": false,
+      "container": true,
+      "arrows": false,
+      "dots": false,
+      "interval": 4000,
+      "title": "Aprenda e se atualize com a Palácio"
+    },
+    {
       "__resolveType": "Rodapé FULL"
     }
   ],
