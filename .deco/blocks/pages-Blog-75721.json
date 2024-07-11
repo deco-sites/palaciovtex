@@ -4,7 +4,8 @@
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "title": "Blog"
+      "title": "Blog",
+      "titleTemplate": "%s | Palácio das Ferramentas"
     },
     {
       "__resolveType": "Header - 01"
@@ -42,10 +43,6 @@
       "arrows": false,
       "dots": false,
       "interval": 4000
-    },
-    {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "title": "Blog"
     }
   ],
   "seo": {
