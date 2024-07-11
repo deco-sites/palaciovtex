@@ -3,6 +3,10 @@
   "path": "/blog",
   "sections": [
     {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Blog"
+    },
+    {
       "__resolveType": "Header - 01"
     },
     {
@@ -40,7 +44,8 @@
       "interval": 4000
     },
     {
-      "__resolveType": "Rodapé FULL"
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Blog"
     }
   ],
   "seo": {

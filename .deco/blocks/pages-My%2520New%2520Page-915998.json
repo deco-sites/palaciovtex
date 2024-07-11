@@ -3,6 +3,11 @@
   "path": "/servicos",
   "sections": [
     {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Serviços",
+      "titleTemplate": "%s | Palácio das Ferramentas"
+    },
+    {
       "__resolveType": "Header - 01"
     },
     {
@@ -22,13 +27,13 @@
         },
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/3e56fe55-07a2-43ad-a9d5-1a0a6ae565b4",
+          "alt": "Texto Vantagens",
           "action": {
+            "href": "/servicos",
             "title": ".",
             "subTitle": ".",
-            "label": ".",
-            "href": "/servicos"
-          },
-          "alt": "Texto Vantagens"
+            "label": "."
+          }
         }
       ],
       "layout": {
@@ -60,10 +65,10 @@
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/80d801a5-1de1-4e7e-b184-c4ef84f6cd41",
           "alt": "orçamento",
           "action": {
-            "href": "/servicos",
             "title": ".",
             "subTitle": ".",
-            "label": "."
+            "label": ".",
+            "href": "/servicos"
           }
         }
       ],
