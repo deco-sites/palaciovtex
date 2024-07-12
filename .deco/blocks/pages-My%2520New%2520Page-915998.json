@@ -59,42 +59,6 @@
             "subTitle": "Subtitle",
             "href": "/servicos"
           },
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/47b2500c-1651-4f24-a451-a756c9bb6e6c"
-        },
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/80d801a5-1de1-4e7e-b184-c4ef84f6cd41",
-          "alt": "orçamento",
-          "action": {
-            "title": ".",
-            "subTitle": ".",
-            "label": ".",
-            "href": "/servicos"
-          }
-        }
-      ],
-      "layout": {
-        "columns": {
-          "mobile": 2,
-          "desktop": 2
-        }
-      },
-      "preload": false,
-      "interval": 4000,
-      "container": true
-    },
-    {
-      "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
-      "dots": false,
-      "arrows": false,
-      "images": [
-        {
-          "alt": "Atendimento ",
-          "action": {
-            "label": "Label",
-            "title": "title",
-            "subTitle": "Subtitle",
-            "href": "/servicos"
-          },
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/33a8aaf5-5509-4c97-b3e2-3e855fe04f26"
         }
       ],
