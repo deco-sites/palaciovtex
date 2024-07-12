@@ -85,10 +85,10 @@
             "subTitle": "Subtitle",
             "href": "https://drive.google.com/file/d/1GtqT_sWAWspoB50Ha5grWCtpeaHo18Rg/view?usp=sharing"
           },
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/f5c6f175-42db-45b2-b342-74e9b3dc7044"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/439a8a7a-c02e-49f4-b5b2-226d67bf52c2"
         },
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ad81c8be-d1bc-4217-aba0-816bfa48908d",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ce7fe3a0-119c-4017-89fb-c5b89b1fb50d",
           "alt": "texto flexibilidade",
           "action": {
             "title": ".",
@@ -102,6 +102,32 @@
         "columns": {
           "mobile": 2,
           "desktop": 2
+        }
+      },
+      "preload": false,
+      "interval": 4000,
+      "container": true
+    },
+    {
+      "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
+      "dots": false,
+      "arrows": false,
+      "images": [
+        {
+          "alt": "Maior flexibilidade",
+          "action": {
+            "label": "Label",
+            "title": "title",
+            "subTitle": "Subtitle",
+            "href": "https://drive.google.com/file/d/1GtqT_sWAWspoB50Ha5grWCtpeaHo18Rg/view?usp=sharing"
+          },
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/acfcfe6a-8aa0-483e-9665-fa03b59c797d"
+        }
+      ],
+      "layout": {
+        "columns": {
+          "mobile": 1,
+          "desktop": 1
         }
       },
       "preload": false,
