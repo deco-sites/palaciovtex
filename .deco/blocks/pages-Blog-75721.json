@@ -69,6 +69,32 @@
       "arrows": false,
       "dots": false,
       "interval": 4000
+    },
+    {
+      "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/29b095fb-46fd-4fdd-81c4-d7e9bc6079a1",
+          "alt": "guia completo de bombas de água",
+          "action": {
+            "title": "title",
+            "subTitle": "Subtitle",
+            "label": "Label",
+            "href": "h"
+          }
+        }
+      ],
+      "layout": {
+        "columns": {
+          "mobile": 1,
+          "desktop": 1
+        }
+      },
+      "preload": false,
+      "container": true,
+      "arrows": false,
+      "dots": false,
+      "interval": 4000
     }
   ],
   "seo": {
