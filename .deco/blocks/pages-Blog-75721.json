@@ -1,0 +1,104 @@
+{
+  "name": "Blog",
+  "path": "/blog",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Blog",
+      "titleTemplate": "%s | Palácio das Ferramentas"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Institucional/InstitucionalTitle.tsx",
+      "title": "Bem-vindo ao Blog da Palácio"
+    },
+    {
+      "__resolveType": "site/sections/Institucional/InstitucionalHTML.tsx",
+      "content": "<p style=\"text-align: justify;\" data-mce-style=\"text-align: justify;\">O <strong>Palácio da Ferramenta</strong> lhes apresenta sua nova empreitada, além da qualidade dos seus produtos e da expertise dos seus funcionários, agora o Palácio irá disponibilizar conteúdos que irão te ajudar na escolha e aplicação dos seus produtos, garantindo assim uma jornada completa para o cliente!</p><p style=\"text-align: justify;\" data-mce-style=\"text-align: justify;\"><br data-mce-bogus=\"1\"></p><p style=\"text-align: justify;\" data-mce-style=\"text-align: justify;\">Para ter acesso aos conteúdos basta clicar no tema que lhe interessa abaixo, preencher seus dados e receber o e-book de graça! Isso mesmo não custa nada para você adquirir conhecimento e receber dicas sobre produtos e cuidados com a sua casa!&nbsp;</p>"
+    },
+    {
+      "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/261bf58e-5ff6-46ee-8b8b-35d9e64b93e7",
+          "alt": "como escolher sua lâmpada",
+          "action": {
+            "title": "title",
+            "subTitle": "Subtitle",
+            "label": "Label",
+            "href": "https://lp.palacio.com.br/guia-para-escolher-uma-lampada"
+          }
+        }
+      ],
+      "layout": {
+        "columns": {
+          "mobile": 1,
+          "desktop": 1
+        }
+      },
+      "preload": false,
+      "container": true,
+      "arrows": false,
+      "dots": false,
+      "interval": 4000
+    },
+    {
+      "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9cb07e99-c3eb-44c9-94fc-c599eabd5dbe",
+          "alt": "guia completo de bombas de água",
+          "action": {
+            "title": "title",
+            "subTitle": "Subtitle",
+            "label": "Label",
+            "href": "https://lp.palacio.com.br/guia-completo-de-bombas-de-agua"
+          }
+        }
+      ],
+      "layout": {
+        "columns": {
+          "mobile": 1,
+          "desktop": 1
+        }
+      },
+      "preload": false,
+      "container": true,
+      "arrows": false,
+      "dots": false,
+      "interval": 4000
+    },
+    {
+      "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/29b095fb-46fd-4fdd-81c4-d7e9bc6079a1",
+          "alt": "guia completo de bombas de água",
+          "action": {
+            "title": "title",
+            "subTitle": "Subtitle",
+            "label": "Label",
+            "href": "h"
+          }
+        }
+      ],
+      "layout": {
+        "columns": {
+          "mobile": 1,
+          "desktop": 1
+        }
+      },
+      "preload": false,
+      "container": true,
+      "arrows": false,
+      "dots": false,
+      "interval": 4000
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

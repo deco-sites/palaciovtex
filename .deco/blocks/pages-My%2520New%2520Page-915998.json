@@ -3,6 +3,11 @@
   "path": "/servicos",
   "sections": [
     {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Serviços",
+      "titleTemplate": "%s | Palácio das Ferramentas"
+    },
+    {
       "__resolveType": "Header - 01"
     },
     {
@@ -11,20 +16,30 @@
       "arrows": false,
       "images": [
         {
-          "alt": "Conheça vantagens",
+          "alt": "Computador",
           "action": {
-            "href": "/",
-            "label": "Label",
-            "title": "title",
-            "subTitle": "Subtitle"
+            "label": ".",
+            "title": ".",
+            "subTitle": ".",
+            "href": "/servicos"
           },
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/b061e75c-e6e2-43a4-ab94-71feaf28bfd8"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ed4d4c36-46a7-4f5c-8f68-e2d35b8177d7"
+        },
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/3e56fe55-07a2-43ad-a9d5-1a0a6ae565b4",
+          "alt": "Texto Vantagens",
+          "action": {
+            "href": "/servicos",
+            "title": ".",
+            "subTitle": ".",
+            "label": "."
+          }
         }
       ],
       "layout": {
         "columns": {
-          "mobile": 1,
-          "desktop": 1
+          "mobile": 2,
+          "desktop": 2
         }
       },
       "preload": false,
@@ -42,35 +57,9 @@
             "label": "Label",
             "title": "title",
             "subTitle": "Subtitle",
-            "href": "/"
+            "href": "/servicos"
           },
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/dada277a-f493-4c1b-bd88-15e901c06a5e"
-        }
-      ],
-      "layout": {
-        "columns": {
-          "mobile": 1,
-          "desktop": 1
-        }
-      },
-      "preload": false,
-      "interval": 4000,
-      "container": true
-    },
-    {
-      "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
-      "dots": false,
-      "arrows": false,
-      "images": [
-        {
-          "alt": "Descontos",
-          "action": {
-            "label": "Label",
-            "title": "title",
-            "subTitle": "Subtitle",
-            "href": "/"
-          },
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/6d7cdc2d-a3cb-49e8-9883-a83d3e57a180"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/33a8aaf5-5509-4c97-b3e2-3e855fe04f26"
         }
       ],
       "layout": {
@@ -94,25 +83,51 @@
             "label": "Label",
             "title": "title",
             "subTitle": "Subtitle",
-            "href": "/"
+            "href": "https://drive.google.com/file/d/1GtqT_sWAWspoB50Ha5grWCtpeaHo18Rg/view?usp=sharing"
           },
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/0112c24d-98a0-4f7c-8291-2b38ec1509c0"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/439a8a7a-c02e-49f4-b5b2-226d67bf52c2"
         },
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ea36a219-ff6e-4f82-a5dd-d2e1af704e2a",
-          "alt": ".",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ce7fe3a0-119c-4017-89fb-c5b89b1fb50d",
+          "alt": "texto flexibilidade",
           "action": {
-            "href": ".",
             "title": ".",
             "subTitle": ".",
-            "label": "."
+            "label": ".",
+            "href": "https://drive.google.com/file/d/1GtqT_sWAWspoB50Ha5grWCtpeaHo18Rg/view?usp=sharing"
           }
         }
       ],
       "layout": {
         "columns": {
-          "mobile": 1,
+          "mobile": 2,
           "desktop": 2
+        }
+      },
+      "preload": false,
+      "interval": 4000,
+      "container": true
+    },
+    {
+      "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
+      "dots": false,
+      "arrows": false,
+      "images": [
+        {
+          "alt": "Maior flexibilidade",
+          "action": {
+            "label": "Label",
+            "title": "title",
+            "subTitle": "Subtitle",
+            "href": "https://drive.google.com/file/d/1GtqT_sWAWspoB50Ha5grWCtpeaHo18Rg/view?usp=sharing"
+          },
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/a5dc0d63-a5f0-413b-a84e-ba8648d053a4"
+        }
+      ],
+      "layout": {
+        "columns": {
+          "mobile": 1,
+          "desktop": 1
         }
       },
       "preload": false,

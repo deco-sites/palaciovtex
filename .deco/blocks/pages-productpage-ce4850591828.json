@@ -21,7 +21,6 @@
       "__resolveType": "Product Details - Gallery Slider "
     },
     {
-      "__resolveType": "site/sections/Product/ProductDescription.tsx",
       "page": {
         "__resolveType": "PDP Loader"
       },
@@ -58,10 +57,10 @@
           }
         },
         "__resolveType": "site/sections/Product/BuyTogether.tsx"
-      }
+      },
+      "__resolveType": "site/sections/Product/ProductDescription.tsx"
     },
     {
-      "__resolveType": "site/sections/Product/ProductShelf.tsx",
       "title": "QUEM VIU, VIU TAMBÉM",
       "layout": {
         "showArrows": true,
@@ -84,7 +83,8 @@
         "basics": {
           "contentAlignment": "Center"
         }
-      }
+      },
+      "__resolveType": "site/sections/Product/ProductShelf.tsx"
     },
     {
       "__resolveType": "Rodapé FULL"

@@ -263,7 +263,73 @@
       "name": "Assets",
       "pinned": true,
       "icon": "photo-library",
-      "layout": [],
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "assets::Assets::photo-library::Assets::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-assets::Assets::photo-library::Assets::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "assets::Assets::photo-library::Assets::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
       "tabs": {
         "assets::Assets::photo-library::Assets::%7B%7D": {
           "name": "Assets",
@@ -283,7 +349,73 @@
       "name": "Releases",
       "pinned": true,
       "icon": "rocket-launch",
-      "layout": [],
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "releases::releases::rocket-launch::releases::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-releases::releases::rocket-launch::releases::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "releases::releases::rocket-launch::releases::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
       "tabs": {
         "releases::releases::rocket-launch::releases::%7B%7D": {
           "name": "releases",
@@ -303,7 +435,94 @@
       "name": "SEO",
       "pinned": true,
       "icon": "world-search",
-      "layout": [],
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "site-seo::Partial%20Form::pencil::Partial%20Form::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22seo%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fsite.json%5C%22%7D%22%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-site-seo::Partial%20Form::pencil::Partial%20Form::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22seo%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fsite.json%5C%22%7D%22%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "site-seo::Partial%20Form::pencil::Partial%20Form::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22seo%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fsite.json%5C%22%7D%22%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "site-seo::Preview::visibility::Preview::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2Fsite.json%22%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-site-seo::Preview::visibility::Preview::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2Fsite.json%22%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "site-seo::Preview::visibility::Preview::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2Fsite.json%22%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
       "tabs": {
         "site-seo::Partial%20Form::pencil::Partial%20Form::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22seo%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fsite.json%5C%22%7D%22%7D": {
           "name": "Partial Form",
@@ -550,7 +769,73 @@
       "name": "Settings",
       "pinned": true,
       "icon": "settings",
-      "layout": [],
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "width": 100,
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "settings::settings::settings::settings::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-settings::settings::settings::settings::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "settings::settings::settings::settings::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
       "tabs": {
         "settings::settings::settings::settings::%7B%7D": {
           "name": "settings",
@@ -558,16 +843,6 @@
           "render": "function",
           "viewId": "settings",
           "id": "settings::settings::settings::settings::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "settings::domains::settings::domains::%7B%7D": {
-          "name": "domains",
-          "icon": "settings",
-          "render": "function",
-          "viewId": "domains",
-          "id": "settings::domains::settings::domains::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -648,12 +923,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::visibility::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::visibility::Preview::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::visibility::Preview::%7B%7D"
                     },
                     "width": 70,
                     "isClosable": true,
@@ -680,18 +955,17 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
-        "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D": {
+        "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::visibility::Preview::%7B%7D": {
           "name": "Preview",
-          "icon": "world",
+          "icon": "visibility",
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
           "width": 70,
-          "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D",
+          "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::visibility::Preview::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -803,7 +1077,8 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fdeco-workflows.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2Fdeco-workflows.json::Preview::world::Preview::%7B%7D": {
@@ -864,7 +1139,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 30,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -886,7 +1161,7 @@
               },
               {
                 "type": "stack",
-                "width": 70,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1227,12 +1502,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2Fpages-My%252520New%252520Page-915998.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-My%252520New%252520Page-915998.json::Preview::world::Preview::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2Fpages-My%252520New%252520Page-915998.json::Preview::visibility::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-My%252520New%252520Page-915998.json::Preview::visibility::Preview::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-My%252520New%252520Page-915998.json::Preview::world::Preview::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2Fpages-My%252520New%252520Page-915998.json::Preview::visibility::Preview::%7B%7D"
                     },
                     "width": 70,
                     "isClosable": true,
@@ -1259,18 +1534,17 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-My%252520New%252520Page-915998.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
-        "%2F.deco%2Fblocks%2Fpages-My%252520New%252520Page-915998.json::Preview::world::Preview::%7B%7D": {
+        "%2F.deco%2Fblocks%2Fpages-My%252520New%252520Page-915998.json::Preview::visibility::Preview::%7B%7D": {
           "name": "Preview",
-          "icon": "world",
+          "icon": "visibility",
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
           "width": 70,
-          "id": "%2F.deco%2Fblocks%2Fpages-My%252520New%252520Page-915998.json::Preview::world::Preview::%7B%7D",
+          "id": "%2F.deco%2Fblocks%2Fpages-My%252520New%252520Page-915998.json::Preview::visibility::Preview::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -1281,7 +1555,7 @@
       "id": "Publish",
       "name": "Publish",
       "pinned": false,
-      "icon": "rocket",
+      "icon": "rocket-launch",
       "layout": {
         "settings": {
           "hasHeaders": true,
@@ -1328,12 +1602,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "Publish::Environment::rocket::Environment::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-Publish::Environment::rocket::Environment::%7B%7D\" />",
+                    "id": "Publish::Environment::rocket-launch::Environment::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-Publish::Environment::rocket-launch::Environment::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "Publish::Environment::rocket::Environment::%7B%7D"
+                      "id": "Publish::Environment::rocket-launch::Environment::%7B%7D"
                     },
                     "isClosable": true,
                     "reorderEnabled": true
@@ -1350,12 +1624,12 @@
         "maximisedItemId": null
       },
       "tabs": {
-        "Publish::Environment::rocket::Environment::%7B%7D": {
+        "Publish::Environment::rocket-launch::Environment::%7B%7D": {
           "name": "Environment",
-          "icon": "rocket",
+          "icon": "rocket-launch",
           "render": "function",
           "viewId": "Environment",
-          "id": "Publish::Environment::rocket::Environment::%7B%7D",
+          "id": "Publish::Environment::rocket-launch::Environment::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -1467,7 +1741,8 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2FRodap%25C3%25A9%2520FULL.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2FRodap%25C3%25A9%2520FULL.json::Preview::world::Preview::%7B%7D": {
@@ -1487,6 +1762,128 @@
     {
       "id": "/.deco/blocks/Header%20-%2001.json",
       "name": "Header - 01",
+      "pinned": false,
+      "icon": "block",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 35.177865612648226,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 64.82213438735178,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Preview::visibility::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Preview::visibility::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Preview::visibility::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Preview::visibility::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "visibility",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Preview::visibility::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/NOVA%20VITRINE%20TESTE%20-%20COLE%C3%87%C3%83O%20123.json",
+      "name": "NOVA VITRINE TESTE - COLEÇÃO 123",
       "pinned": false,
       "icon": "package",
       "layout": {
@@ -1535,12 +1932,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Properties::list::Properties::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2FNOVA%2520VITRINE%2520TESTE%2520-%2520COLE%25C3%2587%25C3%2583O%2520123.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FNOVA%2520VITRINE%2520TESTE%2520-%2520COLE%25C3%2587%25C3%2583O%2520123.json::Properties::list::Properties::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Properties::list::Properties::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2FNOVA%2520VITRINE%2520TESTE%2520-%2520COLE%25C3%2587%25C3%2583O%2520123.json::Properties::list::Properties::%7B%7D"
                     },
                     "width": 30,
                     "isClosable": true,
@@ -1557,12 +1954,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Preview::world::Preview::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2FNOVA%2520VITRINE%2520TESTE%2520-%2520COLE%25C3%2587%25C3%2583O%2520123.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FNOVA%2520VITRINE%2520TESTE%2520-%2520COLE%25C3%2587%25C3%2583O%2520123.json::Preview::world::Preview::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Preview::world::Preview::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2FNOVA%2520VITRINE%2520TESTE%2520-%2520COLE%25C3%2587%25C3%2583O%2520123.json::Preview::world::Preview::%7B%7D"
                     },
                     "width": 70,
                     "isClosable": true,
@@ -1571,99 +1968,6 @@
                 ]
               }
             ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
-      "tabs": {
-        "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Properties::list::Properties::%7B%7D": {
-          "name": "Properties",
-          "icon": "list",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Properties",
-          "width": 30,
-          "id": "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Properties::list::Properties::%7B%7D",
-          "state": {
-            "__signal": null,
-            "value": null
-          }
-        },
-        "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Preview::world::Preview::%7B%7D": {
-          "name": "Preview",
-          "icon": "world",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Preview",
-          "width": 70,
-          "id": "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Preview::world::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        }
-      }
-    },
-    {
-      "id": "/.deco/blocks/NOVA%20VITRINE%20TESTE%20-%20COLE%C3%87%C3%83O%20123.json",
-      "name": "NOVA VITRINE TESTE - COLEÇÃO 123",
-      "pinned": false,
-      "icon": "package",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "stack",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "component",
-                "width": 30,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FNOVA%2520VITRINE%2520TESTE%2520-%2520COLE%25C3%2587%25C3%2583O%2520123.json::Properties::list::Properties::%7B%7D\" />",
-                "id": "%2F.deco%2Fblocks%2FNOVA%2520VITRINE%2520TESTE%2520-%2520COLE%25C3%2587%25C3%2583O%2520123.json::Properties::list::Properties::%7B%7D",
-                "componentName": "component",
-                "componentState": {
-                  "id": "%2F.deco%2Fblocks%2FNOVA%2520VITRINE%2520TESTE%2520-%2520COLE%25C3%2587%25C3%2583O%2520123.json::Properties::list::Properties::%7B%7D"
-                }
-              }
-            ],
-            "width": 100,
-            "activeItemIndex": 0
           }
         ],
         "isClosable": true,
@@ -1682,8 +1986,19 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2FNOVA%2520VITRINE%2520TESTE%2520-%2520COLE%25C3%2587%25C3%2583O%2520123.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FNOVA%2520VITRINE%2520TESTE%2520-%2520COLE%25C3%2587%25C3%2583O%2520123.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2FNOVA%2520VITRINE%2520TESTE%2520-%2520COLE%25C3%2587%25C3%2583O%2520123.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
           }
         }
       }
@@ -1732,7 +2047,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 23.776662484316187,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1754,7 +2069,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 76.22333751568382,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2544,7 +2859,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 19.071518193224595,
+                "width": 21.89460476787955,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2566,7 +2881,7 @@
               },
               {
                 "type": "stack",
-                "width": 80.92848180677541,
+                "width": 78.10539523212046,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2605,7 +2920,8 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-productpage-ce4850591828.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-productpage-ce4850591828.json::Preview::world::Preview::%7B%7D": {
@@ -2616,6 +2932,250 @@
           "viewId": "Preview",
           "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-productpage-ce4850591828.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/pages-Blog-75721.json",
+      "name": "Blog",
+      "pinned": false,
+      "icon": "file",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 41.66666666666667,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-Blog-75721.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Blog-75721.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Blog-75721.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 58.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-Blog-75721.json::Preview::visibility::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Blog-75721.json::Preview::visibility::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Blog-75721.json::Preview::visibility::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2Fpages-Blog-75721.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2Fpages-Blog-75721.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-Blog-75721.json::Preview::visibility::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "visibility",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2Fpages-Blog-75721.json::Preview::visibility::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/pages-page-teste-125764.json",
+      "name": "Pegue seu Cupom",
+      "pinned": false,
+      "icon": "file",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 41.66666666666667,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-page-teste-125764.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-page-teste-125764.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-page-teste-125764.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 58.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-page-teste-125764.json::Preview::visibility::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-page-teste-125764.json::Preview::visibility::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-page-teste-125764.json::Preview::visibility::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2Fpages-page-teste-125764.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2Fpages-page-teste-125764.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-page-teste-125764.json::Preview::visibility::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "visibility",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2Fpages-page-teste-125764.json::Preview::visibility::Preview::%7B%7D",
           "state": {
             "__signal": null
           }

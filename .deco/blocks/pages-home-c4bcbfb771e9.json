@@ -4275,23 +4275,13 @@
                 }
               },
               {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/96c2ad06-ddcf-4333-ae4b-6e1c0b8930f1",
-                "alt": "Dremel",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/147b70b2-2dce-4ece-ae31-8f2b7d20cb09",
+                "alt": "Blog",
                 "action": {
-                  "href": "/dremel",
-                  "title": "title",
-                  "subTitle": "Subtitle",
-                  "label": "Label"
-                }
-              },
-              {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/2f8e732e-04ec-48f7-8236-654e2b50514b",
-                "alt": "Pegue seu cupom",
-                "action": {
-                  "href": "/pegue-seu-cupom",
-                  "title": "title",
-                  "subTitle": "Subtitle",
-                  "label": "Label"
+                  "href": "/blog",
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": "."
                 }
               },
               {
@@ -4302,6 +4292,36 @@
                   "title": ".",
                   "subTitle": ".",
                   "label": "."
+                }
+              },
+              {
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/96c2ad06-ddcf-4333-ae4b-6e1c0b8930f1",
+                "alt": "Dremel",
+                "action": {
+                  "href": "/dremel",
+                  "title": "title",
+                  "subTitle": "Subtitle",
+                  "label": "Label"
+                }
+              },
+              {
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/f3da0b74-12c3-4046-a9de-8e050df4882d",
+                "alt": "Venda faturada",
+                "action": {
+                  "href": "/servicos",
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": "."
+                }
+              },
+              {
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/2f8e732e-04ec-48f7-8236-654e2b50514b",
+                "alt": "Pegue seu cupom",
+                "action": {
+                  "title": "title",
+                  "subTitle": "Subtitle",
+                  "label": "Label",
+                  "href": "/pegue-seu-cupom"
                 }
               },
               {
@@ -4318,40 +4338,10 @@
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9204864d-3a89-4df7-9ebe-146035bba7fe",
                 "alt": "Furadeiras",
                 "action": {
+                  "href": "https://www.palacio.com.br/ferramentas-eletricas/furadeiras",
                   "title": "title",
                   "subTitle": "Subtitle",
-                  "label": "Label",
-                  "href": "https://www.palacio.com.br/ferramentas-eletricas/furadeiras"
-                }
-              },
-              {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/13ba273e-76f3-46be-8ef7-adf5a2d7db23",
-                "alt": "ofertas 100",
-                "action": {
-                  "href": "/ofertas",
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                }
-              },
-              {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/beee9e90-a2f3-4f9c-a71f-62ba9522c800",
-                "alt": "cupom",
-                "action": {
-                  "href": "/pegue-seu-cupom",
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                }
-              },
-              {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ee121eb9-d28c-4658-9957-2aa93b11436c",
-                "alt": "frete",
-                "action": {
-                  "href": "/ofertas",
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": "."
+                  "label": "Label"
                 }
               }
             ],
