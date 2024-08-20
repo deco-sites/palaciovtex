@@ -67,7 +67,6 @@ function FilterValues({ key, values }: FilterToggle) {
 }
 
 function Filters({ filters }: Props) {
-  console.log("Filtros:", filters)
   return (
     <ul class="flex flex-col gap-6 py-4">
       {filters
