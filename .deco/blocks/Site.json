@@ -128,7 +128,7 @@
     },
     "platform": "vtex",
     "authToken": {},
-    "publicUrl": "www.palacio.com.br",
+    "publicUrl": "secure.palacio.com.br",
     "salesChannel": "1",
     "defaultSegment": {
       "channelPrivacy": "public"
