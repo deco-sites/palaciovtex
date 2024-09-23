@@ -5328,75 +5328,53 @@
             "arrows": true,
             "images": [
               {
-                "alt": "Semanão do Cliente",
+                "alt": "Saboneteira",
                 "action": {
-                  "href": "­­/ofertas",
+                  "href": "/saboneteira-aluminio-inovare/p?skuId=3651",
                   "label": ".",
                   "title": ".",
                   "subTitle": "."
                 },
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/4b632a6d-4fcf-48dc-b65b-4eb1a9f33253/MOB_375X400_SemanaodoCliente_PalaciodaFerramenta.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/2e60a233-a2ea-45e4-9eb9-e6900c996cde/1920X500_SemanaodoCliente_PalaciodaFerramenta.jpg"
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/389e984f-25aa-4e18-833b-8b0c667852cf/MOB_375X400_Cod.2916-11195_SemanaodoCliente_PalaciodaFerramenta.jpg",
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/7ce71996-a104-48f5-aef6-4eee6ae1d66b/1920X500_Cod.2916-11195_SemanaodoCliente_PalaciodaFerramenta.jpg"
               },
               {
                 "action": {
                   "label": ".",
                   "title": ".",
                   "subTitle": ".",
-                  "href": "/saboneteira-aluminio-inovare/p?skuId=3651"
-                },
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/389e984f-25aa-4e18-833b-8b0c667852cf/MOB_375X400_Cod.2916-11195_SemanaodoCliente_PalaciodaFerramenta.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/7ce71996-a104-48f5-aef6-4eee6ae1d66b/1920X500_Cod.2916-11195_SemanaodoCliente_PalaciodaFerramenta.jpg",
-                "alt": "Saboneteira"
-              },
-              {
-                "alt": "Furadeira e Parafusadeira Bosch",
-                "action": {
-                  "href": "/parafusadeira-e-furadeira-a-bateria-12v-gsr-1000-smart---carregador-bivolt---maleta---bosch/p?skuId=483",
-                  "label": ".",
-                  "title": ".",
-                  "subTitle": "."
+                  "href": "/parafusadeira-e-furadeira-a-bateria-12v-gsr-1000-smart---carregador-bivolt---maleta---bosch/p?skuId=483"
                 },
                 "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/618af6cc-b2e2-4f46-a7b3-f03a97e5dca1/MOB_375X400_Cod.10494_SemanaodoCliente_PalaciodaFerramenta.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/fbd48759-e4b6-42f0-aa10-afa193fb817f/1920X500_Cod.10494_SemanaodoCliente_PalaciodaFerramenta.jpg"
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/fbd48759-e4b6-42f0-aa10-afa193fb817f/1920X500_Cod.10494_SemanaodoCliente_PalaciodaFerramenta.jpg",
+                "alt": "Furadeira e Parafusadeira Bosch"
               },
               {
                 "alt": "Coletor de pó",
                 "action": {
+                  "href": "/coletor-de-po-para-furadeira---macnow/p?skuId=1165",
                   "label": ".",
                   "title": ".",
-                  "subTitle": ".",
-                  "href": "/coletor-de-po-para-furadeira---macnow/p?skuId=1165"
+                  "subTitle": "."
                 },
                 "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/2f75fd9d-a3fd-4270-930b-c5837e6a414d/MOB_375X400_Cod.797162_SemanaodoCliente_PalaciodaFerramenta.jpg",
                 "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/b5239a59-e6c0-42a7-917b-1bd52b6f3ad9/1920X500_Cod.797162_SemanaodoCliente_PalaciodaFerramenta.jpg"
               },
               {
-                "alt": "Tinta Spray Color Jet",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/955eeee6-eee3-48e8-8837-927772f6e34b/1920X500_Cod.13530_SemanaodoCliente_PalaciodaFerramenta.jpg",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/b261ba9f-08a6-44f0-9315-bf8cf8031b85/MOB_375X400_Cod.13530_SemanaodoCliente_PalaciodaFerramenta.jpg",
-                "action": {
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": ".",
-                  "href": "/tinta-spray-color-jet-uso-geral--preto-brilhante---tintas-renner-400ml/p?skuId=1788"
-                }
-              },
-              {
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/ae132c7a-3085-4c7c-9779-dab9a14fd988/1920X500_Cod.10495_SemanaodoCliente_PalaciodaFerramenta.jpg",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/467728ab-977a-469a-8394-aedc3f160285/MOB_375X400_Cod.10495_SemanaodoCliente_PalaciodaFerramenta.jpg",
                 "alt": "Furadeira de Impacto Bosch",
                 "action": {
-                  "href": "/furadeira-de-impacto-1-2--750w---bosch-127v/p?skuId=243",
+                  "label": ".",
                   "title": ".",
                   "subTitle": ".",
-                  "label": "."
-                }
+                  "href": "/furadeira-de-impacto-1-2--750w---bosch-127v/p?skuId=243"
+                },
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/467728ab-977a-469a-8394-aedc3f160285/MOB_375X400_Cod.10495_SemanaodoCliente_PalaciodaFerramenta.jpg",
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/ae132c7a-3085-4c7c-9779-dab9a14fd988/1920X500_Cod.10495_SemanaodoCliente_PalaciodaFerramenta.jpg"
               },
               {
+                "alt": "Na palacio tem",
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/a613c9fe-d078-4c3a-b379-281cfde935d2",
                 "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/4079d8e3-115d-4dd1-91ad-030bb8d5e680",
-                "alt": "Na palacio tem",
                 "action": {
                   "title": ".",
                   "subTitle": ".",
@@ -5409,10 +5387,10 @@
                 "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/a94293d2-5f45-4e42-aba4-6329f542f038",
                 "alt": "Luminárias",
                 "action": {
+                  "href": "/lampadas-e-iluminacao/lustres-e-pendentes",
                   "title": ".",
                   "subTitle": ".",
-                  "label": ".",
-                  "href": "/lampadas-e-iluminacao/lustres-e-pendentes"
+                  "label": "."
                 }
               }
             ],
