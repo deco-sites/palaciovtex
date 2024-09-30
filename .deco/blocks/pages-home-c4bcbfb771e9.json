@@ -5427,7 +5427,25 @@
             "container": true
           },
           {
-            "__resolveType": "Tarja de Beneficios"
+            "__resolveType": "site/sections/Content/Tipbar.tsx",
+            "items": [
+              {
+                "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/a4cf3bef-ab65-4483-b489-555734ef6d85",
+                "content": "Compras Acima de<br><b>R$300,00</b> <b>FRETE <br>GRÁTIS😊</b>(Sudeste)"
+              },
+              {
+                "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/dd9639ef-5470-4668-a389-a3d933829d03/RetireAqui_PalaciodaFerramenta.svg",
+                "content": "<b>Retire</b> seu pedido <br>em <b>nossa loja,</b><br>de forma <b>gratuita!</b>"
+              },
+              {
+                "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/e4b8f50a-e2d6-40e8-b38f-2bc3edfb8dc6",
+                "content": "53 anos de Excelência.<br>⭐⭐⭐⭐⭐"
+              },
+              {
+                "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/888d0588-bcdc-4077-ad17-7ab88966bc94",
+                "content": "Cartão de crédito <br>                        (até <b>6x</b>) ou                          <b>5%</b> <br> de desconto<br> no Boleto/PIX"
+              }
+            ]
           },
           {
             "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
