@@ -56,7 +56,8 @@
             "favoriteIcon": "Top right"
           }
         },
-        "__resolveType": "site/sections/Product/BuyTogether.tsx"
+        "__resolveType": "site/sections/Product/BuyTogether.tsx",
+        "principal": null
       },
       "__resolveType": "site/sections/Product/ProductDescription.tsx"
     },
