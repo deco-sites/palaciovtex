@@ -5,7 +5,8 @@
     {
       "title": "Quem Somos",
       "__resolveType": "website/sections/Seo/Seo.tsx",
-      "titleTemplate": "%s | Palácio das Ferramentas"
+      "titleTemplate": "%s | Palácio das Ferramentas",
+      "favicon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/81912b24-672f-4fe4-bf03-fb6a68b3143e/32X32_favicon_palacio-(1).png"
     },
     {
       "__resolveType": "Header - 01"
