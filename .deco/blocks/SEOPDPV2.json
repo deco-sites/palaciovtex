@@ -1,0 +1,10 @@
+{
+  "__resolveType": "commerce/sections/Seo/SeoPDPV2.tsx",
+  "jsonLD": {
+    "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
+    "slug": {
+      "__resolveType": "website/functions/requestToParam.ts",
+      "param": "slug"
+    }
+  }
+}

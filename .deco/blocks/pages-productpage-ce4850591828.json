@@ -6,14 +6,10 @@
   },
   "sections": [
     {
-      "jsonLD": {
-        "__resolveType": "PDP Loader"
-      },
-      "jsonLDs": [
-        {}
-      ],
-      "__resolveType": "commerce/sections/Seo/SeoPDP.tsx",
-      "favicon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/81912b24-672f-4fe4-bf03-fb6a68b3143e/32X32_favicon_palacio-(1).png"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "SEOPDPV2"
+      }
     },
     {
       "__resolveType": "Header - 01"
@@ -22,6 +18,7 @@
       "__resolveType": "Product Details - Gallery Slider "
     },
     {
+      "__resolveType": "site/sections/Product/ProductDescription.tsx",
       "page": {
         "__resolveType": "PDP Loader"
       },
@@ -57,12 +54,11 @@
             "favoriteIcon": "Top right"
           }
         },
-        "__resolveType": "site/sections/Product/BuyTogether.tsx",
-        "principal": null
-      },
-      "__resolveType": "site/sections/Product/ProductDescription.tsx"
+        "__resolveType": "site/sections/Product/BuyTogether.tsx"
+      }
     },
     {
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
       "title": "QUEM VIU, VIU TAMBÉM",
       "layout": {
         "showArrows": true,
@@ -85,12 +81,16 @@
         "basics": {
           "contentAlignment": "Center"
         }
-      },
-      "__resolveType": "site/sections/Product/ProductShelf.tsx"
+      }
     },
     {
       "__resolveType": "Rodapé FULL"
     }
   ],
-  "__resolveType": "website/pages/Page.tsx"
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "description": "",
+    "favicon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/81912b24-672f-4fe4-bf03-fb6a68b3143e/32X32_favicon_palacio-(1).png"
+  }
 }

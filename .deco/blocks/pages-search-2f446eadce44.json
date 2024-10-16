@@ -3,16 +3,10 @@
   "path": "/s",
   "sections": [
     {
-      "type": "website",
-      "__resolveType": "website/sections/Seo/Seo.tsx",
-      "titleTemplate": "%s | Deco.cx",
-      "descriptionTemplate": "%s | Deco.cx",
-      "favicon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/81912b24-672f-4fe4-bf03-fb6a68b3143e/32X32_favicon_palacio-(1).png"
-    },
-    {
       "__resolveType": "Header - 01"
     },
     {
+      "__resolveType": "site/sections/Product/SearchResult.tsx",
       "page": {
         "sort": "OrderByPriceDESC",
         "count": 29,
@@ -36,12 +30,15 @@
           "favoriteIcon": "Top right"
         }
       },
-      "startingPage": 1,
-      "__resolveType": "site/sections/Product/SearchResult.tsx"
+      "startingPage": 1
     },
     {
       "__resolveType": "Rodapé FULL"
     }
   ],
-  "__resolveType": "website/pages/Page.tsx"
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "favicon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/81912b24-672f-4fe4-bf03-fb6a68b3143e/32X32_favicon_palacio-(1).png"
+  }
 }

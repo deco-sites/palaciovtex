@@ -1,18 +1,13 @@
-import { Section } from "deco/blocks/section.ts";
-
+import { type Section } from "@deco/deco/blocks";
 interface Props {
-  sections?: Section[];
+    sections?: Section[];
 }
-
 function InstitucionalContent({ sections }: Props) {
-  return (
-    <section class="container">
+    return (<section class="container">
       <div>
         {sections &&
-          sections.map((section) => <section.Component {...section.props} />)}
+            sections.map((section) => <section.Component {...section.props}/>)}
       </div>
-    </section>
-  );
+    </section>);
 }
-
 export default InstitucionalContent;
