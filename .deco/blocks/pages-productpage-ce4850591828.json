@@ -8,7 +8,14 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "SEOPDPV2"
+        "__resolveType": "commerce/sections/Seo/SeoPDPV2.tsx",
+        "jsonLD": {
+          "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
+          "slug": {
+            "__resolveType": "website/functions/requestToParam.ts",
+            "param": "slug"
+          }
+        }
       }
     },
     {
