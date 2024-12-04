@@ -96,9 +96,11 @@ function CartItem(
           </Button>
         </div>
         <div class="flex items-center gap-2">
-          <span class="line-through text-sm">
-            {formatPrice(list, currency, locale)}
-          </span>
+          {list && sale && list > sale && (
+            <span class="line-through text-sm">
+              {formatPrice(list, currency, locale)}
+            </span>
+          )}
           <span class="text-sm text-black bold">
             {isGift ? "Grátis" : formatPrice(sale, currency, locale)}
           </span>

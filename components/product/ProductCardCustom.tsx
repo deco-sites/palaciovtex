@@ -222,7 +222,7 @@ export default function ProductCardCustom(
                           align == "left" ? "text-left" : "text-center"
                         }`}
                       >
-                        {listPrice && (
+                        {listPrice && price && listPrice > price && (
                           <div class="inline-block text-[#A6A5A1] text-base leading-[19px] line-through">
                             <span class="mr-[10px]">
                               {formatPrice(

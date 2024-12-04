@@ -489,7 +489,7 @@ function ProductCard({
           <div
             class={`h-[50px] ${align == "left" ? "text-left" : "text-center"}`}
           >
-            {listPrice && (
+            {listPrice && price && listPrice > price && (
               <div class="inline-block text-[#A6A5A1] text-xs md:text-base leading-[19px] line-through">
                 <span class="mr-[10px]">
                   {formatPrice(
