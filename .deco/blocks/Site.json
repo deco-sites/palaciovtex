@@ -84,9 +84,6 @@
       "__resolveType": "Analytics"
     },
     {
-      "__resolveType": "algolia/sections/Analytics/Algolia.tsx"
-    },
-    {
       "__resolveType": "analytics/sections/Analytics/DecoAnalytics.tsx"
     },
     {
@@ -147,7 +144,7 @@
       "includes": []
     }
   },
-  "firstByteThresholdMS": true,
+  "firstByteThresholdMS": false,
   "flavor": {
     "framework": "fresh"
   }
