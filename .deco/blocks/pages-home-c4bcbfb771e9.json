@@ -5348,6 +5348,39 @@
                 },
                 "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/c666f175-947a-4ee6-9452-243c7244a1ff/MOB_375X400_2315_PRODUTO_NataldeFerramentas_PalaciodaFerramenta.jpg",
                 "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/96013199-ad27-4f9b-8cab-b801da7d84b6/1920X500_2315_PRODUTO_NataldeFerramentas_PalaciodaFerramenta.jpg"
+              },
+              {
+                "action": {
+                  "label": ".",
+                  "title": ".",
+                  "subTitle": ".",
+                  "href": "/aparador-de-grama-eletrico-1000w-master---trapp/p?skuId=1679"
+                },
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/fd356eaf-6092-4290-a1dd-3623b7b41d34/MOB_375X400_12397_PRODUTO_NataldeFerramentas_PalaciodaFerramenta.jpg",
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/ee6fdfb0-29e4-4fcf-8caf-a1358e22a357/1920X500_12397_PRODUTO_NataldeFerramentas_PalaciodaFerramenta.jpg",
+                "alt": "12397 Trapp"
+              },
+              {
+                "alt": "26537 Bosch",
+                "action": {
+                  "label": ".",
+                  "title": ".",
+                  "subTitle": ".",
+                  "href": "/parafusadeira-e-furadeira-de-impacto-gsb-18v-50--18v--com-2-baterias---maleta---bosch/p?skuId=178"
+                },
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/daa91eab-7f2f-49d3-9b82-f783d6e7ccfc/MOB_375X400_26537_PRODUTO_NataldeFerramentas_PalaciodaFerramenta.jpg",
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/e4018bdb-87f1-4426-b589-5906c00202a8/1920X500_26537_PRODUTO_NataldeFerramentas_PalaciodaFerramenta.jpg"
+              },
+              {
+                "alt": "7140 Schneider",
+                "action": {
+                  "label": ".",
+                  "title": ".",
+                  "subTitle": ".",
+                  "href": "/bomba-autoaspirante-monofasica-asp-98-1-2cv---schneider/p?skuId=198"
+                },
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/1d3989a2-f061-4509-a8dd-a5231a206869/MOB_375X400_7140_PRODUTO_NataldeFerramentas_PalaciodaFerramenta.jpg",
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/c5fc1848-cb20-4dda-bdef-c46ae9a36135/1920X500_7140_PRODUTO_NataldeFerramentas_PalaciodaFerramenta.jpg"
               }
             ],
             "layout": {
