@@ -5328,15 +5328,15 @@
             "arrows": true,
             "images": [
               {
-                "alt": "Baixou ontem! Confira as ofertas!",
+                "alt": "Confira as ofertas de Natal!",
                 "action": {
                   "href": "/ofertas",
                   "label": ".",
                   "title": ".",
                   "subTitle": "."
                 },
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/6fb800e3-f63e-49e6-a3f3-57dc20b91437/MOB_375X400_BaixouOntem_PalaciodaFerramenta.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/5f0b8071-ae14-407e-abb4-108a11d16142/1920X500_BaixouOntem_PalaciodaFerramenta.jpg"
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/39b22e12-282c-4b37-b983-c8d928c9b91f/MOB_375X400_NataldeFerramentas_PalaciodaFerramenta.jpg",
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/82998bb8-e20e-47ba-8abb-a4155fdd543e/1920X500_NataldeFerramentas_PalaciodaFerramenta.jpg"
               }
             ],
             "layout": {
