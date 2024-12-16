@@ -20,10 +20,10 @@ function NossasLojas({ lojas }: Props) {
   const isOpen = selectedLoja.value !== null;
 
   return (
-    <section class="grid grid-cols-1 md:grid-cols-3 gap-4 container">
+    <section class="flex justify-center flex-col md:flex-row items-start gap-4 container">
       {lojas && lojas.map((loja) => {
         return (
-          <div class="pb-4">
+          <div class="pb-4 w-wull md:max-w-[33.33%] min-w-[33.33%]">
             <img class="w-full h-auto" src={loja.image} alt={loja.title} />
             <h4 class="block mt-5 mr-0 mb-2 ml-0 text-base font-bold leading-6">
               {loja.title}
