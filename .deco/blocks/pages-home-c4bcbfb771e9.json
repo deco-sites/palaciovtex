@@ -5627,22 +5627,12 @@
                   "subTitle": ".",
                   "label": "."
                 }
-              },
-              {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/ee1b423a-52ee-4d9e-87ca-e1d39d380236",
-                "alt": "Loja 2",
-                "action": {
-                  "href": "/institucional/nossas-lojas",
-                  "title": "title",
-                  "subTitle": "Subtitle",
-                  "label": "Label"
-                }
               }
             ],
             "layout": {
               "columns": {
                 "mobile": 1,
-                "desktop": 3
+                "desktop": 2
               }
             },
             "preload": false,
