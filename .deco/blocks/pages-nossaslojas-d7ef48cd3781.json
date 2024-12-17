@@ -7,18 +7,40 @@
       "__resolveType": "website/sections/Seo/Seo.tsx",
       "titleTemplate": "%s | Palácio das Ferramentas"
     },
-    { "__resolveType": "Header - 01" },
+    {
+      "__resolveType": "Header - 01"
+    },
     {
       "sections": [
         {
           "title": "Nossas Lojas",
           "__resolveType": "site/sections/Institucional/InstitucionalTitle.tsx"
         },
-        { "__resolveType": "Institucional Lojas" }
+        {
+          "__resolveType": "site/sections/Institucional/NossaLojas.tsx",
+          "lojas": [
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/bf44e8f3-dc5f-4f48-9f5f-a6f532468e2f",
+              "title": "Matriz",
+              "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.200638692248!2d-43.18350088448792!3d-22.905969293601927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997c7225042463:0x8f4d4178a1459790!2sPalÃ¡cio da Ferramenta, MÃ¡quinas Ltda!5e0!3m2!1spt-BR!2sbr!4v1623251867327!5m2!1spt-BR!2sbr",
+              "horario": "Segunda à sexta, das 09:00 às 18:00; Sábado das 09:00 às 13:00.",
+              "endereco": "Rua Buenos Aires, Nº 150/160 e Rua Senhor dos Passos, Nº 23 - Centro – RJ<br/> CEP: 20070-022"
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/21ad0cf0-56bb-4680-9d6e-39ed907fab95",
+              "title": "Filial 1",
+              "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2009073637837!2d-43.18350088457358!3d-22.905959380804898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f67409e1435:0xacad772aa5a991c6!2sPalacio da Ferramenta, MÃ¡quinas Ltda!5e0!3m2!1spt-BR!2sbr!4v1623252279962!5m2!1spt-BR!2sbr",
+              "horario": "Segunda à sexta, das 09:00 às 18:00; Sábado das 09:00 às 13:00.",
+              "endereco": "Rua da Carioca, Nº 46/48 e Rua Sete de Setembro, Nº 197/203 - Centro – RJ <br/> CEP: 20050-008"
+            }
+          ]
+        }
       ],
       "__resolveType": "site/sections/Content/InstitucionalContent.tsx"
     },
-    { "__resolveType": "Rodapé FULL" }
+    {
+      "__resolveType": "Rodapé FULL"
+    }
   ],
   "__resolveType": "website/pages/Page.tsx"
 }
