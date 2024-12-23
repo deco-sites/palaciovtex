@@ -5328,18 +5328,28 @@
             "arrows": true,
             "images": [
               {
-                "alt": "Confira as ofertas de Natal!",
+                "alt": "O Verão chegou! As melhores ofertas de Verão estão chegando! Aguarde!",
                 "action": {
-                  "href": "/ofertas",
                   "label": ".",
                   "title": ".",
-                  "subTitle": "."
+                  "subTitle": ".",
+                  "href": "."
+                },
+                "mobile": "https://data.decoassets.com/palaciovtex/9983fc42-d954-4136-8183-af06c22746b5/375X400_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
+                "desktop": "https://data.decoassets.com/palaciovtex/c17c1bf7-7013-40dc-bea2-190b22c908b7/1920X500_SolObraEconomia_Verao_PalaciodaFerramenta.jpg"
+              },
+              {
+                "alt": "Confira as ofertas de Natal!",
+                "action": {
+                  "label": ".",
+                  "title": ".",
+                  "subTitle": ".",
+                  "href": "/ofertas"
                 },
                 "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/39b22e12-282c-4b37-b983-c8d928c9b91f/MOB_375X400_NataldeFerramentas_PalaciodaFerramenta.jpg",
                 "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/82998bb8-e20e-47ba-8abb-a4155fdd543e/1920X500_NataldeFerramentas_PalaciodaFerramenta.jpg"
               },
               {
-                "alt": "50526 Tron",
                 "action": {
                   "label": ".",
                   "title": ".",
@@ -5347,9 +5357,11 @@
                   "href": "/ventilador-de-teto-marbella-new-127v-3-pas-preto-mogno-tron/p?skuId=3797"
                 },
                 "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/f3b3136b-6a98-4691-90a9-7e1749064442/MOB_375X400_50526_PRODUTO_NataldeFerramentas_PalaciodaFerramenta.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/bef46fa7-88a9-4bd3-a2b6-5a4667c437cb/1920X500_50526_PRODUTO_NataldeFerramentas_PalaciodaFerramenta.jpg"
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/bef46fa7-88a9-4bd3-a2b6-5a4667c437cb/1920X500_50526_PRODUTO_NataldeFerramentas_PalaciodaFerramenta.jpg",
+                "alt": "50526 Tron"
               },
               {
+                "alt": "383996 Soprano",
                 "action": {
                   "label": ".",
                   "title": ".",
@@ -5357,8 +5369,7 @@
                   "href": "/fechadura-popline-externa-espelho--40mm----soprano/p?skuId=1227"
                 },
                 "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/0f0970d3-f18f-4408-96d5-d995f987f8b2/MOB_375X400_383996_PRODUTO_NataldeFerramentas_PalaciodaFerramenta.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/2532aa2a-8203-4001-a280-0fac3c1d0cb5/1920X500_383996_PRODUTO_NataldeFerramentas_PalaciodaFerramenta.jpg",
-                "alt": "383996 Soprano"
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/2532aa2a-8203-4001-a280-0fac3c1d0cb5/1920X500_383996_PRODUTO_NataldeFerramentas_PalaciodaFerramenta.jpg"
               },
               {
                 "alt": "12397 Trapp",
