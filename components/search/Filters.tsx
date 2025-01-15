@@ -87,10 +87,12 @@ function Filters({ filters }: Props) {
                           <span>Categorias</span>
                         )}
                         {filter.label == "Brands" && <span>Marcas</span>}
-                        {filter.label == "PriceRanges" && <span>Faixa de Preço</span>}
+                        {filter.label == "PriceRanges" && (
+                          <span>Faixa de Preço</span>
+                        )}
                         {filter.label != "Brands" &&
-                        filter.label != "PriceRanges" &&
-                        filter.label != "Categories" && (
+                          filter.label != "PriceRanges" &&
+                          filter.label != "Categories" && (
                           <span>{filter.label}</span>
                         )}
                       </div>
