@@ -17,7 +17,7 @@ export default defineApp(async (_req, ctx) => {
       <Head>
         {/* Enable View Transitions API */}
         <meta name="view-transition" content="same-origin" />
-        <script
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -27,7 +27,7 @@ export default defineApp(async (_req, ctx) => {
             })(window,document,'script','dataLayer','GTM-MPPM6RW')
           `,
           }}
-        />
+        /> */}
         {/* <script type="text/js" id="gtm-script-GTM-MPPM6RW" src="https://www.googletagmanager.com/gtm.js?id=GTM-MPPM6RW"></script> */}
 
         {/* Tailwind v3 CSS file */}

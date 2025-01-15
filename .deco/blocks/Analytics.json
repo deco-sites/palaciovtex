@@ -1,5 +1,9 @@
 {
-  "trackingIds": [],
+  "trackingIds": [
+    "GTM-MPPM6RW"
+  ],
   "__resolveType": "website/sections/Analytics/Analytics.tsx",
-  "googleAnalyticsIds": []
+  "googleAnalyticsIds": [
+    "G-F7FESCGYR2"
+  ]
 }
