@@ -5328,6 +5328,17 @@
             "arrows": true,
             "images": [
               {
+                "alt": "Ar e ventilação",
+                "action": {
+                  "label": ".",
+                  "title": ".",
+                  "subTitle": ".",
+                  "href": "/casa-e-jardim/ar-e-ventilacao"
+                },
+                "mobile": "https://data.decoassets.com/palaciovtex/504c9ab3-0719-46c8-b781-35bd527bcce3/375X400_OCalorTaOn_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
+                "desktop": "https://data.decoassets.com/palaciovtex/3edfdb65-e14c-4f51-955d-36a356133665/1920X500_OCalorTaOn_SolObraEconomia_Verao_PalaciodaFerramenta.jpg"
+              },
+              {
                 "alt": "O Verão chegou! As melhores ofertas de Verão estão chegando! Aguarde!",
                 "action": {
                   "label": ".",
@@ -5339,7 +5350,6 @@
                 "desktop": "https://data.decoassets.com/palaciovtex/e938c254-4b5b-4d28-a1e5-b2b589560042/1920X500_Home1_SolObraEconomia_Verao_PalaciodaFerramenta.jpg"
               },
               {
-                "alt": "Bosch 10494",
                 "action": {
                   "label": ".",
                   "title": ".",
@@ -5347,9 +5357,11 @@
                   "href": "/parafusadeira-e-furadeira-a-bateria-12v-gsr-1000-smart---carregador-bivolt---maleta---bosch/p?skuId=483"
                 },
                 "mobile": "https://data.decoassets.com/palaciovtex/b2ae8202-29a4-4b0f-b1ec-4f718c5f88ba/COD10494_375X400_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
-                "desktop": "https://data.decoassets.com/palaciovtex/db96a157-509d-491b-8b2c-efaa2b0e362b/COD10494_1920X500_SolObraEconomia_Verao_PalaciodaFerramenta.jpg"
+                "desktop": "https://data.decoassets.com/palaciovtex/db96a157-509d-491b-8b2c-efaa2b0e362b/COD10494_1920X500_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
+                "alt": "Bosch 10494"
               },
               {
+                "alt": "Chuveiro 600245",
                 "action": {
                   "label": ".",
                   "title": ".",
@@ -5357,8 +5369,7 @@
                   "href": "/chuveiro-ducha--maxi-banho-ultra--c-cano-4600w---lorenzetti/p?skuId=1597"
                 },
                 "mobile": "https://data.decoassets.com/palaciovtex/e0401f5d-f8d7-4084-a6f8-508e2f233227/375X400_PRODUTOS_600245_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
-                "desktop": "https://data.decoassets.com/palaciovtex/16bf6f98-31aa-491b-8064-7a0b9eec8a05/1920X500_PRODUTOS_600245_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
-                "alt": "Chuveiro 600245"
+                "desktop": "https://data.decoassets.com/palaciovtex/16bf6f98-31aa-491b-8064-7a0b9eec8a05/1920X500_PRODUTOS_600245_SolObraEconomia_Verao_PalaciodaFerramenta.jpg"
               },
               {
                 "alt": "Bomba 7140",
@@ -5370,17 +5381,6 @@
                 },
                 "mobile": "https://data.decoassets.com/palaciovtex/37b210fe-f4de-458d-bd61-971c636d8557/375X400_PRODUTOS_7140-7141_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
                 "desktop": "https://data.decoassets.com/palaciovtex/e982963f-ad66-4155-9ef3-cc159ee14613/1920X500_PRODUTOS_7140_7141_SolObraEconomia_Verao_PalaciodaFerramenta.jpg"
-              },
-              {
-                "alt": "Ventilador 50525",
-                "action": {
-                  "label": ".",
-                  "title": ".",
-                  "subTitle": ".",
-                  "href": "/ventilador-de-teto-marbella-new-127v-3-pas-preto-mogno-tron/p?skuId=3797"
-                },
-                "mobile": "https://data.decoassets.com/palaciovtex/6d1680fc-df2e-4665-aad1-e553c113a41a/375X400_PRODUTOS_50525_50526_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
-                "desktop": "https://data.decoassets.com/palaciovtex/4ec2f203-84bd-4113-845e-ca1c71a58bb6/1920X500_PRODUTOS_50525_50526_SolObraEconomia_Verao_PalaciodaFerramenta.jpg"
               },
               {
                 "alt": "Luminaria de emerg 42032",
