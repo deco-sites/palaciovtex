@@ -5328,136 +5328,15 @@
             "arrows": true,
             "images": [
               {
-                "alt": "Ar e ventilação",
-                "action": {
-                  "label": ".",
-                  "title": ".",
-                  "subTitle": ".",
-                  "href": "/casa-e-jardim/ar-e-ventilacao"
-                },
-                "mobile": "https://data.decoassets.com/palaciovtex/504c9ab3-0719-46c8-b781-35bd527bcce3/375X400_OCalorTaOn_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
-                "desktop": "https://data.decoassets.com/palaciovtex/3edfdb65-e14c-4f51-955d-36a356133665/1920X500_OCalorTaOn_SolObraEconomia_Verao_PalaciodaFerramenta.jpg"
-              },
-              {
-                "alt": "50508",
-                "action": {
-                  "label": ".",
-                  "title": ".",
-                  "subTitle": ".",
-                  "href": "/ventilador-de-parede-oscilante-c1-preto-50cm-127v-140w---tron/p?skuId=3782"
-                },
-                "mobile": "https://data.decoassets.com/palaciovtex/62cf06ac-eefa-4283-bbf5-4be8717a126f/50508_375X400_PRODUTOS_OCalorTaOn_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
-                "desktop": "https://data.decoassets.com/palaciovtex/d33c19c1-8f73-402c-938c-773a48443853/1920X500_50508_PRODUTOS_OCalorTaOn_SolObraEconomia_Verao_PalaciodaFerramenta.jpg"
-              },
-              {
-                "action": {
-                  "label": ".",
-                  "title": ".",
-                  "subTitle": ".",
-                  "href": "/ventilador-de-pedestal-tron-premium-50cm--140w--6-pas---preto/p?skuId=3784"
-                },
-                "mobile": "https://data.decoassets.com/palaciovtex/68aee09a-7d21-4d09-b553-20dd47df25b6/50498_375X400_PRODUTOS_OCalorTaOn_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
-                "desktop": "https://data.decoassets.com/palaciovtex/7c1bc874-f475-471a-9cb1-92bf83677ea2/1920X500_50498_PRODUTOS_OCalorTaOn_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
-                "alt": "50498"
-              },
-              {
-                "alt": "50519",
-                "action": {
-                  "label": ".",
-                  "title": ".",
-                  "subTitle": ".",
-                  "href": "/ventilador-de-teto-solano-127v-3-pas-tron-cobreado-verniz/p?skuId=3791"
-                },
-                "mobile": "https://data.decoassets.com/palaciovtex/3ef1f496-d4c9-4d6c-96b2-a8d7d74e4186/50519_375X400_PRODUTOS_OCalorTaOn_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
-                "desktop": "https://data.decoassets.com/palaciovtex/efd58c4c-ac3b-4e67-b094-a9409d601ee4/1920X500_50519_PRODUTOS_OCalorTaOn_SolObraEconomia_Verao_PalaciodaFerramenta.jpg"
-              },
-              {
-                "alt": "50525",
-                "action": {
-                  "label": ".",
-                  "title": ".",
-                  "subTitle": ".",
-                  "href": "/ventilador-de-teto-marbella-new-127v-3-pas-branco-tron/p?skuId=3796"
-                },
-                "mobile": "https://data.decoassets.com/palaciovtex/848297eb-1110-4dc6-b15d-e61012cea109/50525_375X400_PRODUTOS_OCalorTaOn_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
-                "desktop": "https://data.decoassets.com/palaciovtex/7c98efd0-e3a7-4ba7-8b6f-ebcadec15122/1920X500_50525_PRODUTOS_OCalorTaOn_SolObraEconomia_Verao_PalaciodaFerramenta.jpg"
-              },
-              {
-                "alt": "50517",
-                "action": {
-                  "label": ".",
-                  "title": ".",
-                  "subTitle": ".",
-                  "href": "/ventilador-de-teto-ventura-led-tron-3-pas--127v---branco/p?skuId=3789"
-                },
-                "mobile": "https://data.decoassets.com/palaciovtex/7f4ec0ef-5a74-4d9f-bd07-8a44c991ccde/50517_375X400_PRODUTOS_OCalorTaOn_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
-                "desktop": "https://data.decoassets.com/palaciovtex/14eb78ba-1014-4cb7-b77e-b08e551d3b30/1920X500_50517_PRODUTOS_OCalorTaOn_SolObraEconomia_Verao_PalaciodaFerramenta.jpg"
-              },
-              {
-                "action": {
-                  "label": ".",
-                  "title": ".",
-                  "subTitle": ".",
-                  "href": "/ventilador-de-teto-aventador-stilo-127v-3-pas-tron---cobre/p?skuId=3793"
-                },
-                "mobile": "https://data.decoassets.com/palaciovtex/96c698c1-5f38-445c-a87e-f9f7abb35839/50522_375X400_PRODUTOS_OCalorTaOn_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
-                "desktop": "https://data.decoassets.com/palaciovtex/a88f0f1e-84f8-4e62-ae93-ec25c3054665/1920X500_50522_PRODUTOS_OCalorTaOn_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
-                "alt": "50522"
-              },
-              {
-                "alt": "O Verão chegou! As melhores ofertas de Verão estão chegando! Aguarde!",
+                "alt": "Maratona de ofertas",
                 "action": {
                   "label": ".",
                   "title": ".",
                   "subTitle": ".",
                   "href": "/ofertas"
                 },
-                "mobile": "https://data.decoassets.com/palaciovtex/99be6e70-fc0e-4a0d-a4cc-992c011043c7/375X400_Home1_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
-                "desktop": "https://data.decoassets.com/palaciovtex/e938c254-4b5b-4d28-a1e5-b2b589560042/1920X500_Home1_SolObraEconomia_Verao_PalaciodaFerramenta.jpg"
-              },
-              {
-                "desktop": "https://data.decoassets.com/palaciovtex/db96a157-509d-491b-8b2c-efaa2b0e362b/COD10494_1920X500_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
-                "mobile": "https://data.decoassets.com/palaciovtex/b2ae8202-29a4-4b0f-b1ec-4f718c5f88ba/COD10494_375X400_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
-                "alt": "Bosch 10494",
-                "action": {
-                  "href": "/parafusadeira-e-furadeira-a-bateria-12v-gsr-1000-smart---carregador-bivolt---maleta---bosch/p?skuId=483",
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                }
-              },
-              {
-                "desktop": "https://data.decoassets.com/palaciovtex/16bf6f98-31aa-491b-8064-7a0b9eec8a05/1920X500_PRODUTOS_600245_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
-                "mobile": "https://data.decoassets.com/palaciovtex/e0401f5d-f8d7-4084-a6f8-508e2f233227/375X400_PRODUTOS_600245_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
-                "alt": "Chuveiro 600245",
-                "action": {
-                  "href": "/chuveiro-ducha--maxi-banho-ultra--c-cano-4600w---lorenzetti/p?skuId=1597",
-                  "title": ".",
-                  "label": ".",
-                  "subTitle": "."
-                }
-              },
-              {
-                "action": {
-                  "label": ".",
-                  "title": ".",
-                  "subTitle": ".",
-                  "href": "/luminaria-de-emergencia-lea-31-branco---intelbras/p?skuId=3748"
-                },
-                "mobile": "https://data.decoassets.com/palaciovtex/4eaf7990-c3ae-42b2-8a60-397316c3fb1a/375X400_PRODUTO_42032_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
-                "desktop": "https://data.decoassets.com/palaciovtex/9cabfd14-4042-4859-952d-a1f4643e98df/1920X500_PRODUTOS_42032_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
-                "alt": "Luminaria de emerg 42032"
-              },
-              {
-                "action": {
-                  "label": ".",
-                  "title": ".",
-                  "subTitle": ".",
-                  "href": "/serra-marmore-1500w-4-7-8--gdc150-titan---bosch/p?skuId=320"
-                },
-                "mobile": "https://data.decoassets.com/palaciovtex/764c8170-813a-4669-b5e6-66f04e124efb/375X400_PRODUTOS_806149_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
-                "desktop": "https://data.decoassets.com/palaciovtex/9ae5313a-3892-4d72-b135-a0a63f804766/1920X500_PRODUTOS_806149_SolObraEconomia_Verao_PalaciodaFerramenta.jpg",
-                "alt": "Serra marmore 806149"
+                "mobile": "https://assets.decocache.com/palaciovtex/14918c4b-a083-429a-b076-975f4222ab94/375X400_Home1_MaratonadeOfertas2025_PalaciodaFerramenta.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/2ee3645a-4652-47f7-b119-360552422f2e/1920X500_Home1_MaratonadeOfertas_2025_PalaciodaFerramenta.jpg"
               }
             ],
             "layout": {
