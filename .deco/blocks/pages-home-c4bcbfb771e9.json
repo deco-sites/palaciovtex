@@ -5328,6 +5328,17 @@
             "arrows": true,
             "images": [
               {
+                "alt": "Utilidades para o lar",
+                "action": {
+                  "label": ".",
+                  "title": ".",
+                  "subTitle": ".",
+                  "href": "/decoracao-e-organizacao/utilidades-domesticas"
+                },
+                "mobile": "https://assets.decocache.com/palaciovtex/22c7c9e7-ae9b-4e5e-b8a8-18f649e52505/375X400_UtilidadesLar_MaratonadeOfertas2025_PalaciodaFerramenta.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/736ace81-a7c5-476d-b196-e31b7b60a198/1920X500_UtilidadesLar__MaratonadeOfertas2025_PalaciodaFerramenta.jpg"
+              },
+              {
                 "alt": "Maratona de ofertas",
                 "action": {
                   "label": ".",
