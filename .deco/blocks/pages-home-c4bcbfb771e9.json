@@ -5328,6 +5328,17 @@
             "arrows": true,
             "images": [
               {
+                "alt": "Frete grátis RJ",
+                "action": {
+                  "label": ".",
+                  "title": ".",
+                  "subTitle": ".",
+                  "href": "­"
+                },
+                "mobile": "https://assets.decocache.com/palaciovtex/1ed6865f-0a7d-434e-9bb8-d28b98f68d60/375X400_FreteGratis_54Anos_PalaciodaFerramenta.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/1be38644-c7b0-4329-a4bc-4661b2c84908/1920X500_FreteGratis_54Anos_PalaciodaFerramenta.jpg"
+              },
+              {
                 "alt": "Encarte de aniversário",
                 "action": {
                   "label": ".",
