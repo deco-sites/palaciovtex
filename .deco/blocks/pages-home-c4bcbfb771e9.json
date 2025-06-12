@@ -5328,6 +5328,17 @@
             "arrows": true,
             "images": [
               {
+                "alt": "Dia dos Namorados",
+                "action": {
+                  "label": ".",
+                  "title": ".",
+                  "subTitle": ".",
+                  "href": "/ofertas"
+                },
+                "mobile": "https://assets.decocache.com/palaciovtex/b040c489-8e98-43a6-bf4d-1b995d040a04/Prancheta-2.png",
+                "desktop": "https://assets.decocache.com/palaciovtex/1130f65f-443c-4b45-94cb-a5135c20b278/Prancheta-1.jpg"
+              },
+              {
                 "alt": "Encarte de aniversário",
                 "action": {
                   "label": ".",

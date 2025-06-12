@@ -147,5 +147,7 @@
   "firstByteThresholdMS": false,
   "flavor": {
     "framework": "fresh"
-  }
+  },
+  "whilelistURLs": [],
+  "whitelistPatterns": []
 }
