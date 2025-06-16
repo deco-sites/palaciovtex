@@ -5328,39 +5328,6 @@
             "arrows": true,
             "images": [
               {
-                "alt": "Dia dos Namorados",
-                "action": {
-                  "label": ".",
-                  "title": ".",
-                  "subTitle": ".",
-                  "href": "/ofertas"
-                },
-                "mobile": "https://assets.decocache.com/palaciovtex/b040c489-8e98-43a6-bf4d-1b995d040a04/Prancheta-2.png",
-                "desktop": "https://assets.decocache.com/palaciovtex/1130f65f-443c-4b45-94cb-a5135c20b278/Prancheta-1.jpg"
-              },
-              {
-                "alt": "Encarte de aniversário",
-                "action": {
-                  "label": ".",
-                  "title": ".",
-                  "subTitle": ".",
-                  "href": "https://drive.google.com/file/d/1EyTwzkeUy7TToVBqP-SMiy09LcUWXVv5/view?fbclid=PAZXh0bgNhZW0CMTEAAae_gyjuJ5sBKxTthQhI37nI8Ugymm6LI7UK_Fh6E6FbFDm_M4cJ9uj2vD5tmw_aem_6i55GyAmbIpdIThnteLhhg"
-                },
-                "mobile": "https://assets.decocache.com/palaciovtex/9fb0d636-dde2-471e-b317-b390cafdc0c5/375X400_Encarte_54Anos_PalaciodaFerramenta.jpg",
-                "desktop": "https://assets.decocache.com/palaciovtex/6062e514-7add-4fd3-b55b-f2569bdccb8a/1920X500_Encarte_54Anos_PalaciodaFerramenta.jpg"
-              },
-              {
-                "alt": "Frete grátis RJ",
-                "action": {
-                  "label": ".",
-                  "title": ".",
-                  "subTitle": ".",
-                  "href": "."
-                },
-                "mobile": "https://assets.decocache.com/palaciovtex/1ed6865f-0a7d-434e-9bb8-d28b98f68d60/375X400_FreteGratis_54Anos_PalaciodaFerramenta.jpg",
-                "desktop": "https://assets.decocache.com/palaciovtex/1be38644-c7b0-4329-a4bc-4661b2c84908/1920X500_FreteGratis_54Anos_PalaciodaFerramenta.jpg"
-              },
-              {
                 "alt": "26537 Bosch",
                 "action": {
                   "label": ".",
@@ -5381,39 +5348,6 @@
                 },
                 "mobile": "https://assets.decocache.com/palaciovtex/c168c586-15db-4d38-966f-a7fa26dbfc5d/375X400_38068_Produtos_2_54Anos_PalaciodaFerramenta.png",
                 "desktop": "https://assets.decocache.com/palaciovtex/93ca4b0a-0c7a-4e5c-87c5-aea20c73d740/1920X500_38068_Produtos_2_54Anos_PalaciodaFerramenta.png"
-              },
-              {
-                "alt": "13522 Color jet",
-                "action": {
-                  "label": ".",
-                  "title": ".",
-                  "subTitle": ".",
-                  "href": "/tinta-spray-color-jet-uso-geral--branco-brilhante-400ml---tintas-renner/p?skuId=1794"
-                },
-                "mobile": "https://assets.decocache.com/palaciovtex/9395da0b-6c94-488f-8383-9330cebf53cd/375X400_13522_Produtos_2_54Anos_PalaciodaFerramenta.png",
-                "desktop": "https://assets.decocache.com/palaciovtex/6043ac47-4c0b-43f3-b9a4-00f6b322785a/1920X500_13522_Produtos_2_54Anos_PalaciodaFerramenta.png"
-              },
-              {
-                "alt": "13548 Ourolux",
-                "action": {
-                  "label": ".",
-                  "title": ".",
-                  "subTitle": ".",
-                  "href": "/plafon-de-led-embutir-18w-bivolt-2700k-redondo-ourolux/p?skuId=3759"
-                },
-                "mobile": "https://assets.decocache.com/palaciovtex/7d97e6b0-2a17-4097-9e8d-44e3fc585fb6/375X400_13548_Produtos_2_54Anos_PalaciodaFerramenta.png",
-                "desktop": "https://assets.decocache.com/palaciovtex/770e04db-c60a-4af4-b341-d6abf31cabc4/1920X500_13548_Produtos_2_54Anos_PalaciodaFerramenta.png"
-              },
-              {
-                "alt": "35945 Bosch",
-                "action": {
-                  "label": ".",
-                  "title": ".",
-                  "subTitle": ".",
-                  "href": "/martelete-perfurador-bosch-820w-gbh-2-24-d---127v/p?skuId=3320"
-                },
-                "mobile": "https://assets.decocache.com/palaciovtex/a815f9a0-5889-4c68-bca1-134c1f75516b/375X400_35945_Produtos_54Anos_PalaciodaFerramenta.jpg",
-                "desktop": "https://assets.decocache.com/palaciovtex/f976f331-2599-4fc3-989b-a5af66a42ed4/1920X500_35945_Produtos_54Anos_PalaciodaFerramenta.jpg"
               }
             ],
             "layout": {
