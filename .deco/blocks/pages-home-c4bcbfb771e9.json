@@ -5328,26 +5328,15 @@
             "arrows": true,
             "images": [
               {
-                "alt": "26537 Bosch",
+                "alt": "Ofertas",
                 "action": {
                   "label": ".",
                   "title": ".",
                   "subTitle": ".",
-                  "href": "/parafusadeira-e-furadeira-de-impacto-gsb-18v-50--18v--com-2-baterias---maleta---bosch/p?skuId=178"
+                  "href": "/ofertas"
                 },
-                "mobile": "https://assets.decocache.com/palaciovtex/11277fdb-446e-48ff-984e-fb054321ee93/375X400_26537_Produtos_2_54Anos_PalaciodaFerramenta.png",
-                "desktop": "https://assets.decocache.com/palaciovtex/15b48db4-907a-4094-8077-e3035a205f71/1920X500_26537_Produtos2_54Anos_PalaciodaFerramenta.png"
-              },
-              {
-                "alt": "38068 Duda",
-                "action": {
-                  "label": ".",
-                  "title": ".",
-                  "subTitle": ".",
-                  "href": "/torneira-com-filtro-movel-1-2-vm---cr--parede-/p?skuId=3890"
-                },
-                "mobile": "https://assets.decocache.com/palaciovtex/c168c586-15db-4d38-966f-a7fa26dbfc5d/375X400_38068_Produtos_2_54Anos_PalaciodaFerramenta.png",
-                "desktop": "https://assets.decocache.com/palaciovtex/93ca4b0a-0c7a-4e5c-87c5-aea20c73d740/1920X500_38068_Produtos_2_54Anos_PalaciodaFerramenta.png"
+                "mobile": "https://assets.decocache.com/palaciovtex/38a7da1e-e7b2-4cb2-946d-8892d3705bde/375X400_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/b66e60fc-de35-4a17-afaf-86ab69528f46/1920X500_TudoparaAsuaObra_PalaciodaFerrramenta.jpg"
               }
             ],
             "layout": {
