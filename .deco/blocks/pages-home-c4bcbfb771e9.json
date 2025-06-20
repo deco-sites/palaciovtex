@@ -1152,6 +1152,17 @@
             "arrows": true,
             "images": [
               {
+                "alt": "Inverno",
+                "action": {
+                  "href": "/ofertas",
+                  "label": ".",
+                  "title": ".",
+                  "subTitle": "."
+                },
+                "mobile": "https://assets.decocache.com/palaciovtex/5ba0676e-e6ca-4e47-9aee-2fe0382a5e33/375X400_OInvernoChegou_PalaciodaFerramenta.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/d3f5fc65-341e-4019-a2d5-39d5c7ba45f9/1920X500_OInvernoChegou_PalaciodaFerramenta.jpg"
+              },
+              {
                 "alt": "Ofertass",
                 "action": {
                   "href": "/ofertas",
