@@ -1152,6 +1152,17 @@
             "arrows": true,
             "images": [
               {
+                "alt": "Entrega expressa",
+                "action": {
+                  "href": "https://wa.me/5521999689492",
+                  "label": ".",
+                  "title": ".",
+                  "subTitle": "."
+                },
+                "mobile": "https://assets.decocache.com/palaciovtex/ec877b7e-7ede-4afe-a761-1e5b2fa3dea9/Prancheta-2.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/5151471b-6f87-4872-ae3e-6dfdbff93b8b/Prancheta-1.jpg"
+              },
+              {
                 "alt": "Inverno",
                 "action": {
                   "href": "/ofertas",
@@ -1163,26 +1174,26 @@
                 "desktop": "https://assets.decocache.com/palaciovtex/f01bbc04-f48f-4a7d-b27b-3341bf7e3457/1920X500_OInverno_Chegou_PalaciodaFerramenta.jpg"
               },
               {
+                "desktop": "https://assets.decocache.com/palaciovtex/393e5ff1-6ee8-4707-92dd-e4620200f5e9/31749_Produtos_1920X500_OInvernoChegou_PalaciodaFerramenta.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/072450d8-4805-4095-a549-e6483689894e/31749_Produtos_375X400_OInvernoChegou_PalaciodaFerramenta.jpg",
                 "alt": "31749",
                 "action": {
                   "href": "/chuveiro-loren-shower-eletronico-5500w-7500w--branco---lorenzetti-127v/p?skuId=2774",
-                  "label": ".",
-                  "title": ".",
-                  "subTitle": "."
-                },
-                "mobile": "https://assets.decocache.com/palaciovtex/072450d8-4805-4095-a549-e6483689894e/31749_Produtos_375X400_OInvernoChegou_PalaciodaFerramenta.jpg",
-                "desktop": "https://assets.decocache.com/palaciovtex/393e5ff1-6ee8-4707-92dd-e4620200f5e9/31749_Produtos_1920X500_OInvernoChegou_PalaciodaFerramenta.jpg"
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/7c4760c6-9e10-4eeb-bd10-3d06b5da543c/24946_Produtos_1920X500_OInvernoChegou_PalaciodaFerramenta.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/52ff5d08-a30c-4d13-ac5b-6be1cac80018/24946_Produtos_375X400_OInvernoChegou_PalaciodaFerramenta.jpg",
-                "alt": "24946",
-                "action": {
-                  "href": "/purificador-de-agua-acqua-due-de-parede---lorenzetti/p?skuId=2228",
                   "title": ".",
                   "subTitle": ".",
                   "label": "."
                 }
+              },
+              {
+                "alt": "24946",
+                "action": {
+                  "href": "/purificador-de-agua-acqua-due-de-parede---lorenzetti/p?skuId=2228",
+                  "label": ".",
+                  "title": ".",
+                  "subTitle": "."
+                },
+                "mobile": "https://assets.decocache.com/palaciovtex/52ff5d08-a30c-4d13-ac5b-6be1cac80018/24946_Produtos_375X400_OInvernoChegou_PalaciodaFerramenta.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/7c4760c6-9e10-4eeb-bd10-3d06b5da543c/24946_Produtos_1920X500_OInvernoChegou_PalaciodaFerramenta.jpg"
               },
               {
                 "alt": "53419",
@@ -1207,15 +1218,15 @@
                 "desktop": "https://assets.decocache.com/palaciovtex/c6541225-74bf-43a9-a1c0-bb409d19d2e0/600245_Produtos_1920X500_OInvernoChegou_PalaciodaFerramenta.jpg"
               },
               {
+                "desktop": "https://assets.decocache.com/palaciovtex/b66e60fc-de35-4a17-afaf-86ab69528f46/1920X500_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/38a7da1e-e7b2-4cb2-946d-8892d3705bde/375X400_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
                 "alt": "Ofertass",
                 "action": {
-                  "href": "/ofertas",
-                  "label": ".",
                   "title": ".",
-                  "subTitle": "."
-                },
-                "mobile": "https://assets.decocache.com/palaciovtex/38a7da1e-e7b2-4cb2-946d-8892d3705bde/375X400_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
-                "desktop": "https://assets.decocache.com/palaciovtex/b66e60fc-de35-4a17-afaf-86ab69528f46/1920X500_TudoparaAsuaObra_PalaciodaFerrramenta.jpg"
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "/ofertas"
+                }
               }
             ],
             "layout": {
