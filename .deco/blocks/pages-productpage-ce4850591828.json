@@ -65,14 +65,12 @@
       }
     },
     {
-      "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "__resolveType": "site/sections/Product/ProductCardCustom.tsx",
       "title": "QUEM VIU, VIU TAMBÉM",
       "layout": {
-        "showArrows": true,
-        "headerAlignment": "center",
-        "numberOfSliders": {
-          "mobile": 1,
-          "desktop": 4
+        "basics": {
+          "contentAlignment": "Center",
+          "ctaText": "ADICIONAR À SACOLA"
         }
       },
       "products": {
@@ -84,11 +82,10 @@
         "crossSelling": "whosawalsosaw",
         "__resolveType": "vtex/loaders/legacy/relatedProductsLoader.ts"
       },
-      "cardLayout": {
-        "basics": {
-          "contentAlignment": "Center"
-        }
-      }
+      "pixPercentageBGColor": "#000000",
+      "pixPercentageTextColor": "#ffffff",
+      "addWithoutPLP": true,
+      "showAddButton": true
     },
     {
       "__resolveType": "Rodapé FULL"

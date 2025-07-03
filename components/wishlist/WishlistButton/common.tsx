@@ -42,9 +42,7 @@ function ButtonCommon({
         e.preventDefault();
 
         if (!isUserLoggedIn) {
-          globalThis.window.alert(
-            "Please log in before adding to your wishlist",
-          );
+          globalThis.window.location.href = "https://www.palacio.com.br/login-page"
 
           return;
         }

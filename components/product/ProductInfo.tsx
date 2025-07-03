@@ -126,7 +126,9 @@ function ProductInfo({ page, layout }: Props) {
             {formatPrice(price, offers?.priceCurrency)}
           </span>
         </div>
-        <span class="text-sm text-black">{installments}</span>
+        {installments && (
+          <span class="text-sm text-black" dangerouslySetInnerHTML={{__html: installments}} />
+        )}
       </div>
       {/* Sku Selector */}
       <div class="mt-4 sm:mt-6">

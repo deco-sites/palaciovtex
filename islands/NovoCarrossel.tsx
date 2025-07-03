@@ -6,9 +6,9 @@ import {
 import Button from "$store/components/ui/Button.tsx";
 import Icon from "$store/components/ui/Icon.tsx";
 import Slider from "$store/components/ui/Slider.tsx";
-import SliderJS from "$store/islands/SliderJS.tsx";
 import { useId } from "$store/sdk/useId.ts";
 import type { ImageWidget } from "apps/admin/widgets.ts";
+import { clx } from "../sdk/clx.ts";
 // import { Picture } from "apps/website/components/Picture.tsx";
 // import Image from "apps/website/components/Image.tsx";
 
@@ -218,41 +218,47 @@ function NovoCarrossel(props: Props) {
       )}
       <div
         id={id}
-        class={`${
-          props.container ? "container" : ""
-        } grid grid-cols-[48px_1fr_48px] sm:grid-cols-[120px_1fr_120px] grid-rows-[1fr_48px_1fr_64px] sm:min-h-min mb-20`}
-      >
-        <Slider class="carousel carousel-center w-full col-span-full row-span-full">
-          {images?.map((image, index) => {
-            const params = { promotion_name: image.alt };
-            return (
-              <Slider.Item
-                index={index}
-                class={`carousel-item ${mobile} ${desktop}`}
-              >
-                <BannerItem
-                  image={image}
-                  lcp={index === 0 && preload}
-                  id={`${id}::${index}`}
-                />
-                <SendEventOnClick
-                  id={`${id}::${index}`}
-                  event={{ name: "select_promotion", params }}
-                />
-                <SendEventOnView
-                  id={`${id}::${index}`}
-                  event={{ name: "view_promotion", params }}
-                />
-              </Slider.Item>
-            );
-          })}
-        </Slider>
+        class={clx(
+          `${props.container ? "container" : ""}`,
+          "grid",
+          "grid-rows-[1fr_48px_1fr_64px]",
+          "grid-cols-[48px_1fr_48px] ",
+          "sm:grid-cols-[120px_1fr_120px] ",
+          "mb-20 sm:min-h-min",
+        )}>
+        <div className="col-span-full row-span-full">
+          <Slider class="w-full">
+            {images?.map((image, index) => {
+              const params = { promotion_name: image.alt };
+              return (
+                <Slider.Item
+                  index={index}
+                  class={`${desktop} ${mobile} !flex-none`}
+                >
+                  <BannerItem
+                    image={image}
+                    lcp={index === 0 && preload}
+                    id={`${id}::${index}`}
+                  />
+                  <SendEventOnClick
+                    id={`${id}::${index}`}
+                    event={{ name: "select_promotion", params }}
+                  />
+                  <SendEventOnView
+                    id={`${id}::${index}`}
+                    event={{ name: "view_promotion", params }}
+                  />
+                </Slider.Item>
+              );
+            })}
+          </Slider>
+        </div>
 
         {props.arrows && <Buttons />}
 
         {props.dots && <Dots images={images} interval={interval} />}
 
-        <SliderJS rootId={id} interval={interval && interval * 1e3} infinite />
+        <Slider.JS rootId={id} align="center" interval={interval && interval * 1e3} />
       </div>
     </>
   );

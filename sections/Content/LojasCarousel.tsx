@@ -27,7 +27,8 @@ export default function LojasCarousel({ lojas, title }: Props) {
         id={id}
         class="grid grid-cols-[48px_1fr_48px] px-0 md:px-5 mb-20 "
       >
-        <Slider class="carousel carousel-center sm:carousel-end row-start-2 row-end-5">
+        <div class="sm:carousel-end row-start-2 row-end-5">
+        <Slider class="w-full">
           {lojas && lojas.map((loja, index) => {
             const { image } = loja;
             return (
@@ -48,7 +49,7 @@ export default function LojasCarousel({ lojas, title }: Props) {
             );
           })}
         </Slider>
-
+        </div>
         <>
           <div class="relative block z-10 col-start-1 row-start-3">
             <Slider.PrevButton class="absolute w-12 h-12 flex justify-center items-center">
@@ -62,11 +63,11 @@ export default function LojasCarousel({ lojas, title }: Props) {
           </div>
           <div class="relative block z-10 col-start-3 row-start-3">
             <Slider.NextButton class="absolute w-12 h-12 flex justify-center items-center">
-              <Icon size={48} id="ChevronRightCustom" strokeWidth={3} />
+              <Icon size={48} class="w-5" id="ChevronRightCustom" strokeWidth={3} />
             </Slider.NextButton>
           </div>
         </>
-        <SliderJS rootId={id} />
+        <Slider.JS rootId={id} />
       </div>
     </div>
   );

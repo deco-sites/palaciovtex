@@ -8,7 +8,7 @@
     {
       "__resolveType": "site/sections/Product/SearchResult.tsx",
       "page": {
-        "sort": "OrderByPriceDESC",
+        "sort": "OrderByScoreDESC",
         "count": 29,
         "filters": "dynamic",
         "__resolveType": "vtex/loaders/legacy/productListingPage.ts"

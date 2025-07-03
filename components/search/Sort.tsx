@@ -22,16 +22,32 @@ export type Props = Pick<ProductListingPage, "sortOptions">;
 
 const portugueseMappings = {
   "relevance:desc": "Relevância",
+  "orders:desc": "Mais vendidos",
+  "discount:desc": "Maior desconto",
   "price:desc": "Maior Preço",
   "price:asc": "Menor Preço",
-  "orders:desc": "Mais vendidos",
   "name:desc": "Nome - de Z a A",
   "name:asc": "Nome - de A a Z",
   // "release:desc": "Relevância - Decrescente",
-  "discount:desc": "Maior desconto",
 };
+
 function Sort({ sortOptions }: Props) {
   const sort = useSort();
+
+  // Cria um mapa rápido para acessar os sortOptions recebidos
+  const optionsMap = sortOptions.reduce((acc, option) => {
+    acc[option.label] = option.value;
+    return acc;
+  }, {} as Record<string, string>);
+
+  // Garante a ordem com base na ordem das chaves do portugueseMappings
+  const orderedOptions = Object.entries(portugueseMappings)
+    .map(([key, label]) => {
+      const value = optionsMap[key];
+      if (!value) return null;
+      return { value, label, backSort: key };
+    })
+    .filter((option): option is { value: string; label: string; backSort: string } => option !== null);
 
   return (
     <select
@@ -41,16 +57,9 @@ function Sort({ sortOptions }: Props) {
       class="w-min p-4 px-1 rounded ml-2 cursor-pointer outline-none flex-grow justify-between font-bold text-black uppercase max-w-[284px] h-[55px] max-h-[55px]"
       style={{ backgroundColor: "rgba(0, 0, 0, 0.04)" }}
     >
-      {sortOptions.map(({ value, label }) => ({
-        value,
-        label: portugueseMappings[label as keyof typeof portugueseMappings],
-        backSort: label,
-        // deno-lint-ignore no-unused-vars
-      })).filter(({ label, value }) => label).map((
-        { value, label, backSort },
-      ) => (
+      {orderedOptions?.map(({ value, label, backSort }) => (
         <option key={value} value={backSort} selected={backSort === sort}>
-          <span class="text-sm">{label}</span>
+          {label}
         </option>
       ))}
     </select>

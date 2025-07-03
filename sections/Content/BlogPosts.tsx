@@ -163,7 +163,7 @@ function BlogPosts({
             </div>
           </>
         )}
-        <SliderJS rootId={id} />
+        <Slider.JS rootId={id} />
       </div>
     </div>
   );

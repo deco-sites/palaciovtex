@@ -40,8 +40,6 @@ function ShippingContent({ simulation }: {
     [] as Sla[],
   ) ?? [];
 
-  console.log(methods);
-
   const locale = cart.value?.clientPreferencesData.locale || "pt-BR";
   const currencyCode = cart.value?.storePreferencesData.currencyCode || "BRL";
 
@@ -92,7 +90,7 @@ function ShippingContent({ simulation }: {
               )}
             </td>
             <td class="py-3 px-4 text-[#595956] ">
-              {method.name}, entrega em{" "}
+              {method.name.replace(/\s*\([a-f0-9-]{36}\)\s*/i, "").trim()}, entrega em{" "}
               {formatShippingEstimate(method.shippingEstimate)}
             </td>
           </tr>

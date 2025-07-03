@@ -7,7 +7,7 @@ in minutes.
 <img width="600px" height="147px"
     src="https://cdn.discordapp.com/attachments/1043241080679841793/1083140431556116553/image.png" />
 </div>
-
+## LEBRAR DE UTILIZAR A VERSÃO 1.46.3 do Deno, não realizar "deno upgrade" apenas deno task update
 ## Features
 This starter brings:
 

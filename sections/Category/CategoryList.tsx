@@ -139,7 +139,7 @@ function CategoryList(props: Props) {
         ))}
       </Slider>
 
-      <SliderJS rootId={id} />
+      <Slider.JS rootId={id} />
     </div>
   );
 }

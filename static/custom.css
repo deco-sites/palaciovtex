@@ -17,3 +17,22 @@ html, body {
     border-radius: 5px;
     border: 5px solid #000
 }
+
+
+.embla {
+  --slide-spacing: 0rem;
+  --slide-size: 100%;
+}
+.embla__viewport {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+  touch-action: pan-y pinch-zoom;
+}
+.embla__slide {
+  transform: translate3d(0, 0, 0);
+  flex: 0 0 var(--slide-size);
+  min-width: 0;
+  padding-left: var(--slide-spacing);
+}

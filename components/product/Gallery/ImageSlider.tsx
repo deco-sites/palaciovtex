@@ -1,7 +1,6 @@
 import Icon from "$store/components/ui/Icon.tsx";
 import Slider from "$store/components/ui/Slider.tsx";
 import ProductImageZoom from "$store/islands/ProductImageZoom.tsx";
-import SliderJS from "$store/islands/SliderJS.tsx";
 import { useId } from "$store/sdk/useId.ts";
 import { ProductDetailsPage } from "apps/commerce/types.ts";
 import Image from "apps/website/components/Image.tsx";
@@ -55,7 +54,7 @@ export default function GallerySlider(props: Props) {
     <div id={id} class="grid grid-flow-row sm:grid-flow-col">
       {/* Image Slider */}
       <div class="relative order-1 sm:order-2">
-        <div class="absolute top-2 left-2 bg-base-100 rounded-full">
+        <div class="absolute z-50 top-2 left-2 bg-base-100 rounded-full">
           {specifications && specifications.value && (
             <ProductYoutube
               video={specifications.value.replace("560", "100%").replace(
@@ -65,21 +64,18 @@ export default function GallerySlider(props: Props) {
             />
           )}
         </div>
-        <Slider class="carousel carousel-center gap-6 w-screen sm:w-[35vw]">
-          {images.map((img, index) => (
+        <div className="col-span-full row-span-full">
+          <Slider class="w-full max-w-[50vw]">
+          {images?.map((img, index) => (
             <Slider.Item
               index={index}
-              class="carousel-item w-full"
+              class="w-full"
             >
               {/* <figure  style={{backgroundImage: `url(https://${img.url?.split("/")[2]}/${img.url?.split("/")[3]}/${img.url?.split("/")[4]}/${img.url?.split("/")[5]}-1000-1000/${img.url?.split("/")[6]})` }}> */}
               <Image
                 class="w-full"
                 sizes="(max-width: 640px) 100vw, 40vw"
-                src={`https://${img.url?.split("/")[2]}/${
-                  img.url?.split("/")[3]
-                }/${img.url?.split("/")[4]}/${
-                  img.url?.split("/")[5]
-                }-1000-1000/${img.url?.split("/")[6]}`}
+                src={`https://${img.url?.split("/")[2]}/${img.url?.split("/")[3]}/${img.url?.split("/")[4]}/${img.url?.split("/")[5]}-1000-1000/${img.url?.split("/")[6]}`}
                 alt={img.alternateName}
                 width={1000}
                 height={1000}
@@ -91,10 +87,10 @@ export default function GallerySlider(props: Props) {
             </Slider.Item>
           ))}
         </Slider>
+        </div>
 
         <Slider.PrevButton
           class="no-animation absolute left-2 top-1/2 btn btn-circle btn-outline"
-          disabled
         >
           <Icon size={24} id="ChevronLeft" strokeWidth={3} />
         </Slider.PrevButton>
@@ -108,7 +104,7 @@ export default function GallerySlider(props: Props) {
 
         <div class="absolute top-2 right-2 bg-base-100 rounded-full">
           <ProductImageZoom
-            images={images}
+            images={images!}
             width={700}
             height={Math.trunc(700 * height / width)}
           />
@@ -116,12 +112,34 @@ export default function GallerySlider(props: Props) {
       </div>
 
       {/* Dots */}
-      <Slider.Dots class="hidden md:flex carousel max-h-[600px] overflow-hidden max-w-full carousel-center gap-4 px-4 sm:px-0 sm:flex-col order-2 sm:order-1">
-        {images &&
-          images.map((img, index) => (
+        <div class="col-start-1 col-span-1">
+          <div
+            class={`carousel carousel-center sm:carousel-vertical gap-2 max-w-full overflow-x-auto sm:overflow-y-auto`}
+            style={{ maxHeight: "600px" }}
+          >
+            {images?.map((img) => (
+              <li class="carousel-item w-24 h-24">
+                <Slider.Dot>
+                  <Image
+                    style={{ aspectRatio: "1 / 1" }}
+                    class="group-disabled:border-base-400 border rounded object-cover w-full h-full"
+                    width={64}
+                    height={64}
+                    src={img.url!}
+                    alt={img.alternateName}
+                  />
+                </Slider.Dot>
+              </li>
+            ))}
+          </div>
+        </div>
+
+
+      {/* Dots */}
+      {/* <Slider.Dots class="hidden md:flex  max-h-[600px] overflow-hidden max-w-full gap-4 px-4 sm:px-0 sm:flex-col order-2 sm:order-1">
+        {images && images.map((img, index) => (
             <Slider.Dot
-              class="h-full max-w-20 max-h-20 w-1/3 md:w-full md:h-1/5 carousel-item justify-center"
-              index={index}
+              class={"h-full max-w-20 max-h-20 w-1/3 md:w-full md:h-1/5 justify-center"}
             >
               <Image
                 class="group-disabled:border-[#164195] border-2 border-solid border-[#E9E9E9] rounded-[22px] "
@@ -132,9 +150,9 @@ export default function GallerySlider(props: Props) {
               />
             </Slider.Dot>
           ))}
-      </Slider.Dots>
+      </Slider.Dots> */}
 
-      <SliderJS rootId={id} />
+      <Slider.JS rootId={id} controlDots />
     </div>
   );
 }

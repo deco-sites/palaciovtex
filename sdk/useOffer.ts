@@ -46,9 +46,8 @@ const installmentToString = (
 
   const withTaxes = sellingPrice < price;
 
-  return `${billingDuration}x de R$ ${formatPrice(billingIncrement)} ${
-    withTaxes ? "com juros" : "sem juros"
-  }`;
+  return `(${billingDuration}x de R$ ${formatPrice(billingIncrement)}) <br/>
+  ${withTaxes ? "Com juros no cartão" : "Sem juros no cartão"}`;
 };
 
 export const useOffer = (aggregateOffer?: AggregateOffer) => {

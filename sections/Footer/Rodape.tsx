@@ -117,6 +117,10 @@ export interface Props {
     title: string;
     items?: institucionalItem[];
   };
+  institucionalExtra: {
+    title: string;
+    link: string;
+  };
 }
 
 export default function Rodape(
@@ -127,6 +131,7 @@ export default function Rodape(
     orcamentos,
     politicas,
     institucional,
+    institucionalExtra,
     colors,
     newsletter,
     layout = {
@@ -357,6 +362,16 @@ export default function Rodape(
                               );
                             })}
                         </ul>
+                        {institucionalExtra && (
+                          <h6
+                              style={{
+                                color: colors?.corTexto ? colors?.corTexto : "",
+                              }}
+                              class="flex items-center justify-between text-white font-bold tracking-[0.9px] pt-0 pb-[30px] px-0"
+                            >
+                              <a href={institucionalExtra.link}>{institucionalExtra.title}</a>
+                            </h6>
+                        )}
                       </div>
                     </div>
                   </div>

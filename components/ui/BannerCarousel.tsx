@@ -1,26 +1,23 @@
-import {
-  SendEventOnClick,
-  SendEventOnView,
-} from "$store/components/Analytics.tsx";
-// deno-lint-ignore no-unused-vars
-import Button from "$store/components/ui/Button.tsx";
-import Icon from "$store/components/ui/Icon.tsx";
-import Slider from "$store/components/ui/Slider.tsx";
-import SliderJS from "$store/islands/SliderJS.tsx";
-import { useId } from "$store/sdk/useId.ts";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import { Picture, Source } from "apps/website/components/Picture.tsx";
-import Image from "apps/website/components/Image.tsx";
+import Icon from "../../components/ui/Icon.tsx";
+import Slider from "../../components/ui/Slider.tsx";
+import { clx } from "../../sdk/clx.ts";
+import { useId } from "../../sdk/useId.ts";
+import { useSendEvent } from "../../sdk/useSendEvent.ts";
 /**
  * @titleBy alt
  */
 export interface Banner {
   /** @description desktop otimized image */
   desktop: ImageWidget;
+
   /** @description mobile otimized image */
   mobile: ImageWidget;
+
   /** @description Image's alt text */
   alt: string;
+
   action?: {
     /** @description when user clicks on the image, go to this link */
     href: string;
@@ -33,13 +30,9 @@ export interface Banner {
   };
 }
 
-export interface Columns {
-  mobile?: 1 | 2;
-  desktop?: 1 | 2 | 3 | 4 | 5;
-}
-
 export interface Props {
   images?: Banner[];
+
   /**
    * @description Check this option when this banner is the biggest image on the screen for image optimizations
    */
@@ -63,72 +56,16 @@ export interface Props {
    * @title Autoplay interval
    * @description time (in seconds) to start the carousel autoplay
    */
+
+  /**
+   * @title Autoplay interval
+   * @description time (in seconds) to start the carousel autoplay
+   */
   interval?: number;
-  layout?: {
-    columns?: Columns;
-  };
 }
 
-const MOBILE_COLUMNS = {
-  1: "w-full",
-  2: "w-1/2",
-};
-
-const DESKTOP_COLUMNS = {
-  1: "md:w-full",
-  2: "md:w-1/2",
-  3: "md:w-1/3",
-  4: "md:w-1/4",
-  5: "md:w-1/5",
-};
-
-const DEFAULT_PROPS = {
-  images: [
-    {
-      alt: "/feminino",
-      action: {
-        title: "New collection",
-        subTitle: "Main title",
-        label: "Explore collection",
-        href: "/",
-      },
-      mobile:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-      desktop:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5",
-    },
-    {
-      alt: "/feminino",
-      action: {
-        title: "New collection",
-        subTitle: "Main title",
-        label: "Explore collection",
-        href: "/",
-      },
-      mobile:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-      desktop:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5",
-    },
-    {
-      alt: "/feminino",
-      action: {
-        title: "New collection",
-        subTitle: "Main title",
-        label: "Explore collection",
-        href: "/",
-      },
-      mobile:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-      desktop:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5",
-    },
-  ],
-  preload: true,
-};
-
 function BannerItem(
-  { image, lcp, id }: { image: Banner; lcp?: boolean; id: string },
+  { image, lcp }: { image: Banner; lcp?: boolean },
 ) {
   const {
     alt,
@@ -136,164 +73,128 @@ function BannerItem(
     desktop,
     action,
   } = image;
+  const params = { promotion_name: image.alt };
+
+  const selectPromotionEvent = useSendEvent({
+    on: "click",
+    event: { name: "select_promotion", params },
+  });
+
+  const viewPromotionEvent = useSendEvent({
+    on: "view",
+    event: { name: "view_promotion", params },
+  });
 
   return (
     <a
-      id={id}
+      {...selectPromotionEvent}
       href={action?.href ?? "#"}
       aria-label={action?.label}
-      class="relative overflow-y-hidden w-full"
+      class="block relative w-full h-full overflow-x-hidden max-h-[600px]"
     >
-      {
-        /* {action && (
-        <div class="absolute top-0 md:bottom-0 bottom-1/2 left-0 right-0 sm:right-auto max-w-[407px] flex flex-col justify-end gap-4 px-8 py-12">
-          <span class="text-2xl font-light text-base-100">
-            {action.title}
-          </span>
-          <span class="font-normal text-4xl text-base-100">
+      {/* {action && (
+        <div
+          class={clx(
+            "absolute lg:h-full lg:w-full top-0 left-0 w-screen h-auto",
+            "flex flex-col justify-center items-center",
+            "px-5 sm:px-0",
+            "sm:left-40 sm:items-start sm:max-w-96",
+          )}
+        >
+          <span class="font-bold text-7xl text-base-100">{action.title}</span>
+          <span class="pt-4 pb-12 font-normal text-base text-base-100">
             {action.subTitle}
           </span>
-          <Button
-            class="bg-base-100 text-sm font-light py-4 px-6 w-fit"
+          <button
+            type="button"
+            class="border-0 bg-base-100 min-w-[180px] btn btn-outline btn-primary"
             aria-label={action.label}
           >
             {action.label}
-          </Button>
+          </button>
         </div>
-      )} */
-      }
-      <Picture preload={lcp}>
+      )} */}
+      <Picture preload={lcp} {...viewPromotionEvent}>
         <Source
           media="(max-width: 767px)"
           fetchPriority={lcp ? "high" : "auto"}
           src={mobile}
-          width={375}
-          height={400}
+          width={450}
+          height={450}
         />
         <Source
           media="(min-width: 768px)"
           fetchPriority={lcp ? "high" : "auto"}
           src={desktop}
-          width={1920}
-          height={500}
+          width={1440}
+          height={600}
         />
-        <Image
-          class="object-cover w-full h-full"
+        <img
+          class="w-full h-full object-cover  "
           loading={lcp ? "eager" : "lazy"}
           src={desktop}
           alt={alt}
-          width={1920}
-          height={500}
         />
       </Picture>
     </a>
   );
 }
 
-function Dots({ images, interval = 0 }: Props) {
-  return (
-    <>
-      <style
-        dangerouslySetInnerHTML={{
-          __html: `
-          @property --dot-progress {
-            syntax: '<percentage>';
-            inherits: false;
-            initial-value: 0%;
-          }
-          `,
-        }}
-      />
-      <ul class="carousel justify-center col-span-full gap-6 z-10 row-start-4">
-        {images?.map((_, index) => (
-          <li class="carousel-item">
-            <Slider.Dot index={index}>
-              <div class="py-5">
-                <div
-                  class="w-[12px] h-[12px] rounded-full group-disabled:bg-black bg-white"
-                  style={{ animationDuration: `${interval}s` }}
-                />
-              </div>
-            </Slider.Dot>
-          </li>
-        ))}
-      </ul>
-    </>
-  );
-}
-
-function Buttons() {
-  return (
-    <>
-      <div class="flex items-center justify-center z-10 col-start-1 row-start-2">
-        <Slider.PrevButton class="bg-transparent border-0">
-          <Icon
-            class="text-black"
-            size={24}
-            id="ChevronLeft"
-            strokeWidth={3}
-          />
-        </Slider.PrevButton>
-      </div>
-      <div class="flex items-center justify-center z-10 col-start-3 row-start-2">
-        <Slider.NextButton class="bg-transparent border-0">
-          <Icon
-            class="text-black"
-            size={24}
-            id="ChevronRight"
-            strokeWidth={3}
-          />
-        </Slider.NextButton>
-      </div>
-    </>
-  );
-}
-
-function BannerCarousel(props: Props) {
+function BannerCarousel({ images = [], preload, interval, container, arrows, dots }: Props) {
   const id = useId();
-  const { images, preload, interval } = { ...DEFAULT_PROPS, ...props };
-
-  const mobile = MOBILE_COLUMNS[props.layout?.columns?.mobile ?? 1];
-  const desktop = DESKTOP_COLUMNS[props.layout?.columns?.desktop ?? 1];
 
   return (
     <div
       id={id}
-      class={`${
-        props.container ? "container" : ""
-      } grid grid-cols-[48px_1fr_48px] sm:grid-cols-[120px_1fr_120px] grid-rows-[1fr_48px_1fr_64px] sm:min-h-min mb-10`}
+      class={clx(
+        `${container ? "container" : ""}`,
+        "grid",
+        "grid-rows-[1fr_32px_1fr_64px]",
+        "grid-cols-[32px_1fr_32px] ",
+        "sm:grid-cols-[112px_1fr_112px] ",
+        "mx-auto mb-7",
+      )}
     >
-      <Slider class="carousel carousel-center w-full col-span-full row-span-full gap-6">
-        {images?.map((image, index) => {
-          const params = { promotion_name: image.alt };
-          return (
-            <Slider.Item
-              index={index}
-              class={`carousel-item ${mobile} ${desktop}`}
-            >
-              <BannerItem
-                image={image}
-                lcp={index === 0 && preload}
-                id={`${id}::${index}`}
-              />
-              <SendEventOnClick
-                id={`${id}::${index}`}
-                event={{ name: "select_promotion", params }}
-              />
-              <SendEventOnView
-                id={`${id}::${index}`}
-                event={{ name: "view_promotion", params }}
-              />
+      <div class="col-span-full row-span-full mb-[-7px]">
+        <Slider class="w-full">
+          {images.map((image, index) => (
+            <Slider.Item index={index} class="w-full">
+              <BannerItem image={image} lcp={index === 0 && preload} />
             </Slider.Item>
-          );
-        })}
-      </Slider>
+          ))}
+        </Slider>
+      </div>
+      {arrows && (
+        <>
+          <div class="z-10 sm:flex justify-center mt-7 items-center col-start-1 row-start-2">
+            <Slider.PrevButton>
+              <Icon class="max-w-6 max-h-6 rotate-180" id="ChevronRight" />
+            </Slider.PrevButton>
+          </div>
 
-      {props.arrows && <Buttons />}
+          <div class="z-10 justify-center mt-7 items-center col-start-3 row-start-2">
+            <Slider.NextButton>
+              <Icon class="max-w-6 max-h-6" id="ChevronRight" />
+            </Slider.NextButton>
+          </div>
+        </>
+      )}
+      {dots && (
+        <Slider.Dots>
+          <Slider.Dot
+            class={clx(
+              "bg-black opacity-20 h-3 w-3 no-animation rounded-full hidden md:flex",
+              "disabled:w-8 disabled:bg-base-100 disabled:opacity-100 transition-[width]",
+            )}
+          />
+        </Slider.Dots>
+      )}
 
-      {props.dots && <Dots images={images} interval={interval} />}
-
-      <SliderJS rootId={id} interval={interval && interval * 1e3} infinite />
+      <Slider.JS
+        rootId={id}
+        interval={interval && interval * 1e3}
+        infinite
+      />
     </div>
   );
 }

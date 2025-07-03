@@ -29,32 +29,34 @@ export default function BrandCarousel({ brands, title }: Props) {
         id={id}
         class="grid grid-cols-[48px_1fr_48px] px-0 md:px-5 mb-20"
       >
-        <Slider class="carousel carousel-center sm:carousel-end row-start-2 row-end-5">
-          {brands && brands.map((brand, index) => {
-            const { link, image, text } = brand;
-            return (
-              <Slider.Item
-                index={index}
-                class={`carousel-item md:w-1/5 w-full`}
-              >
-                <a
-                  class="mx-[6px] w-full group transition-all flex flex-col justify-between items-center text-transparent px-0 py-6"
-                  href={link}
+        <div class="row-start-2 row-end-5">
+          <Slider class="w-full">
+            {brands && brands.map((brand, index) => {
+              const { link, image, text } = brand;
+              return (
+                <Slider.Item
+                  index={index}
+                  class={`!flex-none md:w-1/5 w-full`}
                 >
-                  <Image
-                    class="block min-w-[70px]"
-                    src={image}
-                    alt={text}
-                    width={156}
-                    height={120}
-                    loading={"lazy"}
-                    decoding="async"
-                  />
-                </a>
-              </Slider.Item>
-            );
-          })}
-        </Slider>
+                  <a
+                    class="mx-[6px] w-full group transition-all flex flex-col justify-between items-center text-transparent px-0 py-6"
+                    href={link}
+                  >
+                    <Image
+                      class="block min-w-[70px]"
+                      src={image}
+                      alt={text}
+                      width={156}
+                      height={120}
+                      loading={"lazy"}
+                      decoding="async"
+                    />
+                  </a>
+                </Slider.Item>
+              );
+            })}
+          </Slider>
+        </div>
 
         <>
           <div class="relative block z-10 col-start-1 row-start-3">
@@ -69,11 +71,11 @@ export default function BrandCarousel({ brands, title }: Props) {
           </div>
           <div class="relative block z-10 col-start-3 row-start-3">
             <Slider.NextButton class="absolute w-12 h-12 flex justify-center items-center">
-              <Icon size={48} id="ChevronRightCustom" strokeWidth={3} />
+              <Icon size={48} class="w-5" id="ChevronRightCustom" strokeWidth={3} />
             </Slider.NextButton>
           </div>
         </>
-        <SliderJS rootId={id} />
+        <Slider.JS rootId={id} />
       </div>
     </div>
   );

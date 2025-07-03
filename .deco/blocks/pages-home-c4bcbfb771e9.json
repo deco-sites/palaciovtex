@@ -1264,7 +1264,7 @@
           {
             "layout": {
               "columns": {
-                "mobile": 1,
+                "mobile": 2,
                 "desktop": 5
               }
             },
@@ -1409,8 +1409,8 @@
             },
             "addWithoutPLP": true,
             "showAddButton": true,
-            "pixPercentageBGColor": "#000000",
-            "pixPercentageTextColor": "#ffffff",
+            "pixPercentageBGColor": "#f0d02c",
+            "pixPercentageTextColor": "#000000",
             "buttonColor": "#fdd60f",
             "title": "FAZEM A DIFERENÇA NA SUA OBRA/REFORMA"
           },
@@ -1467,10 +1467,7 @@
             "interval": 4000
           },
           {
-            "__resolveType": "website/sections/Rendering/Lazy.tsx",
-            "section": {
-              "__resolveType": "Rodapé FULL"
-            }
+            "__resolveType": "Rodapé FULL"
           }
         ]
       }

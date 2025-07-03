@@ -12,7 +12,7 @@ import Icon from "$store/components/ui/Icon.tsx";
 import { useId } from "$store/sdk/useId.ts";
 
 import Slider from "$store/components/ui/Slider.tsx";
-import SliderJS from "$store/islands/SliderJS.tsx";
+// import SliderJS from "$store/islands/SliderJS.tsx";
 import AddToCartButtonVTEX from "$store/islands/AddToCartButton/vtex.tsx";
 
 export interface Layout {
@@ -88,7 +88,9 @@ export default function ProductCardCustom(
     ? "left"
     : "center";
   return (
-    <div>
+    <div >
+      {products && products?.length > 0 && (
+      <>
       <h2
         class="text-[30px] leading-[36px] font-bold text-center pb-[30px]"
         dangerouslySetInnerHTML={{ __html: title }}
@@ -98,12 +100,27 @@ export default function ProductCardCustom(
         id={id}
         class="container grid grid-cols-[48px_1fr_48px] px-0 md:px-5 relative mb-20"
       >
-        <Slider class="carousel carousel-center sm:carousel-end sm:gap-1 row-start-2 row-end-5">
+        <div className="col-span-full row-span-full">
+          <Slider class="sm:gap-1 w-full">
           {products && products.map((product, index) => {
-            // deno-lint-ignore no-unused-vars
-            const { listPrice, price, installments, pixPrice } = useOffer(
-              product.offers,
-            );
+            let currentProduct = product;
+
+            let offerData = useOffer(product.offers);
+
+            if (
+              offerData.availability === "https://schema.org/OutOfStock" && product.isVariantOf && product.isVariantOf?.hasVariant?.length > 0
+            ) {
+              currentProduct = product?.isVariantOf?.hasVariant.at(-1)!;
+              offerData = useOffer(currentProduct.offers);
+            }
+
+            const {
+              listPrice,
+              price,
+              installments,
+              // deno-lint-ignore no-unused-vars
+              availability,
+            } = offerData;
 
             const {
               url,
@@ -114,7 +131,8 @@ export default function ProductCardCustom(
               offers,
               isVariantOf,
               brand,
-            } = product;
+            } = currentProduct;
+
 
             const [front, back] = images ?? [];
 
@@ -127,9 +145,9 @@ export default function ProductCardCustom(
             return (
               <Slider.Item
                 index={index}
-                class={`carousel-item md:w-1/4 w-full`}
+                class={`md:w-1/4 w-full !flex-none`}
               >
-                <div>
+                
                   <div
                     class={`h-full group flex flex-col justify-between group/content relative ${
                       align == "left" ? "text-left" : "text-center"
@@ -183,8 +201,7 @@ export default function ProductCardCustom(
                                 } uppercase rounded-[5px] bg-black`}
                               >
                                 <strong class="text-[#F0D02C] font-bold">
-                                  {listPrice && price &&
-                                    calculate(listPrice, price)}
+                                  {listPrice && price && calculate(listPrice, price)}
                                 </strong>{" "}
                                 off
                               </span>
@@ -198,7 +215,7 @@ export default function ProductCardCustom(
                           align == "left" ? "text-left" : "text-center"
                         } no-underline overflow-hidden mt-0 mb-2.5 mx-0"`}
                       >
-                        {isVariantOf?.name}
+                        {product.isVariantOf?.name}
                       </span>
                       {brand && (
                         <span class="block mb-[10px] overflow-hidden">
@@ -218,9 +235,7 @@ export default function ProductCardCustom(
                       )}
 
                       <div
-                        class={`${
-                          align == "left" ? "text-left" : "text-center"
-                        }`}
+                        class={`text-left`}
                       >
                         {listPrice && price && listPrice > price && (
                           <div class="inline-block text-[#A6A5A1] text-base leading-[19px] line-through">
@@ -233,11 +248,11 @@ export default function ProductCardCustom(
                           </div>
                         )}
                         {price && (
-                          <div class="inline-block text-black text-base leading-[19px]">
+                          <div class="inline-block text-black text-2xl leading-[19px]">
                             <span>
                               <strong>
                                 {formatPrice(
-                                  price,
+                                  (price - (price*0.05)),
                                   offers?.priceCurrency,
                                 )}
                               </strong>
@@ -249,13 +264,17 @@ export default function ProductCardCustom(
                             backgroundColor: `${pixPercentageBGColor}`,
                             color: `${pixPercentageTextColor}`,
                           }}
-                          class={`text-white bg-black block text-center relative text-xs md:text-sm uppercase rounded-md `}
+                          class={`text-black px-3 py-1 font-bold bg-[#F0D02C] flex items-center gap-1 text-center relative text-sm md:text-base uppercase rounded-md `}
                         >
-                          5% de desconto no PIX
+                          <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M11.917 11.71a2.05 2.05 0 0 1-1.454-.602l-2.1-2.1a.4.4 0 0 0-.551 0l-2.108 2.108a2.04 2.04 0 0 1-1.454.602h-.414l2.66 2.66c.83.83 2.177.83 3.007 0l2.667-2.668zM4.25 4.282c.55 0 1.066.214 1.454.602l2.108 2.108a.39.39 0 0 0 .552 0l2.1-2.1a2.04 2.04 0 0 1 1.453-.602h.253L9.503 1.623a2.127 2.127 0 0 0-3.007 0l-2.66 2.66h.414z"/><path d="m14.377 6.496-1.612-1.612a.3.3 0 0 1-.114.023h-.733c-.379 0-.75.154-1.017.422l-2.1 2.1a1.005 1.005 0 0 1-1.425 0L5.268 5.32a1.45 1.45 0 0 0-1.018-.422h-.9a.3.3 0 0 1-.109-.021L1.623 6.496c-.83.83-.83 2.177 0 3.008l1.618 1.618a.3.3 0 0 1 .108-.022h.901c.38 0 .75-.153 1.018-.421L7.375 8.57a1.034 1.034 0 0 1 1.426 0l2.1 2.1c.267.268.638.421 1.017.421h.733q.06.001.114.024l1.612-1.612c.83-.83.83-2.178 0-3.008z"/></svg>
+                          à vista no PIX / Boleto
                         </div>
                         {installments && (
-                          <div class="block text-[#595956] text-base leading-[19px] mt-2.5">
-                            ou {installments}
+                          <div class="block rounded-md text-white px-3 py-1 bg-black text-base leading-[19px] mt-2.5">
+                            ou {formatPrice(
+                              price,
+                              offers?.priceCurrency,
+                            )} <span dangerouslySetInnerHTML={{__html: installments}} />
                           </div>
                         )}
                       </div>
@@ -295,14 +314,14 @@ export default function ProductCardCustom(
                       productID={product.productID}
                     />
                   </div>
-                </div>
+                
               </Slider.Item>
             );
           })}
         </Slider>
-
-        <>
-          <div class="relative block z-10 col-start-1 row-start-3">
+        </div>
+        
+          <div class="relative z-10 col-start-1 row-start-1 flex items-center justify-center">
             <Slider.PrevButton class="absolute w-12 h-12 flex justify-center items-center">
               <Icon
                 size={48}
@@ -312,14 +331,16 @@ export default function ProductCardCustom(
               />
             </Slider.PrevButton>
           </div>
-          <div class="relative block z-10 col-start-3 row-start-3">
+          <div class="relative flex items-center justify-center z-10 col-start-3 row-start-1">
             <Slider.NextButton class="absolute w-12 h-12 flex justify-center items-center">
-              <Icon size={48} id="ChevronRightCustom" strokeWidth={3} />
+              <Icon size={48} class="w-5" id="ChevronRightCustom" strokeWidth={3} />
             </Slider.NextButton>
           </div>
-        </>
-        <SliderJS rootId={id} />
+        
+        <Slider.JS align="center" rootId={id} />
       </div>
+      </>
+      )}
     </div>
   );
 }

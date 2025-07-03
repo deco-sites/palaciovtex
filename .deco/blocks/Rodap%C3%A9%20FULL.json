@@ -125,10 +125,6 @@
         "text": "Quem somos"
       },
       {
-        "link": "/institucional/mulheres-a-obra",
-        "text": "<b>MULHERES À OBRA 💪🎀</b>"
-      },
-      {
         "link": "/institucional/midia",
         "text": "Palácio na Mídia"
       },
@@ -138,5 +134,9 @@
       }
     ],
     "title": "Institucional"
+  },
+  "institucionalExtra": {
+    "title": "MULHERES À OBRA 💪🎀",
+    "link": "/mulheresaobra"
   }
 }

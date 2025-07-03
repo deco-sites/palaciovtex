@@ -1,8 +1,8 @@
 {
   "imports": {
     "$store/": "./",
-    "deco/": "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.116.0/",
-    "apps/": "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.84.2/",
+    "deco/": "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.120.1/",
+    "apps/": "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.109.0/",
     "$fresh/": "https://deno.land/x/fresh@1.7.3/",
     "preact": "npm:preact@10.23.1",
     "preact-render-to-string": "npm:preact-render-to-string@6.4.2",
@@ -39,8 +39,8 @@
     "fast-json-patch": "npm:fast-json-patch@^3.1.1",
     "simple-git": "npm:simple-git@^3.25.0",
     "https://esm.sh/*preact-render-to-string@6.3.1": "npm:preact-render-to-string@6.4.2",
-    "@deco/deco": "jsr:@deco/deco@1.116.0",
-    "@deco/dev": "jsr:@deco/dev@1.116.0"
+    "@deco/deco": "jsr:@deco/deco@1.120.1",
+    "@deco/dev": "jsr:@deco/dev@1.120.1"
   },
   "tasks": {
     "start": "deno run -A --unstable-http --env https://deco.cx/run -- deno task dev",
@@ -77,7 +77,7 @@
       ]
     }
   },
-  "nodeModulesDir": false,
+  "nodeModulesDir": true,
   "compilerOptions": {
     "jsx": "react-jsx",
     "jsxImportSource": "preact",

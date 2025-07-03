@@ -105,7 +105,7 @@
     },
     {
       "page": {
-        "sort": "OrderByPriceDESC",
+        "sort": "OrderByScoreDESC",
         "count": 24,
         "filters": "dynamic",
         "__resolveType": "vtex/loaders/legacy/productListingPage.ts"
@@ -113,7 +113,7 @@
       "layout": {
         "columns": {
           "mobile": 2,
-          "desktop": 4
+          "desktop": 3
         },
         "variant": "aside",
         "pagination": "show-more"

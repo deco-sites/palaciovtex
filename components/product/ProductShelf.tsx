@@ -5,7 +5,7 @@ import ProductCard, {
 import Icon from "$store/components/ui/Icon.tsx";
 import Header from "$store/components/ui/SectionHeader.tsx";
 import Slider from "$store/components/ui/Slider.tsx";
-import SliderJS from "$store/islands/SliderJS.tsx";
+// import SliderJS from "$store/islands/SliderJS.tsx";
 import { useId } from "$store/sdk/useId.ts";
 import { useOffer } from "$store/sdk/useOffer.ts";
 import { usePlatform } from "$store/sdk/usePlatform.tsx";
@@ -73,24 +73,24 @@ function ProductShelf({
           layout?.showArrows ? "grid-cols-[48px_1fr_48px]" : ""
         } px-0 md:px-5 container`}
       >
-        <Slider class="carousel carousel-center sm:carousel-end sm:gap-1 row-start-2 row-end-5">
-          {products?.map((product, index) => (
-            <Slider.Item
-              index={index}
-              class={`carousel-item ${
-                slideDesktop[layout?.numberOfSliders?.desktop ?? 3]
-              } ${slideMobile[layout?.numberOfSliders?.mobile ?? 1]}`}
-            >
-              <ProductCard
-                product={product}
-                itemListName={title}
-                layout={cardLayout}
-                platform={platform}
+        <div class="row-start-2 row-end-5">
+          <Slider class="">
+            {products?.map((product, index) => (
+              <Slider.Item
                 index={index}
-              />
-            </Slider.Item>
-          ))}
-        </Slider>
+                class={`${slideDesktop[layout?.numberOfSliders?.desktop ?? 3]} ${slideMobile[layout?.numberOfSliders?.mobile ?? 1]}`}
+              >
+                <ProductCard
+                  product={product}
+                  itemListName={title}
+                  layout={cardLayout}
+                  platform={platform}
+                  index={index}
+                />
+              </Slider.Item>
+            ))}
+          </Slider>
+        </div>
 
         {layout?.showArrows && (
           <>
@@ -106,7 +106,7 @@ function ProductShelf({
             </div>
           </>
         )}
-        <SliderJS rootId={id} />
+        <Slider.JS rootId={id} />
         <SendEventOnView
           id={id}
           event={{

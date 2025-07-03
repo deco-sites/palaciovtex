@@ -155,7 +155,8 @@ export default function Testimonials(
           class="relative w-full px-8"
           id={id}
         >
-          <Slider class="carousel carousel-start gap-4 lg:gap-8 row-start-2 row-end-5 w-full">
+          <div class="row-start-2 row-end-5">
+          <Slider class="gap-4 lg:gap-8 w-full">
             {testimonials?.map(({ image, text, user }, index) => (
               <Slider.Item
                 index={index}
@@ -165,6 +166,7 @@ export default function Testimonials(
               </Slider.Item>
             ))}
           </Slider>
+          </div>
           <>
             <div class="z-10 absolute -left-2 lg:-left-8 top-1/2">
               <Slider.PrevButton class="btn btn-circle btn-outline">
@@ -177,7 +179,7 @@ export default function Testimonials(
               </Slider.NextButton>
             </div>
           </>
-          <SliderJS rootId={id} />
+          <Slider.JS rootId={id} />
         </div>
       )}
     </div>

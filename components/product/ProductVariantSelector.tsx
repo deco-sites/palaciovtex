@@ -12,7 +12,7 @@ function VariantSelector({ product }: Props) {
   const hasVariant = isVariantOf?.hasVariant ?? [];
   const possibilities = useVariantPossibilities(hasVariant, product);
 
-  console.log(product);
+  console.log('produto',product.offers?.offers);
 
   return (
     <ul class="flex flex-col gap-4">
