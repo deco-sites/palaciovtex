@@ -13,7 +13,7 @@
     {
       "sections": [
         {
-          "content": "<div style=\"max-width: 730px; margin: 0 auto;\" data-mce-style=\"max-width: 730px; margin: 0 auto;\">&nbsp; <img style=\"height: auto; border: 0px; width: 100%;\" title=\"Vagas limitadas, inscreva-se!\" src=\"https://nitronews-beefree.s3.amazonaws.com/images/c-28812-bf/MAO12/E-mail_Mkt_MAO12_01.jpg\" alt=\"Vagas limitadas, inscreva-se!\" width=\"730\" data-mce-style=\"height: auto; border: 0px; width: 100%;\" data-mce-src=\"https://nitronews-beefree.s3.amazonaws.com/images/c-28812-bf/MAO12/E-mail_Mkt_MAO12_01.jpg\"></div>",
+          "content": "<table style=\"minWidth: 25px\"><colgroup><col></colgroup><tbody><tr><td colspan=\"1\" rowspan=\"1\"><table style=\"minWidth: 25px\"><colgroup><col></colgroup><tbody><tr><td colspan=\"1\" rowspan=\"1\"><table style=\"minWidth: 25px\"><colgroup><col></colgroup><tbody><tr><td colspan=\"1\" rowspan=\"1\"><p style=\"text-align: center\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.sympla.com.br/produtor/palaciodaferramenta\"><img style=\"text-align: center\" src=\"https://assets.decocache.com/palaciovtex/073f1623-d104-4258-9106-803d1d5837f1/E-mail_Mkt_MAO_Especial.jpg\"></a></p></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table>",
           "__resolveType": "site/sections/Institucional/InstitucionalHTML.tsx"
         }
       ],
