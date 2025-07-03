@@ -1,10 +1,6 @@
-// import { SendEventOnClick } from "$store/components/Analytics.tsx";
-// import Avatar from "$store/components/ui/Avatar.tsx";
 import WishlistButtonVtex from "../../islands/WishlistButton/vtex.tsx";
-// import WishlistButtonWake from "../../islands/WishlistButton/vtex.tsx";
 import { formatPrice } from "$store/sdk/format.ts";
 import { useOffer } from "$store/sdk/useOffer.ts";
-// import { useVariantPossibilities } from "$store/sdk/useVariantPossiblities.ts";
 import type { Product } from "apps/commerce/types.ts";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
 import Image from "apps/website/components/Image.tsx";
@@ -12,8 +8,8 @@ import Icon from "$store/components/ui/Icon.tsx";
 import { useId } from "$store/sdk/useId.ts";
 
 import Slider from "$store/components/ui/Slider.tsx";
-// import SliderJS from "$store/islands/SliderJS.tsx";
 import AddToCartButtonVTEX from "$store/islands/AddToCartButton/vtex.tsx";
+import { useDevice } from "@deco/deco/hooks";
 
 export interface Layout {
   basics?: {
@@ -24,6 +20,8 @@ export interface Layout {
     showBrand?: boolean;
     showCta?: boolean;
   };
+  desktopSlidesQuantity: 3 | 4,
+  mobileSlidesQuantity: 1 | 2,
 }
 
 interface Props {
@@ -82,25 +80,35 @@ export default function ProductCardCustom(
   }: Props,
 ) {
   const id = useId();
+  const device = useDevice()
 
   const align = !layout?.basics?.contentAlignment ||
       layout?.basics?.contentAlignment == "Left"
     ? "left"
     : "center";
   return (
-    <div >
+    <div class="container md:px-0 px-5">
       {products && products?.length > 0 && (
       <>
       <h2
-        class="text-[30px] leading-[36px] font-bold text-center pb-[30px]"
+        class="text-2xl md:text-[30px] leading-[36px] font-bold text-center pb-[30px]"
         dangerouslySetInnerHTML={{ __html: title }}
       >
       </h2>
-      <div
-        id={id}
-        class="container grid grid-cols-[48px_1fr_48px] px-0 md:px-5 relative mb-20"
-      >
-        <div className="col-span-full row-span-full">
+      <div id={id} class="flex items-center justify-center relative mb-20" >
+
+        <div class="absolute left-0 z-10 flex items-center justify-center">
+          <Slider.PrevButton class="flex justify-center items-center">
+            <Icon
+              size={32}
+              id="ChevronLeftCustom"
+              strokeWidth={3}
+              class="w-5 rotate-180"
+            />
+          </Slider.PrevButton>
+        </div>
+
+        <div className="w-full">
           <Slider class="sm:gap-1 w-full">
           {products && products.map((product, index) => {
             let currentProduct = product;
@@ -142,10 +150,12 @@ export default function ProductCardCustom(
               listPrice,
             });
 
+            const slidesQuantity = `${layout?.desktopSlidesQuantity == 3 ? "md:w-1/3 ": "md:w-1/4 "} ${layout?.mobileSlidesQuantity == 1 ? "w-full" : "w-1/2"}`
+
             return (
               <Slider.Item
                 index={index}
-                class={`md:w-1/4 w-full md:px-0 !px-6 !flex-none`}
+                class={`${slidesQuantity} md:px-0 !flex-none`}
               >
                 
                   <div
@@ -264,13 +274,13 @@ export default function ProductCardCustom(
                             backgroundColor: `${pixPercentageBGColor}`,
                             color: `${pixPercentageTextColor}`,
                           }}
-                          class={`text-black px-3 py-1 font-bold bg-[#F0D02C] flex items-center gap-1 text-center relative text-sm md:text-base uppercase rounded-md `}
+                          class={`text-black px-3 py-1 font-bold bg-[#F0D02C] flex items-center gap-1 text-center relative text-xs md:text-base uppercase rounded-md `}
                         >
                           <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M11.917 11.71a2.05 2.05 0 0 1-1.454-.602l-2.1-2.1a.4.4 0 0 0-.551 0l-2.108 2.108a2.04 2.04 0 0 1-1.454.602h-.414l2.66 2.66c.83.83 2.177.83 3.007 0l2.667-2.668zM4.25 4.282c.55 0 1.066.214 1.454.602l2.108 2.108a.39.39 0 0 0 .552 0l2.1-2.1a2.04 2.04 0 0 1 1.453-.602h.253L9.503 1.623a2.127 2.127 0 0 0-3.007 0l-2.66 2.66h.414z"/><path d="m14.377 6.496-1.612-1.612a.3.3 0 0 1-.114.023h-.733c-.379 0-.75.154-1.017.422l-2.1 2.1a1.005 1.005 0 0 1-1.425 0L5.268 5.32a1.45 1.45 0 0 0-1.018-.422h-.9a.3.3 0 0 1-.109-.021L1.623 6.496c-.83.83-.83 2.177 0 3.008l1.618 1.618a.3.3 0 0 1 .108-.022h.901c.38 0 .75-.153 1.018-.421L7.375 8.57a1.034 1.034 0 0 1 1.426 0l2.1 2.1c.267.268.638.421 1.017.421h.733q.06.001.114.024l1.612-1.612c.83-.83.83-2.178 0-3.008z"/></svg>
                           à vista no PIX / Boleto
                         </div>
                         {installments && (
-                          <div class="block rounded-md text-white px-3 py-1 bg-black text-base leading-[19px] mt-2.5">
+                          <div class="block rounded-md text-white px-3 py-1 bg-black text-xs md:text-base leading-[19px] mt-2.5">
                             ou {formatPrice(
                               price,
                               offers?.priceCurrency,
@@ -321,23 +331,13 @@ export default function ProductCardCustom(
         </Slider>
         </div>
         
-          <div class="relative z-10 col-start-1 row-start-1 flex items-center justify-center">
-            <Slider.PrevButton class="absolute w-12 h-12 flex justify-center items-center">
-              <Icon
-                size={48}
-                id="ChevronLeftCustom"
-                strokeWidth={3}
-                class="w-5 rotate-180"
-              />
-            </Slider.PrevButton>
-          </div>
-          <div class="relative flex items-center justify-center z-10 col-start-3 row-start-1">
-            <Slider.NextButton class="absolute w-12 h-12 flex justify-center items-center">
-              <Icon size={48} class="w-5" id="ChevronRightCustom" strokeWidth={3} />
-            </Slider.NextButton>
-          </div>
+        <div class="absolute right-0 flex items-center justify-center z-10">
+          <Slider.NextButton class="flex justify-center items-center">
+            <Icon size={32} class="w-5" id="ChevronRightCustom" strokeWidth={3} />
+          </Slider.NextButton>
+        </div>
         
-        <Slider.JS align="center" rootId={id} />
+        <Slider.JS align={`${device == "mobile" ? "center" : "start"}`} controlDots rootId={id} />
       </div>
       </>
       )}

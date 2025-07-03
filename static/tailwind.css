@@ -5243,9 +5243,6 @@ details.collapse summary::-webkit-details-marker {
 .max-w-6xl {
   max-width: 72rem;
 }
-.max-w-72 {
-  max-width: 18rem;
-}
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -6120,10 +6117,6 @@ details.collapse summary::-webkit-details-marker {
 }
 .p-\[7\B4x\] {
   padding: 7´x;
-}
-.\!px-6 {
-  padding-left: 1.5rem !important;
-  padding-right: 1.5rem !important;
 }
 .px-0 {
   padding-left: 0px;
@@ -7990,6 +7983,10 @@ details.collapse summary::-webkit-details-marker {
     font-size: 18px;
   }
 
+  .md\:text-\[30px\] {
+    font-size: 30px;
+  }
+
   .md\:text-\[80px\] {
     font-size: 80px;
   }
@@ -7997,11 +7994,6 @@ details.collapse summary::-webkit-details-marker {
   .md\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-
-  .md\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
   }
 
   .md\:leading-5 {

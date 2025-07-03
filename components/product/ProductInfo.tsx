@@ -107,12 +107,6 @@ function ProductInfo({ page, layout }: Props) {
             )}
           </span>
         )}
-
-        <div
-          class={`text-white bg-black block text-center relative text-xs md:text-sm uppercase rounded-md max-w-72`}
-        >
-          5% de desconto no PIX
-        </div>
       </div>
       {/* Prices */}
       <div class="mt-4">
