@@ -145,7 +145,7 @@ export default function ProductCardCustom(
             return (
               <Slider.Item
                 index={index}
-                class={`md:w-1/4 w-full !flex-none`}
+                class={`md:w-1/4 w-full md:px-0 !px-6 !flex-none`}
               >
                 
                   <div

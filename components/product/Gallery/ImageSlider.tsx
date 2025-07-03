@@ -65,7 +65,7 @@ export default function GallerySlider(props: Props) {
           )}
         </div>
         <div className="col-span-full row-span-full">
-          <Slider class="w-full max-w-[50vw]">
+          <Slider class="w-full max-w-full md:max-w-[50vw]">
           {images?.map((img, index) => (
             <Slider.Item
               index={index}
@@ -97,7 +97,7 @@ export default function GallerySlider(props: Props) {
 
         <Slider.NextButton
           class="no-animation absolute right-2 top-1/2 btn btn-circle btn-outline"
-          disabled={images.length < 2}
+          disabled={images!.length < 2}
         >
           <Icon size={24} id="ChevronRight" strokeWidth={3} />
         </Slider.NextButton>
@@ -112,7 +112,7 @@ export default function GallerySlider(props: Props) {
       </div>
 
       {/* Dots */}
-        <div class="col-start-1 col-span-1">
+        <div class="col-start-1 col-span-1 md:block hidden">
           <div
             class={`carousel carousel-center sm:carousel-vertical gap-2 max-w-full overflow-x-auto sm:overflow-y-auto`}
             style={{ maxHeight: "600px" }}

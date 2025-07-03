@@ -10,6 +10,7 @@ const runOnMount = () => {
     if (!iFrame) {
       return console.error("Couldn't find iframe");
     }
+    globalThis.scrollTo({ top: 0, behavior: 'smooth' });
     iFrame.height = `${iFrame.contentWindow?.document.body.scrollHeight}`;
   };
 };
@@ -21,7 +22,7 @@ export default function ProxyIframe({ src }: Props) {
       </script>
       <iframe
         id="proxy-loader"
-        style="width:100%;border:none;overflow:hidden; min-height:950px; height:1100px"
+        style="width:100%;border:none;overflow:auto; min-height:650px; height:650px; max-height: 650px"
         src={src}
         // onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));'
       >

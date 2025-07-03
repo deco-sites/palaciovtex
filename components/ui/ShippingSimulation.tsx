@@ -155,7 +155,7 @@ function ShippingSimulation({ items }: Props) {
         <Button
           type="submit"
           loading={loading.value}
-          class="bg-[#F0D02C] join-item w-full md:w-auto btn no-animation rounded-[5px] font-medium text-xs flex justify-center items-center text-center uppercase outline-none transition-all hover:bg-black hover:text-white hover:border-black border text-black border-solid border-[#F0D02C]"
+          class="bg-[#F0D02C] shrink join-item w-full md:w-auto btn no-animation rounded-[5px] font-medium text-xs flex justify-center items-center text-center uppercase outline-none transition-all hover:bg-black hover:text-white hover:border-black border text-black border-solid border-[#F0D02C]"
         >
           Calcular
         </Button>
