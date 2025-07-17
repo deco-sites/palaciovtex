@@ -15,6 +15,7 @@
             "__resolveType": "website/sections/Seo/Seo.tsx"
           },
           {
+            "__resolveType": "site/sections/Header/Header.tsx",
             "cart": {
               "freeShippingObjectiveQuantity": 300
             },
@@ -52,8 +53,8 @@
             "navItems": {
               "items": [
                 {
-                  "url": "/ofertas",
-                  "name": "Ofertas",
+                  "url": "https://lp.palacio.com.br/encarte-dia-dos-pais",
+                  "name": "Encarte",
                   "image": [],
                   "children": []
                 },
@@ -1144,7 +1145,6 @@
               "searches": []
             },
             "logoPosition": "left",
-            "__resolveType": "site/sections/Header/Header.tsx",
             "alternateGridImages": false
           },
           {
