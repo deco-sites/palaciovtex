@@ -41,6 +41,8 @@ function Cart({
   const { displayCart } = useUI();
   const isEmtpy = items.length === 0;
 
+  console.log('currency', currency, total, items)
+
   return (
     <div
       class="flex flex-col justify-center items-center overflow-hidden"

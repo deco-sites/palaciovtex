@@ -50,7 +50,9 @@ export default defineApp(async (_req, ctx) => {
         type="module"
         dangerouslySetInnerHTML={{ __html: `(${sw})();` }}
       />
-      <script>
+      <script
+        type="script"
+        dangerouslySetInnerHTML={{__html: `
           !function(f,b,e,v,n,t,s)
           {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
           n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -59,9 +61,12 @@ export default defineApp(async (_req, ctx) => {
           t.src=v;s=b.getElementsByTagName(e)[0];
           s.parentNode.insertBefore(t,s)}(window, document,'script',
           'https://connect.facebook.net/en_US/fbevents.js');
+          
           fbq('init', '935881335124841');
           fbq('track', 'PageView');
-      </script>
+        `}}
+      />
+
       <noscript>
         <img height="1" width="1" style="display:none"
         src="https://www.facebook.com/tr?id=935881335124841&ev=PageView&noscript=1"/>
