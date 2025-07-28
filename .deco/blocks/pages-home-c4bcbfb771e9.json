@@ -1152,36 +1152,69 @@
             "arrows": true,
             "images": [
               {
+                "alt": "Potencia na mão",
+                "action": {
+                  "label": ".",
+                  "title": ".",
+                  "subTitle": ".",
+                  "href": "/ferramentas-eletricas"
+                },
+                "mobile": "https://assets.decocache.com/palaciovtex/15e7cb4f-4c8a-465d-a7ee-d8131bab03d1/Prancheta-2.png",
+                "desktop": "https://assets.decocache.com/palaciovtex/0c35723d-5f3e-480a-9eec-4c1bc4661dd3/Prancheta-1.jpg"
+              },
+              {
+                "alt": "Utilidades para o lar",
+                "action": {
+                  "href": "/decoracao-e-organizacao/utilidades-domesticas",
+                  "label": ".",
+                  "title": ".",
+                  "subTitle": "."
+                },
+                "mobile": "https://assets.decocache.com/palaciovtex/0d8dcd7d-86f2-47d3-8e46-9035af1b07ad/Prancheta-2.png",
+                "desktop": "https://assets.decocache.com/palaciovtex/0a497298-efd1-4df9-a75d-77af1d12d541/Prancheta-1.jpg"
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/a9d8a3ba-01c8-4294-b54d-e46dc1d37398/Prancheta-1.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/e778d9ca-5e9d-4831-a922-d372340dac83/Prancheta-2.png",
+                "alt": "Tudo no fluxo",
+                "action": {
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "/hidraulica-e-metais"
+                }
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/a3b375fc-0d80-42aa-8c63-001e836c75fb/Prancheta-1.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/9fd3d853-a699-4e07-aa54-57f131735974/Prancheta-2.png",
                 "alt": "Dia dos Pais",
                 "action": {
                   "href": "https://lp.palacio.com.br/encarte-dia-dos-pais",
-                  "label": ".",
                   "title": ".",
-                  "subTitle": "."
-                },
-                "mobile": "https://assets.decocache.com/palaciovtex/9fd3d853-a699-4e07-aa54-57f131735974/Prancheta-2.png",
-                "desktop": "https://assets.decocache.com/palaciovtex/a3b375fc-0d80-42aa-8c63-001e836c75fb/Prancheta-1.jpg"
+                  "subTitle": ".",
+                  "label": "."
+                }
               },
               {
+                "desktop": "https://assets.decocache.com/palaciovtex/c75948bc-ef6e-4ef4-bb1e-e161d7120374/Prancheta-1.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/31778afa-6a50-4671-b730-b47cf1376198/Prancheta-2.png",
                 "alt": "796549",
                 "action": {
-                  "href": "/churrasqueira-portatil-preta-braseiro---mor/p?skuId=3986",
-                  "label": ".",
                   "title": ".",
-                  "subTitle": "."
-                },
-                "mobile": "https://assets.decocache.com/palaciovtex/31778afa-6a50-4671-b730-b47cf1376198/Prancheta-2.png",
-                "desktop": "https://assets.decocache.com/palaciovtex/c75948bc-ef6e-4ef4-bb1e-e161d7120374/Prancheta-1.jpg"
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "/churrasqueira-portatil-preta-braseiro---mor/p?skuId=3986"
+                }
               },
               {
                 "desktop": "https://assets.decocache.com/palaciovtex/349262d6-3d89-44f0-839a-3a6cdb1ec955/Prancheta-1.jpg",
                 "mobile": "https://assets.decocache.com/palaciovtex/080c2835-ba03-400e-96ef-b0461cfa43c8/Prancheta-2.png",
                 "alt": "46545",
                 "action": {
+                  "href": "/parafusadeira-furadeira-de-impacto-pfv120i-a-bateria--12v-3-8-pol--com-carregador--maleta-e-acessorios---bivolt---vonder/p?skuId=3697",
                   "title": ".",
                   "subTitle": ".",
-                  "label": ".",
-                  "href": "/parafusadeira-furadeira-de-impacto-pfv120i-a-bateria--12v-3-8-pol--com-carregador--maleta-e-acessorios---bivolt---vonder/p?skuId=3697"
+                  "label": "."
                 }
               },
               {
@@ -1200,10 +1233,10 @@
                 "mobile": "https://assets.decocache.com/palaciovtex/660eddeb-81a0-4ed1-be9d-42c98e370e6a/Prancheta-2.png",
                 "alt": "54468",
                 "action": {
+                  "href": "/caixa-termica-12-litros-azul---mor/p?skuId=3967",
                   "title": ".",
                   "subTitle": ".",
-                  "label": ".",
-                  "href": "/caixa-termica-12-litros-azul---mor/p?skuId=3967"
+                  "label": "."
                 }
               },
               {
