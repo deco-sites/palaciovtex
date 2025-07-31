@@ -1152,36 +1152,47 @@
             "arrows": true,
             "images": [
               {
-                "alt": "Kit pra toda obra",
+                "alt": "Procurando o presente perfeito",
                 "action": {
                   "label": ".",
                   "title": ".",
                   "subTitle": ".",
-                  "href": "/kit-para-toda-obra/p?skuId=3312"
+                  "href": "https://lp.palacio.com.br/encarte-dia-dos-pais"
+                },
+                "mobile": "https://assets.decocache.com/palaciovtex/eb89f563-d34d-4838-9833-7d1bc912a8fb/375X400_ProcurandoOPresente_DiadosPais2025_PalaciodaFerramenta.png",
+                "desktop": "https://assets.decocache.com/palaciovtex/8609a6dd-6e93-4a92-b4a1-8fe311b2aca2/1920X500_ProcurandoOPresente_DiadosPais2025_PalaciodaFerramenta.png"
+              },
+              {
+                "alt": "Kit pra toda obra",
+                "action": {
+                  "href": "/kit-para-toda-obra/p?skuId=3312",
+                  "label": ".",
+                  "title": ".",
+                  "subTitle": "."
                 },
                 "mobile": "https://assets.decocache.com/palaciovtex/f54e51ef-c915-4c17-9743-217e4f7595ce/Prancheta-2.jpg",
                 "desktop": "https://assets.decocache.com/palaciovtex/8debbd5f-a265-45be-833c-8041ee0d7dab/Prancheta-1.jpg"
               },
               {
+                "desktop": "https://assets.decocache.com/palaciovtex/31e6333c-7bfe-4fa8-ab89-02c4b3b89dbf/Prancheta-1.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/c4ebb6ae-e925-4259-94d9-c6a8abdd1d71/Prancheta-2.jpg",
                 "alt": "Kit Paizão",
                 "action": {
-                  "href": "/kit-paizao/p?skuId=4000",
-                  "label": ".",
                   "title": ".",
-                  "subTitle": "."
-                },
-                "mobile": "https://assets.decocache.com/palaciovtex/c4ebb6ae-e925-4259-94d9-c6a8abdd1d71/Prancheta-2.jpg",
-                "desktop": "https://assets.decocache.com/palaciovtex/31e6333c-7bfe-4fa8-ab89-02c4b3b89dbf/Prancheta-1.jpg"
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "/kit-paizao/p?skuId=4000"
+                }
               },
               {
                 "desktop": "https://assets.decocache.com/palaciovtex/a3b375fc-0d80-42aa-8c63-001e836c75fb/Prancheta-1.jpg",
                 "mobile": "https://assets.decocache.com/palaciovtex/9fd3d853-a699-4e07-aa54-57f131735974/Prancheta-2.png",
                 "alt": "Dia dos Pais",
                 "action": {
+                  "href": "https://lp.palacio.com.br/encarte-dia-dos-pais",
                   "title": ".",
                   "subTitle": ".",
-                  "label": ".",
-                  "href": "https://lp.palacio.com.br/encarte-dia-dos-pais"
+                  "label": "."
                 }
               },
               {
@@ -1189,10 +1200,10 @@
                 "mobile": "https://assets.decocache.com/palaciovtex/31778afa-6a50-4671-b730-b47cf1376198/Prancheta-2.png",
                 "alt": "796549",
                 "action": {
-                  "href": "/churrasqueira-portatil-preta-braseiro---mor/p?skuId=3986",
                   "title": ".",
                   "subTitle": ".",
-                  "label": "."
+                  "label": ".",
+                  "href": "/churrasqueira-portatil-preta-braseiro---mor/p?skuId=3986"
                 }
               },
               {
@@ -1200,10 +1211,10 @@
                 "mobile": "https://assets.decocache.com/palaciovtex/080c2835-ba03-400e-96ef-b0461cfa43c8/Prancheta-2.png",
                 "alt": "46545",
                 "action": {
+                  "href": "/parafusadeira-furadeira-de-impacto-pfv120i-a-bateria--12v-3-8-pol--com-carregador--maleta-e-acessorios---bivolt---vonder/p?skuId=3697",
                   "title": ".",
                   "subTitle": ".",
-                  "label": ".",
-                  "href": "/parafusadeira-furadeira-de-impacto-pfv120i-a-bateria--12v-3-8-pol--com-carregador--maleta-e-acessorios---bivolt---vonder/p?skuId=3697"
+                  "label": "."
                 }
               },
               {
@@ -1284,15 +1295,15 @@
                 }
               },
               {
-                "desktop": "https://assets.decocache.com/palaciovtex/0a497298-efd1-4df9-a75d-77af1d12d541/Prancheta-1.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/0d8dcd7d-86f2-47d3-8e46-9035af1b07ad/Prancheta-2.png",
                 "alt": "Utilidades para o lar",
                 "action": {
                   "href": "/decoracao-e-organizacao/utilidades-domesticas",
+                  "label": ".",
                   "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                }
+                  "subTitle": "."
+                },
+                "mobile": "https://assets.decocache.com/palaciovtex/0d8dcd7d-86f2-47d3-8e46-9035af1b07ad/Prancheta-2.png",
+                "desktop": "https://assets.decocache.com/palaciovtex/0a497298-efd1-4df9-a75d-77af1d12d541/Prancheta-1.jpg"
               },
               {
                 "alt": "Tudo no fluxo",
