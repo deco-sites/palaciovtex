@@ -1152,36 +1152,80 @@
             "arrows": true,
             "images": [
               {
-                "alt": "Procurando o presente perfeito",
+                "alt": "Energia que constrói",
                 "action": {
                   "label": ".",
                   "title": ".",
                   "subTitle": ".",
-                  "href": "https://lp.palacio.com.br/encarte-dia-dos-pais"
+                  "href": "/eletrica"
                 },
-                "mobile": "https://assets.decocache.com/palaciovtex/eb89f563-d34d-4838-9833-7d1bc912a8fb/375X400_ProcurandoOPresente_DiadosPais2025_PalaciodaFerramenta.png",
-                "desktop": "https://assets.decocache.com/palaciovtex/8609a6dd-6e93-4a92-b4a1-8fe311b2aca2/1920X500_ProcurandoOPresente_DiadosPais2025_PalaciodaFerramenta.png"
+                "mobile": "https://assets.decocache.com/palaciovtex/a7727738-1e1e-475e-9805-98fea94aae29/Prancheta-2.png",
+                "desktop": "https://assets.decocache.com/palaciovtex/c5910fd4-df9e-491e-88db-37a96d16288a/Prancheta-1.jpg"
               },
               {
-                "alt": "Kit pra toda obra",
+                "alt": "Acenda ideias",
                 "action": {
-                  "href": "/kit-para-toda-obra/p?skuId=3312",
+                  "href": "/lampadas-e-iluminacao",
                   "label": ".",
                   "title": ".",
                   "subTitle": "."
                 },
+                "mobile": "https://assets.decocache.com/palaciovtex/f68663a8-b1b9-43d0-83dc-1decda71eee4/Prancheta-2.png",
+                "desktop": "https://assets.decocache.com/palaciovtex/0e992d04-6e5e-4a5c-a2a0-c313816e97b8/Prancheta-1.jpg"
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/f8ad4a50-89a7-493e-9d12-ba55bc351dc3/Prancheta-1.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/1b21c079-6d38-4fb8-829d-94035d9181b5/Prancheta-2.png",
+                "alt": "Cor que protege",
+                "action": {
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "/tintas-e-impermeabilizantes"
+                }
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/fd90ece7-13d8-4b89-8919-f687bff4dc4a/Prancheta-1.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/248d36f6-0b82-4c27-952d-d78c1ea9ef58/Prancheta-2.png",
+                "alt": "Seu espaço sua cara",
+                "action": {
+                  "href": "/casa-e-jardim",
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": "."
+                }
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/8609a6dd-6e93-4a92-b4a1-8fe311b2aca2/1920X500_ProcurandoOPresente_DiadosPais2025_PalaciodaFerramenta.png",
+                "mobile": "https://assets.decocache.com/palaciovtex/eb89f563-d34d-4838-9833-7d1bc912a8fb/375X400_ProcurandoOPresente_DiadosPais2025_PalaciodaFerramenta.png",
+                "alt": "Procurando o presente perfeito",
+                "action": {
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "https://lp.palacio.com.br/encarte-dia-dos-pais"
+                }
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/8debbd5f-a265-45be-833c-8041ee0d7dab/Prancheta-1.jpg",
                 "mobile": "https://assets.decocache.com/palaciovtex/f54e51ef-c915-4c17-9743-217e4f7595ce/Prancheta-2.jpg",
-                "desktop": "https://assets.decocache.com/palaciovtex/8debbd5f-a265-45be-833c-8041ee0d7dab/Prancheta-1.jpg"
+                "alt": "Kit pra toda obra",
+                "action": {
+                  "href": "/kit-para-toda-obra/p?skuId=3312",
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": "."
+                }
               },
               {
                 "desktop": "https://assets.decocache.com/palaciovtex/31e6333c-7bfe-4fa8-ab89-02c4b3b89dbf/Prancheta-1.jpg",
                 "mobile": "https://assets.decocache.com/palaciovtex/c4ebb6ae-e925-4259-94d9-c6a8abdd1d71/Prancheta-2.jpg",
                 "alt": "Kit Paizão",
                 "action": {
+                  "href": "/kit-paizao/p?skuId=4000",
                   "title": ".",
                   "subTitle": ".",
-                  "label": ".",
-                  "href": "/kit-paizao/p?skuId=4000"
+                  "label": "."
                 }
               },
               {
@@ -1200,10 +1244,10 @@
                 "mobile": "https://assets.decocache.com/palaciovtex/31778afa-6a50-4671-b730-b47cf1376198/Prancheta-2.png",
                 "alt": "796549",
                 "action": {
+                  "href": "/churrasqueira-portatil-preta-braseiro---mor/p?skuId=3986",
                   "title": ".",
                   "subTitle": ".",
-                  "label": ".",
-                  "href": "/churrasqueira-portatil-preta-braseiro---mor/p?skuId=3986"
+                  "label": "."
                 }
               },
               {
@@ -1251,26 +1295,26 @@
                 }
               },
               {
-                "desktop": "https://assets.decocache.com/palaciovtex/9ce03280-5bf0-456b-ac8a-e5f2863cbba4/Prancheta-1.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/0a042c88-bee7-4909-a4d2-5ce356889421/Prancheta-2.jpg",
                 "alt": "12484",
                 "action": {
                   "href": "/aspirador-para-carro-12v-60w--cabo-2-metros--trc8g---tramontina/p?skuId=565",
+                  "label": ".",
                   "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                }
+                  "subTitle": "."
+                },
+                "mobile": "https://assets.decocache.com/palaciovtex/0a042c88-bee7-4909-a4d2-5ce356889421/Prancheta-2.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/9ce03280-5bf0-456b-ac8a-e5f2863cbba4/Prancheta-1.jpg"
               },
               {
-                "desktop": "https://assets.decocache.com/palaciovtex/eaa7e36b-fcbe-447a-ad66-67011926c283/Prancheta-1.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/4dfe50fc-1a73-4681-bf27-343846bc0177/Prancheta-2.jpg",
                 "alt": "Entrega expressa",
                 "action": {
                   "href": "https://wa.me/5521999689492",
+                  "label": ".",
                   "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                }
+                  "subTitle": "."
+                },
+                "mobile": "https://assets.decocache.com/palaciovtex/4dfe50fc-1a73-4681-bf27-343846bc0177/Prancheta-2.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/eaa7e36b-fcbe-447a-ad66-67011926c283/Prancheta-1.jpg"
               },
               {
                 "desktop": "https://assets.decocache.com/palaciovtex/b66e60fc-de35-4a17-afaf-86ab69528f46/1920X500_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
@@ -1282,39 +1326,6 @@
                   "subTitle": ".",
                   "label": "."
                 }
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/0c35723d-5f3e-480a-9eec-4c1bc4661dd3/Prancheta-1.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/15e7cb4f-4c8a-465d-a7ee-d8131bab03d1/Prancheta-2.png",
-                "alt": "Potencia na mão",
-                "action": {
-                  "href": "/ferramentas-eletricas",
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                }
-              },
-              {
-                "alt": "Utilidades para o lar",
-                "action": {
-                  "href": "/decoracao-e-organizacao/utilidades-domesticas",
-                  "label": ".",
-                  "title": ".",
-                  "subTitle": "."
-                },
-                "mobile": "https://assets.decocache.com/palaciovtex/0d8dcd7d-86f2-47d3-8e46-9035af1b07ad/Prancheta-2.png",
-                "desktop": "https://assets.decocache.com/palaciovtex/0a497298-efd1-4df9-a75d-77af1d12d541/Prancheta-1.jpg"
-              },
-              {
-                "alt": "Tudo no fluxo",
-                "action": {
-                  "href": "/hidraulica-e-metais",
-                  "label": ".",
-                  "title": ".",
-                  "subTitle": "."
-                },
-                "mobile": "https://assets.decocache.com/palaciovtex/e778d9ca-5e9d-4831-a922-d372340dac83/Prancheta-2.png",
-                "desktop": "https://assets.decocache.com/palaciovtex/a9d8a3ba-01c8-4294-b54d-e46dc1d37398/Prancheta-1.jpg"
               }
             ],
             "layout": {
