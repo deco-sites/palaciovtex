@@ -1152,36 +1152,47 @@
             "arrows": true,
             "images": [
               {
-                "alt": "Energia que constrói",
+                "alt": "Ferramentas certas",
                 "action": {
                   "label": ".",
                   "title": ".",
                   "subTitle": ".",
-                  "href": "/eletrica"
+                  "href": "/ferramentas-eletricas"
+                },
+                "mobile": "https://assets.decocache.com/palaciovtex/a373c635-b5c6-4722-b13a-b38f71ac8652/Prancheta-2.png",
+                "desktop": "https://assets.decocache.com/palaciovtex/36a93e40-84dc-4144-b842-fdd20b748743/Prancheta-1.jpg"
+              },
+              {
+                "alt": "Energia que constrói",
+                "action": {
+                  "href": "/eletrica",
+                  "label": ".",
+                  "title": ".",
+                  "subTitle": "."
                 },
                 "mobile": "https://assets.decocache.com/palaciovtex/a7727738-1e1e-475e-9805-98fea94aae29/Prancheta-2.png",
                 "desktop": "https://assets.decocache.com/palaciovtex/c5910fd4-df9e-491e-88db-37a96d16288a/Prancheta-1.jpg"
               },
               {
+                "desktop": "https://assets.decocache.com/palaciovtex/0e992d04-6e5e-4a5c-a2a0-c313816e97b8/Prancheta-1.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/f68663a8-b1b9-43d0-83dc-1decda71eee4/Prancheta-2.png",
                 "alt": "Acenda ideias",
                 "action": {
-                  "href": "/lampadas-e-iluminacao",
-                  "label": ".",
                   "title": ".",
-                  "subTitle": "."
-                },
-                "mobile": "https://assets.decocache.com/palaciovtex/f68663a8-b1b9-43d0-83dc-1decda71eee4/Prancheta-2.png",
-                "desktop": "https://assets.decocache.com/palaciovtex/0e992d04-6e5e-4a5c-a2a0-c313816e97b8/Prancheta-1.jpg"
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "/lampadas-e-iluminacao"
+                }
               },
               {
                 "desktop": "https://assets.decocache.com/palaciovtex/f8ad4a50-89a7-493e-9d12-ba55bc351dc3/Prancheta-1.jpg",
                 "mobile": "https://assets.decocache.com/palaciovtex/1b21c079-6d38-4fb8-829d-94035d9181b5/Prancheta-2.png",
                 "alt": "Cor que protege",
                 "action": {
+                  "href": "/tintas-e-impermeabilizantes",
                   "title": ".",
                   "subTitle": ".",
-                  "label": ".",
-                  "href": "/tintas-e-impermeabilizantes"
+                  "label": "."
                 }
               },
               {
@@ -1189,10 +1200,10 @@
                 "mobile": "https://assets.decocache.com/palaciovtex/248d36f6-0b82-4c27-952d-d78c1ea9ef58/Prancheta-2.png",
                 "alt": "Seu espaço sua cara",
                 "action": {
-                  "href": "/casa-e-jardim",
                   "title": ".",
                   "subTitle": ".",
-                  "label": "."
+                  "label": ".",
+                  "href": "/casa-e-jardim"
                 }
               },
               {
@@ -1200,10 +1211,10 @@
                 "mobile": "https://assets.decocache.com/palaciovtex/eb89f563-d34d-4838-9833-7d1bc912a8fb/375X400_ProcurandoOPresente_DiadosPais2025_PalaciodaFerramenta.png",
                 "alt": "Procurando o presente perfeito",
                 "action": {
+                  "href": "https://lp.palacio.com.br/encarte-dia-dos-pais",
                   "title": ".",
                   "subTitle": ".",
-                  "label": ".",
-                  "href": "https://lp.palacio.com.br/encarte-dia-dos-pais"
+                  "label": "."
                 }
               },
               {
@@ -1284,15 +1295,15 @@
                 }
               },
               {
-                "desktop": "https://assets.decocache.com/palaciovtex/eaa7e36b-fcbe-447a-ad66-67011926c283/Prancheta-1.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/4dfe50fc-1a73-4681-bf27-343846bc0177/Prancheta-2.jpg",
                 "alt": "Entrega expressa",
                 "action": {
                   "href": "https://wa.me/5521999689492",
+                  "label": ".",
                   "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                }
+                  "subTitle": "."
+                },
+                "mobile": "https://assets.decocache.com/palaciovtex/4dfe50fc-1a73-4681-bf27-343846bc0177/Prancheta-2.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/eaa7e36b-fcbe-447a-ad66-67011926c283/Prancheta-1.jpg"
               },
               {
                 "alt": "Ofertass",
