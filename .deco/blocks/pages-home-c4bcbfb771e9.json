@@ -1127,7 +1127,10 @@
               "loader": {
                 "data": {
                   "__resolveType": "vtex/loaders/intelligentSearch/suggestions.ts",
-                  "count": 4
+                  "count": 4,
+                  "advancedConfigs": {
+                    "preferDescription": false
+                  }
                 },
                 "__resolveType": "resolved"
               },
@@ -1152,26 +1155,48 @@
             "arrows": true,
             "images": [
               {
-                "alt": "Ferramentas certas",
+                "alt": "Furadeiras e parafusadeiras",
                 "action": {
                   "label": ".",
                   "title": ".",
                   "subTitle": ".",
                   "href": "/ferramentas-eletricas"
                 },
-                "mobile": "https://assets.decocache.com/palaciovtex/a373c635-b5c6-4722-b13a-b38f71ac8652/Prancheta-2.png",
-                "desktop": "https://assets.decocache.com/palaciovtex/36a93e40-84dc-4144-b842-fdd20b748743/Prancheta-1.jpg"
+                "mobile": "https://assets.decocache.com/palaciovtex/7aaa54f7-ea79-4ea3-999e-d9bf4a592b42/Categoria-Furadeira---Mobile.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/ace83664-3b3a-4afd-957a-6c4eea1db375/Categoria-Furadeira---Desktop.jpg"
               },
               {
-                "alt": "Energia que constrói",
+                "alt": "600245",
                 "action": {
-                  "href": "/eletrica",
+                  "href": "/chuveiro-ducha--maxi-banho-ultra--c-cano-4600w---lorenzetti/p?skuId=1597",
                   "label": ".",
                   "title": ".",
                   "subTitle": "."
                 },
+                "mobile": "https://assets.decocache.com/palaciovtex/f017e0d3-40a9-409d-8d89-f5f2985859ff/Prancheta-2.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/083b697f-6527-4d1e-8f79-ed6dc3596d7d/Prancheta-1.jpg"
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/36a93e40-84dc-4144-b842-fdd20b748743/Prancheta-1.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/a373c635-b5c6-4722-b13a-b38f71ac8652/Prancheta-2.png",
+                "alt": "Ferramentas certas",
+                "action": {
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "/ferramentas-eletricas"
+                }
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/c5910fd4-df9e-491e-88db-37a96d16288a/Prancheta-1.jpg",
                 "mobile": "https://assets.decocache.com/palaciovtex/a7727738-1e1e-475e-9805-98fea94aae29/Prancheta-2.png",
-                "desktop": "https://assets.decocache.com/palaciovtex/c5910fd4-df9e-491e-88db-37a96d16288a/Prancheta-1.jpg"
+                "alt": "Energia que constrói",
+                "action": {
+                  "href": "/eletrica",
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": "."
+                }
               },
               {
                 "desktop": "https://assets.decocache.com/palaciovtex/0e992d04-6e5e-4a5c-a2a0-c313816e97b8/Prancheta-1.jpg",
@@ -1196,125 +1221,26 @@
                 }
               },
               {
-                "desktop": "https://assets.decocache.com/palaciovtex/fd90ece7-13d8-4b89-8919-f687bff4dc4a/Prancheta-1.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/248d36f6-0b82-4c27-952d-d78c1ea9ef58/Prancheta-2.png",
-                "alt": "Seu espaço sua cara",
-                "action": {
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": ".",
-                  "href": "/casa-e-jardim"
-                }
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/8609a6dd-6e93-4a92-b4a1-8fe311b2aca2/1920X500_ProcurandoOPresente_DiadosPais2025_PalaciodaFerramenta.png",
-                "mobile": "https://assets.decocache.com/palaciovtex/eb89f563-d34d-4838-9833-7d1bc912a8fb/375X400_ProcurandoOPresente_DiadosPais2025_PalaciodaFerramenta.png",
-                "alt": "Procurando o presente perfeito",
-                "action": {
-                  "href": "https://lp.palacio.com.br/encarte-dia-dos-pais",
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                }
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/8debbd5f-a265-45be-833c-8041ee0d7dab/Prancheta-1.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/f54e51ef-c915-4c17-9743-217e4f7595ce/Prancheta-2.jpg",
-                "alt": "Kit pra toda obra",
-                "action": {
-                  "href": "/kit-para-toda-obra/p?skuId=3312",
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                }
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/31e6333c-7bfe-4fa8-ab89-02c4b3b89dbf/Prancheta-1.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/c4ebb6ae-e925-4259-94d9-c6a8abdd1d71/Prancheta-2.jpg",
-                "alt": "Kit Paizão",
-                "action": {
-                  "href": "/kit-paizao/p?skuId=4000",
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                }
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/a3b375fc-0d80-42aa-8c63-001e836c75fb/Prancheta-1.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/9fd3d853-a699-4e07-aa54-57f131735974/Prancheta-2.png",
-                "alt": "Dia dos Pais",
-                "action": {
-                  "href": "https://lp.palacio.com.br/encarte-dia-dos-pais",
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                }
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/c75948bc-ef6e-4ef4-bb1e-e161d7120374/Prancheta-1.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/31778afa-6a50-4671-b730-b47cf1376198/Prancheta-2.png",
-                "alt": "796549",
-                "action": {
-                  "href": "/churrasqueira-portatil-preta-braseiro---mor/p?skuId=3986",
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                }
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/349262d6-3d89-44f0-839a-3a6cdb1ec955/Prancheta-1.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/080c2835-ba03-400e-96ef-b0461cfa43c8/Prancheta-2.png",
-                "alt": "46545",
-                "action": {
-                  "href": "/parafusadeira-furadeira-de-impacto-pfv120i-a-bateria--12v-3-8-pol--com-carregador--maleta-e-acessorios---bivolt---vonder/p?skuId=3697",
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                }
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/94df3bf9-361e-4a72-81d7-2e165ffa8965/Prancheta-1.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/bb3f0d81-4e15-4681-a282-4edda5ce8423/Prancheta-2.png",
-                "alt": "55721",
-                "action": {
-                  "href": "/fogao-eletrico-1-boca-inox---betsfer---1000w--127v/p?skuId=3994",
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                }
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/4543c369-4b58-481e-8a0c-00837387b363/Prancheta-1.png",
-                "mobile": "https://assets.decocache.com/palaciovtex/174c6a8d-813b-4420-98a8-f002a64294e4/Prancheta-2.jpg",
-                "alt": "54257",
-                "action": {
-                  "href": "/lavadora-de-alta-pressao-lav1600---vonder---110v/p?skuId=3999",
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                }
-              },
-              {
+                "desktop": "https://assets.decocache.com/palaciovtex/eaa7e36b-fcbe-447a-ad66-67011926c283/Prancheta-1.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/4dfe50fc-1a73-4681-bf27-343846bc0177/Prancheta-2.jpg",
                 "alt": "Entrega expressa",
                 "action": {
                   "href": "https://wa.me/5521999689492",
-                  "label": ".",
                   "title": ".",
-                  "subTitle": "."
-                },
-                "mobile": "https://assets.decocache.com/palaciovtex/4dfe50fc-1a73-4681-bf27-343846bc0177/Prancheta-2.jpg",
-                "desktop": "https://assets.decocache.com/palaciovtex/eaa7e36b-fcbe-447a-ad66-67011926c283/Prancheta-1.jpg"
+                  "subTitle": ".",
+                  "label": "."
+                }
               },
               {
+                "desktop": "https://assets.decocache.com/palaciovtex/b66e60fc-de35-4a17-afaf-86ab69528f46/1920X500_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/38a7da1e-e7b2-4cb2-946d-8892d3705bde/375X400_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
                 "alt": "Ofertass",
                 "action": {
                   "href": "/ofertas",
-                  "label": ".",
                   "title": ".",
-                  "subTitle": "."
-                },
-                "mobile": "https://assets.decocache.com/palaciovtex/38a7da1e-e7b2-4cb2-946d-8892d3705bde/375X400_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
-                "desktop": "https://assets.decocache.com/palaciovtex/b66e60fc-de35-4a17-afaf-86ab69528f46/1920X500_TudoparaAsuaObra_PalaciodaFerrramenta.jpg"
+                  "subTitle": ".",
+                  "label": "."
+                }
               }
             ],
             "layout": {
