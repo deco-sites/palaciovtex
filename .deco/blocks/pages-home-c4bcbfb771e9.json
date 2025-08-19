@@ -1166,55 +1166,33 @@
                 "desktop": "https://assets.decocache.com/palaciovtex/ace83664-3b3a-4afd-957a-6c4eea1db375/Categoria-Furadeira---Desktop.jpg"
               },
               {
-                "alt": "600245",
+                "alt": "26537",
                 "action": {
-                  "href": "/chuveiro-ducha--maxi-banho-ultra--c-cano-4600w---lorenzetti/p?skuId=1597",
+                  "href": "/parafusadeira-e-furadeira-de-impacto-gsb-18v-50--18v--com-2-baterias---maleta---bosch/p?skuId=178",
                   "label": ".",
                   "title": ".",
                   "subTitle": "."
                 },
+                "mobile": "https://assets.decocache.com/palaciovtex/67584a8d-8f53-419f-9da2-768fc4bbcac3/Prancheta-2.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/ec5bc21d-344b-436b-8bf4-8ec85266ebaf/Prancheta-1.jpg"
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/083b697f-6527-4d1e-8f79-ed6dc3596d7d/Prancheta-1.jpg",
                 "mobile": "https://assets.decocache.com/palaciovtex/f017e0d3-40a9-409d-8d89-f5f2985859ff/Prancheta-2.jpg",
-                "desktop": "https://assets.decocache.com/palaciovtex/083b697f-6527-4d1e-8f79-ed6dc3596d7d/Prancheta-1.jpg"
+                "alt": "600245",
+                "action": {
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "/chuveiro-ducha--maxi-banho-ultra--c-cano-4600w---lorenzetti/p?skuId=1597"
+                }
               },
               {
                 "desktop": "https://assets.decocache.com/palaciovtex/36a93e40-84dc-4144-b842-fdd20b748743/Prancheta-1.jpg",
                 "mobile": "https://assets.decocache.com/palaciovtex/a373c635-b5c6-4722-b13a-b38f71ac8652/Prancheta-2.png",
                 "alt": "Ferramentas certas",
                 "action": {
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": ".",
-                  "href": "/ferramentas-eletricas"
-                }
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/c5910fd4-df9e-491e-88db-37a96d16288a/Prancheta-1.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/a7727738-1e1e-475e-9805-98fea94aae29/Prancheta-2.png",
-                "alt": "Energia que constrói",
-                "action": {
-                  "href": "/eletrica",
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                }
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/0e992d04-6e5e-4a5c-a2a0-c313816e97b8/Prancheta-1.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/f68663a8-b1b9-43d0-83dc-1decda71eee4/Prancheta-2.png",
-                "alt": "Acenda ideias",
-                "action": {
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": ".",
-                  "href": "/lampadas-e-iluminacao"
-                }
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/f8ad4a50-89a7-493e-9d12-ba55bc351dc3/Prancheta-1.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/1b21c079-6d38-4fb8-829d-94035d9181b5/Prancheta-2.png",
-                "alt": "Cor que protege",
-                "action": {
-                  "href": "/tintas-e-impermeabilizantes",
+                  "href": "/ferramentas-eletricas",
                   "title": ".",
                   "subTitle": ".",
                   "label": "."
@@ -1225,10 +1203,10 @@
                 "mobile": "https://assets.decocache.com/palaciovtex/4dfe50fc-1a73-4681-bf27-343846bc0177/Prancheta-2.jpg",
                 "alt": "Entrega expressa",
                 "action": {
-                  "href": "https://wa.me/5521999689492",
                   "title": ".",
                   "subTitle": ".",
-                  "label": "."
+                  "label": ".",
+                  "href": "https://wa.me/5521999689492"
                 }
               },
               {
