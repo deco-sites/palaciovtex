@@ -1155,91 +1155,36 @@
             "arrows": true,
             "images": [
               {
-                "alt": "Furadeiras e parafusadeiras",
+                "alt": "Ferramentas certas",
                 "action": {
                   "label": ".",
                   "title": ".",
                   "subTitle": ".",
                   "href": "/ferramentas-eletricas"
                 },
-                "mobile": "https://assets.decocache.com/palaciovtex/ca5322af-3977-40d2-9cdb-f645064ca673/Prancheta-2.jpg",
-                "desktop": "https://assets.decocache.com/palaciovtex/e6e9fd31-0c4d-4f16-a803-da40fde60a74/Prancheta-1.jpg"
+                "mobile": "https://assets.decocache.com/palaciovtex/a373c635-b5c6-4722-b13a-b38f71ac8652/Prancheta-2.png",
+                "desktop": "https://assets.decocache.com/palaciovtex/36a93e40-84dc-4144-b842-fdd20b748743/Prancheta-1.jpg"
               },
               {
-                "alt": "26537",
+                "alt": "Entrega expressa",
                 "action": {
-                  "href": "/parafusadeira-e-furadeira-de-impacto-gsb-18v-50--18v--com-2-baterias---maleta---bosch/p?skuId=178",
+                  "href": "https://wa.me/5521999689492",
                   "label": ".",
                   "title": ".",
                   "subTitle": "."
                 },
-                "mobile": "https://assets.decocache.com/palaciovtex/67584a8d-8f53-419f-9da2-768fc4bbcac3/Prancheta-2.jpg",
-                "desktop": "https://assets.decocache.com/palaciovtex/ec5bc21d-344b-436b-8bf4-8ec85266ebaf/Prancheta-1.jpg"
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/083b697f-6527-4d1e-8f79-ed6dc3596d7d/Prancheta-1.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/f017e0d3-40a9-409d-8d89-f5f2985859ff/Prancheta-2.jpg",
-                "alt": "600245",
-                "action": {
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": ".",
-                  "href": "/chuveiro-ducha--maxi-banho-ultra--c-cano-4600w---lorenzetti/p?skuId=1597"
-                }
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/0d16661a-755e-48e8-ac5b-613f4d4fe26f/Prancheta-1.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/89cf3782-1925-4993-9973-07d1323c9a66/Prancheta-2.jpg",
-                "alt": "804508",
-                "action": {
-                  "href": "/tinta-acrilica-rende-muito--branco-neve----coral-900ml/p?skuId=1757",
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                }
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/a2fcf704-7908-4bec-821a-27bbbec0dc77/luminaria-de-emergencia-intelbras.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/2500ffa1-de31-464d-8a06-ac4597156f0b/mob-luminaria-de-emergencia-intelbras.jpg",
-                "alt": "42032",
-                "action": {
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": ".",
-                  "href": "/luminaria-de-emergencia-lea-31-branco---intelbras/p?skuId=3748"
-                }
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/36a93e40-84dc-4144-b842-fdd20b748743/Prancheta-1.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/a373c635-b5c6-4722-b13a-b38f71ac8652/Prancheta-2.png",
-                "alt": "Ferramentas certas",
-                "action": {
-                  "href": "/ferramentas-eletricas",
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                }
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/eaa7e36b-fcbe-447a-ad66-67011926c283/Prancheta-1.jpg",
                 "mobile": "https://assets.decocache.com/palaciovtex/4dfe50fc-1a73-4681-bf27-343846bc0177/Prancheta-2.jpg",
-                "alt": "Entrega expressa",
-                "action": {
-                  "href": "https://wa.me/5521999689492",
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                }
+                "desktop": "https://assets.decocache.com/palaciovtex/eaa7e36b-fcbe-447a-ad66-67011926c283/Prancheta-1.jpg"
               },
               {
                 "desktop": "https://assets.decocache.com/palaciovtex/b66e60fc-de35-4a17-afaf-86ab69528f46/1920X500_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
                 "mobile": "https://assets.decocache.com/palaciovtex/38a7da1e-e7b2-4cb2-946d-8892d3705bde/375X400_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
                 "alt": "Ofertass",
                 "action": {
-                  "href": "/ofertas",
                   "title": ".",
                   "subTitle": ".",
-                  "label": "."
+                  "label": ".",
+                  "href": "/ofertas"
                 }
               }
             ],
