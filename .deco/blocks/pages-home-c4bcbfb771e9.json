@@ -1155,26 +1155,81 @@
             "arrows": true,
             "images": [
               {
-                "alt": "Ferramentas certas",
+                "alt": "26140 Black e decker",
                 "action": {
                   "label": ".",
                   "title": ".",
                   "subTitle": ".",
-                  "href": "/ferramentas-eletricas"
+                  "href": "/parafusadeira-e-furadeira-de-3-8--pol--ld12s-a-bateria-12v---13-acessorios---black---decker/p?skuId=445"
                 },
-                "mobile": "https://assets.decocache.com/palaciovtex/a373c635-b5c6-4722-b13a-b38f71ac8652/Prancheta-2.png",
-                "desktop": "https://assets.decocache.com/palaciovtex/36a93e40-84dc-4144-b842-fdd20b748743/Prancheta-1.jpg"
+                "mobile": "https://assets.decocache.com/palaciovtex/3053c46d-a70f-40bc-8236-c37a9baa840b/ParaFurad-BD-375x400.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/0fef59e0-5b74-4dde-b6dc-80dab63d16d0/ParaFurad-BD-1920x500.jpg"
               },
               {
-                "alt": "Entrega expressa",
                 "action": {
-                  "href": "https://wa.me/5521999689492",
+                  "href": "/tomada-20a-com-placa-4x2-gracia---maxx-alumbra/p?skuId=3964",
                   "label": ".",
                   "title": ".",
                   "subTitle": "."
                 },
+                "mobile": "https://assets.decocache.com/palaciovtex/1167f715-096b-468c-a172-723541a796c2/Tomada-Mobile.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/02411efe-3665-48b0-8275-46df4167fa97/Tomada-Desktop.jpg",
+                "alt": "51397 tomada"
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/db2ba334-7b54-46f2-8485-c5128794c51b/Bomba-SCH-Desktop.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/0f58ece0-0b2b-453f-8756-6ad8b74fa406/Bomba-Mobile-SCH-Mobile.jpg",
+                "alt": "7140 bomba",
+                "action": {
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "/bomba-autoaspirante-monofasica-asp-98-1-2cv---schneider/p?skuId=198"
+                }
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/5451ba59-059e-49be-aae4-bf7f7020430d/ParaFurad-STA-1920x500.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/99f19416-9687-4afa-85c1-2ebbceadeda8/ParaFurad-STA-375x400.jpg",
+                "action": {
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "/parafusadeira-furadeira-12v-max-ion---100-acessorios---stanley/p?skuId=2622"
+                },
+                "alt": "11263 Max"
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/0283187c-e58a-4fe8-8c7c-101f7ac94a4c/Esmerilhadeira-Desktop.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/32757f77-266f-4865-a7ad-f55c478dca6c/Esmerilhadeira-Mobile.jpg",
+                "alt": "51777 esmerilhadeira",
+                "action": {
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "/esmerilhadeira-angular-profissional-4-1-2--g720-127v-/p?skuId=3889"
+                }
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/36a93e40-84dc-4144-b842-fdd20b748743/Prancheta-1.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/a373c635-b5c6-4722-b13a-b38f71ac8652/Prancheta-2.png",
+                "alt": "Ferramentas certas",
+                "action": {
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "/ferramentas-eletricas"
+                }
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/eaa7e36b-fcbe-447a-ad66-67011926c283/Prancheta-1.jpg",
                 "mobile": "https://assets.decocache.com/palaciovtex/4dfe50fc-1a73-4681-bf27-343846bc0177/Prancheta-2.jpg",
-                "desktop": "https://assets.decocache.com/palaciovtex/eaa7e36b-fcbe-447a-ad66-67011926c283/Prancheta-1.jpg"
+                "alt": "Entrega expressa",
+                "action": {
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "https://wa.me/5521999689492"
+                }
               },
               {
                 "desktop": "https://assets.decocache.com/palaciovtex/b66e60fc-de35-4a17-afaf-86ab69528f46/1920X500_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
