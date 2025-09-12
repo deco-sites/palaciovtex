@@ -1155,70 +1155,26 @@
             "arrows": true,
             "images": [
               {
-                "alt": "502 Trena",
+                "alt": "Ferramentas certas",
                 "action": {
                   "label": ".",
                   "title": ".",
                   "subTitle": ".",
-                  "href": "/trena-5m-c-trava-kts34-5m-s---starrett/p?skuId=1080"
+                  "href": "/ferramentas-eletricas"
                 },
-                "mobile": "https://assets.decocache.com/palaciovtex/3a1f3c6c-297a-434a-8ba1-09108387398a/Prancheta-2.jpg",
-                "desktop": "https://assets.decocache.com/palaciovtex/866f65a2-e87c-46bc-9ad5-519aac4f6701/Prancheta-1.jpg"
+                "mobile": "https://assets.decocache.com/palaciovtex/a373c635-b5c6-4722-b13a-b38f71ac8652/Prancheta-2.png",
+                "desktop": "https://assets.decocache.com/palaciovtex/36a93e40-84dc-4144-b842-fdd20b748743/Prancheta-1.jpg"
               },
               {
                 "action": {
-                  "href": "/cadeado-latao-45mm-lt-45---pado/p?skuId=1288",
+                  "href": "/ofertas",
                   "label": ".",
                   "title": ".",
                   "subTitle": "."
                 },
-                "mobile": "https://assets.decocache.com/palaciovtex/dbc90543-5853-405b-929b-272d7b500830/Cadeado-Mobile.jpg",
-                "desktop": "https://assets.decocache.com/palaciovtex/9cc2957a-18e4-49a4-a674-3fdcc32f083f/Cadeado-Desktop.jpg",
-                "alt": "19926 Cadeado"
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/b4f532ab-188a-4a8c-9f31-c7eca5a26084/Bomba-DAN-Desktop.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/f5118123-ed1e-414d-bbd6-9a5147cb2455/Bomba-DAN-Mobile.jpg",
-                "alt": "407283 bomba",
-                "action": {
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": ".",
-                  "href": "/bomba-autoaspirante-ap-3c-1-0cv-bivolt---dancor/p?skuId=203"
-                }
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/a1f4dfe8-cc1d-466f-a887-84456a851155/Telefone-Desktop.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/c157efc5-6e15-4faa-b1db-d4e95d37cdc6/Telefone-Mobile.png",
-                "action": {
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": ".",
-                  "href": "/telefone-com-fio-tc20---intelbras/p?skuId=649"
-                },
-                "alt": "805820 Telefone"
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/0283187c-e58a-4fe8-8c7c-101f7ac94a4c/Esmerilhadeira-Desktop.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/32757f77-266f-4865-a7ad-f55c478dca6c/Esmerilhadeira-Mobile.jpg",
-                "alt": "51777 esmerilhadeira",
-                "action": {
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": ".",
-                  "href": "/esmerilhadeira-angular-profissional-4-1-2--g720-127v-/p?skuId=3889"
-                }
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/36a93e40-84dc-4144-b842-fdd20b748743/Prancheta-1.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/a373c635-b5c6-4722-b13a-b38f71ac8652/Prancheta-2.png",
-                "alt": "Ferramentas certas",
-                "action": {
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": ".",
-                  "href": "/ferramentas-eletricas"
-                }
+                "mobile": "https://assets.decocache.com/palaciovtex/38a7da1e-e7b2-4cb2-946d-8892d3705bde/375X400_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/b66e60fc-de35-4a17-afaf-86ab69528f46/1920X500_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
+                "alt": "Ofertass"
               },
               {
                 "desktop": "https://assets.decocache.com/palaciovtex/eaa7e36b-fcbe-447a-ad66-67011926c283/Prancheta-1.jpg",
@@ -1229,17 +1185,6 @@
                   "subTitle": ".",
                   "label": ".",
                   "href": "https://wa.me/5521999689492"
-                }
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/b66e60fc-de35-4a17-afaf-86ab69528f46/1920X500_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/38a7da1e-e7b2-4cb2-946d-8892d3705bde/375X400_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
-                "alt": "Ofertass",
-                "action": {
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": ".",
-                  "href": "/ofertas"
                 }
               }
             ],
