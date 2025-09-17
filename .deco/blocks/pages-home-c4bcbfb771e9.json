@@ -53,8 +53,8 @@
             "navItems": {
               "items": [
                 {
-                  "url": "https://lp.palacio.com.br/encarte-dia-dos-pais",
-                  "name": "Encarte",
+                  "url": "https://lp.palacio.com.br/mega-saldao",
+                  "name": "𝗠𝗘𝗚𝗔 𝗦𝗔𝗟𝗗𝗔̃𝗢",
                   "image": [],
                   "children": []
                 },
@@ -1155,26 +1155,114 @@
             "arrows": true,
             "images": [
               {
-                "alt": "Ferramentas certas",
+                "alt": "Mega Saldão",
                 "action": {
-                  "label": ".",
                   "title": ".",
                   "subTitle": ".",
-                  "href": "/ferramentas-eletricas"
+                  "href": "https://lp.palacio.com.br/mega-saldao",
+                  "label": "."
                 },
-                "mobile": "https://assets.decocache.com/palaciovtex/a373c635-b5c6-4722-b13a-b38f71ac8652/Prancheta-2.png",
-                "desktop": "https://assets.decocache.com/palaciovtex/36a93e40-84dc-4144-b842-fdd20b748743/Prancheta-1.jpg"
+                "mobile": "https://assets.decocache.com/palaciovtex/5c9d5800-92bf-4bdb-b7be-0c6fb3b4138d/Banner_Mobile_MegaSaldao_PalacioDaFerramenta.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/a0546399-2a02-4187-9ad2-835e7d47d39f/Banner_Desktop_MegaSaldao_PalacioDaFerramenta.jpg"
               },
               {
                 "action": {
-                  "href": "/ofertas",
+                  "href": "/cadeado-cr-35---35mm---papaiz/p?skuId=4101",
                   "label": ".",
                   "title": ".",
                   "subTitle": "."
                 },
-                "mobile": "https://assets.decocache.com/palaciovtex/38a7da1e-e7b2-4cb2-946d-8892d3705bde/375X400_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/30ba281d-a0ee-4925-b7f6-91ddb51a6fee/Cadeado_Banner_Mobile.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/62bdd22c-6245-4d76-987d-dcf6e8e8dacc/Cadeado_Banner_Desktop.jpg",
+                "alt": "Cadeado"
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/1b9b64fe-7421-45d3-b993-1985476b1315/Chuveiro_Banner_Desktop.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/67ce6a59-139c-4b23-9dad-c52ee60a6a3a/Chuveiro_Banner_Mobile.jpg",
+                "alt": "Chuveiro",
+                "action": {
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "/chuveiro-ducha-sem-desvio-redonda-parede---technoshower---docol/p?skuId=4108"
+                }
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/5390404a-81fe-49ad-9f43-8554ea331206/Lavadora_Banner_Desktop.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/22bf919e-0d82-4346-934d-ee4aa8ae91da/Lavadora_Banner_Mobile.jpg",
+                "action": {
+                  "href": "/lavadora-de-alta-pressao-hd585-prof-s---karcher/p?skuId=602",
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": "."
+                },
+                "alt": "Lavadora"
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/283cf486-440a-4b11-bf94-64eaa3012f00/Aquecedor_Banner_Desktop.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/06e53ae1-25f3-4def-8080-ae6c97163b02/Aquecedor_Banner_Mobile.jpg",
+                "alt": "Aquecedor",
+                "action": {
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "/aquecedor-a-gas-lz2300de-gn-23-0l--branco---lorenzetti/p?skuId=2779"
+                }
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/d847ff1f-73bb-4484-86eb-bf685d9526a6/Luva_Banner_Desktop.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/d3d057c4-d60a-4738-870d-4b350b2ae3fb/Luva_Banner_Mobile.jpg",
+                "alt": "Luva",
+                "action": {
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "/luva-de-seguranca-sonora-1100-alta-performance---tamanho-p---kalipso/p?skuId=4100"
+                }
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/47b883d9-0b51-45b1-b37a-d45dbd7e3d60/Picador_Banner_Desktop.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/0e1f05ba-8950-41a7-94eb-f59ca863bbe1/Picador_Banner_Mobile.jpg",
+                "alt": "Triturador",
+                "action": {
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "/picador-e-triturador-forrageiro-trf-70-1-5cv-bivolt---trapp/p?skuId=4119"
+                }
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/db049981-dc93-4f14-9055-d43865a7a23e/Politriz_Banner_Desktop.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/3386c32c-14e9-44f8-bd74-a5616f6e0423/Politriz_Banner_Mobile.jpg",
+                "alt": "Politriz",
+                "action": {
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "/politriz-de-7--9071-1300w---disco-de-polimento---maleta---skil/p?skuId=493"
+                }
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/36a93e40-84dc-4144-b842-fdd20b748743/Prancheta-1.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/a373c635-b5c6-4722-b13a-b38f71ac8652/Prancheta-2.png",
+                "alt": "Ferramentas certas",
+                "action": {
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "/ferramentas-eletricas"
+                }
+              },
+              {
                 "desktop": "https://assets.decocache.com/palaciovtex/b66e60fc-de35-4a17-afaf-86ab69528f46/1920X500_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
-                "alt": "Ofertass"
+                "mobile": "https://assets.decocache.com/palaciovtex/38a7da1e-e7b2-4cb2-946d-8892d3705bde/375X400_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
+                "alt": "Ofertass",
+                "action": {
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "/ofertas"
+                }
               },
               {
                 "desktop": "https://assets.decocache.com/palaciovtex/eaa7e36b-fcbe-447a-ad66-67011926c283/Prancheta-1.jpg",
