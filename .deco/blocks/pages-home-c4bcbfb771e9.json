@@ -1318,10 +1318,10 @@
             "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
             "images": [
               {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/89571973-caa6-4b34-946e-3f083d664db6",
-                "alt": "Ofertas Até 100 Reais",
+                "desktop": "https://assets.decocache.com/palaciovtex/c3a1d01c-bab8-43ad-bc4a-e161563f5e96/340X540_CasaJardim.png",
+                "alt": "Ofertas Casa e Jardim",
                 "action": {
-                  "href": "/ofertas",
+                  "href": "/casa-e-jardim",
                   "title": "title",
                   "subTitle": "Subtitle",
                   "label": "Label"
