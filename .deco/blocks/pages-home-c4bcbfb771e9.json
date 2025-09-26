@@ -1328,30 +1328,30 @@
                 }
               },
               {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/147b70b2-2dce-4ece-ae31-8f2b7d20cb09",
-                "alt": "Blog",
+                "desktop": "https://assets.decocache.com/palaciovtex/437ad007-061f-46d5-8d65-a1fb7759a06c/340X540_Eletrica.png",
+                "alt": "Ofertas Elétrica",
                 "action": {
-                  "href": "/blog",
+                  "href": "/eletrica",
                   "title": ".",
                   "subTitle": ".",
                   "label": "."
                 }
               },
               {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/d41adb7b-941e-41bd-b160-88fbf3cbeb0a",
-                "alt": "200 reais",
+                "desktop": "https://assets.decocache.com/palaciovtex/4b85114d-2ada-4c05-b66b-1ca8c0e1dc14/340X540_Tintas.png",
+                "alt": "Ofertas em Tintas",
                 "action": {
-                  "href": "/ofertas",
+                  "href": "/tintas-e-impermeabilizantes",
                   "title": ".",
                   "subTitle": ".",
                   "label": "."
                 }
               },
               {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/96c2ad06-ddcf-4333-ae4b-6e1c0b8930f1",
-                "alt": "Dremel",
+                "desktop": "https://assets.decocache.com/palaciovtex/10f03d61-298c-4210-a7d2-c10a6c44bc3a/340X540_Lar.png",
+                "alt": "Utilidades Para o Lar",
                 "action": {
-                  "href": "/dremel",
+                  "href": "/DECORACAO-E-ORGANIZACAO/Utilidades-Domesticas?map=c%2Cc",
                   "title": "title",
                   "subTitle": "Subtitle",
                   "label": "Label"
