@@ -1318,23 +1318,33 @@
             "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
             "images": [
               {
-                "desktop": "https://assets.decocache.com/palaciovtex/c3a1d01c-bab8-43ad-bc4a-e161563f5e96/340X540_CasaJardim.png",
-                "alt": "Ofertas Casa e Jardim",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9204864d-3a89-4df7-9ebe-146035bba7fe",
+                "alt": "Furadeiras",
                 "action": {
-                  "href": "/casa-e-jardim",
+                  "href": "https://www.palacio.com.br/ferramentas-eletricas/furadeiras",
                   "title": "title",
                   "subTitle": "Subtitle",
                   "label": "Label"
                 }
               },
               {
-                "desktop": "https://assets.decocache.com/palaciovtex/437ad007-061f-46d5-8d65-a1fb7759a06c/340X540_Eletrica.png",
-                "alt": "Ofertas Elétrica",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/7236769a-a993-492d-a465-386a23f51ebc",
+                "alt": "Frete Gratis",
                 "action": {
-                  "href": "/eletrica",
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": "."
+                  "href": "/ofertas",
+                  "title": "title",
+                  "subTitle": "Subtitle",
+                  "label": "Label"
+                }
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/10f03d61-298c-4210-a7d2-c10a6c44bc3a/340X540_Lar.png",
+                "alt": "Utilidades Para o Lar",
+                "action": {
+                  "href": "/DECORACAO-E-ORGANIZACAO/Utilidades-Domesticas?map=c%2Cc",
+                  "title": "title",
+                  "subTitle": "Subtitle",
+                  "label": "Label"
                 }
               },
               {
@@ -1348,13 +1358,23 @@
                 }
               },
               {
-                "desktop": "https://assets.decocache.com/palaciovtex/10f03d61-298c-4210-a7d2-c10a6c44bc3a/340X540_Lar.png",
-                "alt": "Utilidades Para o Lar",
+                "desktop": "https://assets.decocache.com/palaciovtex/c3a1d01c-bab8-43ad-bc4a-e161563f5e96/340X540_CasaJardim.png",
+                "alt": "Ofertas Casa e Jardim",
                 "action": {
-                  "href": "/DECORACAO-E-ORGANIZACAO/Utilidades-Domesticas?map=c%2Cc",
+                  "href": "/casa-e-jardim",
                   "title": "title",
                   "subTitle": "Subtitle",
                   "label": "Label"
+                }
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/437ad007-061f-46d5-8d65-a1fb7759a06c/340X540_Eletrica.png",
+                "alt": "Ofertas Elétrica",
+                "action": {
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "/eletrica"
                 }
               },
               {
@@ -1371,27 +1391,7 @@
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/2f8e732e-04ec-48f7-8236-654e2b50514b",
                 "alt": "Pegue seu cupom",
                 "action": {
-                  "title": "title",
-                  "subTitle": "Subtitle",
-                  "label": "Label",
-                  "href": "/pegue-seu-cupom"
-                }
-              },
-              {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/7236769a-a993-492d-a465-386a23f51ebc",
-                "alt": "Frete Gratis",
-                "action": {
-                  "href": "/ofertas",
-                  "title": "title",
-                  "subTitle": "Subtitle",
-                  "label": "Label"
-                }
-              },
-              {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9204864d-3a89-4df7-9ebe-146035bba7fe",
-                "alt": "Furadeiras",
-                "action": {
-                  "href": "https://www.palacio.com.br/ferramentas-eletricas/furadeiras",
+                  "href": "/pegue-seu-cupom",
                   "title": "title",
                   "subTitle": "Subtitle",
                   "label": "Label"
