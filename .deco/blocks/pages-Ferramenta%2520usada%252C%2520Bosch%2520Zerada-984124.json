@@ -1,0 +1,35 @@
+{
+  "name": "Ferramenta usada, Bosch Zerada",
+  "path": "/campanhabosch",
+  "sections": [
+    {
+      "title": "Ferramenta usada, Bosch Zerada!",
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "titleTemplate": "| Palácio da Ferramenta",
+      "favicon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/palaciovtex/81912b24-672f-4fe4-bf03-fb6a68b3143e/32X32_favicon_palacio-(1).png"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "sections": [
+        {
+          "title": "Ferramenta usada, Bosch Zerada! - Veja como participar!",
+          "__resolveType": "site/sections/Institucional/InstitucionalTitle.tsx"
+        },
+        {
+          "content": "<p><img src=\"https://assets.decocache.com/palaciovtex/e5ca51fc-aae2-4e17-ba0a-991d363daeac/EmailMkt_principal_renovar_post-og_PT_PalaciodaFerramenta_01.png\"><img src=\"https://assets.decocache.com/palaciovtex/f4b87c9b-bd1e-418d-b443-9a98c90b66db/EmailMkt_principal_renovar_post-og_PT_PalaciodaFerramenta_02.png\"><img src=\"https://assets.decocache.com/palaciovtex/577802a4-271d-40b1-95af-795d56be7a7d/EmailMkt_principal_renovar_post-og_PT_PalaciodaFerramenta_03.png\"></p>",
+          "__resolveType": "site/sections/Institucional/InstitucionalHTML.tsx"
+        }
+      ],
+      "__resolveType": "site/sections/Content/InstitucionalContent.tsx"
+    },
+    {
+      "__resolveType": "Rodapé FULL"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
