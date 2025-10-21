@@ -1155,48 +1155,59 @@
             "arrows": true,
             "images": [
               {
-                "alt": "Mega Saldão",
+                "alt": "Ferramenta usada Bosch Zerada",
                 "action": {
                   "title": ".",
                   "subTitle": ".",
-                  "href": "https://lp.palacio.com.br/mega-saldao",
+                  "href": "/campanhabosch",
                   "label": "."
                 },
-                "mobile": "https://assets.decocache.com/palaciovtex/5c9d5800-92bf-4bdb-b7be-0c6fb3b4138d/Banner_Mobile_MegaSaldao_PalacioDaFerramenta.jpg",
-                "desktop": "https://assets.decocache.com/palaciovtex/a0546399-2a02-4187-9ad2-835e7d47d39f/Banner_Desktop_MegaSaldao_PalacioDaFerramenta.jpg"
+                "mobile": "https://assets.decocache.com/palaciovtex/4577dbfe-95db-4c21-a62b-7859ad68a711/375X400_Site_principal_renovar_post-og_PT_PalaciodaFerramenta.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/bcc93a53-c80d-4990-8140-4401be2b6550/1920X500_Site_principal_renovar_post-og_PT_PalaciodaFerramenta.jpg"
               },
               {
                 "action": {
-                  "href": "/cuba-redonda-de-embutir-tramontina-luna-35-bl-em-aco-inox/p?skuId=3598",
+                  "href": "https://lp.palacio.com.br/mega-saldao",
                   "label": ".",
                   "title": ".",
                   "subTitle": "."
                 },
-                "mobile": "https://assets.decocache.com/palaciovtex/1d35e9b1-c35b-4abd-be7e-47832c33de3a/CubaRedonda_Banner_Mobile.jpg",
-                "desktop": "https://assets.decocache.com/palaciovtex/e61a5886-dca5-4737-b92f-887e841c76af/CubaRedonda_Banner_Desktop.jpg",
-                "alt": "Cuba redonda"
+                "mobile": "https://assets.decocache.com/palaciovtex/5c9d5800-92bf-4bdb-b7be-0c6fb3b4138d/Banner_Mobile_MegaSaldao_PalacioDaFerramenta.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/a0546399-2a02-4187-9ad2-835e7d47d39f/Banner_Desktop_MegaSaldao_PalacioDaFerramenta.jpg",
+                "alt": "Mega Saldão"
               },
               {
-                "desktop": "https://assets.decocache.com/palaciovtex/c666cbb3-d874-47a6-9394-547b5e56a67b/Benefit_Banner_Desktop.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/3f785b37-67e8-4cb4-b8a3-ebe626bb6372/Benefit_Banner_Mobile.jpg",
-                "alt": "Torneira benefit",
+                "desktop": "https://assets.decocache.com/palaciovtex/e61a5886-dca5-4737-b92f-887e841c76af/CubaRedonda_Banner_Desktop.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/1d35e9b1-c35b-4abd-be7e-47832c33de3a/CubaRedonda_Banner_Mobile.jpg",
+                "alt": "Cuba redonda",
                 "action": {
                   "title": ".",
                   "subTitle": ".",
                   "label": ".",
-                  "href": "/torneira-para-banheiro-com-alavanca-nova-benefit---docol/p?skuId=4113"
+                  "href": "/cuba-redonda-de-embutir-tramontina-luna-35-bl-em-aco-inox/p?skuId=3598"
                 }
               },
               {
-                "desktop": "https://assets.decocache.com/palaciovtex/fb7ad21b-c528-4033-a006-af40b805df95/Fly_Banner_Desktop.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/1e4bd0ff-f6d2-4f61-8d95-b328dea1ee7c/Fly_Banner_Mobile.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/c666cbb3-d874-47a6-9394-547b5e56a67b/Benefit_Banner_Desktop.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/3f785b37-67e8-4cb4-b8a3-ebe626bb6372/Benefit_Banner_Mobile.jpg",
                 "action": {
-                  "href": "/pendente-fly-1xe27---taschibra/p?skuId=4138",
+                  "href": "/torneira-para-banheiro-com-alavanca-nova-benefit---docol/p?skuId=4113",
                   "title": ".",
                   "subTitle": ".",
                   "label": "."
                 },
-                "alt": "Pendente Fly"
+                "alt": "Torneira benefit"
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/fb7ad21b-c528-4033-a006-af40b805df95/Fly_Banner_Desktop.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/1e4bd0ff-f6d2-4f61-8d95-b328dea1ee7c/Fly_Banner_Mobile.jpg",
+                "alt": "Pendente Fly",
+                "action": {
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "/pendente-fly-1xe27---taschibra/p?skuId=4138"
+                }
               },
               {
                 "desktop": "https://assets.decocache.com/palaciovtex/be18f6e7-3fb3-403f-be2f-812e75f5d212/PendenteUni_Banner_Desktop.jpg",
