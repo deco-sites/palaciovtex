@@ -54,7 +54,7 @@
               "items": [
                 {
                   "url": "https://lp.palacio.com.br/mega-saldao",
-                  "name": "𝗠𝗘𝗚𝗔 𝗦𝗔𝗟𝗗𝗔̃𝗢",
+                  "name": "ESQUENTA BLACK OFERTAS",
                   "image": [],
                   "children": []
                 },
@@ -1155,48 +1155,59 @@
             "arrows": true,
             "images": [
               {
-                "alt": "Ferramenta usada Bosch Zerada",
+                "alt": "Ta chegando Black Ofertas",
                 "action": {
                   "title": ".",
                   "subTitle": ".",
-                  "href": "/campanhabosch",
+                  "href": "https://www.palacio.com.br/",
                   "label": "."
                 },
-                "mobile": "https://assets.decocache.com/palaciovtex/4577dbfe-95db-4c21-a62b-7859ad68a711/375X400_Site_principal_renovar_post-og_PT_PalaciodaFerramenta.jpg",
-                "desktop": "https://assets.decocache.com/palaciovtex/bcc93a53-c80d-4990-8140-4401be2b6550/1920X500_Site_principal_renovar_post-og_PT_PalaciodaFerramenta.jpg"
+                "mobile": "https://assets.decocache.com/palaciovtex/b50812fa-73ca-470f-8871-c23645a3ecbf/GIF_375X400_TaChegando_Campanha_BlackOfertas_PalaciodaFerramenta.gif",
+                "desktop": "https://assets.decocache.com/palaciovtex/fc7bdfb4-7290-40b7-9f4a-9f0dd0dd0eea/GIF_1090X500_TaChegando_Campanha_BlackOfertas_PalaciodaFerramenta.gif"
               },
               {
                 "action": {
-                  "href": "https://www.palacio.com.br/",
+                  "href": "/campanhabosch",
                   "label": ".",
                   "title": ".",
                   "subTitle": "."
                 },
-                "mobile": "https://assets.decocache.com/palaciovtex/d46788ff-8c49-4b94-ad09-14f77ac787b0/Mobile.jpg",
-                "desktop": "https://assets.decocache.com/palaciovtex/22b8061d-2d08-4a58-b5c4-de024ebde3c5/Desktop.jpg",
-                "alt": "Vale estacionamento"
+                "mobile": "https://assets.decocache.com/palaciovtex/4577dbfe-95db-4c21-a62b-7859ad68a711/375X400_Site_principal_renovar_post-og_PT_PalaciodaFerramenta.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/bcc93a53-c80d-4990-8140-4401be2b6550/1920X500_Site_principal_renovar_post-og_PT_PalaciodaFerramenta.jpg",
+                "alt": "Ferramenta usada Bosch Zerada"
               },
               {
-                "desktop": "https://assets.decocache.com/palaciovtex/b66e60fc-de35-4a17-afaf-86ab69528f46/1920X500_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/38a7da1e-e7b2-4cb2-946d-8892d3705bde/375X400_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
-                "alt": "Ofertass",
+                "desktop": "https://assets.decocache.com/palaciovtex/22b8061d-2d08-4a58-b5c4-de024ebde3c5/Desktop.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/d46788ff-8c49-4b94-ad09-14f77ac787b0/Mobile.jpg",
+                "alt": "Vale estacionamento",
                 "action": {
                   "title": ".",
                   "subTitle": ".",
                   "label": ".",
-                  "href": "/ofertas"
+                  "href": "https://www.palacio.com.br/"
                 }
               },
               {
-                "desktop": "https://assets.decocache.com/palaciovtex/36a93e40-84dc-4144-b842-fdd20b748743/Prancheta-1.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/a373c635-b5c6-4722-b13a-b38f71ac8652/Prancheta-2.png",
+                "desktop": "https://assets.decocache.com/palaciovtex/b66e60fc-de35-4a17-afaf-86ab69528f46/1920X500_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/38a7da1e-e7b2-4cb2-946d-8892d3705bde/375X400_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
                 "action": {
-                  "href": "/ferramentas-eletricas",
+                  "href": "/ofertas",
                   "title": ".",
                   "subTitle": ".",
                   "label": "."
                 },
-                "alt": "Ferramentas certas"
+                "alt": "Ofertass"
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/36a93e40-84dc-4144-b842-fdd20b748743/Prancheta-1.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/a373c635-b5c6-4722-b13a-b38f71ac8652/Prancheta-2.png",
+                "alt": "Ferramentas certas",
+                "action": {
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "/ferramentas-eletricas"
+                }
               },
               {
                 "desktop": "https://assets.decocache.com/palaciovtex/eaa7e36b-fcbe-447a-ad66-67011926c283/Prancheta-1.jpg",
