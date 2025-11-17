@@ -53,8 +53,8 @@
             "navItems": {
               "items": [
                 {
-                  "url": "https://lp.palacio.com.br/mega-saldao",
-                  "name": "ESQUENTA BLACK OFERTAS",
+                  "url": "https://lp.palacio.com.br/black-ofertas",
+                  "name": "BLACK OFERTAS",
                   "image": [],
                   "children": []
                 },
@@ -1155,15 +1155,15 @@
             "arrows": true,
             "images": [
               {
-                "alt": "Black",
+                "alt": "Black ofertas",
                 "action": {
                   "title": ".",
                   "subTitle": ".",
                   "label": ".",
-                  "href": "https://www.palacio.com.br/"
+                  "href": "https://lp.palacio.com.br/black-ofertas"
                 },
-                "mobile": "https://assets.decocache.com/palaciovtex/375c5179-e2b5-4ead-9d87-bef4403089df/375X400_TaChegando_Campanha_BlackOfertas_PalaciodaFerramenta.gif",
-                "desktop": "https://assets.decocache.com/palaciovtex/d3ac28ab-b77c-4ea2-8327-cce0b9eab799/1090X500_TaChegando_Campanha_BlackOfertas_PalaciodaFerramenta.jpg"
+                "mobile": "https://assets.decocache.com/palaciovtex/9bdec131-b41c-4be0-bffe-cf57307f5813/LP_375X400_Comecou_Campanha_BlackOfertas_PalaciodaFerramenta.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/644fe07b-f7b9-4744-a748-65330485e7c6/1090X500_V2_Comecou_Campanha_BlackOfertas_PalaciodaFerramenta.jpg"
               },
               {
                 "action": {
@@ -1265,13 +1265,13 @@
             "__resolveType": "site/sections/Content/Tipbar.tsx"
           },
           {
+            "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
             "layout": {
               "columns": {
                 "mobile": 2,
                 "desktop": 5
               }
             },
-            "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
             "images": [
               {
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/9204864d-3a89-4df7-9ebe-146035bba7fe",
@@ -1435,8 +1435,8 @@
             "__resolveType": "PARAFUSADEIRAS E FURADEIRAS - Coleção 164"
           },
           {
-            "title": "NOSSAS LOJAS",
             "__resolveType": "site/sections/SliderCustom/NovoCarrossel.tsx",
+            "title": "NOSSAS LOJAS",
             "images": [
               {
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4115/7905f0e1-9858-47eb-92f1-ba1c8b4a7dc7",
