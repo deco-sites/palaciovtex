@@ -1155,26 +1155,37 @@
             "arrows": true,
             "images": [
               {
+                "alt": "58711 Furadeira",
+                "action": {
+                  "title": ".",
+                  "subTitle": ".",
+                  "label": ".",
+                  "href": "/furadeira-de-impacto-10mm--potencia-550w--com-chave-de-mandril--bed710550--110v---black---decker/p?skuId=4163"
+                },
+                "mobile": "https://assets.decocache.com/palaciovtex/9f1b4a09-8ae3-4511-a7a9-a5f95962f463/Prancheta-2.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/0d5743f9-638d-44b4-8070-a967475fbb53/Prancheta-1.jpg"
+              },
+              {
+                "action": {
+                  "href": "/parafusadeira---furadeira-de-impacto-3-8”--10mm--12v-max--litio-–-ion-28-acessorios-e-maleta-bivolt---black---decker/p?skuId=4164",
+                  "label": ".",
+                  "title": ".",
+                  "subTitle": "."
+                },
+                "mobile": "https://assets.decocache.com/palaciovtex/5df3a4d6-c3d8-4850-b1db-90a5892f291f/Prancheta-2.jpg",
+                "desktop": "https://assets.decocache.com/palaciovtex/b79d8575-e71b-41aa-bef5-16d3f4032e36/Prancheta-1.jpg",
+                "alt": "59892 Parafusadeira Black e decker"
+              },
+              {
+                "desktop": "https://assets.decocache.com/palaciovtex/644fe07b-f7b9-4744-a748-65330485e7c6/1090X500_V2_Comecou_Campanha_BlackOfertas_PalaciodaFerramenta.jpg",
+                "mobile": "https://assets.decocache.com/palaciovtex/9bdec131-b41c-4be0-bffe-cf57307f5813/LP_375X400_Comecou_Campanha_BlackOfertas_PalaciodaFerramenta.jpg",
                 "alt": "Black ofertas",
                 "action": {
                   "title": ".",
                   "subTitle": ".",
                   "label": ".",
                   "href": "https://lp.palacio.com.br/black-ofertas"
-                },
-                "mobile": "https://assets.decocache.com/palaciovtex/9bdec131-b41c-4be0-bffe-cf57307f5813/LP_375X400_Comecou_Campanha_BlackOfertas_PalaciodaFerramenta.jpg",
-                "desktop": "https://assets.decocache.com/palaciovtex/644fe07b-f7b9-4744-a748-65330485e7c6/1090X500_V2_Comecou_Campanha_BlackOfertas_PalaciodaFerramenta.jpg"
-              },
-              {
-                "action": {
-                  "href": "/campanhabosch",
-                  "label": ".",
-                  "title": ".",
-                  "subTitle": "."
-                },
-                "mobile": "https://assets.decocache.com/palaciovtex/4577dbfe-95db-4c21-a62b-7859ad68a711/375X400_Site_principal_renovar_post-og_PT_PalaciodaFerramenta.jpg",
-                "desktop": "https://assets.decocache.com/palaciovtex/bcc93a53-c80d-4990-8140-4401be2b6550/1920X500_Site_principal_renovar_post-og_PT_PalaciodaFerramenta.jpg",
-                "alt": "Ferramenta usada Bosch Zerada"
+                }
               },
               {
                 "desktop": "https://assets.decocache.com/palaciovtex/22b8061d-2d08-4a58-b5c4-de024ebde3c5/Desktop.jpg",
@@ -1185,50 +1196,6 @@
                   "subTitle": ".",
                   "label": ".",
                   "href": "https://www.palacio.com.br/"
-                }
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/b66e60fc-de35-4a17-afaf-86ab69528f46/1920X500_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/38a7da1e-e7b2-4cb2-946d-8892d3705bde/375X400_TudoparaAsuaObra_PalaciodaFerrramenta.jpg",
-                "action": {
-                  "href": "/ofertas",
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": "."
-                },
-                "alt": "Ofertass"
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/36a93e40-84dc-4144-b842-fdd20b748743/Prancheta-1.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/a373c635-b5c6-4722-b13a-b38f71ac8652/Prancheta-2.png",
-                "alt": "Ferramentas certas",
-                "action": {
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": ".",
-                  "href": "/ferramentas-eletricas"
-                }
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/eaa7e36b-fcbe-447a-ad66-67011926c283/Prancheta-1.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/4dfe50fc-1a73-4681-bf27-343846bc0177/Prancheta-2.jpg",
-                "alt": "Entrega expressa",
-                "action": {
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": ".",
-                  "href": "https://wa.me/5521999689492"
-                }
-              },
-              {
-                "desktop": "https://assets.decocache.com/palaciovtex/a0546399-2a02-4187-9ad2-835e7d47d39f/Banner_Desktop_MegaSaldao_PalacioDaFerramenta.jpg",
-                "mobile": "https://assets.decocache.com/palaciovtex/5c9d5800-92bf-4bdb-b7be-0c6fb3b4138d/Banner_Mobile_MegaSaldao_PalacioDaFerramenta.jpg",
-                "alt": "Mega Saldão",
-                "action": {
-                  "title": ".",
-                  "subTitle": ".",
-                  "label": ".",
-                  "href": "https://lp.palacio.com.br/mega-saldao"
                 }
               }
             ],

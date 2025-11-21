@@ -13,7 +13,9 @@
     },
     "elementsPositions": {
       "favoriteIcon": "Top right"
-    }
+    },
+    "desktopSlidesQuantity": 3,
+    "mobileSlidesQuantity": 1
   },
   "product": {
     "@type": "Product",
