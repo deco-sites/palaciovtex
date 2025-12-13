@@ -53,8 +53,8 @@
             "navItems": {
               "items": [
                 {
-                  "url": "https://lp.palacio.com.br/black-ofertas",
-                  "name": "BLACK OFERTAS",
+                  "url": "https://lp.palacio.com.br/ofertas-fim-de-ano",
+                  "name": "Ofertas Fim de Ano",
                   "image": [],
                   "children": []
                 },
@@ -1175,6 +1175,61 @@
                 "mobile": "https://assets.decocache.com/palaciovtex/ab382e62-275b-474d-87c0-595ded280a78/Mobile.png",
                 "desktop": "https://assets.decocache.com/palaciovtex/e5eb8c51-2ce9-4ae6-845c-97715254a630/Desktop.png",
                 "alt": "7251"
+              },
+              {
+                "action": {
+                  "href": "/martelete-rotativo-rompedor-800w-hr-2610-c--maleta---makita/p?skuId=4159",
+                  "label": ".",
+                  "title": ".",
+                  "subTitle": "."
+                },
+                "mobile": "https://assets.decocache.com/palaciovtex/d14aff29-69fb-4b4c-b842-a4dfa7412949/Mobile.png",
+                "desktop": "https://assets.decocache.com/palaciovtex/49c4de23-7f54-44f5-a735-eeefd6ea1857/Desktop.png",
+                "alt": "13847"
+              },
+              {
+                "action": {
+                  "href": "/martelete-rotativo-rompedor-800w-hr-2610-c--maleta---makita/p?skuId=4159",
+                  "label": ".",
+                  "title": ".",
+                  "subTitle": "."
+                },
+                "mobile": "https://assets.decocache.com/palaciovtex/9e5c1efb-678c-4d4f-b3f3-5ec745c4c771/Mobile.png",
+                "desktop": "https://assets.decocache.com/palaciovtex/10c403af-5467-4761-b9d2-8b7f7677b16b/Desktop.png",
+                "alt": "13878"
+              },
+              {
+                "action": {
+                  "href": "/martelete-rotativo-rompedor-800w-hr-2610-c--maleta---makita/p?skuId=4159",
+                  "label": ".",
+                  "title": ".",
+                  "subTitle": "."
+                },
+                "mobile": "https://assets.decocache.com/palaciovtex/af454941-f61f-445b-a02a-2e7819d24a29/Mobile.png",
+                "desktop": "https://assets.decocache.com/palaciovtex/5b83aa90-e501-444f-8d79-e1fa6c495176/Desktop.png",
+                "alt": "806149"
+              },
+              {
+                "action": {
+                  "href": "/martelete-rotativo-rompedor-800w-hr-2610-c--maleta---makita/p?skuId=4159",
+                  "label": ".",
+                  "title": ".",
+                  "subTitle": "."
+                },
+                "mobile": "https://assets.decocache.com/palaciovtex/0dba8a80-c8a7-4595-8835-bff55e273ec9/Mobile.png",
+                "desktop": "https://assets.decocache.com/palaciovtex/cf606dcb-f212-4f1c-8351-2dfda47eb1ea/Desktop.png",
+                "alt": "35945"
+              },
+              {
+                "action": {
+                  "href": "/martelete-rotativo-rompedor-800w-hr-2610-c--maleta---makita/p?skuId=4159",
+                  "label": ".",
+                  "title": ".",
+                  "subTitle": "."
+                },
+                "mobile": "https://assets.decocache.com/palaciovtex/8046250a-5fb7-419a-8009-876af7a1228d/Mobile.png",
+                "desktop": "https://assets.decocache.com/palaciovtex/343c3882-66a4-4539-863e-491ac211b08d/Desktop.png",
+                "alt": "39682"
               },
               {
                 "action": {
